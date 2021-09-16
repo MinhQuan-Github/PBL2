@@ -3,9 +3,6 @@
 using namespace std;
 
 int main () {	
-	cout <<"  xin chao ";
+	cout <<"  xin chao \n\n\n xin chao mn ";;
 	return 0;
 }
-
-
-// da thay doi ne 
