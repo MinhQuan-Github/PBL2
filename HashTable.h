@@ -1,36 +1,37 @@
 #include<iostream>
-#include<string.h>
+#include<cstdlib>
+#include<string>
+#include<cstdio>
+#include "Word.h"
+#define HT_SIZE 100 // Hash Table Size
 using namespace std;
-class HashTable{
-private:
-string Array[255];
-int size ;
-public:
-HashTable(){
-	this->size = 0;
-}
-int hashFunction(string key){  
-int sum = 0;
-int length = key.size();
-for(int i = 0;i<length;i++){
-    sum+=int(key.at(i));
-}
-return sum % 100;
-}
-void set(string key,string value){
- int index = hashFunction(key);
- this->Array[index] = value;
- this->size++;
-}
-string get(string key){
-int index = hashFunction(key);
-return  this->Array[index];
-}
-void remove(string key){
-    
-this->size--;
-}
-void display(){
-    
-}
+class HashTable   /////////////////////////////////////////////////// lop tu dien
+{
+    private:
+      Word DICTIONARY[HT_SIZE]; // Mang cac bucket
+   public:
+ 
+                         // Kiem tra xem bang bam co rong khon
+    int  HashFunc(string word);   
+	void Insert(Word n);              // Ham bam
+    void Display();                                // Duyet toan bo bucket
 };
+ 
+int HashTable::HashFunc(string word){
+	int sum = 0;
+    for(int i =0;i<word.size();i++){
+    	sum+=int(word[i]);
+	}
+	return sum%HT_SIZE;
+	};
+void HashTable::Insert(Word n){
+int index = HashFunc(n.getWord());
+this->DICTIONARY[index] = n;
+}
+void HashTable::Display(){
+for(int i =0;i<HT_SIZE;i++){
+	this->DICTIONARY[i].displayWord();
+}
+}	
+ 
+           
