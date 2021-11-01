@@ -26,15 +26,15 @@ int HashTable::HashFunc(string word){
     	sum+=int(word[i]);
 	}
 	return sum%HT_SIZE;
-	};
+}
 void HashTable::Insert(Word n){
-int index = HashFunc(n.getWord());
-this->DICTIONARY[index] = n;
+    int index = HashFunc(n.getWord());
+    this->DICTIONARY[index] = n;
 }
 void HashTable::Display(){
-for(int i =0;i<HT_SIZE;i++){
-	this->DICTIONARY[i].display();
-}
+    for(int i =0;i<HT_SIZE;i++){
+        this->DICTIONARY[i].display();
+    }
 }
 Word HashTable::Find(string word){
 int index = HashFunc(word);
