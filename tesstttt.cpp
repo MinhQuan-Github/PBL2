@@ -8,6 +8,57 @@
 using namespace std;
 
 
+void xoaManHinh();							// Ham xoa man hinh
+void gotoxy(short x, short y);				// 
+void veGiaoDienChinh(string input);			// Ham in ra giao dien chinh cua chuong trinh
+void veGiaoDienChiTietTu(Word m);			// Ham in ra giao dien chi tiet cua tu vung
+void setColor(short x);						// Ham doi mau giao dien
+void readFile();							// Ham doc file
+Word findWord(HashTable DIC, string word);	// Ham tim kiem tu vung
+void wordInit(Word &w,string dong);			// Ham them tu vung
+void xuLyTuDien(HashTable &tudien);			// Ham xu ly 
+ 
+int main()
+{
+	Word a[100];
+	HashTable b;
+	ifstream fi("words.txt"); // tim tap tin
+	string dong;
+	int i=0;
+	if (fi.is_open()) { // mo tap tin, kiem tra tap tin co ton tai hay khong...
+		while (getline(fi, dong)) {
+	
+	
+			if (dong == "") continue;
+			wordInit(a[i],dong);
+			i++;
+			
+		}
+		fi.close(); // dong tap tin
+	}
+	for(int j=0;j<10;j++){
+		b.Insert(a[j]);
+		//	veGiaoDienChiTietTu(a[j]);
+	}
+	//	b.Display();
+	//int keyCode;
+	//string input = "";
+	xuLyTuDien(b);
+	/*	veGiaoDienChinh();
+	while(true){
+		keyCode = getch();
+		if (keyCode >= 97 && keyCode <= 122) { // a-z
+					input += char(keyCode);
+					cout<<char(keyCode);
+		}
+		if(keyCode == 13 ){
+			Word m = findWord(b,input);
+			veGiaoDienChiTietTu(m);
+		}
+	} */
+	return 0;
+}
+
 void xoaManHinh() {
 	system("cls");
 }
@@ -65,7 +116,6 @@ void veGiaoDienChiTietTu(Word m) {
 	cout<< endl<< m.getExample();
 }
 
-// Ham thay doi textcolor va backgroundcolor
 void setColor(short x) { 
 	HANDLE hConsoleColor;
 	hConsoleColor = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -125,7 +175,6 @@ void wordInit(Word &w,string dong) {  // dong doc tu file
 		//	cout<<w.getExample();
 		}
 	}
-		
 };
 void xuLyTuDien(HashTable &tudien) {
 	Word currentWord;
@@ -192,45 +241,4 @@ void xuLyTuDien(HashTable &tudien) {
 				}
 		}
 	}
-}
- 
-int main()
-{
-	Word a[100];
-	HashTable b;
-	ifstream fi("words.txt"); // tim tap tin
-	string dong;
-	int i=0;
-	if (fi.is_open()) { // mo tap tin, kiem tra tap tin co ton tai hay khong...
-		while (getline(fi, dong)) {
-	
-	
-			if (dong == "") continue;
-			wordInit(a[i],dong);
-			i++;
-			
-		}
-		fi.close(); // dong tap tin
-	}
-	for(int j=0;j<10;j++){
-		b.Insert(a[j]);
-		//	veGiaoDienChiTietTu(a[j]);
-	}
-	//	b.Display();
-	//int keyCode;
-	//string input = "";
-	xuLyTuDien(b);
-	/*	veGiaoDienChinh();
-	while(true){
-		keyCode = getch();
-		if (keyCode >= 97 && keyCode <= 122) { // a-z
-					input += char(keyCode);
-					cout<<char(keyCode);
-		}
-		if(keyCode == 13 ){
-			Word m = findWord(b,input);
-			veGiaoDienChiTietTu(m);
-		}
-	} */
-	return 0;
 }
