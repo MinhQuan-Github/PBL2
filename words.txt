@@ -48,3 +48,320 @@ nationalism/danh tu/chu nghia dan toc;/Nationalism is also the desire for politi
 nationalize/ngoai dong tu/quoc gia hoa; quoc huu hoa; cho nhap quoc tich;/The program’s huge cost makes it unlikely that Congress will try to nationalize health care in the near future;/
 nark/danh tu; noi dong tu/chi diem; mat tham; co noi; lam chi diem;/I was a bit narked by David's comment.;/
 nary/tinh tu/loi noi thong tuc;/The eye-catching photos accompanying the story of course contain nary an oil rig, not a single plate of stir-fry;/
+criticism/noun/sự chỉ trích;Phê bình;/he received a lot of criticism;/
+tooth/noun/răng;/he clenched his teeth;/
+friendship/noun/hữu nghị;tình hữu nghị;tình bạn;/old ties of love and friendship;/
+foundation/noun/sự thành lập;quỹ tài trợ;nền tảng;cơ sở;/build the arch resting on top of this solid foundation;/
+client/noun/khách hàng;/insurance tailor-made to a client's specific requirements;/
+city/noun/thành phố;thành phố.;/one of Italy's most beautiful cities;/
+poem/noun/bài thơ;Bài thơ;/the sun is an important symbol in this poem;/
+comparison/noun/so sánh;So sánh.;/they drew a comparison between Gandhi's teaching and that of other teachers;/
+affair/noun/công việc;ngoại tình;/the board admitted responsibility for the affair;/
+conclusion/noun/phần kết luận;sự kết luận;Kết luận;/the conclusion of World War Two;/
+study/noun/nghiên cứu;học tập;học bài;học;học hành;/the study of English;/
+data/noun/dữ liệu;/there is very little data available;/
+passion/noun/niềm đam mê;đam mê;sự đam mê;say mê;tình yêu;/a man of impetuous passion;/
+strategy/noun/chiến lược;Chiến lược.;/time to develop a coherent economic strategy;/
+confusion/noun/sự hoang mang;sự nhầm lẫn;nhầm lẫn;lú lẫn;/there seems to be some confusion about which system does what;/
+problem/noun/vấn đề;/they have financial problems;/
+coffee/noun/cà phê;màu cà phê;/a cup of coffee;/
+drawing/noun/đang vẽ;vẽ;vẽ.;/a series of charcoal drawings on white paper;/
+cookie/noun/bánh quy;bánh qui;Cookie;Cookie.;/a tough cookie with one eye on her bank account;/
+business/noun/kinh doanh;việc kinh doanh;/she had to do a lot of smiling in her business;/
+president/noun/chủ tịch;Tổng thống;hiệu trưởng;Tổng thống.;/null;/
+cell/noun/tủ;tế bào;/the authorities locked all remaining inmates in their cells;/
+control/noun/điều khiển;kiểm soát;/the whole operation is under the control of a production manager;/
+money/noun/tiền bạc;/I counted the money before putting it in my wallet;/
+two/null/hai;hai.;/two years ago;/
+gene/noun/gen;Gene.;/proteins coded directly by genes;/
+agreement/noun/hợp đồng;Hiệp định;sự bằng lòng;Thỏa thuận;/the two officers nodded in agreement;/
+finding/noun/Phát hiện;tìm kiếm.;/a local doctor reported the finding of numerous dead rats;/
+phone/noun/điện thoại;gọi điện thoại;/a few seconds later the phone rang;/
+departure/noun/sự khởi hành;Khởi hành.;/the day of departure;/
+lake/noun/Hồ;Hồ.;/boys were swimming in the lake;/
+vehicle/noun/phương tiện giao thông;xe;/the vehicle was sent skidding across the road;/
+distribution/noun/phân bổ;phân phối;/she had it printed for distribution among her friends;/
+government/noun/chính quyền;chính phủ;Chính phủ.;/null;/
+driver/noun/người lái xe;tài xế;/a taxi driver;/
+arrival/noun/đến;/Ruth's arrival in New York;/
+enthusiasm/noun/hăng hái;lòng nhiệt tình;hăng hái, nhiệt tình;sự nhiệt tình;nhiệt tình;/her energy and enthusiasm for life;/
+reaction/noun/sự phản ứng lại;phản ứng;/Carrie's immediate reaction was one of relief;/
+thing/noun/Điều;Đồ vật;vật;thứ;việc;/look at that metal rail thing over there;/
+county/noun/Quận.;Hạt.;/null;/
+theory/noun/học thuyết;lý thuyết;lí thuyết;lý thuyết.;/Darwin's theory of evolution;/
+dinner/noun/bữa ăn tối;bữa tối;/null;/
+republic/noun/Cộng hòa;cộng hòa.;/null;/
+courage/noun/lòng can đảm;can đảm;/she called on all her courage to face the ordeal;/
+addition/noun/thêm vào;phép cộng;sự thêm thắt;cộng đồng;/the hotel has been extended with the addition of more rooms;/
+decision/noun/phán quyết;quyết định;/I'll make the decision on my own;/
+percentage/noun/Tỷ lệ phần trăm.;Tỷ lệ;/the percentage of cesareans at the hospital was three percent higher than the national average;/
+judgment/noun/phán xét.;phán đoán.;/an error of judgment;/
+software/noun/phần mềm;/the software industry;/
+ability/noun/có khả năng;khả năng;/the manager had lost his ability to motivate the players;/
+science/noun/khoa học;/the world of science and technology;/
+buyer/noun/Người mua;người mua;/null;/
+seat/noun/ghế;chỗ ngồi;ghế ngồi;ngồi;/null;/
+hospital/noun/bệnh viện;Bệnh viện.;/null;/
+ear/noun/tai;/null;/
+tennis/noun/Tennis.;quần vợt.;/null;/
+difference/noun/Sự khác biệt;khác nhau;khác biệt;đa dạng;chênh lệch;/the differences between men and women;/
+analyst/noun/nhà phân tích;Nhà phân tích;/rising consumer confidence and falling oil prices are the keys to any upturn, many analysts believe;/
+development/noun/sự phát triển;phát triển;phát triển.;/she traces the development of the novel;/
+limit/noun/giới hạn;hạn chế;/the 10-minute limit on speeches;/
+depth/noun/chiều sâu;depth.;/shallow water of no more than 12 feet in depth;/
+advice/noun/lời khuyên;khuyên bảo;/she visited the island on her doctor's advice;/
+environment/noun/môi trường;xung quanh;/survival in an often hostile environment;/
+employer/noun/người thuê lao động;chủ nhân;/the National Health Service was the largest employer in Europe;/
+woman/noun/người đàn bà;người phụ nữ;đàn bà;/a drawing of a young woman;/
+media/noun/phương tiện truyền thông;Truyền thông;/their demands were publicized by the media;/
+disease/noun/dịch bệnh;bệnh;gây bệnh;căn bệnh;/bacterial meningitis is a rare disease;/
+resource/noun/nguồn;tài nguyên;/local authorities complained that they lacked resources;/
+death/noun/cái chết;bị giết chết;tử vong;/an increase in deaths from skin cancer;/
+wood/noun/gỗ;rừng;/a block of wood;/
+skill/noun/kỹ năng;sự khéo léo;kỹ năng.;/difficult work, taking great skill;/
+opinion/noun/ý kiến;/I'm writing to voice my opinion on an issue of great importance;/
+camera/noun/Máy ảnh;/she faced the cameras;/
+lady/noun/quý bà;người phụ nữ;phụ nữ;Lady.;/I spoke to the lady at the travel agency;/
+basis/noun/nền tảng;cơ sở;/trust is the only basis for a good working relationship;/
+disk/noun/Đĩa;Đĩa.;/heavy metal disks the size of hockey pucks;/
+impression/noun/ấn tượng;dấu vết;sự bắt chước;/his first impressions of Manchester were very positive;/
+user/noun/người sử dụng;người dùng;/the user should press return and a message will be displayed;/
+attention/noun/chú ý;/he drew attention to three spelling mistakes;/
+studio/noun/phòng thu;xưởng vẽ;trường quay;studio.;/mostly the painting is done in the studio, working from drawings;/
+knowledge/noun/hiểu biết;kiến thức;/a thirst for knowledge;/
+engineering/noun/kỹ thuật;Kỹ thuật.;/null;/
+error/noun/lỗi;Lỗi.;/spelling errors;/
+debt/noun/món nợ;nợ nần;/I paid off my debts;/
+town/noun/thị trấn;thành phố;thị xã;thị xã, thị trấn;/null;/
+lab/noun/phòng thí nghiệm;Phòng thí nghiệm;/a science lab;/
+response/noun/phản ứng;/without waiting for a response, she returned to her newspaper;/
+writer/noun/nhà văn;văn;người viết;/the writer of the letter;/
+atmosphere/noun/không khí;khí quyển;bầu khí quyển;bầu không khí;Khí quyển.;/part of the sun's energy is absorbed by the earth's atmosphere;/
+analysis/noun/phân tích;Phân tích.;/statistical analysis;/
+accident/noun/Tai nạn;/he had an accident at the factory;/
+requirement/noun/yêu cầu;/choose the type of window that suits your requirements best;/
+thanks/noun/cảm ơn;Thanks;/festivals were held to give thanks for the harvest;/
+surgery/noun/ca phẫu thuật;phẫu thuật;/cardiac surgery;/
+member/noun/thành viên;hội viên;/interest from members of the public;/
+complaint/noun/lời phàn nàn;Khiếu nại.;/I intend to make an official complaint;/
+alcohol/noun/rượu;đồ uống có cồn;rượu bia;rượu.;/alcohol breaks down in the body;/
+revenue/noun/doanh thu;Doanh thu.;/traders have lost $10,000 in revenue since the traffic scheme was implemented;/
+inflation/noun/Lạm phát.;lạm phát;/the inflation of a balloon;/
+negotiation/noun/Đàm phán;thương lượng.;/a worldwide ban is currently under negotiation;/
+chapter/noun/chuyện;chánh điện;/we will deal with this in chapter eleven;/
+actor/noun/diễn viên;diễn viên nam;Nam diễn viên;/null;/
+director/noun/giám đốc;đạo diễn;Đạo diễn.;/he has been appointed finance director;/
+charity/noun/từ thiện;tổ chức từ thiện;lòng nhân hậu;từ thiện.;/the charity provides practical help for homeless people;/
+video/noun/băng hình;video;/it's a great option for anyone looking to start using video to talk over the Net;/
+injury/noun/chấn thương;thương tật;vết thương;thương tích.;/she suffered an injury to her back;/
+awareness/noun/nhận thức;/we need to raise public awareness of the issue;/
+example/noun/thí dụ;ví dụ;Ví dụ.;/it's a good example of how European action can produce results;/
+population/noun/dân số;/the island has a population of about 78,000;/
+restaurant/noun/quán ăn;nhà hàng;Nhà hàng.;/null;/
+potato/noun/khoai tây;/roasted potatoes;/
+fact/noun/sự thật;thực tế;thật;/he ignores some historical and economic facts;/
+player/noun/người chơi;cầu thủ;/a tennis player;/
+moment/noun/chốc lát;khoảng khăc;khoảnh khắc;/she was silent for a moment before replying;/
+way/noun/đường;cách;/there are two ways of approaching this problem;/
+entertainment/noun/giải trí;vui chơi giải trí;sự giải trí;/everyone just sits in front of the TV for entertainment;/
+quantity/noun/số lượng;định lượng;/the quantity and quality of the fruit can be controlled;/
+penalty/noun/phạt;hình phạt;/the charge carries a maximum penalty of ten years' imprisonment;/
+community/noun/cộng đồng;/the scientific community;/
+agency/noun/hang;đại lý;cơ quan;Cơ quan.;/an advertising agency;/
+application/noun/ứng dụng;đăng kí;đơn xin;đâm;ứng dụng.;/an application for leave;/
+initiative/noun/sáng kiến;/use your initiative, imagination, and common sense;/
+philosophy/noun/triết học;triết lý;/null;/
+heart/noun/tình thương;tim;quả tim;hình trái tim;trái tim;/null;/
+fishing/noun/đánh bắt cá;câu cá;đánh cá;/the area is renowned for its excellent deep-sea fishing;/
+news/noun/Tin tức;/I've got some good news for you;/
+anxiety/noun/sự lo ngại;sự lo lắng;lo lắng;/he felt a surge of anxiety;/
+product/noun/sản phẩm;tích số;/food products;/
+form/noun/mẫu đơn;hình thức;hình dáng;tạo thành;biểu mẫu;/the form, color, and texture of the tree;/
+power/noun/sức mạnh;Nguồn năng lượng;quyền lực;/the power of speech;/
+king/noun/nhà vua;Vua;Vua.;/King Henry VIII;/
+throat/noun/họng;cuống họng;cổ họng;/her throat was parched with thirst;/
+collection/noun/thu thập;sưu tập;bộ sưu tập;Bộ sưu tập.;/the collection of maple sap;/
+election/noun/cuộc bầu cử;bầu cử.;/an election year;/
+presence/noun/sự có mặt;sự hiện diện;/the presence of chlorine in the atmosphere;/
+conversation/noun/cuộc nói chuyện;cuộc trò chuyện;cuộc hội thoại;/she picked up the phone and held a conversation in French;/
+database/noun/Cơ sở dữ liệu;cơ sở dữ liệu;/a database covering nine million workers;/
+homework/noun/bài tập về nhà;bài tập ở nhà;việc nhà;/null;/
+clothes/noun/quần áo;/he stripped off his clothes;/
+chest/noun/ngực;tủ;/she crossed her arms across her chest;/
+health/noun/Sức khỏe;y tế;/he was restored to health;/
+soup/noun/Súp;canh;cháo;soup;/a bowl of tomato soup;/
+mall/noun/Trung tâm mua sắm;/null;/
+army/noun/quân đội;/the two armies were in position;/
+pizza/noun/pizza;Pizza.;/a cheese and tomato pizza;/
+television/noun/vô tuyến;Truyền hình;tivi;/the days before television;/
+physics/noun/vật lý.;Vật lý;/null;/
+message/noun/thông điệp;nhắn;lời nhắn;tin nhắn;/if I'm not there, leave a message on the voice mail;/
+contribution/noun/sự đóng góp;đóng góp.;/charitable contributions;/
+law/noun/pháp luật;quy tắc;luật;pháp luật.;/they were taken to court for breaking the law;/
+emphasis/noun/nhấn mạnh;nhấn mạnh vào;/they placed great emphasis on the individual's freedom;/
+currency/noun/tiền tệ;sự phổ biến rộng rãi;/the dollar was a strong currency;/
+writing/noun/viết;văn bản;đang viết;/parents want schools to concentrate on reading, writing, and arithmetic;/
+year/noun/năm;/null;/
+performance/noun/màn biểu diễn;buổi biểu diễn;hiệu suất;thực hiện;màn trình diễn;/Don Giovanni had its first performance in 1787;/
+sir/noun/quý ngài;Ngài;thưa ngài;/excuse me, sir;/
+world/noun/thế giới;/he was doing his bit to save the world;/
+appearance/noun/ngoại hình;Dáng vẻ bên ngoài;vẻ bề ngoài;sự xuất hiện;xuất hiện;/I like the appearance of stripped antique pine;/
+recognition/noun/sự công nhận;sự nhận ra;Công nhận;/she saw him pass by without a sign of recognition;/
+height/noun/Chiều cao;cao;/columns rising to 65 feet in height;/
+nature/noun/Thiên nhiên;bản tính;tự nhiên;tính chất;bản chất;/the breathtaking beauty of nature;/
+delivery/noun/chuyển;vận chuyển;GIAO HÀNG;/allow up to 28 days for delivery;/
+understanding/noun/hiểu;hiểu biết.;/foreign visitors with little understanding of English;/
+championship/noun/chức vô địch;Giải vô địch;/the final round of the championship will be in Japan;/
+policy/noun/chính sách;chính sách.;/the administration's controversial economic policies;/
+expression/noun/biểu hiện;sự biểu lộ;sự diễn đạt;cách biểu lộ;diễn đạt;/she accepted his expressions of sympathy;/
+nation/noun/dân tộc;Quốc gia;quốc gia.;/the world's leading industrialized nations;/
+internet/noun/Internet;Mạng xã hội;/the guide is also available on the internet;/
+mood/noun/tâm trạng;khí sắc;khí sắ;/he appeared to be in a very good mood about something;/
+while/noun/trong khi;/we chatted for a while;/
+piano/noun/đàn piano;Dương cầm;piano;/null;/
+employee/noun/Nhân viên;công nhân;người lao động;/null;/
+committee/noun/Ủy ban;/the housing committee;/
+audience/noun/thính giả;Khán giả;sự tiếp kiến;Khán giả.;/the orchestra was given an enthusiastic ovation from the audience;/
+reality/noun/thực tế;/he refuses to face reality;/
+shirt/noun/áo sơ mi;/tonight he's smartly dressed in shirt and tie;/
+hat/noun/hat.;mũ;/a black straw hat;/
+hall/noun/đại sảnh;sảnh;hội trường;hành lang;/Carnegie Hall;/
+church/noun/nhà thờ;nhà thờ.;/they came to church with me;/
+grocery/noun/tạp hóa;cửa hàng tạp hóa;/null;/
+poet/noun/bài thơ;nhà thơ.;/null;/
+editor/noun/Biên tập viên;biên tập viên.;/the editor of The New York Times;/
+youth/noun/thiếu niên;tuổi Trẻ;/he had been a keen sportsman in his youth;/
+importance/noun/tầm quan trọng;tầm quan trọng.;/the importance of democracy;/
+bedroom/noun/phòng ngủ;Phòng ngủ;/he shares his bedroom with a younger brother;/
+sample/noun/mẫu vật;mẫu thử;hàng mẫu;vật mẫu;mẫu;/investigations involved analyzing samples of handwriting;/
+significance/noun/ý nghĩa;quan trọng.;/adolescent education was felt to be a social issue of some significance;/
+girlfriend/noun/bạn gái;/his girlfriend is Australian;/
+description/noun/sự mô tả;mô tả;miêu tả;sự miêu tả;/people who had seen him were able to give a description;/
+resolution/noun/nghị quyết;sự giải quyết;/she kept her resolution not to see Anne any more;/
+dirt/noun/bụi bẩn;dơ bẩn.;/his face was covered in dirt;/
+employment/noun/thuê người làm;việc làm;/a fall in the numbers in full-time employment;/
+industry/noun/ngành công nghiệp;công nghiệp.;/the competitiveness of American industry;/
+water/noun/nước;nước uống;/null;/
+love/noun/yêu quý;tình yêu;yêu;yêu và quý;/babies fill parents with feelings of love;/
+depression/noun/Phiền muộn;sự chán nản;suy nhược;tinh trạng suy thoai;trầm cảm;/self-doubt creeps in and that swiftly turns to depression;/
+replacement/noun/thay thế.;Thay thế;/the replacement of religion by poetry;/
+diamond/noun/kim cương;hình thoi;kim cương.;/a diamond ring;/
+selection/noun/Lựa chọn;LỰA CHỌN.;/such men decided the selection of candidates;/
+insurance/noun/tiền bảo hiểm;bảo hiểm;/many new borrowers take out insurance against unemployment or sickness;/
+hotel/noun/khách sạn;/a five-star hotel;/
+leader/noun/lãnh đạo;lãnh đạo.;/the leader of a protest group;/
+reflection/noun/sự phản xạ;sự ngẫm nghĩ;sự chỉ trích;phản ánh;/the reflection of light;/
+proposal/noun/đề nghị;sự đề nghị;đề xuất;lời cầu hôn;/a set of proposals for a major new high-speed rail link;/
+region/noun/khu vực;vùng đất;vùng cơ thể;khu;Vùng;/one of the region's major employers;/
+membership/noun/thành viên;Tư cách thành viên;/I was selected for membership in the National Honor Society;/
+psychology/noun/tâm lý;tâm lý học;Tâm lý học.;/null;/
+security/noun/Bảo vệ;an ninh;bảo mật.;/the system is designed to provide maximum security against toxic spills;/
+reputation/noun/danh tiếng;uy tín;/his reputation was tarnished by allegations that he had taken bribes;/
+society/noun/xã hội;sự giao du;xã hội.;/drugs, crime, and other dangers to society;/
+department/noun/phòng;ban;Phòng ban;sở;Căn hộ;/the English department;/
+contract/noun/hợp đồng;đính ước;teo lại;Hợp đồng.;/both parties must sign employment contracts;/
+variation/noun/Biến thể.;biến thể;/regional variations in house prices;/
+game/noun/trò chơi;cuộc thi đấu;/null;/
+presentation/noun/bài thuyết trình;ngoại hình;thuyết trình;/the presentation of certificates to new members;/
+desk/noun/bàn;Cái Bàn;bàn làm việc;bàn học;bàn.;/null;/
+method/noun/phương pháp;/a method for software maintenance;/
+river/noun/dòng sông;con sông;sông;sông.;/the River Danube;/
+protection/noun/sự bảo vệ;bao cao su;bảo vệ.;/the B vitamins give protection against infection;/
+funeral/noun/tang lễ;/in the afternoon, he'd attended a funeral;/
+suggestion/noun/gợi ý;Đề nghị;/null;/
+teaching/noun/giảng bài;Giảng dạy;dạy học;/I went into teaching because I like working with children;/
+song/noun/bài hát;ca khúc;/null;/
+match/noun/trận đấu;cuộc thi đấu;sự hợp nhau;trùng khớp;phù hợp;/a boxing match;/
+statement/noun/tuyên bố;bản tường trình;tuyên bố.;/do you agree with this statement?;/
+pie/noun/bánh;Pie.;/a meat pie;/
+bonus/noun/Tặng kem;thưởng;tiền thưởng;/big Christmas bonuses;/
+transportation/noun/vận chuyển;phương tiện vận chuyển;vận tải;/the era of global mass transportation;/
+combination/noun/sự kết hợp;sự phối hợp;hỗn hợp;kết hợp;/this color combination is stunningly effective;/
+magazine/noun/tạp chí;/a women's magazine;/
+honey/noun/Chồng yêu;mật ong;/null;/
+discussion/noun/thảo luận;/the proposals are not a blueprint but ideas for discussion;/
+possibility/noun/khả năng;tiềm năng;có khả năng;/there was always the possibility that he might be turned down;/
+communication/noun/liên lạc;truyền thông;thông tin;giao tiếp;/at the moment I am in communication with London;/
+flight/noun/chuyến bay;chuyến bay.;/an eagle in flight;/
+recipe/noun/công thức nấu ăn;công thức;/a traditional Indonesian recipe;/
+chocolate/noun/sô cô la;sôcôla;/a bar of chocolate;/
+chemistry/noun/hoá học;hóa học;hóa học.;/null;/
+singer/noun/ca sỹ;ca sĩ;ca sĩ.;/a pop singer;/
+concept/noun/ý tưởng;khái niệm;/structuralism is a difficult concept;/
+examination/noun/kiểm tra;kiểm tra, khám nghiệm;khám;bài kiểm tra;/an examination of marketing behavior;/
+property/noun/bất động sản;tài sản;tài sản.;/she wanted Oliver and his property out of her house;/
+office/noun/văn phòng;văn phòng.;/an office job;/
+marketing/noun/tiếp thị;/the Western arts of marketing and distribution;/
+girl/noun/cô gái;cô bé;con gái;/a six-year-old girl;/
+equipment/noun/Trang thiết bị;thiết bị, dụng cụ;thiết bị;các thiết bị;/suppliers of office equipment;/
+ambition/noun/tham vọng;Hoài bão;/her ambition was to become a pilot;/
+son/noun/Con trai;con trai.;/null;/
+measurement/noun/đo đạc;đo lường.;/accurate measurement is essential;/
+success/noun/sự thành công;thanh công;thành công;/there is a thin line between success and failure;/
+midnight/noun/nửa đêm;nữa đêm;/I left at midnight;/
+goal/noun/ghi bàn;khung thành;mục tiêu;bàn thắng;vào;/null;/
+salad/noun/rau xà lách;xà lách;rau trộn;món salad;món rau trộn;/a green salad;/
+entry/noun/lối vào;sự đi vào;đăng ký tên;nhập cảnh;/the door was locked, but he forced an entry;/
+leadership/noun/Khả năng lãnh đạo;Sự lãnh đạo;Bộ phận lãnh đạo;lãnh đạo;/different styles of leadership;/
+child/noun/đứa trẻ;trẻ em;Đứa trẻ.;/she'd been playing tennis since she was a child;/
+category/noun/thể loại;phạm trù;danh mục;loại;/five categories of intelligence;/
+management/noun/ban quản lý;quản lý;sự quản lý;Quản lý.;/the management of elk herds;/
+bird/noun/chim;chim.;/null;/
+drama/noun/kịch;phim;/a gritty urban drama about growing up in Harlem;/
+meal/noun/bữa ăn;/the evening meal;/
+engine/noun/động cơ;dụng cụ;/the roar of a car engine;/
+length/noun/chiều dài;/it can reach over two feet in length;/
+childhood/noun/tuổi thơ;thời thơ ấu;/the idealized world of childhood;/
+medicine/noun/thuốc;dược phẩm;thuốc chữa bệnh;y học;ngành y;/he made distinguished contributions to pathology and medicine;/
+improvement/noun/sự cải tiến;cải thiện;/an improvement in East–West relations;/
+device/noun/thiết bị;phương thức;/a measuring device;/
+boyfriend/noun/bạn trai;/null;/
+consequence/noun/hậu quả;hệ quả;kết quả;/many have been laid off from work as a consequence of the administration's policies;/
+maintenance/noun/Sự bảo trì;Sự bảo dưỡng;duy trì;Sự duy trì;bảo dưỡng;/we support local initiatives that ensure the maintenance of community spirit;/
+assignment/noun/phân công;bài tập;/a homework assignment;/
+aspect/noun/diện mạo;hướng;khía cạnh;khía cạnh.;/the financial aspect can be overstressed;/
+truth/noun/sự thật;/he had to accept the truth of her accusation;/
+refrigerator/noun/tủ đá;tủ lạnh;Tủ lạnh.;/null;/
+housing/noun/nhà ở;Nhà ở;/a housing development;/
+menu/noun/thực đơn;Menu;trình đơn;Menu.;/the waiter handed her a menu;/
+tongue/noun/lưỡi;ngôn ngữ;lưỡi.;/null;/
+recommendation/noun/sự giới thiệu;khuyến cáo;Khuyến nghị;/the committee put forward forty recommendations for change;/
+stranger/noun/người lạ;/don't talk to strangers;/
+advertising/noun/Quảng cáo;/movie audiences are receptive to advertising;/
+wealth/noun/sự giàu có;Giàu có;/he used his wealth to bribe officials;/
+perspective/noun/viễn cảnh;Góc nhìn cá nhân;phương diện;luật xa gần;quan điểm.;/a perspective drawing;/
+oven/noun/lò vi sóng;lò;lò nướng;/bake the dish in a preheated oven;/
+weakness/noun/yếu đuối;điểm yếu;/the country's weakness in international dealings;/
+university/noun/trường đại học;đại học;/Oxford University;/
+guest/noun/khách;khách mời;Khách.;/I have two guests coming to dinner tonight;/
+quality/noun/chất lượng;phẩm chất;/an improvement in product quality;/
+assistant/noun/phụ tá;Trợ lý;người bán hàng;/the managing director and his assistant;/
+gate/noun/cánh cổng;cửa;cái cổng;hẻm núi;cuồng phong;/she closed the front gate;/
+instance/noun/ví dụ;trường hợp;ví dụ.;/a serious instance of corruption;/
+politics/noun/chính trị;Chính trị.;/null;/
+orange/noun/quả cam;màu cam;trái cam;cam;da cam;/eat plenty of oranges;/
+ad/noun/quảng cáo;QUẢNG CÁO;/the latest television lager ad;/
+disaster/noun/thảm họa;/159 people died in the disaster;/
+shopping/noun/mua đồ;mua sắm;/shopping is so exhausting—all those decisions!;/
+food/noun/đồ ăn;mồi;món ăn;thức ăn;/we need food and water;/
+cousin/noun/anh chị em họ;em họ;anh họ;chị họ;bà con cô bác;/null;/
+memory/noun/kỉ niệm;trí nhớ;trí nhớ, kỷ niệm;ký ức;nhớ;/I've a great memory for faces;/
+ratio/noun/tỉ lệ;tỷ lệ;/the ratio of men's jobs to women's is 8 to 1;/
+hearing/noun/thính giác;Nghe;/people who have very acute hearing;/
+steak/noun/miếng bò hầm;lát thịt;thịt ba rọi;bít tết;/he liked his steak rare;/
+music/noun/Âm nhạc;/couples were dancing to the music;/
+definition/noun/Định nghĩa;độ nét;sự định nghĩa;định nghĩa.;/a dictionary definition of the verb;/
+safety/noun/sự an toàn;nơi an toàn;an toàn.;/they should leave for their own safety;/
+association/noun/sự kết hợp;Hiệp hội;/the National Association of Broadcasters;/
+student/noun/sinh viên;học sinh;học sinh sinh viên;/a student of sociology;/
+preparation/noun/sự chuẩn bị;chuẩn bị;/the preparation of a draft contract;/
+direction/noun/phương hướng;sự chỉ đạo;hướng đi;chiều hướng;Hướng;/she set off in the opposite direction;/
+investment/noun/sự đầu tư;món đầu tư;đầu tư;/a debate over private investment in road-building;/
+permission/noun/sự cho phép;sự chấp nhận;giấy phép;/they had entered the country without permission;/
+queen/noun/nữ hoàng;Hoàng hậu;nữ hoàng.;/he insisted the princess could be crowned queen;/
+night/noun/đêm;ban đêm;/a moonless night;/
+sector/noun/khu vực.;lĩnh vực;/operations in the southern sector of the North Sea;/
+sister/noun/chị gái;chị hai;em gái;chị;/I had nine brothers and sisters;/
+newspaper/noun/báo chí;tờ báo;báo;báo.;/all the newspapers carried the story;/
+organization/noun/tổ chức;cơ quan;Tổ chức.;/a research organization;/
+
