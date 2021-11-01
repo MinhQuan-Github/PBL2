@@ -19,6 +19,15 @@ void gotoxy(short x, short y) {
     hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleCursorPosition(hConsoleOutput, Cursor_an_Pos);
 }
+void veketqua(string w){
+	cout<<"hoang";
+}
+void timketqua(HashTable tudien, string input){
+	int length = tudien.Size();
+	for(int i = 0; i<length;i++){
+		
+	}
+}
 void veGiaoDienChinh(string input) {
 	xoaManHinh();
 		//int dongHienTai = 0;
@@ -35,9 +44,9 @@ void veGiaoDienChinh(string input) {
 		cout << char(196);
 	}
 	cout << char(191) << endl;
+	
 	cout << char(179) << input;
-	cout << char(179) << "";
-	for (int i = 0; i < CR_KTK -  input.size(); i++) {
+	for (int i = 0; i < CR_KTK - input.size(); i++) {
 		cout << char(255);
 	}
 	cout << char(179);
@@ -47,6 +56,8 @@ void veGiaoDienChinh(string input) {
 		cout << char(196);
 	}
 	cout << char(217);
+	cout<<endl;
+	veketqua(input);
 gotoxy(1 + input.size(), 5);
 }
 void veGiaoDienChiTietTu(Word m) {
@@ -56,7 +67,6 @@ void veGiaoDienChiTietTu(Word m) {
 	// o man hinh chi tiet tu
 	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
 	cout << " " << char(254) << " Tab      : Sua tu nay" << endl;
-	cout << " " << char(254) << " Backspace: Xoa tu nay" << endl;
 	
 	// in ra cac chi tiet cua tu
 	cout << endl << " " << m.getWord();
@@ -130,6 +140,62 @@ void wordInit(Word &w,string dong) {  // dong doc tu file
 	}
 		
 };
+
+
+void suaTu(HashTable &tudien,Word &w) {
+	system("cls");
+	
+	cout << "Sua tu: '" << w.getWord()<< "':" << endl;
+	// Sua loai tu
+	string temp = "";
+	cout << "Sua loai tu (" << w.getType() << "): ";
+	getline(cin, temp);
+	if (temp == "") return;
+	w.setType(temp);
+	
+	// Sua nghia
+	temp = "";
+	cout << "Sua nghia " <<  " (" << w.getMean() << "): "<<endl;
+	getline(cin, temp);
+	w.setMean(temp);
+	
+	// Sua vi du
+	temp = "";
+	cout << "Sua vidu " <<  " (" << w.getMean() << "): "<<endl;
+	getline(cin, temp);
+	w.setExample(temp);
+	tudien.Insert(w);
+}
+void themTuMoi(HashTable &tudien) {
+	system("cls");
+	Word w;
+	string temp = "";
+	// nhap tu
+	cout << "Nhap tu: ";
+	getline(cin, temp);
+	if (temp == "") return;
+	else {
+	w.setWord(temp);
+	}
+	// nhap loai tu
+	temp = "";
+	cout << "Nhap loai tu: ";
+	getline(cin, temp);
+	w.setType(temp);
+	// nhap nghia
+	temp = "";
+	cout << "Nhap nghia "  << ": ";
+	getline(cin, temp);
+	w.setMean(temp);
+	
+	// nhap vi du
+	temp = "";
+	cout << "Nhap vi du " <<  ": ";
+	getline(cin, temp);
+	w.setExample(temp);
+    tudien.Insert(w);
+}
+
 void xuLyTuDien(HashTable &tudien) {
 	Word currentWord;
 	string input = ""; // noi dung hien tai cua khung tim kiem
@@ -137,14 +203,16 @@ void xuLyTuDien(HashTable &tudien) {
 	int pos = 0; // vi tri cua tu hien tai, vi tri thah sang (highlight)
 
 	while (true) { // vong lap vo tan
+	veketqua(input);
 	veGiaoDienChinh(input);	// ve toan bo giao dien
+
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
 		switch (keyCode) {
 			case 8: // BACKSPACE
 				input = input.substr(0, input.size() - 1); // xoa ky tu cuoi
 				break;
 			case 9: // TAB
-			//	themTuMoi(tudien);
+			themTuMoi(tudien);
 				break;
 			case 13: // ENTER
 				// vao man hinh chi tiet tu
@@ -161,7 +229,7 @@ void xuLyTuDien(HashTable &tudien) {
 					}
 					if (k == 9) { // TAB
 						// sua tu nay
-					//	suaTu(tuHienTai);
+					suaTu(tudien,currentWord);
 						input = ""; pos = 0;
 						break; // ve man hinh chinh
 					}
@@ -191,12 +259,13 @@ void xuLyTuDien(HashTable &tudien) {
 			default:
 				if (keyCode >= 97 && keyCode <= 122) { // a-z
 					input += char(keyCode);
-					cout<<char(keyCode);
+				//	cout<<char(keyCode)<<endl;;
+				gotoxy(5,10);
+				cout<< "haonggg";
 				}
 		}
 	};
 }
- 
 int main()
 {
 Word a[100];

@@ -16,6 +16,8 @@ class HashTable   /////////////////////////////////////////////////// lop tu die
 	void Insert(Word n);              // Ham bam
     void Display();                                // Duyet toan bo bucket
     Word Find(string word);
+    Word FindByIndex( int index);
+    int Size();
 };
  
 int HashTable::HashFunc(string word){
@@ -37,6 +39,13 @@ for(int i =0;i<HT_SIZE;i++){
 Word HashTable::Find(string word){
 int index = HashFunc(word);
 return DICTIONARY[index];
+}
+int HashTable::Size(){
+	return HT_SIZE;
+}
+Word HashTable::FindByIndex(int index){
+	if( index >= this.Size()) return null;
+	return this.DICTIONARY[index];
 }	
  
            
