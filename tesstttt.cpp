@@ -8,8 +8,6 @@
 using namespace std;
 
 
-
-
 void xoaManHinh() {
 	system("cls");
 }
@@ -21,7 +19,7 @@ void gotoxy(short x, short y) {
 }
 void veGiaoDienChinh(string input) {
 	xoaManHinh();
-		//int dongHienTai = 0;
+	//int dongHienTai = 0;
 	// in ra cac huong dan
 	// o man hinh chinh
 	cout << " " << "TEN_UNG_DUNG" << endl;	
@@ -47,7 +45,7 @@ void veGiaoDienChinh(string input) {
 		cout << char(196);
 	}
 	cout << char(217);
-gotoxy(1 + input.size(), 5);
+	gotoxy(1 + input.size(), 5);
 }
 void veGiaoDienChiTietTu(Word m) {
 	xoaManHinh();
@@ -67,10 +65,6 @@ void veGiaoDienChiTietTu(Word m) {
 	cout<< endl<< m.getExample();
 }
 
-
-
-
-
 // Ham thay doi textcolor va backgroundcolor
 void setColor(short x) { 
 	HANDLE hConsoleColor;
@@ -89,7 +83,7 @@ void readFile() {
 	}
 }
 Word findWord(HashTable DIC, string word){
-return DIC.Find(word);
+	return DIC.Find(word);
 }
 void wordInit(Word &w,string dong) {  // dong doc tu file
 	int i, pos;
@@ -97,13 +91,16 @@ void wordInit(Word &w,string dong) {  // dong doc tu file
 	// about/pho tu/khoang chung;sap;gan;/He is about to die;We're about to start;How about this?;
 	// tach tu
 	string word = "";
-	while (dong[i] != '/') {word += dong[i++];}
+	while (dong[i] != '/') {
+		word += dong[i++];
+	}
 	i++;
 	w.setWord(word); // init word in class Word
-	
 	// tach loai tu
 	string type = "";
-	while (dong[i] != '/') {type += dong[i++];}
+	while (dong[i] != '/') {
+		type += dong[i++];
+	}
 	i++;
 	w.setType(type);
 	
@@ -114,7 +111,7 @@ void wordInit(Word &w,string dong) {  // dong doc tu file
 		i++; 
 		// nghia moi
 		if (dong[i] == ';') { 
-		w.setMean(mean);
+			w.setMean(mean);
 		}
 	}
 	i++;
@@ -137,7 +134,7 @@ void xuLyTuDien(HashTable &tudien) {
 	int pos = 0; // vi tri cua tu hien tai, vi tri thah sang (highlight)
 
 	while (true) { // vong lap vo tan
-	veGiaoDienChinh(input);	// ve toan bo giao dien
+		veGiaoDienChinh(input);	// ve toan bo giao dien
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
 		switch (keyCode) {
 			case 8: // BACKSPACE
@@ -174,11 +171,11 @@ void xuLyTuDien(HashTable &tudien) {
 				break;
 			case 27: // ESCAPE
 				gotoxy(2, 25);
-			//	if (dulieuThaydoi == true) { // neu du lieu co thay doi
-			//		cout << "Du lieu thay doi!!! Tien hanh ghi file..." << endl;
-				//	ghiFile(tudien);
-			//	}
-			//	exit(EXIT_SUCCESS); // thoat chuong trinh
+				//	if (dulieuThaydoi == true) { // neu du lieu co thay doi
+				//		cout << "Du lieu thay doi!!! Tien hanh ghi file..." << endl;
+					//	ghiFile(tudien);
+				//	}
+				//	exit(EXIT_SUCCESS); // thoat chuong trinh
 				break;
 			case 224: {
 				int key = getch();
@@ -194,14 +191,14 @@ void xuLyTuDien(HashTable &tudien) {
 					cout<<char(keyCode);
 				}
 		}
-	};
+	}
 }
  
 int main()
 {
-Word a[100];
-HashTable b;
-ifstream fi("words.txt"); // tim tap tin
+	Word a[100];
+	HashTable b;
+	ifstream fi("words.txt"); // tim tap tin
 	string dong;
 	int i=0;
 	if (fi.is_open()) { // mo tap tin, kiem tra tap tin co ton tai hay khong...
@@ -216,15 +213,14 @@ ifstream fi("words.txt"); // tim tap tin
 		fi.close(); // dong tap tin
 	}
 	for(int j=0;j<10;j++){
-	
-	b.Insert(a[j]);
-//	veGiaoDienChiTietTu(a[j]);
-}
-//	b.Display();
-//int keyCode;
-//string input = "";
-xuLyTuDien(b);
-/*	veGiaoDienChinh();
+		b.Insert(a[j]);
+		//	veGiaoDienChiTietTu(a[j]);
+	}
+	//	b.Display();
+	//int keyCode;
+	//string input = "";
+	xuLyTuDien(b);
+	/*	veGiaoDienChinh();
 	while(true){
 		keyCode = getch();
 		if (keyCode >= 97 && keyCode <= 122) { // a-z

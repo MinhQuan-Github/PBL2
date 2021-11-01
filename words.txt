@@ -13,9 +13,38 @@ father/danh tu/cha;ba;bo;/I love my father;My father is a teacher;/
 girl/danh tu/co gai;con gai;/This girl is pretty;I love this girl;/
 go/dong tu/di;/Let's go;I have to go to work right now;/
 hat/danh tu/cai non;cai mu;/Please wear a hat;I have a black hat;/
-king /danh tu\/vua;chua;vua 1;vua 2;vua 3;/i want to be a king;good king ;bad king;sdfdsaf;asdfadsf;asdfasdf;asdfadsf;/
-king/123/sadf;asdf;asdf;/adsf;/
+king /danh tu\/vua;chua;vua 1;vua 2;vua 3;/i want to be a king;good king ;/
 mine/danh tu/min;qua min;thuy loi;ham mo;cua toi;/The money is all mine;I don't want to work in a mine;Don't step on any mines;/
 mine/dong tu/dat min;khai mo;/Mine the Earth for gold;Mine for gold;/
 zoo/danh tu/vuon thu;so thu;/My father's taking me to the zoo this weekend;/
 zone/danh tu/khu;mien;/The zone of influence;A nuclear-free zone;Industrial zone;/
+nabob/danh tu/quan thai thu; nha trieu phu;/They have appealed in vain to the wealthy nabobs who are drawing their wealth from the hills and disregard entirely the convenience of those who contribute to that wealth;/
+nacelle/danh tu/gio khi cau; vo dong co may;/Workers at the plant connect the nacelles to the engines;/
+nacrous/tinh tu/long lanh nhu xa cu; trang duc nhu xa cu;/it's so nacrous ;/
+nadir/danh tu/thoi diem toi te ;/They are at the nadir of their 114-year football history;/
+nail/danh tu/cay dinh;/Can you hold this nail in position while I hammer it into the door?;/
+naive/tinh tu/ngay tho; chat phac; ngo nghech; kho khao;/In both cases, a naive essentialism causes partial truths to eclipse the larger picture;/
+nake /tinh tu/khoa than; tran truong;/He was interrogated, stripped naked and then beaten;/
+name/danh tu/ten ;/What's your name ?;/
+naivety/danh tu/ngay tho; chat phac; kho khao;/Naivety is important at an early stage - in life or in an undertaking - but a definite impediment later on;/
+name-calling/danh /sư chui rua ;ten goi;/Name-calling is a form of argument in which insulting or demeaning labels are directed at an individual or group;/
+nameless/tinh tu /khong ten; vo danh;/The patient is absent, nameless, lacks particularity, because he or she can be anyone;/
+namesake/danh tu /nguoi trung ten; vat cung ten;/The system's namesake was a star race horse whose unexpected death with no warning after a major race shocked and intrigued the racing community.;/
+nankeen /danh tu/vai truc bau Nam Kinh; mau vang nhat;/Cotton was grown there which was the color of nankeen; it was spun, woven, and used in its natural color, without being dyed ;/
+nanny/danh tu /bao mau ; vu em ; nguoi giu tre;/This is just the kind of between-stairs position that a governess, a nanny, or perhaps a superior lady's maid, would occupy;/
+nap/danh tu; dong tu/giac ngu ngan ; lam cho don tuyet;/Once they finished their meals, they dispersed into small groups to resume their routines or to take naps;/
+nape/danh tu/gay;/When in the sun, wear sun-protective hats with wide brims to protect the ears, face and neck nape;/
+napkin/danh tu/khan an; khan ban ;/A long, folded napkin on the right sight of the table was provided during the meal;/
+napless /tinh tu/khong co tuyet;/Among the treasures which the sultan showed him was an old napless hat which had the power of transporting its wearer to any place he desired;/
+nappy/tinh tu; danh tu/co tuyet; co bot; ta lot;/There was no system for removal of rubbish such as disposable nappies left by the pickers;/
+narcissi/danh tu/hoa thuy tien;/Therefore, where anemones and narcissi are concerned, there is a very good case, because these are flowers on which the people in that part of the country largely depend;/
+namely/pho tu/la; ay la; cu the la;/Obviously, these can be represented as languages over the output alphabet, namely as the set of outputs that obey them;/
+narrow/tinh tu/hep ; chat ; bi han che; khong rong;/A narrow result is one that could easily have been different because the amount by which someone failed or succeeded was very smal;/
+nasty/tinh tu/ban thiu; do day; kinh tom;tuc tiu; xau ; kho chiu;/I've got a nasty feeling that I forgot to tell Joe I couldn't come.;/
+nationalization/danh tu/su quoc gia hoa; so quoc huu hoa; su nhap tich;/The contract they signed in October was less lucrative than the one they had before nationalization.;/
+natal/tinh tu /ngay sinh; noi sinh; noi chon nhau cat ron;/Most of the juveniles presumably disperse far from their natal areas, whereas adult birds are territorial and remain on breeding grounds all year.;/
+nation/danh tu/dan toc; nuoc;quoc gia;/he debate about food safety has engaged the whole nation.;/
+nationalism/danh tu/chu nghia dan toc;/Nationalism is also the desire for political independence in a country that is controlled by or part of another country;/
+nationalize/ngoai dong tu/quoc gia hoa; quoc huu hoa; cho nhap quoc tich;/The program’s huge cost makes it unlikely that Congress will try to nationalize health care in the near future;/
+nark/danh tu; noi dong tu/chi diem; mat tham; co noi; lam chi diem;/I was a bit narked by David's comment.;/
+nary/tinh tu/loi noi thong tuc;/The eye-catching photos accompanying the story of course contain nary an oil rig, not a single plate of stir-fry;/
