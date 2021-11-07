@@ -732,3 +732,1239 @@ former/adjective/truoc;cu;nguoi sang tao;truoc day;/her former boyfriend;/
 equivalent/adjective/tuong duong;tuong duong.;/one unit is equivalent to one glass of wine;/
 east/noun/phia dong;dong;huong dong;/a gale was blowing from the east;/
 many/article/nhieu;/many people agreed with her;/
+anywhere/adverb/bat cu noi nao;moi noi;/he couldn't be found anywhere;/
+to/preposition/den;den.;/walking down to the mall;/
+agree/verb/dong y;dong y khong;/i completely agree with your recent editorial;/
+challenge/noun/thu thach;thach dau;thach thuc;thach;/he accepted the challenge;/
+anger/noun/su phan no;su tuc gian;tuc gian;/the colonel's anger at his daughter's disobedience;/
+alternatively/adverb/hoac;cach khac;/alternatively, you may telephone us direct;/
+education/noun/giao duc;/a new system of public education;/
+discuss/verb/ban luan;thao luan;/i discussed the matter with my wife;/
+angry/adjective/tuc gian;hung du;buc boi;/an angry customer;/
+know/verb/biet;biet roi;/most people know that cfcs can damage the ozone layer;/
+boy/noun/cau be;chang trai;con trai;cau be trai;/a four-year-old boy;/
+inside/noun/ben trong;noi bo;phia trong;trong;/she ran a finger around the inside of the bowl;/
+curve/noun/duong cong;/the parapet wall sweeps down in a bold curve;/
+shelter/noun/an nup;noi tru an;noi tru an.;/null;/
+lacking/adjective/thieu xot;thieu;/adequate resources and funds are both sadly lacking at present;/
+immoral/adjective/vo dao duc.;bat hieu;/an immoral and unwinnable war;/
+inform/verb/bao;thong bao;/he wrote to her, informing her of the situation;/
+bandage/noun/bang bo;bang;/her leg was swathed in bandages;/
+inability/noun/khong co kha nang;khong co kha nang;/his inability to accept new ideas;/
+before/adverb/truoc;truoc do;/my playing days had ended six years before;/
+honour/noun/ton kinh;danh du;ton vinh;vinh du;/his portrait hangs in the place of honor;/
+heat/noun/nhiet;hoi nong;/it is sensitive to both heat and cold;/
+kick/verb/da;/i think someone just kicked down my door;/
+well known/adjective/noi tieng;duoc biet den;/a well-known television personality;/
+label/noun/nhan mac;nhan;/the alcohol content is clearly stated on the label;/
+sign/noun/ky ten;ky hieu;dau hieu;ky;ra hieu;/flowers are often given as a sign of affection;/
+sport/noun/the thao;/team sports such as baseball and soccer;/
+twisted/adjective/xoan.;twisted.;/the crash left a trail of twisted metal across the highway;/
+research/noun/nghien cuu;tim kiem;cac nghien cuu;/we are fighting meningitis by raising money for medical research;/
+traffic/noun/giao thong;giao thong duong bo;buon ban;/a stream of heavy traffic;/
+sand/noun/cat;bai cat;rai cat;/null;/
+knee/noun/dau goi;/null;/
+uncomfortable/adjective/khong thoai mai;kho chiu;/athlete's foot is a painful and uncomfortable condition;/
+unexpected/adjective/bat ngo;khong ngo toi;/his death was totally unexpected;/
+tension/noun/cang thang;/the parachute keeps the cable under tension as it drops;/
+relax/verb/thu gian;/he relaxed and smiled confidently;/
+state/noun/tieu bang;trang thai;vi tri;tinh trang;nha nuoc;/the state of the company's finances;/
+celebration/noun/le an mung;le ky niem;ky niem;/the birth of his son was a cause for celebration;/
+control/noun/dieu khien;kiem soat;/the whole operation is under the control of a production manager;/
+game/noun/tro choi;cuoc thi dau;/null;/
+seek/verb/tim kiem;theo duoi;tim;/they came here to seek shelter from biting winter winds;/
+envelope/noun/phong bi;phong bi.;/null;/
+tip/noun/tien boa;meo;tien qua;chop;/george pressed the tips of his fingers together;/
+wallet/noun/vi tien;cai vi;vi.;/null;/
+steady/adjective/vung chac;deu deu;on dinh;/the lighter the camera, the harder it is to hold steady;/
+diary/noun/nhat ky;nhat ki;cuon nhat ki;nhat ky.;/i resolved to keep a diary of events during the war;/
+smell/noun/danh hoi;mui;ngui;khuu giac;boc mui;/a highly developed sense of smell;/
+soap/noun/xa bong;xa bong tam;xa phong;/a bar of soap;/
+strip/verb/dai.;dai;/they stripped the bed;/
+immediate/adjective/ngay tuc khac;ngay lap tuc;/the authorities took no immediate action;/
+volume/noun/am luong;tap;/a biography of george bernard shaw in three volumes;/
+horizontal/adjective/nam ngang;ngang.;/a horizontal line;/
+religion/noun/ton giao;su sung bai;/ideas about the relationship between science and religion;/
+relevant/adjective/lien quan, thich hop;thich hop;lien quan;co lien quan;/what small companies need is relevant advice;/
+ice cream/noun/kem;kem lanh;/null;/
+wish/verb/muon;mong uoc;uoc;dieu uoc;uoc muon;/we wished for peace;/
+upon/preposition/tren;nhu vay;/it was based upon two principles;/
+sentence/noun/cau;ban an;ket an;cau van;cau van, loi phan quyet;/null;/
+confident/adjective/tin chac;tu tin;/we require outgoing, confident people able to approach large groups;/
+confuse/verb/boi roi;nham lan;xao tron;gay nham lan;nham lan.;/past and present blurred together, confusing her still further;/
+speed/noun/toc do, van toc;toc do;/we turned onto the runway and began to gather speed;/
+aircraft/noun/phi co;may bay;/null;/
+reduction/noun/su giam bot;su rut gon;giam gia;/talks on arms reduction;/
+unexpectedly/adverb/bat ngo;that bat ngo;/he died unexpectedly of a heart attack;/
+burnt/verb/chay;dot chay;/a fire burned and crackled cheerfully in the grate;/
+steel/noun/thep;thep.;/steel girders;/
+varied/adjective/da dang;khac nhau;/a long and varied career;/
+twin/noun/sinh doi;twin.;/experiments were carried out using sets of identical twins;/
+beer/noun/bia;/a pint of beer;/
+someone/pronoun/nguoi nao;mot ai do;mot nguoi nao do;co ai do;mot ai;/there's someone at the door;/
+rarely/adverb/hiem;hiem khi;it khi;/i rarely drive above 60 mph;/
+running/noun/dang chay;chay bo;chay;/he accounted for 31 touchdowns with his running and passing;/
+strong/adjective/manh;vung chac;manh me;/she cut through the water with her strong arms;/
+adventure/noun/cuoc phieu luu;mao hiem;su nguy hiem;phieu luu;/her recent adventures in italy;/
+wrapping/noun/dong goi;bao boc;/she took the cellophane wrapping off the box;/
+candy/verb/keo;cuc keo;/i candied the walnuts with maple syrup;/
+disappoint/verb/that vong;lam that vong;/i have no wish to disappoint everyone by postponing the visit;/
+wooden/adjective/go;bang go;/a wooden spoon;/
+tell/verb/noi;noi;/i told her you were coming;/
+coldly/adverb/lanh lung;cam lanh;/derek looked at her coldly;/
+real/adjective/thuc;co that;thuc te;that;/julius caesar was a real person;/
+sleeve/noun/tay ao;mang xong;/a shirt with the sleeves rolled up;/
+drunk/verb/say;me man;uong;say sua;say ruou;/null;/
+security/noun/bao ve;an ninh;bao mat.;/the system is designed to provide maximum security against toxic spills;/
+complete/adjective/hoan thanh;hoan chinh;hoan toan;hoan thien;h thanh;/a complete list of courses offered by the college;/
+sadness/noun/sụ sàu nảo;noi buon;/a source of great sadness;/
+umbrella/noun/chiec du;o;chiec o;cay du;o du;/null;/
+domestic/adjective/noi dia;gia dinh;trong nuoc;/domestic chores;/
+admiration/noun/su kham phuc;nguong mo;/their admiration for each other was genuine;/
+palace/noun/cung dien;dinh thu;cung dien.;/the royal palace;/
+related/adjective/co lien quan;lien quan;/sleeping sickness and related diseases;/
+society/noun/xa hoi;su giao du;xa hoi.;/drugs, crime, and other dangers to society;/
+confined/adjective/han che;gioi han;/wear a dust mask and goggles when soldering in confined spaces;/
+warn/verb/canh bao;/his father had warned him of what might happen;/
+cabinet/noun/buong;tu phong tam;tu;/a medicine cabinet;/
+husband/noun/chong;tiet kiem;nguoi chong;/she and her husband are both retired;/
+read/verb/doc;/it's the best novel i've ever read;/
+historical/adjective/lich su;lich su.;/the historical background to such studies;/
+whatever/pronoun/sao cung duoc;bat cu dieu gi;/do whatever you like;/
+answer/noun/bai giai;dap an;tra loi;cau tra loi;/he knocked and entered without waiting for an answer;/
+financial/adjective/tai chinh;/an independent financial adviser;/
+yesterday/adverb/hom qua;/he returned to a hero's welcome yesterday;/
+bet/verb/ca cuoc;dat cuoc;cuoc;/i would be prepared to bet that what he really wanted was to settle down;/
+blankly/adverb/am dam;trong rong;/the suburbs that stretch blankly along the routes out from the city;/
+suffering/noun/dau kho;dau kho;/weapons that cause unnecessary suffering;/
+shade/noun/bong ram;bong;/sitting in the shade;/
+sadly/adverb/that dang buon;dang buon thay;/he smiled sadly;/
+cycle/noun/xe dap;vong tron;chu ky;di xe dap;/the boom and slump periods of a trade cycle;/
+curious/adjective/to mo;hieu ky;/i began to be curious about the whereabouts of the bride and groom;/
+terribly/adverb/khung khiep;kinh khung;/i'm terribly sorry;/
+arrest/verb/bat giu;ngan chan;bat giu.;/the police arrested him for possession of marijuana;/
+shoot/verb/ban;/he was shot in the leg during an armed robbery;/
+rented/verb/da thue;cho thue;/they rented a house together in spain;/
+painter/noun/hoa si;tho son;/a german landscape painter;/
+fill/verb/lap day;lam day;dien vao;dien;do day;/i filled the bottle with water;/
+crowded/adjective/dong nguoi;dong duc;dong;/a very crowded room;/
+happiness/noun/niem hanh phuc;hanh phuc;/she struggled to find happiness in her life;/
+transport/verb/van chuyen;giao thong van tai;chuyen cho;gay xuc dong manh;phuong tien van chuyen;/the bulk of freight traffic was transported by truck;/
+accidental/adjective/tinh co;vo tinh;/a verdict of accidental death;/
+broken/verb/bi hong;hong hoc;gian doan;bi gay;vo;/null;/
+amaze/verb/ngac nhien;lam noi gian;/she amazed doctors by fighting back when her deteriorating condition caused her to suffer heart failure;/
+elegant/adjective/tao nha;thanh lich;/she will look elegant in black;/
+internal/adjective/noi bo;noi bo.;/the tube had an internal diameter of 1.1 mm;/
+rare/adjective/hiem;quy hiem;hiem co;tai;hiem hoi;/a rare genetic disorder;/
+therefore/adverb/vi the;vi vay;do do;/he was injured and therefore unable to play;/
+can/verb/co the;hop;cai lon;dong hop;/they can run fast;/
+another/article/nua;cai khac;khac;/have another drink;/
+conflict/noun/cuoc xung dot;mau thuan;xung dot;/the eternal conflict between the sexes;/
+dislike/verb/khong thich;/he was not distressed by the death of a man he had always disliked;/
+businesswoman/noun/nu doanh nhan;/a successful and self-reliant businesswoman;/
+timetable/noun/thoi gian bieu;thoi khoa bieu;/these itineraries are subject to bus timetables;/
+constant/adjective/hang so;lien tuc;co dinh;khong ngung;khong thay doi;/the pain is constant;/
+ahead/adverb/phia truoc;/he had to give his attention to the road ahead;/
+basic/adjective/can ban;nen tang;co ban;co ban.;/certain basic rules must be obeyed;/
+surroundings/noun/vung lan can;moi truong xung quanh;/i took up the time admiring my surroundings;/
+comfort/noun/an ui;thoai mai;/room for four people to travel in comfort;/
+studio/noun/phong thu;xuong ve;truong quay;studio.;/mostly the painting is done in the studio, working from drawings;/
+employment/noun/thue nguoi lam;viec lam;/a fall in the numbers in full-time employment;/
+punch/verb/dam;punch.;/she punched him in the face and ran off;/
+stir/verb/khuay dong;khuay dong.;/stir the batter until it is just combined;/
+sweat/noun/mo hoi;do mo hoi;/beads of sweat broke out on her brow;/
+curl/verb/xoan;curl.;/her fingers curled around the microphone;/
+hate/verb/ghet bo;chan ghet;ghet;/the boys hate each other;/
+stream/noun/dong;suoi;/a perfect trout stream;/
+distribute/verb/phan phat;phan tan;phan phoi;/information leaflets are being distributed to hotels and guest houses;/
+spice/noun/gia vi.;gia vi;/enjoy the taste and aroma of freshly ground spices;/
+cardboard/noun/cac tong;bia cac tong;bia cung.;/a cardboard box;/
+confused/adjective/boi roi;lam roi ren;nham lan;/she was utterly confused about what had just happened;/
+actress/noun/nu dien vien;/she is one of the great actresses of her generation;/
+work/noun/cong viec;/he was tired after a day's work;/
+rival/noun/doi thu.;doi thu;/he has no serious rival for the job;/
+surprising/adjective/that ngac nhien;lam ngac nhien;dang ngac nhien;/a surprising sequence of events;/
+anxiety/noun/su lo ngai;su lo lang;lo lang;/he felt a surge of anxiety;/
+problem/noun/van de;/they have financial problems;/
+senate/noun/thuong nghi vien;thuong vien.;/null;/
+unusually/adverb/bat thuong;khong hop;/the name is spelled unusually;/
+delay/verb/tri hoan;su cham tre;/the train was delayed;/
+outline/noun/de cuong;phac thao;dan y;dai cuong;dan bai;/fill in the outlines with color;/
+incident/noun/su co;bien co;/several amusing incidents;/
+toy/noun/do choi;toy.;/a toy car;/
+slowly/adverb/cham rai;tu tu;cham lai;cham;dan dan;/they moved forward slowly;/
+view/noun/quan diem;luot xem;phong canh;xem;khung nhin;/the end of the tunnel came into view;/
+hope/noun/mong;niem hi vong;hy vong;/he looked through her belongings in the hope of coming across some information;/
+tyre/verb/lop xe;/soon the ascent grew steeper and he began to tire;/
+spread/verb/lan tran;truyen di;lay lan;tan ra;trai;/i spread a towel on the sand and sat down;/
+legally/adverb/hop phap;phap ly.;/the weapons were purchased legally;/
+fan/noun/quat;nguoi ham mo;quat may;cai quat;fan ham mo;/a couple of ceiling fans, lazily turning;/
+capture/verb/chiem lay;luu giu;bat gap;/the russians captured 13,000 men;/
+steal/verb/su an cap;lay trom;an trom;an cap;an cap.;/thieves stole her bicycle;/
+silk/noun/lua;lua.;/null;/
+claim/verb/yeu cau;khang dinh;loi tuyen bo;/he claimed that he came from a wealthy, educated family;/
+sight/noun/thi giac;tam nhin;tam nhin.;/joseph lost his sight as a baby;/
+salad/noun/rau xa lach;xa lach;rau tron;mon salad;mon rau tron;/a green salad;/
+grammar/noun/ngu phap;van pham;ngu phap.;/null;/
+the/article/ns;cac;cai;m.;/what's the matter?;/
+win/verb/thang loi;chien thang;thang cuoc;thang;/the mets have won four games in a row;/
+slow/adjective/cham;/a time when diesel cars were slow and noisy;/
+address/noun/dia chi;de dia chi;gui thang;dia chi nha;/they exchanged addresses and agreed to keep in touch;/
+decoration/noun/trang tri;trang tri.;/the lavish decoration of cloth with gilt;/
+best/adjective/tot nhat;dieu tuyet nhat;tot;best.;/the best pitcher in the league;/
+awful/adjective/kinh khung;dang so;toi te;khung khiep;/the place smelled awful;/
+thickness/noun/do day;day;/the gateway is several feet in thickness;/
+park/noun/cong vien;do xe;/a walk around the park;/
+criticize/verb/chi trich;/technicians were criticized for defective workmanship;/
+comparison/noun/so sanh;so sanh.;/they drew a comparison between gandhi's teaching and that of other teachers;/
+remains/noun/van con;con lai;/the remains of a sandwich lunch were on the table;/
+also/adverb/cung;ma con;cung the;cung vay;hon nua;/a brilliant linguist, he was also interested in botany;/
+cloud/noun/dam may;may;cloud.;/the sun had disappeared behind a cloud;/
+ideal/adjective/ly tuong;/the swimming pool is ideal for a quick dip;/
+root/noun/nguon goc;goc cay;re cay;root.;/cacti have deep and spreading roots;/
+quietly/adverb/lang le;lang le hon;/he worked quietly and diligently;/
+always/adverb/luon;luon luon;/the sun always rises in the east;/
+traditionally/adverb/theo truyen thong;/behavior that is traditionally associated with adolescence;/
+recognition/noun/su cong nhan;su nhan ra;cong nhan;/she saw him pass by without a sign of recognition;/
+sister/noun/chi gai;chi hai;em gai;chi;/i had nine brothers and sisters;/
+rapid/adjective/nhanh;nhanh chong;/the country's rapid economic decline;/
+jeans/noun/quan jean;/he wore a pair of faded jeans and a white t-shirt;/
+flow/verb/luu luong;dong chay;chay;dong;luong;/from here the river flows north;/
+environment/noun/moi truong;xung quanh;/survival in an often hostile environment;/
+suddenly/adverb/dot ngot;thinh linh;dot nhien;/suddenly i heard a loud scream;/
+proof/noun/bang chung;chong;/you will be asked to give proof of your identity;/
+survey/verb/su khao sat;nghien cuu;xem xet;khao sat;/her green eyes surveyed him coolly;/
+fruit/noun/hoa qua;loi tuc;con cai;trai cay;/tropical fruits such as mangoes and papaya;/
+garden/noun/san vuon;vuon;khu vuon;vuon.;/they brought us tomatoes from their garden;/
+politically/adverb/chinh tri.;ve chinh tri;/southeast asia is divided politically into a number of nation-states;/
+why/adverb/tai sao;/why did he do it?;/
+throughout/preposition/trong suot;khap noi;khap;xuyen suot;/the event had repercussions throughout europe;/
+on/preposition/tren;bat;vao ngay;vao luc;ve;/on the table was a water jug;/
+experiment/noun/thi nghiem;lam thi nghiem;cuoc thi nghiem;thu nghiem;/i have tested this by experiment;/
+wire/noun/day dien;day.;/a coil of copper wire;/
+export/verb/xuat khau;/we exported $16 million worth of mussels to japan;/
+poison/noun/chat doc;doc vat;/he killed himself with poison;/
+nature/noun/thien nhien;ban tinh;tu nhien;tinh chat;ban chat;/the breathtaking beauty of nature;/
+welcome/noun/hoan nghenh;chao mung;don nhan;/you will receive a warm welcome;/
+beautifully/adverb/dep;d bep.;/she does sing beautifully;/
+male/adjective/nam gioi;nam;dan ong;/male children;/
+romantic/adjective/lang man;vien vong;lang man.;/a romantic candlelit dinner;/
+draft/noun/ban thao;du thao;ban nhap;hoi phieu;du thao.;/the first draft of the party's manifesto;/
+personally/adverb/ca nhan.;ca nhan;/she stayed to thank o'brien personally;/
+charge/verb/sạc diẹn;sac;thu lao;sac pin;giao nhiem vu;/he charged me 2 euros for the postcard;/
+beautiful/adjective/xinh dep;hay;dep;/beautiful poetry;/
+alphabetical/adjective/bang chu cai.;theo thu tu abc.;/alphabetical characters;/
+attraction/noun/suc hut;thu hut;su thu hut;/the timeless attraction of a good tune;/
+farming/noun/nong nghiep;lam nong;/land was enclosed for arable farming;/
+very/adverb/het suc;rat;/very much so;/
+wild/adjective/hoang dai;hoang da;du doi;lung tung;hoang da.;/a herd of wild goats;/
+deeply/adverb/sau sac;sau;/he breathed deeply;/
+menu/noun/thuc don;menu;trinh don;menu.;/the waiter handed her a menu;/
+unable/adjective/khong the;/she was unable to conceal her surprise;/
+wonder/noun/thac mac;kinh ngac;ngac nhien;tu hoi;ky quan;/he had stood in front of it, observing the intricacy of the ironwork with the wonder of a child;/
+polish/verb/danh bong;nguoi ba lan;ba lan.;/she unloaded the dishwasher and polished the glasses;/
+about/preposition/ve;khoang;trong khoang;xung quanh;/i was thinking about you;/
+supply/verb/cung cap;su tiep te;nguon cung cap;hang cung cap;cung cap.;/the farm supplies apples to cider makers;/
+unacceptable/adjective/khong the chap nhan duoc;khong the chap nhan;/unacceptable behavior;/
+amusing/adjective/vui;thu vi;/such a likable, amusing man!;/
+mess/noun/su lon xon;mess.;/she made a mess of the kitchen;/
+contribution/noun/su dong gop;dong gop.;/charitable contributions;/
+bomb/noun/bom;bom.;/a bomb attack;/
+permission/noun/su cho phep;su chap nhan;giay phep;/they had entered the country without permission;/
+conventional/adjective/thong thuong;/a conventional morality had dictated behavior;/
+ignore/verb/phot lo;lam lo;bo qua;/he ignored her outraged question;/
+not/adverb/khong phai;khong;/he would not say;/
+sail/noun/canh buom;cheo;buom;/all the sails were unfurled;/
+identify/verb/nhan dinh;xac dinh;nhan dang;/the judge ordered that the girl not be identified;/
+original/adjective/nguyen ban;doc dao;nguyen;ban goc;/the original owner of the house;/
+bone/noun/khuc xuong;xuong;/his injuries included many broken bones;/
+bay/noun/vinh;gian nha;hong;bay.;/the bay of biscay;/
+town/noun/thi tran;thanh pho;thi xa;thi xa, thi tran;/null;/
+maximum/adjective/toi da.;toi da;/the vehicle's maximum speed;/
+decide/verb/quyet dinh;lua chon;/they decided to appoint someone else;/
+unlikely/adjective/khong co kha nang;khong the;/an unlikely explanation;/
+accurately/adverb/chinh xac;chinh xac.;/we are simply unable to predict long-term trends accurately;/
+unwilling/adjective/khong muon;khong san long;/he was unwilling to take on that responsibility;/
+traveller/noun/khach du lich;du khach;/thousands of air travelers were left stranded;/
+airport/noun/san bay;phi truong;/null;/
+unlucky/adjective/xui xeo;khong may;khong may man;/an unlucky defeat;/
+would/verb/se;se.;/he said he would be away for a couple of days;/
+variation/noun/bien the.;bien the;/regional variations in house prices;/
+war/noun/chien tranh;chien tranh.;/japan declared war on germany;/
+venture/noun/mao hiem.;lien doanh;/pioneering ventures into little-known waters;/
+ultimately/adverb/cuoi cung;/the largest firms may ultimately become unstoppable;/
+underwear/noun/do lot;do lot.;/null;/
+too/adverb/qua;cung;cung vay;/he was driving too fast;/
+wounded/adjective/bi thuong.;thiet hai;/a wounded soldier;/
+post office/noun/buu dien;/null;/
+coffee/noun/ca phe;mau ca phe;/a cup of coffee;/
+construct/verb/xay dung;/a company that constructs oil rigs;/
+black/adjective/mau den;den;den.;/black smoke;/
+cold/adjective/lanh;cam;lanh leo;lanh lung;/a freezing cold day;/
+concept/noun/y tuong;khai niem;/structuralism is a difficult concept;/
+retirement/noun/su nghi huu;nghi huu.;/a man nearing retirement;/
+dollar/noun/do la;dollar.;/null;/
+email/noun/e-mail;email;/reading email has become the first task of the morning;/
+elevator/noun/thang may;thang may.;/in the elevator she pressed the button for the lobby;/
+transfer/verb/chuyen khoan;chuyen giao;chuyen nhuong;truyen;su nhuong lai;/i went to sleep on the couch before transferring to my bedroom later in the night;/
+cancel/verb/su huy bo;huy bo;/he was forced to cancel his visit;/
+wind/noun/gio;/the wind howled about the building;/
+growth/noun/su phat trien;tang truong;/the upward growth of plants;/
+container/noun/thung dung hang;thung hang;thung chua;container.;/a microwaveable glass container;/
+less/article/it hon;/the less time spent there, the better;/
+deliberately/adverb/thong tha;mot cach co y;co tinh;co y;/the fire was started deliberately;/
+bed/noun/giuong;chiec giuong;/a large double bed;/
+bake/verb/nuong;bake.;/they bake their own bread and cakes;/
+cause/noun/nguyen nhan;gay ra;viec kien tung;gay nen;nguyen do;/the cause of the accident is not clear;/
+click/noun/nhap chuot;nhap vao;/she heard the click of the door;/
+air/noun/khong khi;hang khong;/null;/
+jelly/noun/thach;/null;/
+ever/adverb/bao gio;khong bao gio;co bao gio;da tung;tung;/nothing ever seemed to ruffle her;/
+breast/noun/nhu hoa;vu.;/null;/
+master/noun/bac thay;chu nhan;su phu;chu;bang thac si;/he acceded to his master's wishes;/
+guilty/adjective/toi loi;co toi;pham toi;/he was found guilty of manslaughter;/
+friendship/noun/huu nghi;tinh huu nghi;tinh ban;/old ties of love and friendship;/
+electrical/adjective/dien;dien;/an electrical appliance;/
+assist/verb/ho tro;du;/a senior academic would assist him in his work;/
+experience/noun/kinh nghiem;trai qua;/he had already learned his lesson by painful experience;/
+beneath/preposition/o tren;o ben duoi;ben duoi;ben duoi.;/in the labyrinths beneath central moscow;/
+exhibition/noun/trien lam;buoi trien lam;/an exhibition of french sculpture;/
+poor/adjective/ngheo;ngheo nan;yeu kem;/people who were too poor to afford a telephone;/
+mud/noun/bun.;bun;/ankle deep in mud, we squelched across a meadow;/
+freshly/adverb/tuoi;moi;/freshly ground black pepper;/
+assume/verb/cho rang;thua nhan;gia dinh;dam duong;gia su;/it is reasonable to assume that such changes have significant social effects;/
+port/noun/hai cang;cang;/the french port of toulon;/
+age/noun/tuoi;gia di;tuoi tac;lua tuoi;tuoi.;/he died from a heart attack at the age of 51;/
+firm/adjective/chac chan;vung chai;cong ty;cong ty.;/the bed should be reasonably firm, but not too hard;/
+exclude/verb/loai tru;/women had been excluded from many scientific societies;/
+wood/noun/go;rung;/a block of wood;/
+arrangement/noun/sap xep;su sap xep;sap xep.;/the arrangement of the furniture in the room;/
+big/adjective/to lon;huenh hoang;quan trong;lon;/big hazel eyes;/
+associate/verb/ket hop;hoi lien hiep;pho;cong su;/i associated wealth with freedom;/
+impossible/adjective/khong the nao;khong the duoc;bat kha thi;khong the;/a seemingly impossible task;/
+aloud/adverb/to.;lon tieng;/he read the letter aloud;/
+hair/noun/toc;long;mai toc;/coarse outer hairs overlie the thick underfur;/
+worth/adjective/dang gia;xung dang;/jewelry worth $450 was taken;/
+accidentally/adverb/vo tinh;vo tinh;/his gun went off accidentally;/
+urge/verb/thuc giuc;thoi thuc;/he urged her to come and stay with us;/
+wife/noun/nguoi vo;vo;/he and his wife are keen gardeners;/
+armed/adjective/vu trang;vu khi;/heavily armed troops;/
+publish/verb/cong bo;xuat ban;/we publish practical reference books;/
+yawn/verb/ngap.;ngap;/he began yawning and looking at his watch;/
+sweet/adjective/ngot;ngot ngao;keo;vi ngot;/a cup of hot sweet tea;/
+attempt/verb/no luc;lan thu;co gang;/she attempted a comeback in 1989;/
+rude/adjective/tho lo;khiem nha;tho so;bat lich su;mat day;/she had been rude to her boss;/
+willingness/noun/su tu nguyen;san sang;/the ability and willingness of workers to migrate;/
+holiday/noun/ngay le;ky nghi le;ngay nghi;ky nghi;/december 25 is an official public holiday;/
+specialist/noun/chuyen gia.;chuyen gia;/he is a specialist in psychometric testing;/
+watch/verb/dong ho;su canh gac;dong ho deo tay;theo doi;xem;/lucy watched him go;/
+dog/noun/cho;chu cho;cho.;/null;/
+measurement/noun/do dac;do luong.;/accurate measurement is essential;/
+wait/verb/doi da;cho da;cho doi;/i rang the bell and waited;/
+print/verb/in;in.;/a thousand copies of the book were printed;/
+decrease/verb/giam bot;giam.;/the population of the area has decreased radically;/
+bury/verb/chon;chon cat;/he buried the box in the back garden;/
+act/verb/hanh dong;dao luat;/they urged washington to act;/
+acquire/verb/co duoc, thu duoc;gianh duoc;mua lai.;/i managed to acquire all the books i needed;/
+due/adjective/qua han;den han;/the baby's due in august;/
+chemistry/noun/hoa hoc;hoa hoc;hoa hoc.;/null;/
+apparently/adverb/ro rang;/the child nodded, apparently content with the promise;/
+adopt/verb/nhan nuoi;ap dung;/there are many people eager to adopt a baby;/
+amount/noun/so luong;khoan;so tien;/the sport gives an enormous amount of pleasure to many people;/
+pass/verb/di qua;troi qua;thong qua;vuot qua;chuyen bong;/he passed through towns and villages;/
+across/preposition/ngang qua;mot dau cheo;sang;ben kia;bat cheo;/i ran across the street;/
+ability/noun/co kha nang;kha nang;/the manager had lost his ability to motivate the players;/
+agreement/noun/hop dong;hiep dinh;su bang long;thoa thuan;/the two officers nodded in agreement;/
+attract/verb/thu hut;/a campaign to attract more visitors to west virginia;/
+weekend/noun/ngay cuoi tuan;cuoi tuan;di nghi cuoi tuan;/she spent the weekend camping;/
+oil/noun/dau;dau mo;/null;/
+approving/adjective/phe duyet;phe duyet;/the wine drew approving comments from across the table;/
+training/noun/dao tao;tap huan;/in-service training for staff;/
+wide/adjective/rong;/a wide road;/
+calmly/adverb/binh tinh;binh tinh.;/he spoke slowly and calmly;/
+dot/noun/cham.;dot.;/a symbol depicted in colored dots;/
+deep/adjective/sau;sau sac;deep.;/a deep gorge;/
+write/verb/viet;/he wrote his name on the paper;/
+all/null/tat ca cac;tat ca;/all the people i met;/
+water/noun/nuoc;nuoc uong;/null;/
+lump/noun/cuc buou;cuc u;gop;/there was a lump of ice floating in the milk;/
+awkward/adjective/vung ve;nguong nghiu;vung ve.;/some awkward questions;/
+deaf/adjective/diec;phan doi;khiem thinh;/i'm a bit deaf so you'll have to speak up;/
+treatment/noun/su doi xu;su doi dai;dieu tri;su dieu tri;cach xu ly;/the directive required equal treatment for men and women;/
+formally/adverb/chinh thuc;chinh thuc.;/he was formally attired;/
+add/verb/cong;them vao;bo sung;them;/i've started a petition so if you would like to add your name, email me;/
+prime minister/noun/thu tuong;/the japanese prime minister argued strongly against it;/
+and/conjunction/va;/bread and butter;/
+clothing/noun/quan ao;quan ao;/an item of clothing;/
+communicate/verb/giao tiep;/the prisoner was forbidden to communicate with his family;/
+dead/adjective/da chet;chet;/a dead body;/
+alone/adjective/mot minh;rieng;/she was alone that evening;/
+festival/noun/ngay hoi;le hoi;/a tabulation of saints' days and other festivals;/
+entitle/verb/giam gia.;dac biet.;/employees are normally entitled to severance pay;/
+gentleman/noun/quy ong.;quy ong;/he behaved like a perfect gentleman;/
+content/adjective/noi dung;cac noi dung;ham luong;/he seemed more content, less bitter;/
+amuse/verb/giai tri;giai tri.;/he made faces to amuse her;/
+extremely/adverb/cuc ki;cuc ky;cuc;vo cung;/this is an extremely difficult thing to do;/
+dentist/noun/bac si nha khoa;nha si;/his mouth is still sore from his visit to the dentist's;/
+career/noun/nghe nghiep;su nghiep;/he seemed destined for a career as an engineer like his father;/
+price/noun/gia ban;gia;gia ca;muc gia;gia tien;/land could be sold for a high price;/
+flame/noun/ngon lua;lua;/a sheet of flame blocked my escape;/
+enjoyable/adjective/thu vi;tan huong;/the decision is aimed at making shopping more enjoyable;/
+because/conjunction/tai vi;boi vi;/we did it because we felt it our duty;/
+hard/adjective/kho khan;cham chi;cung;kho;sieng nang;/a hard mattress;/
+advertisement/noun/quang cao;quang cao.;/advertisements for alcoholic drinks;/
+devoted/adjective/het long;tan tam;deavored.;/he was a devoted husband;/
+bored/adjective/chan;/she got bored with staring out of the window;/
+while/noun/trong khi;/we chatted for a while;/
+demonstrate/verb/chung minh;chung to;trinh dien;chung minh.;/computerized design methods will be demonstrated;/
+wall/noun/tuong;/a garden wall;/
+partly/adverb/tung phan;mot phan;/the result is partly a matter of skill and partly of chance;/
+debt/noun/mon no;no nan;/i paid off my debts;/
+calculation/noun/phep tinh;tinh toan;/finding ways of saving money involves complicated calculations;/
+disappointing/adjective/that vong;dang that vong;/the team made a disappointing start;/
+ambulance/noun/xe cuu thuong;xe cap cuu;/we called an ambulance;/
+computer/noun/may vi tinh;may tinh;/null;/
+consequence/noun/hau qua;he qua;ket qua;/many have been laid off from work as a consequence of the administration's policies;/
+bullet/noun/dan;bullet.;/null;/
+allied/adjective/dong minh.;dong minh;/allied territories;/
+anticipate/verb/du doan.;du doan;/she anticipated scorn on her return to the theater;/
+crash/verb/vu tai nan;tai nan;dam;sup do.;/the stolen car she was riding in crashed into a tree;/
+cough/verb/ho;ho.;/he tried to speak and started to cough;/
+forgive/verb/tha loi;thu loi;tha thu;/i don't think i'll ever forgive david for the way he treated her;/
+desperate/adjective/tuyet vong;lieu linh;/a desperate sadness enveloped ruth;/
+comfortably/adverb/thoai mai;thoai mai hon;/he lounges comfortably in an armchair;/
+boil/verb/soi len;dun soi;luoc;/we tried to get people to boil their drinking water;/
+drag/verb/loi keo;keo;/we dragged the boat up the beach;/
+advise/verb/khuyen nhu;khuyen cao;tu van;/i advised him to go home;/
+wander/verb/di lang thang;/he wandered aimlessly through the narrow streets;/
+charity/noun/tu thien;to chuc tu thien;long nhan hau;tu thien.;/the charity provides practical help for homeless people;/
+could/verb/co the;/null;/
+height/noun/chieu cao;cao;/columns rising to 65 feet in height;/
+district/noun/quan;khu vuc;quan huyen;huyen;/an elegant shopping district;/
+art/noun/nghe thuat;my thuat;mon ve;biet tai;ki xao;/the art of the renaissance;/
+unhappy/adjective/khong vui;kho so;khong vui, buon;khong hanh phuc;bat hanh;/an unhappy marriage;/
+understand/verb/hieu khong;hieu y;hieu ro;hieu;hieu biet;/he didn't understand a word i said;/
+foot/noun/ban chan;chan;/null;/
+do/verb/lam;/very little work has been done in this field;/
+title/noun/chuc vu;tieu de;tuoc danh;/the author and title of the book;/
+disgusting/adjective/kinh tom;/he had the most disgusting rotten teeth;/
+accurate/adjective/chinh xac;chinh xac.;/accurate information about the illness is essential;/
+true/adjective/that;dung;dung vay;thanh that;dung.;/a true story;/
+council/noun/hoi dong;/an official human rights council;/
+collapse/verb/su sup do;sap;sup do;/the roof collapsed on top of me;/
+alarming/adjective/dang bao dong;bao dong.;/our countryside is disappearing at an alarming rate;/
+enable/verb/cho phep;bat;/the evidence would enable us to arrive at firm conclusions;/
+bargain/noun/mac ca;mon hoi;tra gia;/the extraconstitutional bargain between the northern elite and the southern planters;/
+cancer/noun/ung thu;cung cu giai;cu giai;benh ung thu;su xau xa;/he's got cancer;/
+circumstance/noun/hoan canh;hoan canh;/we wanted to marry but circumstances didn't permit;/
+breed/verb/giong;/toads are said to return to the pond of their birth to breed;/
+definition/noun/dinh nghia;do net;su dinh nghia;dinh nghia.;/a dictionary definition of the verb;/
+closed/adjective/dong cua;dong cua.;/rooms with closed doors lined the hallway;/
+attractive/adjective/hap dan;loi cuon;/an attractive home;/
+background/noun/lai lich;tieu su;ly lich;nen;boi canh;/the house stands against a background of sheltering trees;/
+bitterly/adverb/cay dang;dang;/passengers complained bitterly about grand promises made by the company;/
+device/noun/thiet bi;phuong thuc;/a measuring device;/
+colleague/noun/dong nghiep;/null;/
+abandoned/adjective/bi bo roi;phong dang;bi bo roi.;/an abandoned car;/
+cloth/noun/vai;tam vai;/a cloth bag;/
+disabled/adjective/vo hieu hoa;tan tat;/facilities for disabled people;/
+dust/noun/bui bam;bui ban;bui;phui bui;/the car sent up clouds of dust;/
+writing/noun/viet;van ban;dang viet;/parents want schools to concentrate on reading, writing, and arithmetic;/
+driver/noun/nguoi lai xe;tai xe;/a taxi driver;/
+climbing/noun/leo;leo nui;/his other great interest was climbing, especially in the alps;/
+circle/noun/khoanh tron;vong tron;khoanh tron.;/draw a circle with a compass;/
+alarm/noun/bao thuc;lo so;bao dong;/the boat tilted and the boatmen cried out in alarm;/
+violent/adjective/hung bao;bao luc.;/a violent confrontation with riot police;/
+acceptable/adjective/chap nhan;chap nhan duoc;/has tried to find a solution acceptable to everyone;/
+artistic/adjective/thuoc ve nghe thuat;nghe thuat;nghe thuat.;/my lack of artistic ability;/
+bridge/noun/cau;/a bridge across the river;/
+worry/verb/lo;lo lang;lo lang;/he worried about his soldier sons in the war;/
+defence/noun/phong thu;bao chua;quoc phong;/she came to the defense of the eccentric professor;/
+body/noun/co the nguoi;than hinh;phan than;than the;co thẻ;/it's important to keep your body in good condition;/
+difference/noun/su khac biet;khac nhau;khac biet;da dang;chenh lech;/the differences between men and women;/
+almost/adverb/gan nhu;hau het;gan;hau nhu;gan, sap;/he almost knocked georgina over;/
+approximate/adjective/gan dung;xap xi.;/the calculations are very approximate;/
+happen/verb/xay ra;/two hours had passed and still nothing had happened;/
+help/verb/cuu giup;giup;giup do;su giup do;tro giup;/they helped her with domestic chores;/
+contest/noun/cuoc thi;tranh cai;tranh doat;/a beauty contest;/
+crazy/adjective/dien;khung;phat dien;khung dien;crazy.;/stella went crazy and assaulted a visitor;/
+independent/adjective/song doc lap;doc lap;doc lap.;/canada's largest independent investment firm;/
+privately/adverb/tu nhan;rieng tu;/i must insist we speak privately;/
+organization/noun/to chuc;co quan;to chuc.;/a research organization;/
+hunting/noun/san ban;/they talked about going hunting;/
+fight/verb/tran danh;danh nhau;chien dau;cuoc chien dau;cuoc dau tranh;/the men were fighting;/
+list/noun/danh sach;liet ke;/consult the list of drugs on page 326;/
+immediately/adverb/ngay lap tuc;ngay;/i called immediately for an ambulance;/
+message/noun/thong diep;nhan;loi nhan;tin nhan;/if i'm not there, leave a message on the voice mail;/
+accuse/verb/cao buoc;accress.;/he was accused of murdering his wife's lover;/
+groceries/noun/cua hang tap hoa;do tap hoa;/null;/
+wave/verb/lan song;vay tay;song;/he waved to me from the train;/
+irritated/adjective/bi kich thich;buc;cau;bi khieu khich;cau kinh;/the irritated look on alec's face;/
+relaxing/adjective/thu gian;thu gian.;/the warm water was very relaxing;/
+uncontrolled/adjective/khong kiem soat duoc;khong kiem soat;/some uncontrolled children rather marred the proceedings;/
+shell/noun/vo boc;vo;/cowrie shells;/
+represent/verb/dai dien;mieu ta;/for purposes of litigation, an infant can and must be represented by an adult;/
+trace/verb/dau vet;truy vet;theo doi.;/police are trying to trace a white van seen in the area;/
+pronunciation/noun/cach phat am;phat am;phat am cua;/spelling does not determine pronunciation;/
+link/noun/lien ket;lien ket.;/investigating a link between pollution and forest decline;/
+shape/noun/hinh dang;trang thai;khuon;hinh dang.;/she liked the shape of his nose;/
+share/noun/dang lai;chia se;co phan;/under the proposals, investors would pay a greater share of the annual fees required;/
+well/adverb/on;tot;cai gieng;ky;chung toi se;/the whole team played well;/
+soldier/noun/linh;di linh;binh si;soldier.;/null;/
+somewhat/adverb/hoi;co phan nao;/matters have improved somewhat since then;/
+rural/adjective/nong thon;nong thon.;/remote rural areas;/
+unfair/adjective/khong cong bang;bat cong;/at times like these the legal system appears inhumane and unfair;/
+shaped/adjective/hinh;dinh hinh.;/an enclosed back garden with a shaped lawn;/
+origin/noun/goc;co nguon goc;nguon goc;xuat xu;/the name is norse in origin;/
+page/noun/trang;trang.;/a book of not less than 40 pages;/
+shiny/adjective/sang bong;/shiny hair;/
+unfortunate/adjective/that khong may;khong may;khong may man;/the unfortunate cunningham was fired;/
+unfortunately/adverb/khong may;khong may thay;that dang tiec;/unfortunately, we do not have the time to interview every applicant;/
+out/adverb/ngoai;ra ngoai;/he walked out into the street;/
+prompt/verb/loi nhac;nhac;/his death has prompted an industry-wide investigation of safety violations;/
+adapt/verb/phong theo;thich nghi voi;thich nghi;/hospitals have had to be adapted for modern medical practice;/
+week/noun/tuan;/the course lasts sixteen weeks;/
+towel/noun/khan tam;cai khan lau;lau bang khan;khan;/null;/
+pack/noun/dong goi;goi;ba lo;goi hang;/a pack of cigarettes;/
+paint/noun/son;to mau;/a can of paint;/
+tower/noun/toa thap;thap;/the south-west tower is a wonderful example of late gothic;/
+access/noun/truy cap;quyen;toi gan;tiep can;/the staircase gives access to the top floor;/
+overall/adjective/tong the;nhin chung;/the overall effect is impressive;/
+absolutely/adverb/chac chan roi;hoan toan;tuyet doi;chac chan;/she trusted him absolutely;/
+abuse/verb/lam dung;lang ma;/the judge abused his power by imposing the fines;/
+furniture/noun/do noi that;noi that;do dac;/null;/
+item/noun/bai bao;muc;mat hang;vat dung;hang;/the items on the agenda;/
+abandon/verb/bo roi;tu bo;/her natural mother had abandoned her at an early age;/
+accommodation/noun/nha o;cho o;/management was seeking an accommodation with labor;/
+acid/noun/axit;axit.;/traces of acid;/
+activity/noun/hoat dong;su hang hai;tinh phong xa;/there has been a sustained level of activity in the economy;/
+actor/noun/dien vien;dien vien nam;nam dien vien;dien vien.;/null;/
+addition/noun/them vao;phep cong;su them that;cong dong;/the hotel has been extended with the addition of more rooms;/
+able/adjective/co the;/he was able to read greek at the age of eight;/
+adequate/adjective/du;tuong xung;day du;/this office is perfectly adequate for my needs;/
+absence/noun/vang mat;/the letter had arrived during his absence;/
+acknowledge/verb/thua nhan;cong nhan;cam ta;thua nhan.;/the plight of the refugees was acknowledged by the authorities;/
+absorb/verb/hap thu;/buildings can be designed to absorb and retain heat;/
+wing/noun/canh;canh;canh.;/null;/
+abroad/adverb/hai ngoai;o nuoc ngoai;nuoc ngoai;ra nuoc ngoai;hai ngoai, nuoc ngoai;/we usually go abroad for a week in may;/
+whistle/noun/coi;huyt sao;/null;/
+within/preposition/o trong;trong;/the spread of fire within the building;/
+widely/adverb/rong rai;rong rai hon;/a tall man with widely spaced eyes;/
+worrying/adjective/lo lang;lo lang;/a worrying health risk;/
+width/noun/chieu rong;be rong;/the yard was about seven feet in width;/
+whisper/verb/thi tham;thi tham.;/alison was whispering in his ear;/
+whose/article/ai;cua ai;cua ai do;/whose round is it?;/
+winning/adjective/chien thang.;chien thang;/a winning streak;/
+wherever/adverb/bat cu noi nao;bat cu dau;/meet me wherever you like;/
+wonderful/adjective/tuyet voi;qua tuyet;qua tuyet voi;/they all think she's wonderful;/
+whole/adjective/tron;toan the;toan bo.;/he spent the whole day walking;/
+worker/noun/cong nhan;nguoi lam viec;/a farm worker;/
+your/article/cua ban;/what is your name?;/
+what/pronoun/cai gi;gi;la gi;nhung gi;/what is your name?;/
+web/noun/web.;trang web;/null;/
+with/preposition/voi;co;cung;/a nice steak with a bottle of red wine;/
+you/pronoun/ban;/are you listening?;/
+wedding/noun/le cuoi;dam cuoi;ket hon;/null;/
+weight/noun/can nang;trong luong;trong luong, can nang;de nang;nang;/he was at least 175 pounds in weight;/
+which/pronoun/cai ma;ma;/which are the best varieties of grapes for long keeping?;/
+will/verb/se;y chi;di chuc;/you will regret it when you are older;/
+world/noun/the gioi;/he was doing his bit to save the world;/
+winter/noun/mua dong;/the tree has a good crop of berries in winter;/
+worship/noun/tho cung;ton sung;ton tho;worship.;/the worship of god;/
+wrap/verb/boc;giay goi;khan choang;bao boc;/last christmas eve, i was still wrapping presents at 1 a.m.;/
+wrong/adjective/sai lam;sai roi;sai;hong;/that is the wrong answer;/
+youth/noun/thieu nien;tuoi tre;/he had been a keen sportsman in his youth;/
+window/noun/cua so;cua kinh;cua so.;/null;/
+absent/adjective/khong co mat;vang mat;khong ton tai;vang mat.;/most students were absent from school at least once;/
+beat/verb/danh dap;tiet tau;beat.;/if we were caught we were beaten;/
+highly/adverb/cao;cao nhat;/a highly dangerous substance;/
+following/preposition/tiep theo;lam theo;nhom nguoi ung ho;theo sau;/police are hunting for two men following a spate of robberies in the area;/
+generally/adverb/noi chung;noi chung la;thong thuong;/the term of a lease is generally 99 years;/
+listen/verb/nghe;lang nghe;/evidently he was not listening;/
+cooking/noun/nau nuong;nau an;nau an.;/she first became interested in cooking at the age of 17;/
+consult/verb/tham khao y kien;tu van;/you should consult a financial advisor;/
+common/adjective/chung;pho thong;pho bien;thuong;thong thuong;/salt and pepper are the two most common seasonings;/
+evening/noun/buoi toi;toi;chieu;chieu toi;/it was seven o'clock in the evening;/
+kiss/verb/hon;nu hon;/he kissed her on the lips;/
+plate/noun/dia an;dia;tam;/he pushed his empty plate to one side and sipped his wine;/
+spirit/noun/tinh than;linh hon;tinh than.;/we seek a harmony between body and spirit;/
+pronounce/verb/phat am.;phat am;/gerry pronounced the hero's name “cahoolin”;/
+topic/noun/de tai;chu de;/sleep deprivation became a frequent topic of conversation;/
+blame/verb/khien trach;do toi;loi;do loi;do thua;/the inquiry blamed the engineer for the accident;/
+disgusted/adjective/chan ghet;ghe tom;/a disgusted look;/
+nonsense/noun/vo ly;vo nghia.;/he was talking absolute nonsense;/
+exaggerate/verb/noi qua;phong dai;/he was apt to exaggerate any aches and pains;/
+afford/verb/mua duoc;du kha nang;ban cho;/the best that i could afford was a first-floor room;/
+throat/noun/hong;cuong hong;co hong.;/her throat was parched with thirst;/
+depressed/adjective/tram cam;suy sup;chan nan;tri tre;/null;/
+protection/noun/su bao ve;bao cao su;bao ve.;/the b vitamins give protection against infection;/
+illness/noun/con benh;su om yeu;om;benh;/he died after a long illness;/
+inevitably/adverb/chac chan;chac chan.;/inevitably some details are already out of date;/
+cheerfully/adverb/vui ve;/he was whistling cheerfully;/
+continent/noun/chau luc;luc dia;/null;/
+improve/verb/cai thien;tan dung;cai tien;nang cao trinh do;nang cao;/we’ve used technology to improve relations with customers;/
+chicken/noun/ga;thit ga;nhat gan;con ga;/rationing was still in force and most people kept chickens;/
+clever/adjective/thong minh;tai gioi;/a clever and studious young woman;/
+drive/verb/lai xe;/he got into his car and drove off;/
+foundation/noun/su thanh lap;quy tai tro;nen tang;co so;/build the arch resting on top of this solid foundation;/
+edge/noun/luoi sac;mai sac;canh;bo ria;/a willow tree at the water's edge;/
+actual/adjective/that su;thuc te;/the estimate was much less than the actual cost;/
+desire/noun/su mong muon;mong muon;khao khat;uoc nguyen;/a desire to work in the dirt with your bare hands;/
+explanation/noun/giai trinh;giai thich;/the birth rate is central to any explanation of population trends;/
+football/noun/bong da;/a football club;/
+guarantee/noun/bao hanh;su bao dam;bao dam;dam bao;/we offer a 10-year guarantee against rusting;/
+breath/noun/hoi tho;/i was gasping for breath;/
+express/verb/the hien;bieu lo;dien ta;hien;van chuyen hoa toc;/he expressed complete satisfaction;/
+city/noun/thanh pho;thanh pho.;/one of italy's most beautiful cities;/
+battery/noun/pin;ac quy;pin.;/battery power;/
+hill/noun/doi;doi nui;/null;/
+food/noun/do an;moi;mon an;thuc an;/we need food and water;/
+contain/verb/luu tru;bao gom;chua;/coffee cans that once contained a full pound of coffee;/
+up/adverb/huong len;len;/he jumped up;/
+keen/adjective/sac sảo;sac sao;hang hai;quan tam;nhiẹt tinh;/i have keen eyesight;/
+award/verb/phan thuong;giai thuong;/he was awarded the purple heart;/
+facility/noun/co so;nang khieu;/cooking facilities;/
+cast/verb/dan dien vien;cai khuon;duc;/the moon cast a pale light over the cottages;/
+faintly/adverb/yeu ot;mo nhat;/she smiled faintly;/
+exactly/adverb/chinh xac;mot cach chinh xac;dung nhu vay;chinh xac.;/they met in 1989 and got married exactly two years later;/
+between/preposition/giua;o giua;/the border between mexico and the united states;/
+horse/noun/ngua;con ngua;ky binh;/null;/
+cultural/adjective/thuoc van hoa;van hoa.;/the cultural diversity of the world's peoples;/
+discipline/noun/ky luat;/a lack of proper parental and school discipline;/
+construction/noun/su thi cong;cach dat cau;xay dung;cong trinh;/there was a skyscraper under construction;/
+impose/verb/ap dat;ap dat.;/the decision was theirs and was not imposed on them by others;/
+exchange/noun/trao doi;doi;trao doi, giao dich;/negotiations should eventually lead to an exchange of land for peace;/
+building/noun/toa nha;xay dung;nha lau;cao oc;toa nha.;/null;/
+chop/verb/chat;bam nho;/they chopped up the pulpit for firewood;/
+anniversary/noun/dip ki niem;ngay ky niem;ky niem;/the 50th anniversary of the start of world war ii;/
+sit/verb/ngoi;/i sat next to him at dinner;/
+singer/noun/ca sy;ca si;ca si.;/a pop singer;/
+exhibit/verb/trien lam.;trung bay.;/only one sculpture was exhibited in the artist's lifetime;/
+skin/noun/lan da;da;/i use body lotion to keep my skin soft;/
+strike/verb/danh dap;da bong;gay an tuong;dinh cong;tan cong;/he raised his hand, as if to strike me;/
+desperately/adverb/tuyet vong;/he looked around desperately;/
+behave/verb/hanh xu;xu su;ung xu;cu xu;/he always behaved like a gentleman;/
+craft/noun/thu cong;craft.;/the craft of bookbinding;/
+song/noun/bai hat;ca khuc;/null;/
+select/verb/lua chon;chon;/he has been selected to take part;/
+send/verb/gui;/we sent a reminder letter but received no reply;/
+nuclear/adjective/nguyen tu;hat nhan;hach;hat nhan.;/nuclear chemistry;/
+alcohol/noun/ruou;do uong co con;ruou bia;ruou.;/alcohol breaks down in the body;/
+jealous/adjective/ghen tuong;ghen;ghen ti;/he grew jealous of her success;/
+curved/adjective/cong.;cong v;/birds with long curved bills;/
+disease/noun/dich benh;benh;gay benh;can benh;/bacterial meningitis is a rare disease;/
+form/noun/mau don;hinh thuc;hinh dang;tao thanh;bieu mau;/the form, color, and texture of the tree;/
+story/noun/cau chuyen;/an adventure story;/
+electric/adjective/dien;/an electric stove;/
+primary/adjective/so cap;tieu hoc;dau;dau tien;so dang;/null;/
+humorous/adjective/hai huoc;khoi hai;/a humorous and entertaining talk;/
+mouse/noun/chuot;con chuot;/null;/
+tank/noun/xe tang;bon chua;bon;/null;/
+investigate/verb/khao sat;dieu tra;nghien cuu;dieu tra.;/police are investigating the alleged beating;/
+suspicious/adjective/kha nghi;da nghi;dang ngo;/he was suspicious of her motives;/
+backward/adjective/phia sau;lac hau;nguoc;lui;/she left the room without a backward glance;/
+employer/noun/nguoi thue lao dong;chu nhan;/the national health service was the largest employer in europe;/
+grey/adjective/xam;am dam;/gray flannel trousers;/
+withdraw/verb/rut;rut tien;/slowly ruth withdrew her hand from his;/
+neat/adjective/gon gang;kheo leo;gon gang.;/the books had been stacked up in neat piles;/
+through/preposition/xuyen qua;boi vi;suot;thong qua;/she walked through the doorway into the living room;/
+creature/noun/sinh vat.;sinh vat;/night sounds of birds and other creatures;/
+prefer/verb/thich hon;buoc toi;/i prefer venice to rome;/
+inch/noun/inch;mot inch;/the toy train is four inches long;/
+replace/verb/thay the;/ian's smile was replaced by a frown;/
+skilled/adjective/ky nang.;lanh nghe;/a lab technician skilled in electronics;/
+anxious/adjective/lo lang;/she was extremely anxious about her exams;/
+motion/noun/cu dong;ra hieu;chuyen dong;/the laws of planetary motion;/
+plan/noun/ke hoach;du kien;/the un peace plan;/
+session/noun/phien hop;buoi;nien khoa;phien;/null;/
+change/verb/thay doi;bien doi;tien thoi;su thay doi;thay doi.;/both parties voted against proposals to change the law;/
+basis/noun/nen tang;co so;/trust is the only basis for a good working relationship;/
+become/verb/tro thanh;tro nen;/it is becoming clear that we are in a totally new situation;/
+enjoy/verb/vui thich;thuong thuc;thich;huong thu;thuong thuc nhe;/joe enjoys reading icelandic family sagas;/
+stomach/noun/da day;cai bung;bung;/severe stomach pains;/
+yet/adverb/nhung;chua;tuy nhien;/i haven't told anyone else yet;/
+collect/verb/suu tam;thu thap;/he went around the office collecting old coffee cups;/
+spoken/verb/noi;phat ngon.;/null;/
+hello/exclamation/xin chao;/hello there, katie!;/
+suggestion/noun/goi y;de nghi;/null;/
+advice/noun/loi khuyen;khuyen bao;/she visited the island on her doctor's advice;/
+fast/adjective/nhanh;nhanh chong;/a fast and powerful car;/
+carry/verb/mang;mang, thua nhan;mang theo;vac;/medics were carrying a wounded man on a stretcher;/
+something/pronoun/thu gi do;mot cai gi do;/we stopped for something to eat;/
+typical/adjective/dac trung;tieu bieu;dien hinh;/a typical day;/
+type/noun/kieu;go phim;loai;the loai;loai hinh;/this type of heather grows better in a drier habitat;/
+might/verb/co the;/null;/
+today/adverb/hom nay;/she's thirty today;/
+who/pronoun/ai;who;nguoi nao;who.;/who is that woman?;/
+silver/noun/bac;mau bac;ma bac;bac.;/null;/
+sing/verb/hat;/bella sang to the baby;/
+along/preposition/doc theo;cung voi;cung mot ben trong;/soon we were driving along a narrow road;/
+admire/verb/kham phuc;nguong mo;/i admire your courage;/
+cat/noun/con meo;meo.;/null;/
+signature/noun/chu ky;dac trung;/the signature of a senior manager;/
+discount/noun/chiet khau;ha gia;mien giam;giam gia;/many stores will offer a discount on bulk purchases;/
+approval/noun/su chap thuan;phe duyet;su phe duyet;/the road plans have been given approval;/
+carelessly/adverb/mot cach bat can;bat can;/roadsides are full of litter thrown carelessly by passers-by;/
+character/noun/tinh cach;ky tu;nhan vat;/running away was not in keeping with her character;/
+simply/adverb/don gian;don gian.;/speaking simply and from the heart;/
+discussion/noun/thao luan;/the proposals are not a blueprint but ideas for discussion;/
+category/noun/the loai;pham tru;danh muc;loai;/five categories of intelligence;/
+admit/verb/thua nhan;/the office finally admitted that several prisoners had been injured;/
+alongside/preposition/cung nhau;cung nhau cung nhau;/she was sitting alongside him;/
+twice/adverb/hai lan;gap doi;/the tablets should be taken twice a day;/
+star/noun/ngoi sao;/null;/
+discovery/noun/kham pha;/the discovery of the body;/
+significant/adjective/co y nghia;dang ke;/a significant increase in sales;/
+nowhere/adverb/hu khong;khong noi nao;/plants and animals found nowhere else in the world;/
+damp/adjective/am uot.;giam bot;/her hair was still damp from the shower;/
+whom/pronoun/ai;ai do;/whom did he marry?;/
+back/noun/mat sau;tro lai;cai lung;quay lai;lung;/he lay on his back;/
+angle/noun/goc;di cau;/in any triangle, the longest side is opposite the largest angle;/
+enjoyment/noun/su huong thu;thich thu;/the enjoyment of a good wine;/
+child/noun/dua tre;tre em;dua tre.;/she'd been playing tennis since she was a child;/
+cheerful/adjective/vui long;tuoi vui;vui ve;vui;/how can she be so cheerful at six o'clock in the morning?;/
+peaceful/adjective/hoa binh;thanh than;binh yen;binh an;yen a;/everything was so quiet and peaceful in the early morning;/
+expensive/adjective/dat tien;dat;mac tien;/keeping a horse is expensive;/
+against/preposition/chong lai;/the fight against crime;/
+active/adjective/tich cuc;hoat dong;/i needed to change my lifestyle and become more active;/
+characteristic/adjective/dac diem.;dac trung;/large farms are characteristic of this area;/
+chew/verb/nhai;/he was chewing a mouthful of toast;/
+bubble/noun/bong bong.;bubble.;/null;/
+confront/verb/doi dau;doi dau;/he confronted the robbers as they were trying to leave;/
+avoid/verb/tranh xa;ngan ngua;tranh;tranh khoi;/avoid excessive exposure to the sun;/
+calm/adjective/diem tinh;tran tinh;binh tinh;binh than;/she had to keep calm at all costs;/
+boat/noun/con thuyen;thuyen;thuyen.;/a fishing boat;/
+area/noun/khu vuc;dien tich;/rural areas of new jersey;/
+battle/noun/tran danh;chien dau;/the battle of shiloh;/
+eat/verb/an;/he was eating a hot dog;/
+amazed/adjective/kinh ngac;tuyet voi.;/i was amazed that he could remember me;/
+aware/adjective/nhan thuc;/most people are aware of the dangers of sunbathing;/
+alphabetically/adverb/theo thu tu abc.;theo bang chu cai.;/books are now arranged alphabetically by author;/
+citizen/noun/cong dan;nguoi dan;cong dan.;/a polish citizen;/
+attack/verb/tan cong;/in december, the japanese attacked pearl harbor;/
+carrot/noun/ca rot;ca rot.;/roast lamb with peas and carrots;/
+brother/noun/anh trai;ban be;em trai;anh em trai;anh em;/he recognized her from her strong resemblance to her brother;/
+altogether/adverb/hoan toan;/i stopped seeing her altogether;/
+bill/noun/hoa don thanh toan;phieu thanh toan;hoa don;du luat;bill.;/the bill for their meal came to $17;/
+average/noun/trung binh;trung binh cong;/the housing prices there are twice the national average;/
+outdoor/adjective/ngoai troi;/a huge outdoor concert;/
+action/noun/hoat dong;tac dong;hanh dong;/he vowed to take tougher action against persistent offenders;/
+hers/pronoun/cua co ay;co gai;/his eyes met hers;/
+association/noun/su ket hop;hiep hoi;/the national association of broadcasters;/
+bother/verb/lam phien;ban tam;/scientists rarely bother with such niceties;/
+aid/noun/su giup do;thiet bi ho tro;vien tro;/he saw the pilot slumped in his cockpit and went to his aid;/
+client/noun/khach hang;/insurance tailor-made to a client's specific requirements;/
+comfortable/adjective/thoai mai;de chiu;/invitingly comfortable beds;/
+allow/verb/cho phep;chap nhan;/the dissident was allowed to leave the country;/
+butter/noun/bo;phet bo;/null;/
+expert/noun/thao;thong thao;chuyen vien;chuyen gia;thanh thao;/a financial expert;/
+pretty/adjective/kha;dep;xinh dep;/a pretty little girl with an engaging grin;/
+destruction/noun/su pha huy;pha huy;/the destruction of the library in alexandria;/
+gold/noun/vang;vang.;/null;/
+ancient/adjective/co dai;cỏ xua;xua;co dai.;/the ancient civilizations of the mediterranean;/
+college/noun/truong cao dang;truong dai hoc;cao dang;/i'm at college, studying graphic design;/
+tie/verb/ca vat;buoc;bó lại;tie.;/they tied max to a chair;/
+boyfriend/noun/ban trai;/null;/
+arrow/noun/mui ten;mui ten.;/i've never used a bow and arrow;/
+departure/noun/su khoi hanh;khoi hanh.;/the day of departure;/
+bear/verb/chiu dung;chiu;gau;mang;con gau;/the bees form large colonies and need the thick branches of tall trees to bear the weight of their nests;/
+get/verb/hieu duoc;duoc;den;nhan duoc;lay;/i got the impression that she wasn't happy;/
+happy/adjective/sung suong;hanh phu;vui mung;hanh phuc;/melissa came in looking happy and excited;/
+bring/verb/mang den;dem lai;dem theo;mang lai;mang theo;/she brought luke home from the hospital;/
+alcoholic/adjective/ke nghien ruou;ruou;/beer is the favorite alcoholic drink;/
+layer/noun/lop;xep tung lop;canh chiet;/bears depend on a layer of blubber to keep them warm in the water;/
+overcome/verb/khac phuc;vuot qua;/she worked hard to overcome her paralyzing shyness;/
+manner/noun/cach thuc;thai do;/taking notes in an unobtrusive manner;/
+determination/noun/su quyet tam;su xac dinh;xac dinh.;/he advanced with an unflinching determination;/
+proposal/noun/de nghi;su de nghi;de xuat;loi cau hon;/a set of proposals for a major new high-speed rail link;/
+stretch/verb/keo dai;lam dung;vuon vai;cang ra;/my sweater stretched in the wash;/
+cheaply/adverb/gia re;gia re.;/cheaply priced designer furniture;/
+alternative/adjective/thay the;/the various alternative methods for resolving disputes;/
+rule/noun/luat le;quy tac;qui dinh;/the rules of the game were understood;/
+softly/adverb/nhe nhang;/john kissed cynthia softly and tenderly;/
+chief/noun/truong phong;chanh;/the chief of the village;/
+hat/noun/hat.;mu;/a black straw hat;/
+clearly/adverb/ro rang;thong suot;/the ability to write clearly;/
+asleep/adjective/ngu;ngu say.;/she had been asleep for over three hours;/
+potential/adjective/tiem nang;dien the;/a two-pronged campaign to woo potential customers;/
+busy/adjective/ban;ban ron;/he had been too busy to enjoy himself;/
+summary/noun/tom luoc;ban tom tat;tom lai;tom tat;tong ket;/a summary of chapter three;/
+detail/noun/chi tiet;/we shall consider every detail of the bill;/
+media/noun/phuong tien truyen thong;truyen thong;/their demands were publicized by the media;/
+mate/noun/ban;giao phoi;chieu tuong;nguoi ban doi;/a male bird sings to court a mate;/
+congress/noun/hoi nghi;quoc hoi;/null;/
+adjust/verb/dieu chinh;/he smoothed his hair and adjusted his tie;/
+crush/verb/nguoi minh thich;nguoi ban thich;nguoi yeu tham;nguoi mk thich;nghien nat;/the front of his car was crushed in the collision;/
+plane/noun/chiec may bay;mat phang;may bay;/the horizontal plane;/
+involvement/noun/su tham gia;tham gia;/null;/
+ticket/noun/ve;/admission is by ticket only;/
+politician/noun/chinh tri gia.;chinh tri gia;/a local politician;/
+economic/adjective/thuoc kinh te;kinh te;/pest species of great economic importance;/
+swear/verb/the;chui rua;loi the;xin the;swear.;/maria made me swear i would never tell anyone;/
+litre/noun/lit;bang lit;/a liter bottle of wine;/
+block/noun/khoi;day nha;chan;/a block of marble;/
+all right/adjective/duoc roi;duoc roi;/the tea was all right;/
+school/noun/truong hoc;day;ngoi truong;truong;/ryder's children did not go to school at all;/
+announce/verb/thong bao;/he announced his retirement from football;/
+package/noun/buu kien;dong goi;goi.;/someone had left a suspicious package;/
+harmless/adjective/vo hai.;khong co hai;/the venom of most spiders is harmless to humans;/
+translate/verb/phien dich;bien dich;dich;chuyen sang;giai thich;/the german original has been translated into english;/
+strongly/adverb/manh me;manh me hon;/she started out swimming strongly;/
+performer/noun/bieu dien;nguoi bieu dien;/a circus performer;/
+perfect/adjective/hoan hao;hoan thien;/life certainly isn't perfect at the moment;/
+physical/adjective/vat ly;the luc;thuoc vat chat;thuoc than the;the chat;/a whole range of physical and mental challenges;/
+payment/noun/thanh toan;su chi tra;/ask for a discount for payment by cash;/
+peace/noun/su thanh binh;hoa binh;hoa uoc;su hoan hao;su an binh;/you can while away an hour or two in peace and seclusion;/
+photography/noun/nhiep anh;nhiep anh.;/null;/
+spell/verb/danh van;than chu;chinh ta;/dolly spelled her name;/
+achievement/noun/thanh tich;thanh tuu;/to reach this stage is a great achievement;/
+peak/noun/dinh cao;len dinh cao;dinh;/the snowy peaks rose against the blue of a cloudless sky;/
+pence/noun/pence.;dau tu;/null;/
+ring/noun/nhan;vu dai;vong;chuong;chiec nhan;/a diamond ring;/
+persuade/verb/truy van;thuyet phuc;/it wasn't easy, but i persuaded him to do the right thing;/
+roof/noun/mai nha;/null;/
+personal/adjective/ca nhan;rieng tu;/her personal fortune was recently estimated at $37 million;/
+perfectly/adverb/hoan hao;hoan hao.;/the ring fitted perfectly;/
+we/pronoun/chung toi;/shall we have a drink?;/
+virtually/adverb/hau nhu;hau nhu.;/the college became virtually bankrupt;/
+way/noun/duong;cach;/there are two ways of approaching this problem;/
+violence/noun/bao luc;/null;/
+weapon/noun/vu khi.;vu khi;/nuclear weapons;/
+yours/pronoun/cua ban;cua anh;cua cau;/the choice is yours;/
+trick/noun/lua;bi quyet, thuat, meo;/he's a double-dealer capable of any mean trick;/
+victim/noun/nan nhan;/victims of domestic violence;/
+underground/adverb/bi mat;khu vuc ngam;ngam.;/miners working underground;/
+pet/noun/thu cung;cung chieu;con vat cung;con;au yem;/the pony was a family pet;/
+pencil/noun/but chi;cay but chi;/null;/
+period/noun/khoang thoi gian;giai doan = stage;giai doan;thoi han;thoi ky;/he had long periods of depression;/
+petrol/abbreviation/xang dau;xang;/null;/
+philosophy/noun/triet hoc;triet ly;/null;/
+baggage/noun/hanh ly;hanh ly.;/we collected our baggage before clearing customs;/
+annoying/adjective/lam phien;kho chiu;gay phien nhieu;/annoying habits;/
+birthday/noun/ngay sinh nhat;sinh nhat;sinh nhat.;/a birthday cake;/
+civil/adjective/dan su;ca cap.;/civil aviation;/
+aspect/noun/dien mao;huong;khia canh;khia canh.;/the financial aspect can be overstressed;/
+recently/adverb/gan day;moi day;/i recently bought a cd player;/
+formal/adjective/chinh thuc;trang trong;/a formal dinner party;/
+permit/verb/cho phep lam gi;giay phep;giay phep.;/the law permits councils to monitor any factory emitting smoke;/
+eventually/adverb/sau cung;cuoi cung;/eventually, after midnight, i arrived at the hotel;/
+capacity/noun/suc chua;dung tich;kha nang;tu cach;cong suat;/the capacity of the freezer is 1.1 cubic feet;/
+credit card/noun/the tin dung;/i gave my credit-card number;/
+embarrassing/adjective/xau ho;lung tung;/an embarrassing muddle;/
+office/noun/van phong;/an office job;/
+quite/adverb/kha;hoan toan;/it's quite out of the question;/
+response/noun/phan ung;/without waiting for a response, she returned to her newspaper;/
+rudely/adverb/tho lo;mot cach tho lo.;/he rudely snatched the water pitcher;/
+theme/noun/chu de;chu de;/the theme of the sermon was reverence;/
+interesting/adjective/thu vi;hap dan;ly thu;/an interesting debate;/
+north/noun/phia bac;bac;/a bitter wind blew from the north;/
+place/noun/dia diem;noi;noi chon;/the monastery was a peaceful place;/
+smart/adjective/thong minh;/if he was that smart he would never have been tricked;/
+pair/noun/doi;cap;/a pair of gloves;/
+pepper/noun/tieu;cay tieu;ho tieu;hat tieu;pepper.;/season to taste with salt and pepper;/
+hide/verb/an giau;giau;tron;lot da;tron tranh;/he hid the money in the house;/
+depress/verb/chan nan;suy sup.;/that first day at school depressed me;/
+owe/verb/no;owe.;/they have denied they owe money to the company;/
+unlike/preposition/khong giong;khong giong nhu;/a large house not unlike mr. shaw's;/
+never/adverb/khong bao gio;chua tung;chang bao gio;chua bao gio;/they had never been camping in their lives;/
+market/noun/thi truong;cho;/farmers going to market;/
+possibility/noun/kha nang;tiem nang;co kha nang;/there was always the possibility that he might be turned down;/
+happily/adverb/hanh phuc;/eleanor giggled happily;/
+performance/noun/man bieu dien;buoi bieu dien;hieu suat;thuc hien;man trinh dien;/don giovanni had its first performance in 1787;/
+generate/verb/phat ra;tao ra.;/changes that are likely to generate controversy;/
+ankle/noun/mat ca;mat ca chan.;/an ankle injury;/
+organize/verb/sap xep;to chuc;to chuc.;/organize lessons in a planned way;/
+compete/verb/canh tranh;tranh dua;hoan thanh;/universities are competing for applicants;/
+appointment/noun/cuoc hen;bo nhiem;/she made an appointment with my receptionist;/
+untidy/adjective/khong gon gang;unsidy.;/the place was dreadfully untidy;/
+sailor/noun/thuy thu;/hawaii was an important stopping point for sailors to restock provisions;/
+cheque/noun/danh dau;kiem tra;ngam nghia;/null;/
+equipment/noun/trang thiet bi;thiet bi, dung cu;thiet bi;cac thiet bi;/suppliers of office equipment;/
+tire/verb/lop xe;/soon the ascent grew steeper and he began to tire;/
+steep/adjective/doc;doc hon;/she pushed the bike up the steep hill;/
+actually/adverb/thuc ra;that;thuc ra.;/we must pay attention to what young people are actually doing;/
+swearing/noun/chui the.;chui the;/there's a lot of swearing in the show;/
+business/noun/kinh doanh;viec kinh doanh;/she had to do a lot of smiling in her business;/
+sore/adjective/dau kho;dau;/my feet were sore and my head ached;/
+predict/verb/du doan;/it is too early to predict a result;/
+beach/noun/bo bien;bai bien;bai bien.;/fabulous sandy beaches;/
+commission/noun/hoi dong;uy ban;hoa hong;uy thac;tien hoa hong;/he received a commission to act as an informer;/
+initiative/noun/sang kien;/use your initiative, imagination, and common sense;/
+website/noun/trang mang;trang web;/for more information, please visit our website;/
+file/noun/tap tin;ho so;tai lieu;tep;/a file of correspondence;/
+race/noun/cuoc dua;chung toc;loai;/i won the first 50-lap race;/
+ultimate/adjective/toi thuong;toi hau;ultimate.;/their ultimate aim was to force his resignation;/
+cousin/noun/anh chi em ho;em ho;anh ho;chi ho;ba con co bac;/null;/
+conservative/adjective/bao thu;than trong;/null;/
+certificate/noun/giay chung nhan;chung chi;/null;/
+expression/noun/bieu hien;su bieu lo;su dien dat;cach bieu lo;dien dat;/she accepted his expressions of sympathy;/
+expect/verb/cho doi;mong doi;trong cho;mong moi;/we expect the best;/
+scissors/noun/cay keo;keo;/null;/
+yourself/pronoun/chinh ban;ban than ban;chinh minh;/help yourselves, boys;/
+steer/verb/chi dao;lai;/he steered the boat slowly toward the busy quay;/
+pound/noun/pao;pound.;/null;/
+fund/noun/quy;/he had set up a fund to coordinate economic investment;/
+climb/verb/leo;treo;leo len;len;/we began to climb the hill;/
+yes/exclamation/dung;vang;vang lenh;da vang;phai roi;/“do you understand?” “yes.”;/
+witness/noun/chung kien;lam chung;nhan chung;/police are appealing for witnesses to the accident;/
+occur/verb/xay ra;/the accident occurred at about 3:30 p.m.;/
+mysterious/adjective/bi an.;bi an;/his colleague had vanished in mysterious circumstances;/
+wash/verb/rua sach;co rua;rua;/i stripped and washed myself all over;/
+ocean/noun/dai duong;dai duong.;/the atlantic ocean;/
+apparent/adjective/ro rang;/it became apparent that he was talented;/
+company/noun/cong ty;ban huu;cong ty.;/a shipping company;/
+reader/noun/nguoi doc;doc gia;doc;/she's an avid reader;/
+difficult/adjective/kho;kho khan;/she had a difficult decision to make;/
+fly/verb/ruoi;con ruoi;bay;/close the door or the moths will fly in;/
+fear/noun/noi so;so;so hai;/he is prey to irrational fears;/
+stiff/adjective/cung dau;cung;/a stiff black collar;/
+swimming/noun/boi loi;boi;/rachel had always loved swimming;/
+style/noun/phong cach;/different styles of management;/
+moreover /adverb/hon the nua;ngoai ra;hon nua;/moreover, glass is electrically insulating;/
+accurate /adjective/chinh xac;chinh xac.;/accurate information about the illness is essential;/
+video /noun/bang hinh;video;/it's a great option for anyone looking to start using video to talk over the net;/
+mouth /noun/mieng;mom;noi to;/ben stood transfixed with disbelief, his mouth open;/
+burst /verb/no;bung no;/we inflated dozens of balloons and only one burst;/
+strategy /noun/chien luoc;chien luoc.;/time to develop a coherent economic strategy;/
+weight /noun/can nang;trong luong;trong luong, can nang;de nang;nang;/he was at least 175 pounds in weight;/
+soap /noun/xa bong;xa bong tam;xa phong;/a bar of soap;/
+bell /noun/chuong;qua chuong;cai chuong;chiec chuong;bell.;/the church bells tolled;/
+reject /verb/tu choi;/union negotiators rejected a 1.5 percent pay increase;/
+distinguish /verb/phan biet;phan biet.;/the child is perfectly capable of distinguishing reality from fantasy;/
+packaging /noun/dong goi.;bao bi.;/all the ingredients and packaging are biodegradable;/
+deserted /adjective/hoang vu;bo hoang;/deserted beaches of soft sand;/
+stock /noun/co phan;kho hang;co;co phieu.;/the store has a very low turnover of stock;/
+guest /noun/khach;khach moi;khach.;/i have two guests coming to dinner tonight;/
+sweater /noun/ao len;/a close-knit wool sweater for icy weather;/
+popular /adjective/pho bien;noi tieng;binh dan;/she was one of the most popular girls in the school;/
+euro /noun/euro;dong euro;/null;/
+comfort /noun/an ui;thoai mai;/room for four people to travel in comfort;/
+accurately /adverb/chinh xac;chinh xac.;/we are simply unable to predict long-term trends accurately;/
+chemist /noun/nha hoa hoc.;nha hoa hoc;/null;/
+salad /noun/rau xa lach;xa lach;rau tron;mon salad;mon rau tron;/a green salad;/
+rope /noun/day thung;xau;day;/there was no way down, even with a rope;/
+sweat /noun/mo hoi;do mo hoi;/beads of sweat broke out on her brow;/
+discuss /verb/ban luan;thao luan;/i discussed the matter with my wife;/
+principle /noun/nguyen tac;ky luat;hieu truong;/the basic principles of christianity;/
+mid- /adjective/den giua;giua den;/the mid 17th century;/
+responsible /adjective/chiu trach nhiem;co tinh than trach nhiem;chiu trach nhiem ve;/the department responsible for education;/
+bet /verb/ca cuoc;dat cuoc;cuoc;/i would be prepared to bet that what he really wanted was to settle down;/
+frame /noun/khung;dung khung;/null;/
+achieve /verb/hoan thanh;dat duoc;/he achieved his ambition to become a journalist;/
+dinner /noun/bua an toi;bua toi;/null;/
+carefully /adverb/can than;/they must be carefully handled and stored;/
+tell /verb/noi;noi;/i told her you were coming;/
+black /adjective/mau den;den;den.;/black smoke;/
+offensive /adjective/phan cam;tan cong;/the allegations made are deeply offensive to us;/
+extent /noun/muc do;tuyet voi.;/an enclosure ten acres in extent;/
+reduction /noun/su giam bot;su rut gon;giam gia;/talks on arms reduction;/
+acquire /verb/co duoc, thu duoc;gianh duoc;mua lai.;/i managed to acquire all the books i needed;/
+together /adverb/cung nhau;cung voi nhau;ben nhau;cung nhau cung nhau;/together they climbed the dark stairs;/
+good /adjective/tot;khoe;/a good quality of life;/
+rub /verb/cha xat;xoa bop;/she rubbed her arm, where she had a large bruise;/
+poor /adjective/ngheo;ngheo nan;yeu kem;/people who were too poor to afford a telephone;/
+stage /noun/san khau;giai doan;/there is no need at this stage to give explicit details;/
+lemon /noun/chanh;chanh vang;nguoi ngo nghech;chanh.;/the juice of seven lemons;/
+scheme /verb/ke hoach;co che;thu doan;de an;/null;/
+ice cream /noun/kem;kem lanh;/null;/
+amusing /adjective/vui;thu vi;/such a likable, amusing man!;/
+relevant /adjective/lien quan, thich hop;thich hop;lien quan;co lien quan;/what small companies need is relevant advice;/
+perfectly /adverb/hoan hao;hoan hao.;/the ring fitted perfectly;/
+offend /verb/xuc pham.;voi;/viewers said they had been offended by bad language;/
+familiar /adjective/than thuoc;quen biet;quen;than quen;quen thuoc;/their faces will be familiar to many of you;/
+secretary /noun/thu ky;/null;/
+loyal /adjective/trung thanh;/loyal service;/
+poetry /noun/tho;tho phu;tho ca;ca tho;tho ca.;/he is chiefly famous for his love poetry;/
+belong /verb/thuoc ve;/the vehicle did not belong to him;/
+work /noun/cong viec;/he was tired after a day's work;/
+visitor /noun/khach tham quan;du khach;khach;khach truy cap;/she's a frequent visitor to london;/
+confined /adjective/han che;gioi han;/wear a dust mask and goggles when soldering in confined spaces;/
+truck /noun/xe tai;/null;/
+industrial /adjective/cong nghiep;cong nghiep.;/a small industrial town;/
+rock /noun/da;nhac roc;dung dua;/the beds of rock are slightly tilted;/
+gas /noun/khi ga;khi dot;/hot balls of gas that become stars;/
+frequently /adverb/thuong xuyen;/they go abroad frequently;/
+breath /noun/hoi tho;/i was gasping for breath;/
+education /noun/giao duc;/a new system of public education;/
+impression /noun/an tuong;dau vet;su bat chuoc;/his first impressions of manchester were very positive;/
+tune /noun/tune.;giai dieu.;/she left the theater humming a cheerful tune;/
+identify /verb/nhan dinh;xac dinh;nhan dang;/the judge ordered that the girl not be identified;/
+may /verb/co the;thang nam;cau chuc;/that may be true;/
+characteristic /adjective/dac diem.;dac trung;/large farms are characteristic of this area;/
+horror /noun/rung ron;kinh di;kinh hoang;/children screamed in horror;/
+grandchild /noun/chau;chau ';/null;/
+club /noun/cau lac bo;/a photography club;/
+abroad /adverb/hai ngoai;o nuoc ngoai;nuoc ngoai;ra nuoc ngoai;hai ngoai, nuoc ngoai;/we usually go abroad for a week in may;/
+wrapping /noun/dong goi;bao boc;/she took the cellophane wrapping off the box;/
+weekly /adjective/hang tuan.;hang tuan;/there was a weekly dance on wednesdays;/
+display /verb/trung bay;hien thi;/the palace used to display a series of flemish tapestries;/
+pretty /adjective/kha;dep;xinh dep;/a pretty little girl with an engaging grin;/
+metal /noun/kim khi;kim loai;thuoc kim loai;kim loai.;/being a metal, aluminum readily conducts heat;/
+depth /noun/chieu sau;depth.;/shallow water of no more than 12 feet in depth;/
+careful /adjective/can than;/i begged him to be more careful;/
+differently /adverb/khac nhau;khac biet;/we work differently from other developers;/
+bitter /adjective/vi dang;cay dang;dang;dau don;/the raw berries have an intensely bitter flavor;/
+loudly /adverb/lon tieng;lon tieng;/he laughed loudly;/
+against /preposition/chong lai;/the fight against crime;/
+venture /noun/mao hiem.;lien doanh;/pioneering ventures into little-known waters;/
+draw /verb/ve;ve tranh;ve.;/he drew a map;/
+pool /noun/ho boi;vung nuoc;tien cuoc;/null;/
+relation /noun/quan he;moi quan he;/questions about the relation between writing and reality;/
+count /verb/dem;tinh den;/i started to count the stars i could see;/
+federal /adjective/lien bang;/null;/
+thief /noun/thief.;ten trom;/car thieves;/
+pause/verb/tam ngung;tam dung.;/she paused, at a loss for words;/
+world /noun/the gioi;/he was doing his bit to save the world;/
+steam /noun/hoi nuoc;hap;xong hoi;hoi;/a cloud of steam;/
+along /preposition/doc theo;cung voi;cung mot ben trong;/soon we were driving along a narrow road;/
+unemployment /noun/nan that nghiep;that nghiep;/null;/
+cat /noun/con meo;meo.;/null;/
+mix /verb/pha tron;tron;/peppercorns are sometimes mixed with other spices for a table condiment;/
+suppose /verb/gia su;cho la;gia dinh;cho rang;/i suppose i got there about half past eleven;/
+north /noun/phia bac;bac;/a bitter wind blew from the north;/
+situation /noun/tinh hinh;tinh trang;truong hop;tinh huong;/the situation between her and jake had come to a head;/
+resist /verb/khang cu;chat can mau;chong lai;/antibodies help us to resist infection;/
+shout /verb/het len;keu la;het;ho het;/she shouted for joy;/
+aim /verb/muc tieu;muc dich;/aim the camcorder at some suitable object;/
+content /adjective/noi dung;cac noi dung;ham luong;/he seemed more content, less bitter;/
+universe /noun/vu tru;vu tru;/null;/
+lacking /adjective/thieu xot;thieu;/adequate resources and funds are both sadly lacking at present;/
+experience /noun/kinh nghiem;trai qua;/he had already learned his lesson by painful experience;/
+criminal /noun/toi pham;co toi;/these men are dangerous criminals;/
+sorry /adjective/lay lam tiec;xin loi;xin loi nhe;/i was sorry to hear about what happened to your family;/
+swear /verb/the;chui rua;loi the;xin the;swear.;/maria made me swear i would never tell anyone;/
+better/adjective/tot hon;hon;/hoping for better weather;/
+wrap /verb/boc;giay goi;khan choang;bao boc;/last christmas eve, i was still wrapping presents at 1 a.m.;/
+store /noun/cua hang;luu tru;/the squirrel has a store of food;/
+calculate /verb/tinh toan;/japanese land value was calculated at 2.5 times that of the u.s;/
+absolute /adjective/tuyet doi;tuyet doi.;/absolute secrecy;/
+expose /verb/phoi ra;lo ra;vach tran;phoi bay ra;lo ra.;/at low tide the sands are exposed;/
+fence /noun/rao chan;hang rao;lang tranh;hang rao.;/null;/
+gradually /adverb/dan dan;dan dan.;/the situation gradually improved;/
+clock /noun/cai dong ho;danh ai do;dong ho;dong ho.;/null;/
+beard /noun/rau;doi dau voi;bo rau;/he had a black beard;/
+dust /noun/bui bam;bui ban;bui;phui bui;/the car sent up clouds of dust;/
+bush /noun/bush.;bui cay;/a rose bush;/
+army /noun/quan doi;/the two armies were in position;/
+cloth /noun/vai;tam vai;/a cloth bag;/
+ago /adverb/truoc kia;truoc day;/he went five minutes ago;/
+deliberately /adverb/thong tha;mot cach co y;co tinh;co y;/the fire was started deliberately;/
+demand /noun/nhu cau;nhu cau ve;yeu cau;/a series of demands for far-reaching reforms;/
+captain /noun/co truong;doi truong;dai ta;thuyen truong;/null;/
+exciting /adjective/thu vi;kich thich;hung thu;phan khoi;/an exciting breakthrough;/
+clap /verb/vo tay;vo tay.;/agnes clapped her hands in glee;/
+disappoint /verb/that vong;lam that vong;/i have no wish to disappoint everyone by postponing the visit;/
+copy /noun/sao chep;sao chep.;/the problem is telling which is the original document and which the copy;/
+decorate /verb/trang hoang;trang tri;trang tri.;/the town was decorated with christmas lights;/
+castle /noun/lau dai;lau dai.;/edinburgh castle;/
+found /verb/tim;tim thay;thanh lap;/null;/
+tension /noun/cang thang;/the parachute keeps the cable under tension as it drops;/
+odd /adjective/so le;ki la;le.;/the neighbors thought him very odd;/
+stop /verb/ngung lai;dung lai;chan;/his laughter stopped as quickly as it had begun;/
+exhibit /verb/trien lam.;trung bay.;/only one sculpture was exhibited in the artist's lifetime;/
+related /adjective/co lien quan;lien quan;/sleeping sickness and related diseases;/
+place /noun/dia diem;noi;noi chon;/the monastery was a peaceful place;/
+down /adverb/xuong;giam bot;/she looked down;/
+contest /noun/cuoc thi;tranh cai;tranh doat;/a beauty contest;/
+decrease /verb/giam bot;giam.;/the population of the area has decreased radically;/
+consequence /noun/hau qua;he qua;ket qua;/many have been laid off from work as a consequence of the administration's policies;/
+tablet /noun/vien thuoc;bang;may tinh bang;/at the corner of the apse is a memorial tablet;/
+trap /noun/cam bay;bay;bay;hanh ly;cai bay;/the squirrels ravaged the saplings, despite the baited traps;/
+catch /verb/chup lay;bat lay;bat;nam lay;nam bat;/she threw the bottle into the air and caught it again;/
+habit /noun/thoi quen;/we stayed together out of habit;/
+toe /noun/ngon chan;toe.;/he cut his big toe on a sharp stone;/
+triangle /noun/tam giac;/an equilateral triangle;/
+philosophy /noun/triet hoc;triet ly;/null;/
+removal /noun/loai bo;go bo;/the removal of the brain tumor;/
+combination /noun/su ket hop;su phoi hop;hon hop;ket hop;/this color combination is stunningly effective;/
+rider /noun/rider.;nguoi lai;/two riders approached the cottage;/
+acid /noun/axit;axit.;/traces of acid;/
+team /noun/doi;/his team played well;/
+occasionally /adverb/thinh thoang;/very occasionally the condition can result in death;/
+bathroom /noun/phong tam;/null;/
+occupied /adjective/chiem linh;chiem dong.;/only the first floor is fully occupied;/
+actively /adverb/tich cuc;chu dong;/the company is actively looking for a buyer;/
+unpleasant /adjective/kho chiu;/an unpleasant smell;/
+intend /verb/co y dinh;du dinh;/the company intends to cut about 4,500 jobs;/
+cancer /noun/ung thu;cung cu giai;cu giai;benh ung thu;su xau xa;/he's got cancer;/
+separately /adverb/rieng biet;rieng;/they arrived together but left separately;/
+bill /noun/hoa don thanh toan;phieu thanh toan;hoa don;du luat;bill.;/the bill for their meal came to $17;/
+pleasant /adjective/hai long;de thuong;de chiu;/a very pleasant evening;/
+pet /noun/thu cung;cung chieu;con vat cung;con;au yem;/the pony was a family pet;/
+even /adjective/tham chi;chan;san phang;cung;/prepare the site, then lay an even bed of mortar;/
+during /preposition/suot trong;trong suot;trong luc;trong thoi gian;/the restaurant is open during the day;/
+pack /noun/dong goi;goi;ba lo;goi hang;/a pack of cigarettes;/
+official /adjective/chinh thuc;chinh;vien chuc;chinh quyen;/null;/
+fur /noun/long thu;tua luoi;long;/a long, lean, muscular cat with sleek fur;/
+sensitive /adjective/nhay cam;de bi thuong;/the new method of protein detection was more sensitive than earlier ones;/
+worship /noun/tho cung;ton sung;ton tho;worship.;/the worship of god;/
+publicity /noun/cong khai;cong khai.;/the case attracted wide publicity in the press;/
+investigation /noun/cuoc dieu tra;dieu tra;/he is under investigation for receiving illicit funds;/
+failure /noun/that bai;su that bai;/an economic policy that is doomed to failure;/
+dollar /noun/do la;dollar.;/null;/
+possible /adjective/kha thi;co the duoc;co the;/surely it's not possible for a man to live so long?;/
+unfortunately /adverb/khong may;khong may thay;that dang tiec;/unfortunately, we do not have the time to interview every applicant;/
+immediate /adjective/ngay tuc khac;ngay lap tuc;/the authorities took no immediate action;/
+challenge /noun/thu thach;thach dau;thach thuc;thach;/he accepted the challenge;/
+pair /noun/doi;cap;/a pair of gloves;/
+concentration /noun/nong do;su tap trung;tap trung.;/frowning in concentration;/
+surprising /adjective/that ngac nhien;lam ngac nhien;dang ngac nhien;/a surprising sequence of events;/
+wet /adjective/bi uot;uot;mua;/she followed, slipping on the wet rock;/
+origin /noun/goc;co nguon goc;nguon goc;xuat xu;/the name is norse in origin;/
+annoy /verb/lam phien;lam trai y;phien;/your damned cheerfulness has always annoyed me;/
+space /noun/khong gian;khoang trong;dau cach;/a table took up much of the space;/
+commit /verb/lam;cam ket;/he committed an uncharacteristic error;/
+wage /noun/tien cong;muc luong.;/we were struggling to get better wages;/
+tour /noun/chuyen du lich;tour du lich;/three couples from kansas on an airline tour of alaska;/
+bright /adjective/sang;sang choi;thong minh;tuoi sang;/her bright, dark eyes;/
+convince /verb/thuyet phuc;/robert's expression had obviously convinced her of his innocence;/
+kitchen /noun/phong bep;nha bep;bep;/null;/
+drunk /verb/say;me man;uong;say sua;say ruou;/null;/
+adopt /verb/nhan nuoi;ap dung;/there are many people eager to adopt a baby;/
+rob /verb/cuop boc;cuop pha;/he tried, with three others, to rob a bank;/
+select /verb/lua chon;chon;/he has been selected to take part;/
+moon /noun/mat trang;trang;/there was no moon, but a sky sparkling with brilliant stars;/
+salary /noun/luong;muc luong;/he received a salary of $29,000;/
+talk /verb/noi chuyen;chu de cuoc tro chuyen;/the two men talked;/
+untidy /adjective/khong gon gang;unsidy.;/the place was dreadfully untidy;/
+spin /verb/quay;/the girl spun around in alarm;/
+terrible /adjective/kinh khung;khung khiep;/a terrible crime;/
+growth /noun/su phat trien;tang truong;/the upward growth of plants;/
+district /noun/quan;khu vuc;quan huyen;huyen;/an elegant shopping district;/
+client /noun/khach hang;/insurance tailor-made to a client's specific requirements;/
+wrongly /adverb/sai;sai lam;/my name is spelled wrongly;/
+behave /verb/hanh xu;xu su;ung xu;cu xu;/he always behaved like a gentleman;/
+scratch /verb/vet tray;duòng tray;cao;vach xuat phat;tray xuoc;/the car's paintwork was battered and scratched;/
+cent /noun/cent.;trung binh;/he was paid 40 cents an hour;/
+lump /noun/cuc buou;cuc u;gop;/there was a lump of ice floating in the milk;/
+arm /noun/canh tay;trang bi vu khi;quan chung;tay;/she held the baby in her arms;/
+prayer /noun/nguoi cau nguyen;cau nguyen;/i'll say a prayer for him;/
+bay /noun/vinh;gian nha;hong;bay.;/the bay of biscay;/
+date /noun/ngay;ngay thang;hen ho;/what's the date today?;/
+promise /noun/loi hua;hua;/what happened to all those firm promises of support?;/
+meeting /noun/cuoc hop;gap go;cuoc gap;buoi gap mat;/the early-dismissal policy will be discussed at our next meeting;/
+afford /verb/mua duoc;du kha nang;ban cho;/the best that i could afford was a first-floor room;/
+household /noun/ho gia dinh;vat dung trong nha;cac thiet bi trong gia dinh;ho gia dinh;/the whole household was asleep;/
+swim /verb/boi;/they swam ashore;/
+abandon /verb/bo roi;tu bo;/her natural mother had abandoned her at an early age;/
+ending /noun/ket thuc.;ket thuc.;/the ending of the cold war;/
+comedy /noun/phim hai;hai kich;/null;/
+instead /adverb/thay the;thay cho;thay vi;thay vao;thay vao do;/do not use lotions, but put on a clean dressing instead;/
+respond /verb/dap ung;ung pho;tra loi;/she could not get robert to respond to her words;/
+foot /noun/ban chan;chan;/null;/
+sex /noun/tinh duc;sex.;/they enjoyed talking about sex;/
+substitute /noun/thay the;thay the.;/soy milk is used as a substitute for dairy milk;/
+degree /noun/trinh do;bang;bang cap;do;bac;/a degree of caution is probably wise;/
+typically /adverb/tieu bieu;thong thuong;/the quality of work is typically very high;/
+permanent /adjective/dai han;vinh vien;/a permanent ban on the dumping of radioactive waste at sea;/
+spoon /noun/cai thia;cai muong;thia;muong;/null;/
+way /noun/duong;cach;/there are two ways of approaching this problem;/
+vacation /noun/ky nghi;ki nghi;ky nghi he;di nghi;/his marriage was the reason for the vacation of his fellowship;/
+bandage /noun/bang bo;bang;/her leg was swathed in bandages;/
+soft /adjective/mem;diu dang;mem mai;nhe nhang;/soft margarine;/
+courage /noun/long can dam;can dam;/she called on all her courage to face the ordeal;/
+stove /noun/bep;bep lo;cai lo;/null;/
+thank you /exclamation/cam on;cam on ban;cam on;/thank you for your letter;/
+striking /adjective/noi bat;noi bat.;/the murder bore a striking similarity to an earlier shooting;/
+baggage /noun/hanh ly;hanh ly.;/we collected our baggage before clearing customs;/
+particular /adjective/rieng;cu the;dac biet.;/the action seems to discriminate against a particular group of companies;/
+representative /adjective/tieu bieu;tieu bieu, dai dien;nguoi dai dien;dai dien.;/these courses are representative of those taken by most harvard undergraduates;/
+south /noun/mien nam;huong nam;nam;phia nam;nam.;/the breeze came from the south;/
+rain /noun/con mua;do mua;mua;mua.;/the rain had not stopped for days;/
+acceptable /adjective/chap nhan;chap nhan duoc;/has tried to find a solution acceptable to everyone;/
+feeling /noun/cam giac;/a feeling of joy;/
+teacher /noun/giao vien;co giao;/a history teacher;/
+piece /noun/manh;cai, mieng;mang;cai;/a piece of cheese;/
+tight /adjective/chat;suyt soat;chat che.;/she twisted her handkerchief into a tight knot;/
+statement /noun/tuyen bo;ban tuong trinh;/do you agree with this statement?;/
+borrow /verb/vay;muon;vay muon;vay.;/he had borrowed a car from one of his colleagues;/
+strange /adjective/la lung;la;/children have some strange ideas;/
+reason /noun/ly do;/the minister resigned for personal reasons;/
+sugar /noun/duong;/a spoonful of sugar;/
+poem /noun/bai tho;bai tho;/the sun is an important symbol in this poem;/
+tiny /adjective/nho be;nho xiu;ti hon;/a tiny hummingbird;/
+able /adjective/co the;/he was able to read greek at the age of eight;/
+engine /noun/dong co;dung cu;/the roar of a car engine;/
+wander /verb/di lang thang;/he wandered aimlessly through the narrow streets;/
+stir /verb/khuay dong;khuay dong.;/stir the batter until it is just combined;/
+then /adverb/sau do;khi do;luc do;/i was living in cairo then;/
+bridge /noun/cau;/a bridge across the river;/
+respect /noun/kinh trong;ton trong;su ton trong;ton trong.;/the director had a lot of respect for douglas as an actor;/
+say /verb/noi;noi rang;noi.;/“thank you,” he said;/
+outside /noun/ngoai;o ngoai;ben ngoai;/record the date on the outside of the file;/
+health /noun/suc khoe;y te;/he was restored to health;/
+independent /adjective/song doc lap;doc lap;doc lap.;/canada's largest independent investment firm;/
+additional /adjective/them vao;bo sung;/we require additional information;/
+ambition /noun/tham vong;hoai bao;/her ambition was to become a pilot;/
+varied /adjective/da dang;khac nhau;/a long and varied career;/
+bowl /noun/bat;cai to;cai bat;/a mixing bowl;/
+suck /verb/mut;hut manh;/they suck mint juleps through straws;/
+mine /pronoun/cua toi;mo;khai thac;/you go your way and i'll go mine;/
+natural /adjective/tu nhien;thien nhien;/carrots contain a natural antiseptic that fights bacteria;/
+suspect /verb/nghi ngo;nghi ngo.;/if you suspect a gas leak, do not turn on an electric light;/
+population /noun/dan so;/the island has a population of about 78,000;/
+agency /noun/hang;dai ly;co quan;co quan.;/an advertising agency;/
+complete /adjective/hoan thanh;hoan chinh;hoan toan;hoan thien;h thanh;/a complete list of courses offered by the college;/
+apply /verb/ung dung;nop don;ap dung;xin viec;/you need to apply to the local authorities for a grant;/
+action /noun/hoat dong;tac dong;hanh dong;/he vowed to take tougher action against persistent offenders;/
+ancient /adjective/co dai;cỏ xua;xua;co dai.;/the ancient civilizations of the mediterranean;/
+bid /verb/dau thau;bid;thau;tra gia;/a consortium of dealers bid a world record price for a snuff box;/
+brief /adjective/ngan gon;ban tom tat;tom tat;/null;/
+alphabet /noun/bang chu cai;chu cai;mau tu;bang chu cai.;/the first letter of the alphabet;/
+choose /verb/lua chon;chon;/he chose a seat facing the door;/
+alongside /preposition/cung nhau;cung nhau cung nhau;/she was sitting alongside him;/
+advantage /noun/thuan loi;loi the;mang lai thuan loi;uu diem;loi ich;/companies with a computerized database are at an advantage;/
+beak /noun/mo;mo dai;/a parent bird with a caterpillar in its beak;/
+allow /verb/cho phep;chap nhan;/the dissident was allowed to leave the country;/
+chase /verb/duoi;san bat;duoi theo;/police chased the stolen car through the city;/
+ability /noun/co kha nang;kha nang;/the manager had lost his ability to motivate the players;/
+closet /noun/buong nho;kho de do;tu quan ao;bi mat;tu do;/his brother's decision to come out of the closet;/
+city /noun/thanh pho;thanh pho.;/one of italy's most beautiful cities;/
+closed /adjective/dong cua;dong cua.;/rooms with closed doors lined the hallway;/
+coin /noun/dong tien;tien xu;/she opened her purse and took out a coin;/
+muscle /noun/bap thit;co bap;co bap.;/the calf muscle;/
+unhappy /adjective/khong vui;kho so;khong vui, buon;khong hanh phuc;bat hanh;/an unhappy marriage;/
+ours /pronoun/cua chung toi;cua chung ta;/ours was the ugliest house on the block;/
+individual /adjective/rieng biet, ca nhan, ca the;ca nhan;/individual tiny flowers;/
+arrangement /noun/sap xep;su sap xep;sap xep.;/the arrangement of the furniture in the room;/
+crack /noun/nut;crack.;/a hairline crack down the middle of the glass;/
+reservation /noun/du phong;su dat cho;su e de;dat phong;/the reservation of positions for non-americans;/
+admit /verb/thua nhan;/the office finally admitted that several prisoners had been injured;/
+environmental /adjective/thuoc ve moi truong;moi truong;/acid rain may have caused major environmental damage;/
+adjust /verb/dieu chinh;/he smoothed his hair and adjusted his tie;/
+mostly /adverb/hau het;chu yeu;/i grow mostly annuals;/
+stamp /verb/con tem;dan tem;con dau;tem;tem.;/he stamped his foot in frustration;/
+prince /noun/hoang tu;prince.;/null;/
+member /noun/thanh vien;hoi vien;/interest from members of the public;/
+shiny /adjective/sang bong;/shiny hair;/
+drawer /noun/ngan keo;ngan tu;/null;/
+fear /noun/noi so;so;so hai;/he is prey to irrational fears;/
+ridiculous /adjective/lo bich;nuc cuoi;vo ly;/when you realize how ridiculous these scenarios are, you will have to laugh;/
+court /noun/toa an;quan toa;san choi;toa an.;/she will take the matter to court;/
+breathing /noun/tho;hoi tho.;/his breathing was shallow;/
+chance /noun/co hoi;danh cuoc;tinh co;/there is little chance of his finding a job;/
+severe /adjective/du doi;nghiem trong;/a severe shortage of technicians;/
+trace /verb/dau vet;truy vet;theo doi.;/police are trying to trace a white van seen in the area;/
+prize /noun/phan thuong;nhac len;giai thuong;/britain's most prestigious prize for contemporary art;/
+mind /noun/li tri;tam tri;de y;quan tam;cam thay phien;/as the thoughts ran through his mind, he came to a conclusion;/
+shot /noun/ban;ly ruou;cu da;/he brought down a caribou with a single shot to the neck;/
+concert /noun/buoi hoa nhac;phoi hop;/a concert pianist;/
+garden /noun/san vuon;vuon;khu vuon;vuon.;/they brought us tomatoes from their garden;/
+analysis /noun/phan tich;phan tich.;/statistical analysis;/
+return /verb/tro lai;tro ve;tra lai;/he returned to canada in the fall;/
+wise /adjective/khon ngoan;sang suot;/she seems kind and wise;/
+beer /noun/bia;/a pint of beer;/
+ankle /noun/mat ca;mat ca chan.;/an ankle injury;/
+bomb /noun/bom;bom.;/a bomb attack;/
+between /preposition/giua;o giua;/the border between mexico and the united states;/
+soil /noun/dat;dat.;/blueberries need very acid soil;/
+presumably /adverb/co le;co le;/the yakima indians presumably came from asia by way of the bering strait;/
+trick /noun/lua;bi quyet, thuat, meo;/he's a double-dealer capable of any mean trick;/
+queen /noun/nu hoang;hoang hau;nu hoang.;/he insisted the princess could be crowned queen;/
+shelter /noun/an nup;noi tru an;noi tru an.;/null;/
+lawyer /noun/luat su;/null;/
+anti /preposition/chong lai;su chong cu;/i'm anti the abuse of drink and the hassle that it causes;/
+custom /noun/tap quan;khach hang;tuy chinh;phong tuc;dat lam;/the old english custom of dancing around the maypole;/
+deliver /verb/giao;phan phat;giao hang;/the products should be delivered on time;/
+chat /verb/tro chuyen;tan gau;/she chatted to her mother on the phone every day;/
+adventure /noun/cuoc phieu luu;mao hiem;su nguy hiem;phieu luu;/her recent adventures in italy;/
