@@ -1,367 +1,734 @@
-about/pho tu/khoang chung;sap;gan;/How about this?;We're about to start;He is about to die;/
+about/pho tu/khoang chung;sap;gan;/how about this?;we're about to start;he is about to die;/
 add/dong tu/them vao;/add this thing;/
-apple/danh tu/qua tao;/I have an apple;/
-army/danh tu/quan doi;doi quan;/I need an army;You're in the army now;/
-ball/danh tu/qua bong;qua banh;qua cau;buoi khieu vu;/They're refusing to play ball;I love meatballs;I have a foot ball;/
-bear/danh tu/con gau;/It was a big bear;/
-big/tinh tu/to;lon;quan trong;/He likes to talk big;That is a big tree;He looks so big;It's not a big deal;/
+apple/danh tu/qua tao;/i have an apple;/
+army/danh tu/quan doi;doi quan;/i need an army;you're in the army now;/
+ball/danh tu/qua bong;qua banh;qua cau;buoi khieu vu;/they're refusing to play ball;i love meatballs;i have a foot ball;/
+bear/danh tu/con gau;/it was a big bear;/
+big/tinh tu/to;lon;quan trong;/he likes to talk big;that is a big tree;he looks so big;it's not a big deal;/
 big/tinh tu/to lon;/big apple;/
-cold/tinh tu/lanh;nguoi;lanh lung;lanh nhat;/Kill somebody in cold blood;The weather is getting colder;I feel so cold;/
-dad/danh tu/cha;ba;bo;/I love my dad;My dad is a teacher;/
-family/danh tu/gia dinh;/I love my family;/
-father/danh tu/cha;ba;bo;/I love my father;My father is a teacher;/
-girl/danh tu/co gai;con gai;/This girl is pretty;I love this girl;/
-go/dong tu/di;/Let's go;I have to go to work right now;/
-hat/danh tu/cai non;cai mu;/Please wear a hat;I have a black hat;/
+cold/tinh tu/lanh;nguoi;lanh lung;lanh nhat;/kill somebody in cold blood;the weather is getting colder;i feel so cold;/
+dad/danh tu/cha;ba;bo;/i love my dad;my dad is a teacher;/
+family/danh tu/gia dinh;/i love my family;/
+father/danh tu/cha;ba;bo;/i love my father;my father is a teacher;/
+girl/danh tu/co gai;con gai;/this girl is pretty;i love this girl;/
+go/dong tu/di;/let's go;i have to go to work right now;/
+hat/danh tu/cai non;cai mu;/please wear a hat;i have a black hat;/
 king /danh tu\/vua;chua;vua 1;vua 2;vua 3;/i want to be a king;good king ;/
-mine/danh tu/min;qua min;thuy loi;ham mo;cua toi;/The money is all mine;I don't want to work in a mine;Don't step on any mines;/
-mine/dong tu/dat min;khai mo;/Mine the Earth for gold;Mine for gold;/
-zoo/danh tu/vuon thu;so thu;/My father's taking me to the zoo this weekend;/
-zone/danh tu/khu;mien;/The zone of influence;A nuclear-free zone;Industrial zone;/
-nabob/danh tu/quan thai thu; nha trieu phu;/They have appealed in vain to the wealthy nabobs who are drawing their wealth from the hills and disregard entirely the convenience of those who contribute to that wealth;/
-nacelle/danh tu/gio khi cau; vo dong co may;/Workers at the plant connect the nacelles to the engines;/
-nacrous/tinh tu/long lanh nhu xa cu; trang duc nhu xa cu;/it's so nacrous ;/
-nadir/danh tu/thoi diem toi te ;/They are at the nadir of their 114-year football history;/
-nail/danh tu/cay dinh;/Can you hold this nail in position while I hammer it into the door?;/
-naive/tinh tu/ngay tho; chat phac; ngo nghech; kho khao;/In both cases, a naive essentialism causes partial truths to eclipse the larger picture;/
-nake /tinh tu/khoa than; tran truong;/He was interrogated, stripped naked and then beaten;/
-name/danh tu/ten ;/What's your name ?;/
-naivety/danh tu/ngay tho; chat phac; kho khao;/Naivety is important at an early stage - in life or in an undertaking - but a definite impediment later on;/
-name-calling/danh /sư chui rua ;ten goi;/Name-calling is a form of argument in which insulting or demeaning labels are directed at an individual or group;/
-nameless/tinh tu /khong ten; vo danh;/The patient is absent, nameless, lacks particularity, because he or she can be anyone;/
-namesake/danh tu /nguoi trung ten; vat cung ten;/The system's namesake was a star race horse whose unexpected death with no warning after a major race shocked and intrigued the racing community.;/
-nankeen /danh tu/vai truc bau Nam Kinh; mau vang nhat;/Cotton was grown there which was the color of nankeen; it was spun, woven, and used in its natural color, without being dyed ;/
-nanny/danh tu /bao mau ; vu em ; nguoi giu tre;/This is just the kind of between-stairs position that a governess, a nanny, or perhaps a superior lady's maid, would occupy;/
-nap/danh tu; dong tu/giac ngu ngan ; lam cho don tuyet;/Once they finished their meals, they dispersed into small groups to resume their routines or to take naps;/
-nape/danh tu/gay;/When in the sun, wear sun-protective hats with wide brims to protect the ears, face and neck nape;/
-napkin/danh tu/khan an; khan ban ;/A long, folded napkin on the right sight of the table was provided during the meal;/
-napless /tinh tu/khong co tuyet;/Among the treasures which the sultan showed him was an old napless hat which had the power of transporting its wearer to any place he desired;/
-nappy/tinh tu; danh tu/co tuyet; co bot; ta lot;/There was no system for removal of rubbish such as disposable nappies left by the pickers;/
-narcissi/danh tu/hoa thuy tien;/Therefore, where anemones and narcissi are concerned, there is a very good case, because these are flowers on which the people in that part of the country largely depend;/
-namely/pho tu/la; ay la; cu the la;/Obviously, these can be represented as languages over the output alphabet, namely as the set of outputs that obey them;/
-narrow/tinh tu/hep ; chat ; bi han che; khong rong;/A narrow result is one that could easily have been different because the amount by which someone failed or succeeded was very smal;/
-nasty/tinh tu/ban thiu; do day; kinh tom;tuc tiu; xau ; kho chiu;/I've got a nasty feeling that I forgot to tell Joe I couldn't come.;/
-nationalization/danh tu/su quoc gia hoa; so quoc huu hoa; su nhap tich;/The contract they signed in October was less lucrative than the one they had before nationalization.;/
-natal/tinh tu /ngay sinh; noi sinh; noi chon nhau cat ron;/Most of the juveniles presumably disperse far from their natal areas, whereas adult birds are territorial and remain on breeding grounds all year.;/
-nation/danh tu/dan toc; nuoc;quoc gia;/he debate about food safety has engaged the whole nation.;/
-nationalism/danh tu/chu nghia dan toc;/Nationalism is also the desire for political independence in a country that is controlled by or part of another country;/
-nationalize/ngoai dong tu/quoc gia hoa; quoc huu hoa; cho nhap quoc tich;/The program’s huge cost makes it unlikely that Congress will try to nationalize health care in the near future;/
-nark/danh tu; noi dong tu/chi diem; mat tham; co noi; lam chi diem;/I was a bit narked by David's comment.;/
-nary/tinh tu/loi noi thong tuc;/The eye-catching photos accompanying the story of course contain nary an oil rig, not a single plate of stir-fry;/
-criticism/danh tu/sự chỉ trích;Phê bình;/he received a lot of criticism;/
-tooth/danh tu/răng;/he clenched his teeth;/
-friendship/danh tu/hữu nghị;tình hữu nghị;tình bạn;/old ties of love and friendship;/
-foundation/danh tu/sự thành lập;quỹ tài trợ;nền tảng;cơ sở;/build the arch resting on top of this solid foundation;/
-client/danh tu/khách hàng;/insurance tailor-made to a client's specific requirements;/
-city/danh tu/thành phố;thành phố.;/one of Italy's most beautiful cities;/
-poem/danh tu/bài thơ;Bài thơ;/the sun is an important symbol in this poem;/
-comparison/danh tu/so sánh;So sánh.;/they drew a comparison between Gandhi's teaching and that of other teachers;/
-affair/danh tu/công việc;ngoại tình;/the board admitted responsibility for the affair;/
-conclusion/danh tu/phần kết luận;sự kết luận;Kết luận;/the conclusion of World War Two;/
-study/danh tu/nghiên cứu;học tập;học bài;học;học hành;/the study of English;/
-data/danh tu/dữ liệu;/there is very little data available;/
-passion/danh tu/niềm đam mê;đam mê;sự đam mê;say mê;tình yêu;/a man of impetuous passion;/
-strategy/danh tu/chiến lược;Chiến lược.;/time to develop a coherent economic strategy;/
-confusion/danh tu/sự hoang mang;sự nhầm lẫn;nhầm lẫn;lú lẫn;/there seems to be some confusion about which system does what;/
-problem/danh tu/vấn đề;/they have financial problems;/
-coffee/danh tu/cà phê;màu cà phê;/a cup of coffee;/
-drawing/danh tu/đang vẽ;vẽ;vẽ.;/a series of charcoal drawings on white paper;/
-cookie/danh tu/bánh quy;bánh qui;Cookie;Cookie.;/a tough cookie with one eye on her bank account;/
-business/danh tu/kinh doanh;việc kinh doanh;/she had to do a lot of smiling in her business;/
-president/danh tu/chủ tịch;Tổng thống;hiệu trưởng;Tổng thống.;/null;/
-cell/danh tu/tủ;tế bào;/the authorities locked all remaining inmates in their cells;/
-control/danh tu/điều khiển;kiểm soát;/the whole operation is under the control of a production manager;/
-money/danh tu/tiền bạc;/I counted the money before putting it in my wallet;/
+mine/danh tu/min;qua min;thuy loi;ham mo;cua toi;/the money is all mine;i don't want to work in a mine;don't step on any mines;/
+mine/dong tu/dat min;khai mo;/mine the earth for gold;mine for gold;/
+zoo/danh tu/vuon thu;so thu;/my father's taking me to the zoo this weekend;/
+zone/danh tu/khu;mien;/the zone of influence;a nuclear-free zone;industrial zone;/
+criticism/danh tu/su chi trich;phe binh;/he received a lot of criticism;/
+tooth/danh tu/rang;/he clenched his teeth;/
+friendship/danh tu/huu nghi;tinh huu nghi;tinh ban;/old ties of love and friendship;/
+foundation/danh tu/su thanh lap;quy tai tro;nen tang;co so;/build the arch resting on top of this solid foundation;/
+client/danh tu/khach hang;/insurance tailor-made to a client's specific requirements;/
+city/danh tu/thanh pho;thanh pho.;/one of italy's most beautiful cities;/
+poem/danh tu/bai tho;bai tho;/the sun is an important symbol in this poem;/
+comparison/danh tu/so sanh;so sanh.;/they drew a comparison between gandhi's teaching and that of other teachers;/
+affair/danh tu/cong viec;ngoai tinh;/the board admitted responsibility for the affair;/
+conclusion/danh tu/phan ket luan;su ket luan;ket luan;/the conclusion of world war two;/
+study/danh tu/nghien cuu;hoc tap;hoc bai;hoc;hoc hanh;/the study of english;/
+data/danh tu/du lieu;/there is very little data available;/
+passion/danh tu/niem dam me;dam me;su dam me;say me;tinh yeu;/a man of impetuous passion;/
+strategy/danh tu/chien luoc;chien luoc.;/time to develop a coherent economic strategy;/
+confusion/danh tu/su hoang mang;su nham lan;nham lan;lu lan;/there seems to be some confusion about which system does what;/
+problem/danh tu/van de;/they have financial problems;/
+coffee/danh tu/ca phe;mau ca phe;/a cup of coffee;/
+drawing/danh tu/dang ve;ve;ve.;/a series of charcoal drawings on white paper;/
+cookie/danh tu/banh quy;banh qui;cookie;cookie.;/a tough cookie with one eye on her bank account;/
+business/danh tu/kinh doanh;viec kinh doanh;/she had to do a lot of smiling in her business;/
+president/danh tu/chu tich;tong thong;hieu truong;tong thong.;/null;/
+cell/danh tu/tu;te bao;/the authorities locked all remaining inmates in their cells;/
+control/danh tu/dieu khien;kiem soat;/the whole operation is under the control of a production manager;/
+money/danh tu/tien bac;/i counted the money before putting it in my wallet;/
 two/null/hai;hai.;/two years ago;/
-gene/danh tu/gen;Gene.;/proteins coded directly by genes;/
-agreement/danh tu/hợp đồng;Hiệp định;sự bằng lòng;Thỏa thuận;/the two officers nodded in agreement;/
-finding/danh tu/Phát hiện;tìm kiếm.;/a local doctor reported the finding of numerous dead rats;/
-phone/danh tu/điện thoại;gọi điện thoại;/a few seconds later the phone rang;/
-departure/danh tu/sự khởi hành;Khởi hành.;/the day of departure;/
-lake/danh tu/Hồ;Hồ.;/boys were swimming in the lake;/
-vehicle/danh tu/phương tiện giao thông;xe;/the vehicle was sent skidding across the road;/
-distribution/danh tu/phân bổ;phân phối;/she had it printed for distribution among her friends;/
-government/danh tu/chính quyền;chính phủ;Chính phủ.;/null;/
-driver/danh tu/người lái xe;tài xế;/a taxi driver;/
-arrival/danh tu/đến;/Ruth's arrival in New York;/
-enthusiasm/danh tu/hăng hái;lòng nhiệt tình;hăng hái, nhiệt tình;sự nhiệt tình;nhiệt tình;/her energy and enthusiasm for life;/
-reaction/danh tu/sự phản ứng lại;phản ứng;/Carrie's immediate reaction was one of relief;/
-thing/danh tu/Điều;Đồ vật;vật;thứ;việc;/look at that metal rail thing over there;/
-county/danh tu/Quận.;Hạt.;/null;/
-theory/danh tu/học thuyết;lý thuyết;lí thuyết;lý thuyết.;/Darwin's theory of evolution;/
-dinner/danh tu/bữa ăn tối;bữa tối;/null;/
-republic/danh tu/Cộng hòa;cộng hòa.;/null;/
-courage/danh tu/lòng can đảm;can đảm;/she called on all her courage to face the ordeal;/
-addition/danh tu/thêm vào;phép cộng;sự thêm thắt;cộng đồng;/the hotel has been extended with the addition of more rooms;/
-decision/danh tu/phán quyết;quyết định;/I'll make the decision on my own;/
-percentage/danh tu/Tỷ lệ phần trăm.;Tỷ lệ;/the percentage of cesareans at the hospital was three percent higher than the national average;/
-judgment/danh tu/phán xét.;phán đoán.;/an error of judgment;/
-software/danh tu/phần mềm;/the software industry;/
-ability/danh tu/có khả năng;khả năng;/the manager had lost his ability to motivate the players;/
-science/danh tu/khoa học;/the world of science and technology;/
-buyer/danh tu/Người mua;người mua;/null;/
-seat/danh tu/ghế;chỗ ngồi;ghế ngồi;ngồi;/null;/
-hospital/danh tu/bệnh viện;Bệnh viện.;/null;/
+gene/danh tu/gen;gene.;/proteins coded directly by genes;/
+agreement/danh tu/hop dong;hiep dinh;su bang long;thoa thuan;/the two officers nodded in agreement;/
+finding/danh tu/phat hien;tim kiem.;/a local doctor reported the finding of numerous dead rats;/
+phone/danh tu/dien thoai;goi dien thoai;/a few seconds later the phone rang;/
+departure/danh tu/su khoi hanh;khoi hanh.;/the day of departure;/
+lake/danh tu/ho;ho.;/boys were swimming in the lake;/
+vehicle/danh tu/phuong tien giao thong;xe;/the vehicle was sent skidding across the road;/
+distribution/danh tu/phan bo;phan phoi;/she had it printed for distribution among her friends;/
+government/danh tu/chinh quyen;chinh phu;chinh phu.;/null;/
+driver/danh tu/nguoi lai xe;tai xe;/a taxi driver;/
+arrival/danh tu/den;/ruth's arrival in new york;/
+enthusiasm/danh tu/hang hai;long nhiet tinh;hang hai, nhiet tinh;su nhiet tinh;nhiet tinh;/her energy and enthusiasm for life;/
+reaction/danh tu/su phan ung lai;phan ung;/carrie's immediate reaction was one of relief;/
+thing/danh tu/dieu;do vat;vat;thu;viec;/look at that metal rail thing over there;/
+county/danh tu/quan.;hat.;/null;/
+theory/danh tu/hoc thuyet;ly thuyet;li thuyet;ly thuyet.;/darwin's theory of evolution;/
+dinner/danh tu/bua an toi;bua toi;/null;/
+republic/danh tu/cong hoa;cong hoa.;/null;/
+courage/danh tu/long can dam;can dam;/she called on all her courage to face the ordeal;/
+addition/danh tu/them vao;phep cong;su them that;cong dong;/the hotel has been extended with the addition of more rooms;/
+decision/danh tu/phan quyet;quyet dinh;/i'll make the decision on my own;/
+percentage/danh tu/ty le phan tram.;ty le;/the percentage of cesareans at the hospital was three percent higher than the national average;/
+judgment/danh tu/phan xet.;phan doan.;/an error of judgment;/
+software/danh tu/phan mem;/the software industry;/
+ability/danh tu/co kha nang;kha nang;/the manager had lost his ability to motivate the players;/
+science/danh tu/khoa hoc;/the world of science and technology;/
+buyer/danh tu/nguoi mua;nguoi mua;/null;/
+seat/danh tu/ghe;cho ngoi;ghe ngoi;ngoi;/null;/
+hospital/danh tu/benh vien;benh vien.;/null;/
 ear/danh tu/tai;/null;/
-tennis/danh tu/Tennis.;quần vợt.;/null;/
-difference/danh tu/Sự khác biệt;khác nhau;khác biệt;đa dạng;chênh lệch;/the differences between men and women;/
-analyst/danh tu/nhà phân tích;Nhà phân tích;/rising consumer confidence and falling oil prices are the keys to any upturn, many analysts believe;/
-development/danh tu/sự phát triển;phát triển;phát triển.;/she traces the development of the novel;/
-limit/danh tu/giới hạn;hạn chế;/the 10-minute limit on speeches;/
-depth/danh tu/chiều sâu;depth.;/shallow water of no more than 12 feet in depth;/
-advice/danh tu/lời khuyên;khuyên bảo;/she visited the island on her doctor's advice;/
-environment/danh tu/môi trường;xung quanh;/survival in an often hostile environment;/
-employer/danh tu/người thuê lao động;chủ nhân;/the National Health Service was the largest employer in Europe;/
-woman/danh tu/người đàn bà;người phụ nữ;đàn bà;/a drawing of a young woman;/
-media/danh tu/phương tiện truyền thông;Truyền thông;/their demands were publicized by the media;/
-disease/danh tu/dịch bệnh;bệnh;gây bệnh;căn bệnh;/bacterial meningitis is a rare disease;/
-resource/danh tu/nguồn;tài nguyên;/local authorities complained that they lacked resources;/
-death/danh tu/cái chết;bị giết chết;tử vong;/an increase in deaths from skin cancer;/
-wood/danh tu/gỗ;rừng;/a block of wood;/
-skill/danh tu/kỹ năng;sự khéo léo;kỹ năng.;/difficult work, taking great skill;/
-opinion/danh tu/ý kiến;/I'm writing to voice my opinion on an issue of great importance;/
-camera/danh tu/Máy ảnh;/she faced the cameras;/
-lady/danh tu/quý bà;người phụ nữ;phụ nữ;Lady.;/I spoke to the lady at the travel agency;/
-basis/danh tu/nền tảng;cơ sở;/trust is the only basis for a good working relationship;/
-disk/danh tu/Đĩa;Đĩa.;/heavy metal disks the size of hockey pucks;/
-impression/danh tu/ấn tượng;dấu vết;sự bắt chước;/his first impressions of Manchester were very positive;/
-user/danh tu/người sử dụng;người dùng;/the user should press return and a message will be displayed;/
-attention/danh tu/chú ý;/he drew attention to three spelling mistakes;/
-studio/danh tu/phòng thu;xưởng vẽ;trường quay;studio.;/mostly the painting is done in the studio, working from drawings;/
-knowledge/danh tu/hiểu biết;kiến thức;/a thirst for knowledge;/
-engineering/danh tu/kỹ thuật;Kỹ thuật.;/null;/
-error/danh tu/lỗi;Lỗi.;/spelling errors;/
-debt/danh tu/món nợ;nợ nần;/I paid off my debts;/
-town/danh tu/thị trấn;thành phố;thị xã;thị xã, thị trấn;/null;/
-lab/danh tu/phòng thí nghiệm;Phòng thí nghiệm;/a science lab;/
-response/danh tu/phản ứng;/without waiting for a response, she returned to her newspaper;/
-writer/danh tu/nhà văn;văn;người viết;/the writer of the letter;/
-atmosphere/danh tu/không khí;khí quyển;bầu khí quyển;bầu không khí;Khí quyển.;/part of the sun's energy is absorbed by the earth's atmosphere;/
-analysis/danh tu/phân tích;Phân tích.;/statistical analysis;/
-accident/danh tu/Tai nạn;/he had an accident at the factory;/
-requirement/danh tu/yêu cầu;/choose the type of window that suits your requirements best;/
-thanks/danh tu/cảm ơn;Thanks;/festivals were held to give thanks for the harvest;/
-surgery/danh tu/ca phẫu thuật;phẫu thuật;/cardiac surgery;/
-member/danh tu/thành viên;hội viên;/interest from members of the public;/
-complaint/danh tu/lời phàn nàn;Khiếu nại.;/I intend to make an official complaint;/
-alcohol/danh tu/rượu;đồ uống có cồn;rượu bia;rượu.;/alcohol breaks down in the body;/
-revenue/danh tu/doanh thu;Doanh thu.;/traders have lost $10,000 in revenue since the traffic scheme was implemented;/
-inflation/danh tu/Lạm phát.;lạm phát;/the inflation of a balloon;/
-negotiation/danh tu/Đàm phán;thương lượng.;/a worldwide ban is currently under negotiation;/
-chapter/danh tu/chuyện;chánh điện;/we will deal with this in chapter eleven;/
-actor/danh tu/diễn viên;diễn viên nam;Nam diễn viên;/null;/
-director/danh tu/giám đốc;đạo diễn;Đạo diễn.;/he has been appointed finance director;/
-charity/danh tu/từ thiện;tổ chức từ thiện;lòng nhân hậu;từ thiện.;/the charity provides practical help for homeless people;/
-video/danh tu/băng hình;video;/it's a great option for anyone looking to start using video to talk over the Net;/
-injury/danh tu/chấn thương;thương tật;vết thương;thương tích.;/she suffered an injury to her back;/
-awareness/danh tu/nhận thức;/we need to raise public awareness of the issue;/
-example/danh tu/thí dụ;ví dụ;Ví dụ.;/it's a good example of how European action can produce results;/
-population/danh tu/dân số;/the island has a population of about 78,000;/
-restaurant/danh tu/quán ăn;nhà hàng;Nhà hàng.;/null;/
-potato/danh tu/khoai tây;/roasted potatoes;/
-fact/danh tu/sự thật;thực tế;thật;/he ignores some historical and economic facts;/
-player/danh tu/người chơi;cầu thủ;/a tennis player;/
-moment/danh tu/chốc lát;khoảng khăc;khoảnh khắc;/she was silent for a moment before replying;/
-way/danh tu/đường;cách;/there are two ways of approaching this problem;/
-entertainment/danh tu/giải trí;vui chơi giải trí;sự giải trí;/everyone just sits in front of the TV for entertainment;/
-quantity/danh tu/số lượng;định lượng;/the quantity and quality of the fruit can be controlled;/
-penalty/danh tu/phạt;hình phạt;/the charge carries a maximum penalty of ten years' imprisonment;/
-community/danh tu/cộng đồng;/the scientific community;/
-agency/danh tu/hang;đại lý;cơ quan;Cơ quan.;/an advertising agency;/
-application/danh tu/ứng dụng;đăng kí;đơn xin;đâm;ứng dụng.;/an application for leave;/
-initiative/danh tu/sáng kiến;/use your initiative, imagination, and common sense;/
-philosophy/danh tu/triết học;triết lý;/null;/
-heart/danh tu/tình thương;tim;quả tim;hình trái tim;trái tim;/null;/
-fishing/danh tu/đánh bắt cá;câu cá;đánh cá;/the area is renowned for its excellent deep-sea fishing;/
-news/danh tu/Tin tức;/I've got some good news for you;/
-anxiety/danh tu/sự lo ngại;sự lo lắng;lo lắng;/he felt a surge of anxiety;/
-product/danh tu/sản phẩm;tích số;/food products;/
-form/danh tu/mẫu đơn;hình thức;hình dáng;tạo thành;biểu mẫu;/the form, color, and texture of the tree;/
-power/danh tu/sức mạnh;Nguồn năng lượng;quyền lực;/the power of speech;/
-king/danh tu/nhà vua;Vua;Vua.;/King Henry VIII;/
-throat/danh tu/họng;cuống họng;cổ họng;/her throat was parched with thirst;/
-collection/danh tu/thu thập;sưu tập;bộ sưu tập;Bộ sưu tập.;/the collection of maple sap;/
-election/danh tu/cuộc bầu cử;bầu cử.;/an election year;/
-presence/danh tu/sự có mặt;sự hiện diện;/the presence of chlorine in the atmosphere;/
-conversation/danh tu/cuộc nói chuyện;cuộc trò chuyện;cuộc hội thoại;/she picked up the phone and held a conversation in French;/
-database/danh tu/Cơ sở dữ liệu;cơ sở dữ liệu;/a database covering nine million workers;/
-homework/danh tu/bài tập về nhà;bài tập ở nhà;việc nhà;/null;/
-clothes/danh tu/quần áo;/he stripped off his clothes;/
-chest/danh tu/ngực;tủ;/she crossed her arms across her chest;/
-health/danh tu/Sức khỏe;y tế;/he was restored to health;/
-soup/danh tu/Súp;canh;cháo;soup;/a bowl of tomato soup;/
-mall/danh tu/Trung tâm mua sắm;/null;/
-army/danh tu/quân đội;/the two armies were in position;/
-pizza/danh tu/pizza;Pizza.;/a cheese and tomato pizza;/
-television/danh tu/vô tuyến;Truyền hình;tivi;/the days before television;/
-physics/danh tu/vật lý.;Vật lý;/null;/
-message/danh tu/thông điệp;nhắn;lời nhắn;tin nhắn;/if I'm not there, leave a message on the voice mail;/
-contribution/danh tu/sự đóng góp;đóng góp.;/charitable contributions;/
-law/danh tu/pháp luật;quy tắc;luật;pháp luật.;/they were taken to court for breaking the law;/
-emphasis/danh tu/nhấn mạnh;nhấn mạnh vào;/they placed great emphasis on the individual's freedom;/
-currency/danh tu/tiền tệ;sự phổ biến rộng rãi;/the dollar was a strong currency;/
-writing/danh tu/viết;văn bản;đang viết;/parents want schools to concentrate on reading, writing, and arithmetic;/
-year/danh tu/năm;/null;/
-performance/danh tu/màn biểu diễn;buổi biểu diễn;hiệu suất;thực hiện;màn trình diễn;/Don Giovanni had its first performance in 1787;/
-sir/danh tu/quý ngài;Ngài;thưa ngài;/excuse me, sir;/
-world/danh tu/thế giới;/he was doing his bit to save the world;/
-appearance/danh tu/ngoại hình;Dáng vẻ bên ngoài;vẻ bề ngoài;sự xuất hiện;xuất hiện;/I like the appearance of stripped antique pine;/
-recognition/danh tu/sự công nhận;sự nhận ra;Công nhận;/she saw him pass by without a sign of recognition;/
-height/danh tu/Chiều cao;cao;/columns rising to 65 feet in height;/
-nature/danh tu/Thiên nhiên;bản tính;tự nhiên;tính chất;bản chất;/the breathtaking beauty of nature;/
-delivery/danh tu/chuyển;vận chuyển;GIAO HÀNG;/allow up to 28 days for delivery;/
-understanding/danh tu/hiểu;hiểu biết.;/foreign visitors with little understanding of English;/
-championship/danh tu/chức vô địch;Giải vô địch;/the final round of the championship will be in Japan;/
-policy/danh tu/chính sách;chính sách.;/the administration's controversial economic policies;/
-expression/danh tu/biểu hiện;sự biểu lộ;sự diễn đạt;cách biểu lộ;diễn đạt;/she accepted his expressions of sympathy;/
-nation/danh tu/dân tộc;Quốc gia;quốc gia.;/the world's leading industrialized nations;/
-internet/danh tu/Internet;Mạng xã hội;/the guide is also available on the internet;/
-mood/danh tu/tâm trạng;khí sắc;khí sắ;/he appeared to be in a very good mood about something;/
+tennis/danh tu/tennis.;quan vot.;/null;/
+difference/danh tu/su khac biet;khac nhau;khac biet;da dang;chenh lech;/the differences between men and women;/
+analyst/danh tu/nha phan tich;nha phan tich;/rising consumer confidence and falling oil prices are the keys to any upturn, many analysts believe;/
+development/danh tu/su phat trien;phat trien;phat trien.;/she traces the development of the novel;/
+limit/danh tu/gioi han;han che;/the 10-minute limit on speeches;/
+depth/danh tu/chieu sau;depth.;/shallow water of no more than 12 feet in depth;/
+advice/danh tu/loi khuyen;khuyen bao;/she visited the island on her doctor's advice;/
+environment/danh tu/moi truong;xung quanh;/survival in an often hostile environment;/
+employer/danh tu/nguoi thue lao dong;chu nhan;/the national health service was the largest employer in europe;/
+woman/danh tu/nguoi dan ba;nguoi phu nu;dan ba;/a drawing of a young woman;/
+media/danh tu/phuong tien truyen thong;truyen thong;/their demands were publicized by the media;/
+disease/danh tu/dich benh;benh;gay benh;can benh;/bacterial meningitis is a rare disease;/
+resource/danh tu/nguon;tai nguyen;/local authorities complained that they lacked resources;/
+death/danh tu/cai chet;bi giet chet;tu vong;/an increase in deaths from skin cancer;/
+wood/danh tu/go;rung;/a block of wood;/
+skill/danh tu/ky nang;su kheo leo;ky nang.;/difficult work, taking great skill;/
+opinion/danh tu/y kien;/i'm writing to voice my opinion on an issue of great importance;/
+camera/danh tu/may anh;/she faced the cameras;/
+lady/danh tu/quy ba;nguoi phu nu;phu nu;lady.;/i spoke to the lady at the travel agency;/
+basis/danh tu/nen tang;co so;/trust is the only basis for a good working relationship;/
+disk/danh tu/dia;dia.;/heavy metal disks the size of hockey pucks;/
+impression/danh tu/an tuong;dau vet;su bat chuoc;/his first impressions of manchester were very positive;/
+user/danh tu/nguoi su dung;nguoi dung;/the user should press return and a message will be displayed;/
+attention/danh tu/chu y;/he drew attention to three spelling mistakes;/
+studio/danh tu/phong thu;xuong ve;truong quay;studio.;/mostly the painting is done in the studio, working from drawings;/
+knowledge/danh tu/hieu biet;kien thuc;/a thirst for knowledge;/
+engineering/danh tu/ky thuat;ky thuat.;/null;/
+error/danh tu/loi;loi.;/spelling errors;/
+debt/danh tu/mon no;no nan;/i paid off my debts;/
+town/danh tu/thi tran;thanh pho;thi xa;thi xa, thi tran;/null;/
+lab/danh tu/phong thi nghiem;phong thi nghiem;/a science lab;/
+response/danh tu/phan ung;/without waiting for a response, she returned to her newspaper;/
+writer/danh tu/nha van;van;nguoi viet;/the writer of the letter;/
+atmosphere/danh tu/khong khi;khi quyen;bau khi quyen;bau khong khi;khi quyen.;/part of the sun's energy is absorbed by the earth's atmosphere;/
+analysis/danh tu/phan tich;phan tich.;/statistical analysis;/
+accident/danh tu/tai nan;/he had an accident at the factory;/
+requirement/danh tu/yeu cau;/choose the type of window that suits your requirements best;/
+thanks/danh tu/cam on;thanks;/festivals were held to give thanks for the harvest;/
+surgery/danh tu/ca phau thuat;phau thuat;/cardiac surgery;/
+member/danh tu/thanh vien;hoi vien;/interest from members of the public;/
+complaint/danh tu/loi phan nan;khieu nai.;/i intend to make an official complaint;/
+alcohol/danh tu/ruou;do uong co con;ruou bia;ruou.;/alcohol breaks down in the body;/
+revenue/danh tu/doanh thu;doanh thu.;/traders have lost $10,000 in revenue since the traffic scheme was implemented;/
+inflation/danh tu/lam phat.;lam phat;/the inflation of a balloon;/
+negotiation/danh tu/dam phan;thuong luong.;/a worldwide ban is currently under negotiation;/
+chapter/danh tu/chuyen;chanh dien;/we will deal with this in chapter eleven;/
+actor/danh tu/dien vien;dien vien nam;nam dien vien;/null;/
+director/danh tu/giam doc;dao dien;dao dien.;/he has been appointed finance director;/
+charity/danh tu/tu thien;to chuc tu thien;long nhan hau;tu thien.;/the charity provides practical help for homeless people;/
+video/danh tu/bang hinh;video;/it's a great option for anyone looking to start using video to talk over the net;/
+injury/danh tu/chan thuong;thuong tat;vet thuong;thuong tich.;/she suffered an injury to her back;/
+awareness/danh tu/nhan thuc;/we need to raise public awareness of the issue;/
+example/danh tu/thi du;vi du;vi du.;/it's a good example of how european action can produce results;/
+population/danh tu/dan so;/the island has a population of about 78,000;/
+restaurant/danh tu/quan an;nha hang;nha hang.;/null;/
+potato/danh tu/khoai tay;/roasted potatoes;/
+fact/danh tu/su that;thuc te;that;/he ignores some historical and economic facts;/
+player/danh tu/nguoi choi;cau thu;/a tennis player;/
+moment/danh tu/choc lat;khoảng khac;khoanh khac;/she was silent for a moment before replying;/
+way/danh tu/duong;cach;/there are two ways of approaching this problem;/
+entertainment/danh tu/giai tri;vui choi giai tri;su giai tri;/everyone just sits in front of the tv for entertainment;/
+quantity/danh tu/so luong;dinh luong;/the quantity and quality of the fruit can be controlled;/
+penalty/danh tu/phat;hinh phat;/the charge carries a maximum penalty of ten years' imprisonment;/
+community/danh tu/cong dong;/the scientific community;/
+agency/danh tu/hang;dai ly;co quan;co quan.;/an advertising agency;/
+application/danh tu/ung dung;dang ki;don xin;dam;ung dung.;/an application for leave;/
+initiative/danh tu/sang kien;/use your initiative, imagination, and common sense;/
+philosophy/danh tu/triet hoc;triet ly;/null;/
+heart/danh tu/tinh thuong;tim;qua tim;hinh trai tim;trai tim;/null;/
+fishing/danh tu/danh bat ca;cau ca;danh ca;/the area is renowned for its excellent deep-sea fishing;/
+news/danh tu/tin tuc;/i've got some good news for you;/
+anxiety/danh tu/su lo ngai;su lo lang;lo lang;/he felt a surge of anxiety;/
+product/danh tu/san pham;tich so;/food products;/
+form/danh tu/mau don;hinh thuc;hinh dang;tao thanh;bieu mau;/the form, color, and texture of the tree;/
+power/danh tu/suc manh;nguon nang luong;quyen luc;/the power of speech;/
+king/danh tu/nha vua;vua;vua.;/king henry viii;/
+throat/danh tu/hong;cuong hong;co hong;/her throat was parched with thirst;/
+collection/danh tu/thu thap;suu tap;bo suu tap;bo suu tap.;/the collection of maple sap;/
+election/danh tu/cuoc bau cu;bau cu.;/an election year;/
+presence/danh tu/su co mat;su hien dien;/the presence of chlorine in the atmosphere;/
+conversation/danh tu/cuoc noi chuyen;cuoc tro chuyen;cuoc hoi thoai;/she picked up the phone and held a conversation in french;/
+database/danh tu/co so du lieu;co so du lieu;/a database covering nine million workers;/
+homework/danh tu/bai tap ve nha;bai tap o nha;viec nha;/null;/
+clothes/danh tu/quan ao;/he stripped off his clothes;/
+chest/danh tu/nguc;tu;/she crossed her arms across her chest;/
+health/danh tu/suc khoe;y te;/he was restored to health;/
+soup/danh tu/sup;canh;chao;soup;/a bowl of tomato soup;/
+mall/danh tu/trung tam mua sam;/null;/
+army/danh tu/quan doi;/the two armies were in position;/
+pizza/danh tu/pizza;pizza.;/a cheese and tomato pizza;/
+television/danh tu/vo tuyen;truyen hinh;tivi;/the days before television;/
+physics/danh tu/vat ly.;vat ly;/null;/
+message/danh tu/thong diep;nhan;loi nhan;tin nhan;/if i'm not there, leave a message on the voice mail;/
+contribution/danh tu/su dong gop;dong gop.;/charitable contributions;/
+law/danh tu/phap luat;quy tac;luat;phap luat.;/they were taken to court for breaking the law;/
+emphasis/danh tu/nhan manh;nhan manh vao;/they placed great emphasis on the individual's freedom;/
+currency/danh tu/tien te;su pho bien rong rai;/the dollar was a strong currency;/
+writing/danh tu/viet;van ban;dang viet;/parents want schools to concentrate on reading, writing, and arithmetic;/
+year/danh tu/nam;/null;/
+performance/danh tu/man bieu dien;buoi bieu dien;hieu suat;thuc hien;man trinh dien;/don giovanni had its first performance in 1787;/
+sir/danh tu/quy ngai;ngai;thua ngai;/excuse me, sir;/
+world/danh tu/the gioi;/he was doing his bit to save the world;/
+appearance/danh tu/ngoai hinh;dang ve ben ngoai;ve be ngoai;su xuat hien;xuat hien;/i like the appearance of stripped antique pine;/
+recognition/danh tu/su cong nhan;su nhan ra;cong nhan;/she saw him pass by without a sign of recognition;/
+height/danh tu/chieu cao;cao;/columns rising to 65 feet in height;/
+nature/danh tu/thien nhien;ban tinh;tu nhien;tinh chat;ban chat;/the breathtaking beauty of nature;/
+delivery/danh tu/chuyen;van chuyen;giao hang;/allow up to 28 days for delivery;/
+understanding/danh tu/hieu;hieu biet.;/foreign visitors with little understanding of english;/
+championship/danh tu/chuc vo dich;giai vo dich;/the final round of the championship will be in japan;/
+policy/danh tu/chinh sach;chinh sach.;/the administration's controversial economic policies;/
+expression/danh tu/bieu hien;su bieu lo;su dien dat;cach bieu lo;dien dat;/she accepted his expressions of sympathy;/
+nation/danh tu/dan toc;quoc gia;quoc gia.;/the world's leading industrialized nations;/
+internet/danh tu/internet;mang xa hoi;/the guide is also available on the internet;/
+mood/danh tu/tam trang;khi sac;khi sa;/he appeared to be in a very good mood about something;/
 while/danh tu/trong khi;/we chatted for a while;/
-piano/danh tu/đàn piano;Dương cầm;piano;/null;/
-employee/danh tu/Nhân viên;công nhân;người lao động;/null;/
-committee/danh tu/Ủy ban;/the housing committee;/
-audience/danh tu/thính giả;Khán giả;sự tiếp kiến;Khán giả.;/the orchestra was given an enthusiastic ovation from the audience;/
-reality/danh tu/thực tế;/he refuses to face reality;/
-shirt/danh tu/áo sơ mi;/tonight he's smartly dressed in shirt and tie;/
-hat/danh tu/hat.;mũ;/a black straw hat;/
-hall/danh tu/đại sảnh;sảnh;hội trường;hành lang;/Carnegie Hall;/
-church/danh tu/nhà thờ;nhà thờ.;/they came to church with me;/
-grocery/danh tu/tạp hóa;cửa hàng tạp hóa;/null;/
-poet/danh tu/bài thơ;nhà thơ.;/null;/
-editor/danh tu/Biên tập viên;biên tập viên.;/the editor of The New York Times;/
-youth/danh tu/thiếu niên;tuổi Trẻ;/he had been a keen sportsman in his youth;/
-importance/danh tu/tầm quan trọng;tầm quan trọng.;/the importance of democracy;/
-bedroom/danh tu/phòng ngủ;Phòng ngủ;/he shares his bedroom with a younger brother;/
-sample/danh tu/mẫu vật;mẫu thử;hàng mẫu;vật mẫu;mẫu;/investigations involved analyzing samples of handwriting;/
-significance/danh tu/ý nghĩa;quan trọng.;/adolescent education was felt to be a social issue of some significance;/
-girlfriend/danh tu/bạn gái;/his girlfriend is Australian;/
-description/danh tu/sự mô tả;mô tả;miêu tả;sự miêu tả;/people who had seen him were able to give a description;/
-resolution/danh tu/nghị quyết;sự giải quyết;/she kept her resolution not to see Anne any more;/
-dirt/danh tu/bụi bẩn;dơ bẩn.;/his face was covered in dirt;/
-employment/danh tu/thuê người làm;việc làm;/a fall in the numbers in full-time employment;/
-industry/danh tu/ngành công nghiệp;công nghiệp.;/the competitiveness of American industry;/
-water/danh tu/nước;nước uống;/null;/
-love/danh tu/yêu quý;tình yêu;yêu;yêu và quý;/babies fill parents with feelings of love;/
-depression/danh tu/Phiền muộn;sự chán nản;suy nhược;tinh trạng suy thoai;trầm cảm;/self-doubt creeps in and that swiftly turns to depression;/
-replacement/danh tu/thay thế.;Thay thế;/the replacement of religion by poetry;/
-diamond/danh tu/kim cương;hình thoi;kim cương.;/a diamond ring;/
-selection/danh tu/Lựa chọn;LỰA CHỌN.;/such men decided the selection of candidates;/
-insurance/danh tu/tiền bảo hiểm;bảo hiểm;/many new borrowers take out insurance against unemployment or sickness;/
-hotel/danh tu/khách sạn;/a five-star hotel;/
-leader/danh tu/lãnh đạo;lãnh đạo.;/the leader of a protest group;/
-reflection/danh tu/sự phản xạ;sự ngẫm nghĩ;sự chỉ trích;phản ánh;/the reflection of light;/
-proposal/danh tu/đề nghị;sự đề nghị;đề xuất;lời cầu hôn;/a set of proposals for a major new high-speed rail link;/
-region/danh tu/khu vực;vùng đất;vùng cơ thể;khu;Vùng;/one of the region's major employers;/
-membership/danh tu/thành viên;Tư cách thành viên;/I was selected for membership in the National Honor Society;/
-psychology/danh tu/tâm lý;tâm lý học;Tâm lý học.;/null;/
-security/danh tu/Bảo vệ;an ninh;bảo mật.;/the system is designed to provide maximum security against toxic spills;/
-reputation/danh tu/danh tiếng;uy tín;/his reputation was tarnished by allegations that he had taken bribes;/
-society/danh tu/xã hội;sự giao du;xã hội.;/drugs, crime, and other dangers to society;/
-department/danh tu/phòng;ban;Phòng ban;sở;Căn hộ;/the English department;/
-contract/danh tu/hợp đồng;đính ước;teo lại;Hợp đồng.;/both parties must sign employment contracts;/
-variation/danh tu/Biến thể.;biến thể;/regional variations in house prices;/
-game/danh tu/trò chơi;cuộc thi đấu;/null;/
-presentation/danh tu/bài thuyết trình;ngoại hình;thuyết trình;/the presentation of certificates to new members;/
-desk/danh tu/bàn;Cái Bàn;bàn làm việc;bàn học;bàn.;/null;/
-method/danh tu/phương pháp;/a method for software maintenance;/
-river/danh tu/dòng sông;con sông;sông;sông.;/the River Danube;/
-protection/danh tu/sự bảo vệ;bao cao su;bảo vệ.;/the B vitamins give protection against infection;/
-funeral/danh tu/tang lễ;/in the afternoon, he'd attended a funeral;/
-suggestion/danh tu/gợi ý;Đề nghị;/null;/
-teaching/danh tu/giảng bài;Giảng dạy;dạy học;/I went into teaching because I like working with children;/
-song/danh tu/bài hát;ca khúc;/null;/
-match/danh tu/trận đấu;cuộc thi đấu;sự hợp nhau;trùng khớp;phù hợp;/a boxing match;/
-statement/danh tu/tuyên bố;bản tường trình;tuyên bố.;/do you agree with this statement?;/
-pie/danh tu/bánh;Pie.;/a meat pie;/
-bonus/danh tu/Tặng kem;thưởng;tiền thưởng;/big Christmas bonuses;/
-transportation/danh tu/vận chuyển;phương tiện vận chuyển;vận tải;/the era of global mass transportation;/
-combination/danh tu/sự kết hợp;sự phối hợp;hỗn hợp;kết hợp;/this color combination is stunningly effective;/
-magazine/danh tu/tạp chí;/a women's magazine;/
-honey/danh tu/Chồng yêu;mật ong;/null;/
-discussion/danh tu/thảo luận;/the proposals are not a blueprint but ideas for discussion;/
-possibility/danh tu/khả năng;tiềm năng;có khả năng;/there was always the possibility that he might be turned down;/
-communication/danh tu/liên lạc;truyền thông;thông tin;giao tiếp;/at the moment I am in communication with London;/
-flight/danh tu/chuyến bay;chuyến bay.;/an eagle in flight;/
-recipe/danh tu/công thức nấu ăn;công thức;/a traditional Indonesian recipe;/
-chocolate/danh tu/sô cô la;sôcôla;/a bar of chocolate;/
-chemistry/danh tu/hoá học;hóa học;hóa học.;/null;/
-singer/danh tu/ca sỹ;ca sĩ;ca sĩ.;/a pop singer;/
-concept/danh tu/ý tưởng;khái niệm;/structuralism is a difficult concept;/
-examination/danh tu/kiểm tra;kiểm tra, khám nghiệm;khám;bài kiểm tra;/an examination of marketing behavior;/
-property/danh tu/bất động sản;tài sản;tài sản.;/she wanted Oliver and his property out of her house;/
-office/danh tu/văn phòng;văn phòng.;/an office job;/
-marketing/danh tu/tiếp thị;/the Western arts of marketing and distribution;/
-girl/danh tu/cô gái;cô bé;con gái;/a six-year-old girl;/
-equipment/danh tu/Trang thiết bị;thiết bị, dụng cụ;thiết bị;các thiết bị;/suppliers of office equipment;/
-ambition/danh tu/tham vọng;Hoài bão;/her ambition was to become a pilot;/
-son/danh tu/Con trai;con trai.;/null;/
-measurement/danh tu/đo đạc;đo lường.;/accurate measurement is essential;/
-success/danh tu/sự thành công;thanh công;thành công;/there is a thin line between success and failure;/
-midnight/danh tu/nửa đêm;nữa đêm;/I left at midnight;/
-goal/danh tu/ghi bàn;khung thành;mục tiêu;bàn thắng;vào;/null;/
-salad/danh tu/rau xà lách;xà lách;rau trộn;món salad;món rau trộn;/a green salad;/
-entry/danh tu/lối vào;sự đi vào;đăng ký tên;nhập cảnh;/the door was locked, but he forced an entry;/
-leadership/danh tu/Khả năng lãnh đạo;Sự lãnh đạo;Bộ phận lãnh đạo;lãnh đạo;/different styles of leadership;/
-child/danh tu/đứa trẻ;trẻ em;Đứa trẻ.;/she'd been playing tennis since she was a child;/
-category/danh tu/thể loại;phạm trù;danh mục;loại;/five categories of intelligence;/
-management/danh tu/ban quản lý;quản lý;sự quản lý;Quản lý.;/the management of elk herds;/
+piano/danh tu/dan piano;duong cam;piano;/null;/
+employee/danh tu/nhan vien;cong nhan;nguoi lao dong;/null;/
+committee/danh tu/uy ban;/the housing committee;/
+audience/danh tu/thinh gia;khan gia;su tiep kien;khan gia.;/the orchestra was given an enthusiastic ovation from the audience;/
+reality/danh tu/thuc te;/he refuses to face reality;/
+shirt/danh tu/ao so mi;/tonight he's smartly dressed in shirt and tie;/
+hat/danh tu/hat.;mu;/a black straw hat;/
+hall/danh tu/dai sanh;sanh;hoi truong;hanh lang;/carnegie hall;/
+church/danh tu/nha tho;nha tho.;/they came to church with me;/
+grocery/danh tu/tap hoa;cua hang tap hoa;/null;/
+poet/danh tu/bai tho;nha tho.;/null;/
+editor/danh tu/bien tap vien;bien tap vien.;/the editor of the new york times;/
+youth/danh tu/thieu nien;tuoi tre;/he had been a keen sportsman in his youth;/
+importance/danh tu/tam quan trong;tam quan trong.;/the importance of democracy;/
+bedroom/danh tu/phong ngu;phong ngu;/he shares his bedroom with a younger brother;/
+sample/danh tu/mau vat;mau thu;hang mau;vat mau;mau;/investigations involved analyzing samples of handwriting;/
+significance/danh tu/y nghia;quan trong.;/adolescent education was felt to be a social issue of some significance;/
+girlfriend/danh tu/ban gai;/his girlfriend is australian;/
+description/danh tu/su mo ta;mo ta;mieu ta;su mieu ta;/people who had seen him were able to give a description;/
+resolution/danh tu/nghi quyet;su giai quyet;/she kept her resolution not to see anne any more;/
+dirt/danh tu/bui ban;do ban.;/his face was covered in dirt;/
+employment/danh tu/thue nguoi lam;viec lam;/a fall in the numbers in full-time employment;/
+industry/danh tu/nganh cong nghiep;cong nghiep.;/the competitiveness of american industry;/
+water/danh tu/nuoc;nuoc uong;/null;/
+love/danh tu/yeu quy;tinh yeu;yeu;yeu va quy;/babies fill parents with feelings of love;/
+depression/danh tu/phien muon;su chan nan;suy nhuoc;tinh trạng suy thoai;tram cam;/self-doubt creeps in and that swiftly turns to depression;/
+replacement/danh tu/thay the.;thay the;/the replacement of religion by poetry;/
+diamond/danh tu/kim cuong;hinh thoi;kim cuong.;/a diamond ring;/
+selection/danh tu/lua chon;lua chon.;/such men decided the selection of candidates;/
+insurance/danh tu/tien bao hiem;bao hiem;/many new borrowers take out insurance against unemployment or sickness;/
+hotel/danh tu/khach san;/a five-star hotel;/
+leader/danh tu/lanh dao;lanh dao.;/the leader of a protest group;/
+reflection/danh tu/su phan xa;su ngam nghi;su chi trich;phan anh;/the reflection of light;/
+proposal/danh tu/de nghi;su de nghi;de xuat;loi cau hon;/a set of proposals for a major new high-speed rail link;/
+region/danh tu/khu vuc;vung dat;vung co the;khu;vung;/one of the region's major employers;/
+membership/danh tu/thanh vien;tu cach thanh vien;/i was selected for membership in the national honor society;/
+psychology/danh tu/tam ly;tam ly hoc;tam ly hoc.;/null;/
+security/danh tu/bao ve;an ninh;bao mat.;/the system is designed to provide maximum security against toxic spills;/
+reputation/danh tu/danh tieng;uy tin;/his reputation was tarnished by allegations that he had taken bribes;/
+society/danh tu/xa hoi;su giao du;xa hoi.;/drugs, crime, and other dangers to society;/
+department/danh tu/phong;ban;phong ban;so;can ho;/the english department;/
+contract/danh tu/hop dong;dinh uoc;teo lai;hop dong.;/both parties must sign employment contracts;/
+variation/danh tu/bien the.;bien the;/regional variations in house prices;/
+game/danh tu/tro choi;cuoc thi dau;/null;/
+presentation/danh tu/bai thuyet trinh;ngoai hinh;thuyet trinh;/the presentation of certificates to new members;/
+desk/danh tu/ban;cai ban;ban lam viec;ban hoc;ban.;/null;/
+method/danh tu/phuong phap;/a method for software maintenance;/
+river/danh tu/dong song;con song;song;song.;/the river danube;/
+protection/danh tu/su bao ve;bao cao su;bao ve.;/the b vitamins give protection against infection;/
+funeral/danh tu/tang le;/in the afternoon, he'd attended a funeral;/
+suggestion/danh tu/goi y;de nghi;/null;/
+teaching/danh tu/giang bai;giang day;day hoc;/i went into teaching because i like working with children;/
+song/danh tu/bai hat;ca khuc;/null;/
+match/danh tu/tran dau;cuoc thi dau;su hop nhau;trung khop;phu hop;/a boxing match;/
+statement/danh tu/tuyen bo;ban tuong trinh;tuyen bo.;/do you agree with this statement?;/
+pie/danh tu/banh;pie.;/a meat pie;/
+bonus/danh tu/tạng kem;thuong;tien thuong;/big christmas bonuses;/
+transportation/danh tu/van chuyen;phuong tien van chuyen;van tai;/the era of global mass transportation;/
+combination/danh tu/su ket hop;su phoi hop;hon hop;ket hop;/this color combination is stunningly effective;/
+magazine/danh tu/tap chi;/a women's magazine;/
+honey/danh tu/chong yeu;mat ong;/null;/
+discussion/danh tu/thao luan;/the proposals are not a blueprint but ideas for discussion;/
+possibility/danh tu/kha nang;tiem nang;co kha nang;/there was always the possibility that he might be turned down;/
+communication/danh tu/lien lac;truyen thong;thong tin;giao tiep;/at the moment i am in communication with london;/
+flight/danh tu/chuyen bay;chuyen bay.;/an eagle in flight;/
+recipe/danh tu/cong thuc nau an;cong thuc;/a traditional indonesian recipe;/
+chocolate/danh tu/so co la;socola;/a bar of chocolate;/
+chemistry/danh tu/hoa hoc;hoa hoc;hoa hoc.;/null;/
+singer/danh tu/ca sy;ca si;ca si.;/a pop singer;/
+concept/danh tu/y tuong;khai niem;/structuralism is a difficult concept;/
+examination/danh tu/kiem tra;kiem tra, kham nghiem;kham;bai kiem tra;/an examination of marketing behavior;/
+property/danh tu/bat dong san;tai san;tai san.;/she wanted oliver and his property out of her house;/
+office/danh tu/van phong;van phong.;/an office job;/
+marketing/danh tu/tiep thi;/the western arts of marketing and distribution;/
+girl/danh tu/co gai;co be;con gai;/a six-year-old girl;/
+equipment/danh tu/trang thiet bi;thiet bi, dung cu;thiet bi;cac thiet bi;/suppliers of office equipment;/
+ambition/danh tu/tham vong;hoai bao;/her ambition was to become a pilot;/
+son/danh tu/con trai;con trai.;/null;/
+measurement/danh tu/do dac;do luong.;/accurate measurement is essential;/
+success/danh tu/su thanh cong;thanh cong;thanh cong;/there is a thin line between success and failure;/
+midnight/danh tu/nua dem;nua dem;/i left at midnight;/
+goal/danh tu/ghi ban;khung thanh;muc tieu;ban thang;vao;/null;/
+salad/danh tu/rau xa lach;xa lach;rau tron;mon salad;mon rau tron;/a green salad;/
+entry/danh tu/loi vao;su di vao;dang ky ten;nhap canh;/the door was locked, but he forced an entry;/
+leadership/danh tu/kha nang lanh dao;su lanh dao;bo phan lanh dao;lanh dao;/different styles of leadership;/
+child/danh tu/dua tre;tre em;dua tre.;/she'd been playing tennis since she was a child;/
+category/danh tu/the loai;pham tru;danh muc;loai;/five categories of intelligence;/
+management/danh tu/ban quan ly;quan ly;su quan ly;quan ly.;/the management of elk herds;/
 bird/danh tu/chim;chim.;/null;/
-drama/danh tu/kịch;phim;/a gritty urban drama about growing up in Harlem;/
-meal/danh tu/bữa ăn;/the evening meal;/
-engine/danh tu/động cơ;dụng cụ;/the roar of a car engine;/
-length/danh tu/chiều dài;/it can reach over two feet in length;/
-childhood/danh tu/tuổi thơ;thời thơ ấu;/the idealized world of childhood;/
-medicine/danh tu/thuốc;dược phẩm;thuốc chữa bệnh;y học;ngành y;/he made distinguished contributions to pathology and medicine;/
-improvement/danh tu/sự cải tiến;cải thiện;/an improvement in East–West relations;/
-device/danh tu/thiết bị;phương thức;/a measuring device;/
-boyfriend/danh tu/bạn trai;/null;/
-consequence/danh tu/hậu quả;hệ quả;kết quả;/many have been laid off from work as a consequence of the administration's policies;/
-maintenance/danh tu/Sự bảo trì;Sự bảo dưỡng;duy trì;Sự duy trì;bảo dưỡng;/we support local initiatives that ensure the maintenance of community spirit;/
-assignment/danh tu/phân công;bài tập;/a homework assignment;/
-aspect/danh tu/diện mạo;hướng;khía cạnh;khía cạnh.;/the financial aspect can be overstressed;/
-truth/danh tu/sự thật;/he had to accept the truth of her accusation;/
-refrigerator/danh tu/tủ đá;tủ lạnh;Tủ lạnh.;/null;/
-housing/danh tu/nhà ở;Nhà ở;/a housing development;/
-menu/danh tu/thực đơn;Menu;trình đơn;Menu.;/the waiter handed her a menu;/
-tongue/danh tu/lưỡi;ngôn ngữ;lưỡi.;/null;/
-recommendation/danh tu/sự giới thiệu;khuyến cáo;Khuyến nghị;/the committee put forward forty recommendations for change;/
-stranger/danh tu/người lạ;/don't talk to strangers;/
-advertising/danh tu/Quảng cáo;/movie audiences are receptive to advertising;/
-wealth/danh tu/sự giàu có;Giàu có;/he used his wealth to bribe officials;/
-perspective/danh tu/viễn cảnh;Góc nhìn cá nhân;phương diện;luật xa gần;quan điểm.;/a perspective drawing;/
-oven/danh tu/lò vi sóng;lò;lò nướng;/bake the dish in a preheated oven;/
-weakness/danh tu/yếu đuối;điểm yếu;/the country's weakness in international dealings;/
-university/danh tu/trường đại học;đại học;/Oxford University;/
-guest/danh tu/khách;khách mời;Khách.;/I have two guests coming to dinner tonight;/
-quality/danh tu/chất lượng;phẩm chất;/an improvement in product quality;/
-assistant/danh tu/phụ tá;Trợ lý;người bán hàng;/the managing director and his assistant;/
-gate/danh tu/cánh cổng;cửa;cái cổng;hẻm núi;cuồng phong;/she closed the front gate;/
-instance/danh tu/ví dụ;trường hợp;ví dụ.;/a serious instance of corruption;/
-politics/danh tu/chính trị;Chính trị.;/null;/
-orange/danh tu/quả cam;màu cam;trái cam;cam;da cam;/eat plenty of oranges;/
-ad/danh tu/quảng cáo;QUẢNG CÁO;/the latest television lager ad;/
-disaster/danh tu/thảm họa;/159 people died in the disaster;/
-shopping/danh tu/mua đồ;mua sắm;/shopping is so exhausting—all those decisions!;/
-food/danh tu/đồ ăn;mồi;món ăn;thức ăn;/we need food and water;/
-cousin/danh tu/anh chị em họ;em họ;anh họ;chị họ;bà con cô bác;/null;/
-memory/danh tu/kỉ niệm;trí nhớ;trí nhớ, kỷ niệm;ký ức;nhớ;/I've a great memory for faces;/
-ratio/danh tu/tỉ lệ;tỷ lệ;/the ratio of men's jobs to women's is 8 to 1;/
-hearing/danh tu/thính giác;Nghe;/people who have very acute hearing;/
-steak/danh tu/miếng bò hầm;lát thịt;thịt ba rọi;bít tết;/he liked his steak rare;/
-music/danh tu/Âm nhạc;/couples were dancing to the music;/
-definition/danh tu/Định nghĩa;độ nét;sự định nghĩa;định nghĩa.;/a dictionary definition of the verb;/
-safety/danh tu/sự an toàn;nơi an toàn;an toàn.;/they should leave for their own safety;/
-association/danh tu/sự kết hợp;Hiệp hội;/the National Association of Broadcasters;/
-student/danh tu/sinh viên;học sinh;học sinh sinh viên;/a student of sociology;/
-preparation/danh tu/sự chuẩn bị;chuẩn bị;/the preparation of a draft contract;/
-direction/danh tu/phương hướng;sự chỉ đạo;hướng đi;chiều hướng;Hướng;/she set off in the opposite direction;/
-investment/danh tu/sự đầu tư;món đầu tư;đầu tư;/a debate over private investment in road-building;/
-permission/danh tu/sự cho phép;sự chấp nhận;giấy phép;/they had entered the country without permission;/
-queen/danh tu/nữ hoàng;Hoàng hậu;nữ hoàng.;/he insisted the princess could be crowned queen;/
-night/danh tu/đêm;ban đêm;/a moonless night;/
-sector/danh tu/khu vực.;lĩnh vực;/operations in the southern sector of the North Sea;/
-sister/danh tu/chị gái;chị hai;em gái;chị;/I had nine brothers and sisters;/
-newspaper/danh tu/báo chí;tờ báo;báo;báo.;/all the newspapers carried the story;/
-organization/danh tu/tổ chức;cơ quan;Tổ chức.;/a research organization;/
-
+drama/danh tu/kich;phim;/a gritty urban drama about growing up in harlem;/
+meal/danh tu/bua an;/the evening meal;/
+engine/danh tu/dong co;dung cu;/the roar of a car engine;/
+length/danh tu/chieu dai;/it can reach over two feet in length;/
+childhood/danh tu/tuoi tho;thoi tho au;/the idealized world of childhood;/
+medicine/danh tu/thuoc;duoc pham;thuoc chua benh;y hoc;nganh y;/he made distinguished contributions to pathology and medicine;/
+improvement/danh tu/su cai tien;cai thien;/an improvement in east–west relations;/
+device/danh tu/thiet bi;phuong thuc;/a measuring device;/
+boyfriend/danh tu/ban trai;/null;/
+consequence/danh tu/hau qua;he qua;ket qua;/many have been laid off from work as a consequence of the administration's policies;/
+maintenance/danh tu/su bao tri;su bao duong;duy tri;su duy tri;bao duong;/we support local initiatives that ensure the maintenance of community spirit;/
+assignment/danh tu/phan cong;bai tap;/a homework assignment;/
+aspect/danh tu/dien mao;huong;khia canh;khia canh.;/the financial aspect can be overstressed;/
+truth/danh tu/su that;/he had to accept the truth of her accusation;/
+refrigerator/danh tu/tu da;tu lanh;tu lanh.;/null;/
+housing/danh tu/nha o;nha o;/a housing development;/
+menu/danh tu/thuc don;menu;trinh don;menu.;/the waiter handed her a menu;/
+tongue/danh tu/luoi;ngon ngu;luoi.;/null;/
+recommendation/danh tu/su gioi thieu;khuyen cao;khuyen nghi;/the committee put forward forty recommendations for change;/
+stranger/danh tu/nguoi la;/don't talk to strangers;/
+advertising/danh tu/quang cao;/movie audiences are receptive to advertising;/
+wealth/danh tu/su giau co;giau co;/he used his wealth to bribe officials;/
+perspective/danh tu/vien canh;goc nhin ca nhan;phuong dien;luat xa gan;quan diem.;/a perspective drawing;/
+oven/danh tu/lo vi song;lo;lo nuong;/bake the dish in a preheated oven;/
+weakness/danh tu/yeu duoi;diem yeu;/the country's weakness in international dealings;/
+university/danh tu/truong dai hoc;dai hoc;/oxford university;/
+guest/danh tu/khach;khach moi;khach.;/i have two guests coming to dinner tonight;/
+quality/danh tu/chat luong;pham chat;/an improvement in product quality;/
+assistant/danh tu/phu ta;tro ly;nguoi ban hang;/the managing director and his assistant;/
+gate/danh tu/canh cong;cua;cai cong;hem nui;cuong phong;/she closed the front gate;/
+instance/danh tu/vi du;truong hop;vi du.;/a serious instance of corruption;/
+politics/danh tu/chinh tri;chinh tri.;/null;/
+orange/danh tu/qua cam;mau cam;trai cam;cam;da cam;/eat plenty of oranges;/
+ad/danh tu/quang cao;quang cao;/the latest television lager ad;/
+disaster/danh tu/tham hoa;/159 people died in the disaster;/
+shopping/danh tu/mua do;mua sam;/shopping is so exhausting—all those decisions!;/
+food/danh tu/do an;moi;mon an;thuc an;/we need food and water;/
+cousin/danh tu/anh chi em ho;em ho;anh ho;chi ho;ba con co bac;/null;/
+memory/danh tu/ki niem;tri nho;tri nho, ky niem;ky uc;nho;/i've a great memory for faces;/
+ratio/danh tu/ti le;ty le;/the ratio of men's jobs to women's is 8 to 1;/
+hearing/danh tu/thinh giac;nghe;/people who have very acute hearing;/
+steak/danh tu/mieng bo ham;lat thit;thit ba roi;bit tet;/he liked his steak rare;/
+music/danh tu/am nhac;/couples were dancing to the music;/
+definition/danh tu/dinh nghia;do net;su dinh nghia;dinh nghia.;/a dictionary definition of the verb;/
+safety/danh tu/su an toan;noi an toan;an toan.;/they should leave for their own safety;/
+association/danh tu/su ket hop;hiep hoi;/the national association of broadcasters;/
+student/danh tu/sinh vien;hoc sinh;hoc sinh sinh vien;/a student of sociology;/
+preparation/danh tu/su chuan bi;chuan bi;/the preparation of a draft contract;/
+direction/danh tu/phuong huong;su chi dao;huong di;chieu huong;huong;/she set off in the opposite direction;/
+investment/danh tu/su dau tu;mon dau tu;dau tu;/a debate over private investment in road-building;/
+permission/danh tu/su cho phep;su chap nhan;giay phep;/they had entered the country without permission;/
+queen/danh tu/nu hoang;hoang hau;nu hoang.;/he insisted the princess could be crowned queen;/
+night/danh tu/dem;ban dem;/a moonless night;/
+sector/danh tu/khu vuc.;linh vuc;/operations in the southern sector of the north sea;/
+sister/danh tu/chi gai;chi hai;em gai;chi;/i had nine brothers and sisters;/
+newspaper/danh tu/bao chi;to bao;bao;bao.;/all the newspapers carried the story;/
+organization/danh tu/to chuc;co quan;to chuc.;/a research organization;/
+lost/verb/mat;mat di;da mat;lam mat;thua, mat;/null;/
+chemical/adjective/hoa chat;hoa hoc;hoa chat.;/the chemical composition of the atmosphere;/
+personal/adjective/ca nhan;rieng tu;/her personal fortune was recently estimated at $37 million;/
+recent/adjective/gan day;/his recent visit to britain;/
+easy/adjective/de;thanh than;de dang;/an easy way of retrieving information;/
+business/noun/kinh doanh;viec kinh doanh;/she had to do a lot of smiling in her business;/
+brief/adjective/ngan gon;ban tom tat;tom tat;/null;/
+sorry/adjective/lay lam tiec;xin loi;xin loi nhe;/i was sorry to hear about what happened to your family;/
+technical/adjective/ky thuat;/technical terms;/
+shot/noun/ban;ly ruou;cu da;/he brought down a caribou with a single shot to the neck;/
+afternoon/noun/buoi chieu;/i telephoned this afternoon;/
+reasonable/adjective/hop ly;/no reasonable person could have objected;/
+red/adjective/mau do;dam mau;thuoc cong san;do.;/her red lips;/
+his/article/cua anh ay;cua anh;cua anh ay.;/james sold his business;/
+fast/adjective/nhanh;nhanh chong;/a fast and powerful car;/
+clear/adjective/sach;ro rang;thong thoang;xa la;trong sang;/clear and precise directions;/
+federal/adjective/lien bang;/null;/
+training/noun/dao tao;tap huan;/in-service training for staff;/
+objective/adjective/muc tieu;khach quan;muc dich;muc tieu.;/historians try to be objective and impartial;/
+brave/adjective/can dam;dung cam;/a brave soldier;/
+poor/adjective/ngheo;ngheo nan;yeu kem;/people who were too poor to afford a telephone;/
+primary/adjective/so cap;tieu hoc;dau;dau tien;so dang;/null;/
+sad/adjective/buon;buon ba;buon phien;buon rau;/i was sad and subdued;/
+unusual/adjective/khong binh thuong;bat thuong;khac thuong;hiem co;/it was unusual for dennis to be late;/
+capital/noun/tu ban;von;nguon von;thu do;thu do.;/warsaw is the capital of poland;/
+tough/adjective/kho khan;kho;dai;khac nghiet;kho khan.;/tough backpacks for climbers;/
+another/article/nua;cai khac;khac;/have another drink;/
+decent/adjective/tu te;tuom tat;/the good name of such a decent and innocent person;/
+plane/noun/chiec may bay;mat phang;may bay;/the horizontal plane;/
+old/adjective/cu;/the old man lay propped up on cushions;/
+confident/adjective/tin chac;tu tin;/we require outgoing, confident people able to approach large groups;/
+aggressive/adjective/hung du;xam luoc;hung hang;hung hang.;/he's very uncooperative and aggressive;/
+important/adjective/quan trong;/important habitats for wildlife;/
+young/adjective/tre tuoi;tre;con tre;tre.;/a young girl;/
+embarrassed/adjective/lung tung;xau ho;/an embarrassed silence;/
+choice/noun/su lua chon;/the choice between good and evil;/
+that/pronoun/dieu do;cai kia;cai do;cai gi;do;/that's his wife over there;/
+weekly/adjective/hang tuan.;hang tuan;/there was a weekly dance on wednesdays;/
+positive/adjective/kha quan;tich cuc;/null;/
+lonely/adjective/co don;/lonely old people whose families do not care for them;/
+relevant/adjective/lien quan, thich hop;thich hop;lien quan;co lien quan;/what small companies need is relevant advice;/
+which/pronoun/cai ma;ma;/which are the best varieties of grapes for long keeping?;/
+relative/adjective/quan he;lien quan den;can xung voi;ho hang;nguoi than;/the relative effectiveness of the various mechanisms is not known;/
+possible/adjective/kha thi;co the duoc;co the;/surely it's not possible for a man to live so long?;/
+main/adjective/chu chot;chu yeu;toan bo;chinh;main.;/a main road;/
+pretend/verb/gia vo;khong co that;/i closed my eyes and pretended i was asleep;/
+nice/adjective/dep;tot;tot dep;duoc;tuyet voi;/we had a nice time;/
+beginning/noun/bat dau;bat dau;/he left at the beginning of february;/
+grand/adjective/grand.;lon;/a grand country house;/
+glad/adjective/vui ve;vui mung;/i'm really glad to hear that;/
+house/noun/nha o;nha;can nha;chuong;nha hat;/my wife and i are moving to a new house;/
+over/preposition/ket thuc;tren;qua;lan nua;hon;/i saw flames over berlin;/
+mobile/adjective/dien thoai di dong;di dong;/he has a major weight problem and is not very mobile;/
+sweet/adjective/ngot;ngot ngao;keo;vi ngot;/a cup of hot sweet tea;/
+no/article/khong;/there is no excuse;/
+life/noun/doi song;su song;cuoc doi;cuoc song;mang song;/the origins of life;/
+human/adjective/nhan loai;con nguoi;loai nguoi;/the human body;/
+animal/noun/thu vat;dong vat;/wild animals adapt badly to a caged life;/
+dress/verb/dam;mac quan ao;vay dam;cai vay;bo vay;/graham showered and dressed quickly;/
+opposite/adjective/trai nghia;doi nghich;nguoc lai;doi dien, trai nguoc;doi dien;/a crowd gathered on the opposite side of the street;/
+north/noun/phia bac;bac;/a bitter wind blew from the north;/
+fresh/adjective/moi;trong lanh;tuoi;/fresh fruit;/
+male/adjective/nam gioi;nam;dan ong;/male children;/
+status/noun/trang thai;dia vi;tinh trang;trang thai.;/an improvement in the status of women;/
+true/adjective/that;dung;dung vay;thanh that;dung.;/a true story;/
+mood/noun/tam trang;khi sac;khi sa;/he appeared to be in a very good mood about something;/
+think/verb/nghi;/she thought that nothing would be the same again;/
+mountain/noun/nui;ngon nui;/the village is backed by awe-inspiring mountains;/
+public/adjective/cong cong;cong chung;cong khai.;/public concern;/
+stupid/adjective/dot nat;ngu;dai kho;ngoc nghech;ngu ngoc;/i was stupid enough to think she was perfect;/
+dangerous/adjective/nguy hiem;su nguy hiem;hiem ngheo;/a dangerous animal;/
+what/pronoun/cai gi;gi;la gi;nhung gi;/what is your name?;/
+popular/adjective/pho bien;noi tieng;binh dan;/she was one of the most popular girls in the school;/
+ready/adjective/san sang;co san;san sang;san sang;/are you ready, carrie?;/
+impressive/adjective/an tuong;/an impressive view of the mountains;/
+all/null/tat ca cac;tat ca;/all the people i met;/
+suitable/adjective/phu hop;thich hop;/these toys are not suitable for children under five;/
+loose/adjective/long leo;/a loose tooth;/
+lower/adjective/thap hon;giam xuong;thap hon.;/the lower levels of the building;/
+head/noun/cai dau;nguoi dung dau;dau;dung dau;/null;/
+live/verb/truc tiep;song;con song;/the doctors said she had only six months to live;/
+first/null/dau tien;ngay thu nhat;thu nhat;/his first wife;/
+acceptable/adjective/chap nhan;chap nhan duoc;/has tried to find a solution acceptable to everyone;/
+automatic/adjective/tu dong;thiet bi tu dong;/an automatic kettle that switches itself off when it boils;/
+drunk/verb/say;me man;uong;say sua;say ruou;/null;/
+yellow/adjective/mau vang;nhuom vang;vang.;/curly yellow hair;/
+commercial/adjective/quang cao;thuoc ve thuong mai;thuoc ve thuong mai;thuong mai;hang thuong mai;/a commercial agreement;/
+swimming/noun/boi loi;boi;/rachel had always loved swimming;/
+global/adjective/toan cau;toan the;/the downturn in the global economy;/
+royal/adjective/hoang gia;royal.;/contributors included members of the royal family;/
+secret/adjective/bi mat;/how did you guess i had a secret plan?;/
+street/noun/duong pho;/the narrow, winding streets of greenwich village;/
+ill/adjective/toi se;om;benh;bi benh;xau;/her daughter is seriously ill;/
+open/adjective/mo ra;mo;mo.;/the pass is kept open all year by snowplows;/
+practical/adjective/thuc te;thuc dung;/there are two obvious practical applications of the research;/
+comprehensive/adjective/toan dien;thong minh;/a comprehensive list of sources;/
+low/adjective/thap;/the school is a long, low building;/
+far/adverb/xa;hon;qua;/it was not too far away;/
+green/adjective/mau xanh la;xanh;xanh la;xanh luc;xanh la cay;/the leaves are bright green;/
+simple/adjective/don gian;gian di;/a simple solution;/
+large/adjective/lon;/add a large clove of garlic;/
+suspicious/adjective/kha nghi;da nghi;dang ngo;/he was suspicious of her motives;/
+straight/adjective/dai;thang;thang.;/a long, straight road;/
+plastic/noun/nhua;/bottles can be made from a variety of plastics;/
+thin/adjective/gay;mong;loang;mong.;/thin slices of bread;/
+whose/article/ai;cua ai;cua ai do;/whose round is it?;/
+electrical/adjective/dien;thuat dien;bi dien;electrical;dien tu;/an electrical appliance;/
+outside/noun/ngoai;o ngoai;ben ngoai;/record the date on the outside of the file;/
+scared/adjective/so hai;/i wasn't scared at all;/
+wild/adjective/hoang dai;hoang da;du doi;lung tung;hoang da.;/a herd of wild goats;/
+cute/adjective/de thuong;/a cute kitten;/
+strict/adjective/khat khe;dung;nghiem ngat;nghiem khac;/my father was very strict;/
+major/adjective/chinh;nganh;lon lao;thieu ta;/the use of drugs is a major problem;/
+inside/noun/ben trong;noi bo;phia trong;trong;/she ran a finger around the inside of the bowl;/
+corner/noun/goc;noi kin dao;su dau co;goc pho;/jan sat at one corner of the table;/
+useful/adjective/co ich;bo ich;huu ich;huu dung;/aspirin is useful for headaches;/
+material/noun/vat lieu;vat chat;chat lieu;nguyen lieu;chat lieu, nguyen lieu;/goats can eat more or less any plant material;/
+wine/noun/ruou;ruou nho;ruou vang;/he opened a bottle of red wine;/
+empty/adjective/trong;lam rong cai gi;trong rong;trong trai;rong;/the room was empty of furniture;/
+political/adjective/chinh tri;thuoc ve chinh tri;/a period of political and economic stability;/
+emergency/noun/khan cap;truong hop khan cap;cap cuu;/your quick response in an emergency could be a lifesaver;/
+weak/adjective/yeu;yeu duoi;kem coi;yeu ot;thieu thuyet phuc;/she was recovering from the flu and was very weak;/
+financial/adjective/tai chinh;/an independent financial adviser;/
+connect/verb/lien ket;ket noi;ket noi voi;/the electrodes were connected to a recording device;/
+upper/adjective/phia tren;cao hon;/his upper arm;/
+cultural/adjective/thuoc van hoa;van hoa.;/the cultural diversity of the world's peoples;/
+even/adjective/tham chi;chan;san phang;cung;/prepare the site, then lay an even bed of mortar;/
+complex/adjective/phuc tap;to hop;/a complex network of water channels;/
+necessary/adjective/can thiet;/it's not necessary for you to be here;/
+brown/adjective/mau nau;nhuom nau;nau;brown.;/an old brown coat;/
+agent/noun/dai ly;diep vien;tac nhan;dac vu;dai ly.;/in the event of illness, a durable power of attorney enabled her nephew to act as her agent;/
+certain/adjective/chac chan;mot chut;nhat dinh;/it's certain that more changes are in the offing;/
+stock/noun/co phan;kho hang;co;co phieu.;/the store has a very low turnover of stock;/
+safe/adjective/an toan;/eggs remain in the damp sand, safe from marine predators;/
+western/adjective/mien tay;phuong tay;tay.;/there will be showers in some western areas;/
+sharp/adjective/nhon;sac ben;sac nhon;chinh xac;ben;/cut the cake with a very sharp knife;/
+initial/adjective/ban dau;chu cai dau;/our initial impression was favorable;/
+patient/adjective/kien nhan;benh nhan;binh nhan;nguoi benh;/be patient, your time will come;/
+signal/noun/dau hieu;tin hieu;/the firing of the gun was the signal for a chain of beacons to be lit;/
+wrong/adjective/sai lam;sai roi;sai;hong;/that is the wrong answer;/
+comfortable/adjective/thoai mai;de chiu;/invitingly comfortable beds;/
+time/noun/thoi gian;/travel through space and time;/
+great/adjective/tuyet voi;tuyet;tuyet qua;lon;that tuyet;/the article was of great interest;/
+double/adjective/kep;gap doi;doi;hai;gap doi.;/the double doors;/
+smooth/adjective/min mang;tron tru;/smooth flat rocks;/
+distinct/adjective/rieng biet;ro rang;khac biet.;/the patterns of spoken language are distinct from those of writing;/
+able/adjective/co the;/he was able to read greek at the age of eight;/
+still/adjective/van con;con, van;van;dung yen;con;/the still body of the young man;/
+critical/adjective/phe binh;nguy cap;toi han;bao kich;chi trich;/he was critical of many u.s. welfare programs;/
+careful/adjective/can than;/i begged him to be more careful;/
+proper/adjective/thich hop;/an artist needs the proper tools;/
+just/adjective/chi can;vua moi;vua moi xong;moi vua;chi;/a just and democratic society;/
+afraid/adjective/so;so hai.;/i'm afraid of dogs;/
+amazing/adjective/kinh ngac;dang kinh ngac;dang ngac nhien;kinh ngac, thu vi;tuyet voi;/an amazing number of people registered;/
+game/noun/tro choi;cuoc thi dau;/null;/
+fine/adjective/tot;khoe;tien phat;phat tien;/this was a fine piece of filmmaking;/
+equal/adjective/binh dang;bang;cong bang;bang nhau;/add equal amounts of water and flour;/
+one/null/mot;/there's only room for one person;/
+routine/noun/lich trinh;thoi quen;mang tinh lap lai;cong viec hang ngay;cong viet hang ngay;/i settled down into a routine of work and sleep;/
+successful/adjective/thanh cong;/a successful attack on the town;/
+purple/noun/mau tia;mau do tia;tim;mau tim;hoa my;/the painting was mostly in shades of blue and purple;/
+waste/verb/chat thai;lang phi;hoang phi;rac thai;tieu ton;/we can't afford to waste electricity;/
+happy/adjective/sung suong;hanh phu;vui mung;hanh phuc;/melissa came in looking happy and excited;/
+winter/noun/mua dong;/the tree has a good crop of berries in winter;/
+fair/adjective/cong bang;hop ly;hoi cho;song phang;cong bang.;/the group has achieved fair and equal representation for all its members;/
+correct/adjective/chinh xac;chinh sua;dung;dung roi;sua;/make sure you have been given the correct information;/
+chicken/noun/ga;thit ga;nhat gan;con ga;/rationing was still in force and most people kept chickens;/
+upstairs/adverb/tang tren;len lau;tren lau;/i tiptoed upstairs;/
+subject/noun/chu the;mon hoc;van de;doi tuong;bo mon;/i've said all there is to be said on the subject;/
+minute/noun/phut;rat nho;/he stood in the shower for twenty minutes;/
+apart/adverb/rieng biet;/two stone gateposts some thirty feet apart;/
+dark/adjective/toi tam;toi;bong toi;/it's too dark to see much;/
+latter/adjective/sau nay;sau;/the latter half of 1989;/
+each/article/moi;/each battery is in a separate compartment;/
+silly/adjective/dien;ngoc nghech;ngo ngan;/another of his silly jokes;/
+other/adjective/khac;/stick the camera on a tripod or some other means of support;/
+full/adjective/day;no;dat den gioi han;day du;/wastebaskets full of rubbish;/
+warm/adjective/suoi am;am ap;nong nhiet;nong;am;/a warm september evening;/
+significant/adjective/co y nghia;dang ke;/a significant increase in sales;/
+annual/adjective/hang nam;/the sponsored walk became an annual event;/
+real/adjective/thuc;co that;thuc te;that;/julius caesar was a real person;/
+psychological/adjective/tam ly.;tam ly;/the victim had sustained physical and psychological damage;/
+content/adjective/noi dung;cac noi dung;ham luong;/he seemed more content, less bitter;/
+tall/adjective/cao;/a tall, broad-shouldered man;/
+medical/adjective/y khoa;y te;thuoc ve y hoc;y khoa, y hoc;y te.;/a medical center;/
+current/adjective/hien hanh;thong dung;hien tai;hien nay;/keep abreast of current events;/
+several/article/vai;mot so;nhieu;/the author of several books;/
+small/adjective/nho;be nho;nho be;khong quan trong;nho.;/the room was small and quiet;/
+kind/noun/tot bung;kieu;tu te;loai;luong thien;/all kinds of music;/
+cool/adjective/mat me;mat lanh;mat;ngau;ngau;/it'll be a cool afternoon;/
+legal/adjective/hop phap;/the american legal system;/
+competitive/adjective/canh tranh;/a competitive sport;/
+typical/adjective/dac trung;tieu bieu;dien hinh;/a typical day;/
+final/adjective/cuoi cung;chung ket;sau cung;/the final version of the report was presented;/
+accurate/adjective/chinh xac;chinh xac.;/accurate information about the illness is essential;/
+friendly/adjective/than thien;/they were friendly to me;/
+false/adjective/sai;sai trai;sai.;/the allegations were false;/
+period/noun/khoang thoi gian;giai doan = stage;giai doan;thoi han;thoi ky;/he had long periods of depression;/
+neither/adverb/khong;cung khong;/unlike her friends, she is neither a snob nor a gossip;/
+dependent/adjective/su phu thuoc;nguoi duoc bao ho;phu thuoc;can duoc bao ho;/the various benefits will be dependent on length of service;/
+strong/adjective/manh;vung chac;manh me;/she cut through the water with her strong arms;/
+ordinary/adjective/binh thuong;dieu binh thuong;/he sets out to depict ordinary people;/
+pleasant/adjective/hai long;de thuong;de chiu;/a very pleasant evening;/
+hard/adjective/kho khan;cham chi;cung;kho;sieng nang;/a hard mattress;/
+vast/adjective/rong lon;vast.;/a vast plain of buffalo grass;/
+working/adjective/dang lam viec;luan chuyen;lam viec;/the size of the working population;/
+difficult/adjective/kho;kho khan;/she had a difficult decision to make;/
+nasty/adjective/kho chiu;ban thiu;/plastic bags burn with a nasty, acrid smell;/
+pregnant/adjective/co thai;/she was heavily pregnant with her second child;/
+more/article/hon;them;hon nua;/she poured herself more coffee;/
+foreign/adjective/ngoai quoc;nuoc ngoai;/a foreign language;/
+standard/noun/tieu chuan;/their restaurant offers a high standard of service;/
+late/adjective/muon;/his late arrival;/
+particular/adjective/rieng;cu the;dac biet.;/the action seems to discriminate against a particular group of companies;/
+environmental/adjective/thuoc ve moi truong;/acid rain may have caused major environmental damage;/
+plenty/pronoun/nhieu;/i would have plenty of time to get home;/
+private/adjective/rieng;rieng tu;/all bedrooms have private facilities;/
+capable/adjective/co kha nang;/i'm quite capable of taking care of myself;/
+alternative/adjective/thay the;/the various alternative methods for resolving disputes;/
+level/noun/cap do;muc do;/the front garden is on a level with this floor;/
+much/article/nhieu;/i didn't get much sleep;/
+expensive/adjective/dat tien;dat;mac tien;/keeping a horse is expensive;/
+present/adjective/mon qua;hien tai;co mat;hien nay;qua;/a doctor must be present at the ringside;/
+south/noun/mien nam;huong nam;nam;phia nam;nam.;/the breeze came from the south;/
+worth/adjective/dang gia;xung dang;/jewelry worth $450 was taken;/
+historical/adjective/lich su;lich su.;/the historical background to such studies;/
+immediate/adjective/ngay tuc khac;ngay lap tuc;/the authorities took no immediate action;/
+lucky/adjective/may man;/you had a very lucky escape;/
+quick/adjective/nhanh chong;nhanh;/he was always quick to point out her faults;/
+middle/noun/o giua;ten dem;chinh giua;gio he;/she stood alone in the middle of the street;/
+weird/adjective/ky di;ky cuc;ky quac;that ky la;/the weird crying of a seal;/
+remarkable/adjective/dang chu y;khac thuong;ro ret;/a remarkable coincidence;/
+female/adjective/giong cai;nu gioi;phai nu;nu;/a herd of female deer;/
+excellent/adjective/thong minh;xuat sac;tuyet voi;/their results are excellent;/
+short/adjective/ngan;viet tat;ngan ngui;/short dark hair;/
+few/article/vai;mot vai;it;/may i ask a few questions?;/
+sick/adjective/benh;bi om;dau om;om;/nursing very sick children;/
+sure/adjective/chac chan;dam bao;chac chan roi;/i'm sure i've seen that dress before;/
+electronic/adjective/dien tu;dien;kien dien tu;tu;dien tu cac;/an electronic calculator;/
+aware/adjective/nhan thuc;/most people are aware of the dangers of sunbathing;/
+free/adjective/mien phi;ranh roi;tu do;giai phong;/i have no ambitions other than to have a happy life and be free;/
+background/noun/lai lich;tieu su;ly lich;nen;boi canh;/the house stands against a background of sheltering trees;/
+bright/adjective/sang;sang choi;thong minh;tuoi sang;/her bright, dark eyes;/
+eastern/adjective/phuong dong;dong.;/the eastern slopes of the mountain;/
+party/noun/buoi tiec;dang phai;bua tiec;ben;tiec tung;/an engagement party;/
+either/conjunction/mot trong hai;hoac;/either i'll accompany you to your room, or i'll wait here;/
+impossible/adjective/khong the nao;khong the duoc;bat kha thi;khong the;/a seemingly impossible task;/
+inner/adjective/ben trong;noi tam;/an inner courtyard;/
+independent/adjective/song doc lap;doc lap;doc lap.;/canada's largest independent investment firm;/
+wooden/adjective/go;bang go;/a wooden spoon;/
+dry/adjective/kho;/the jacket kept me warm and dry;/
+helpful/adjective/huu ich;giup do;/people are friendly and helpful;/
+beautiful/adjective/xinh dep;hay;dep;/beautiful poetry;/
+consistent/adjective/thich hop;nhat quan;dac;phu hop;kien dinh;/the parents are being consistent and firm in their reactions;/
+after/preposition/sau;sau khi;sau do;/shortly after their marriage they moved to colorado;/
+best/adjective/tot nhat;dieu tuyet nhat;tot;best.;/the best pitcher in the league;/
+different/adjective/khac nhau;khac;khac biet;/you can play this game in different ways;/
+additional/adjective/them vao;bo sung;/we require additional information;/
+hungry/adjective/doi bung;/i was feeling ravenously hungry;/
+exact/adjective/chinh xac;/the exact details were still being worked out;/
+crazy/adjective/dien;khung;phat dien;khung dien;crazy.;/stella went crazy and assaulted a visitor;/
+interesting/adjective/thu vi;hap dan;ly thu;/an interesting debate;/
+previous/adjective/truoc;truoc do;/she looked tired after her exertions of the previous evening;/
+creative/adjective/sang tao;/change unleashes people's creative energy;/
+trick/noun/lua;bi quyet, thuat, meo;/he's a double-dealer capable of any mean trick;/
+exciting/adjective/thu vi;kich thich;hung thu;phan khoi;/an exciting breakthrough;/
+ago/adverb/truoc kia;truoc day;/he went five minutes ago;/
+ideal/adjective/ly tuong;/the swimming pool is ideal for a quick dip;/
+every/article/moi;moi;moi nay;/the hotel assures every guest of personal attention;/
+sexual/adjective/tinh duc;sexual.;/she had felt the thrill of a sexual attraction;/
+actual/adjective/that su;thuc te;/the estimate was much less than the actual cost;/
+whole/adjective/tron;toan the;toan bo.;/he spent the whole day walking;/
+cheap/adjective/re;gia re;/they bought some cheap fruit;/
+various/article/da dang;nhieu;khac nhau;/various people arrived late;/
+common/adjective/chung;pho thong;pho bien;thuong;thong thuong;/salt and pepper are the two most common seasonings;/
+chance/noun/co hoi;danh cuoc;tinh co;/there is little chance of his finding a job;/
+nervous/adjective/lo lang;than kinh;cang thang;/a sensitive, nervous person;/
+last/adjective/cuoi cung;cuoi;vua qua;keo dai;/they caught the last bus;/
+specific/adjective/rieng;cu the;rieng biet;theo trong luong;dac biet;/increasing the electricity supply only until it met specific development needs;/
+substantial/adjective/dang ke;giau co;/a substantial amount of cash;/
+total/adjective/toan bo;tong so;tong cong;/a total cost of $4,000;/
+united/adjective/hoa;di tren kia;/women acting together in a united way;/
+general/adjective/tong quan;dai khai;chung;noi chung;nhin chung;/books of general interest;/
+gross/adjective/tong;kinh tom;tong cong;/gross human rights abuses;/
+spare/adjective/du phong;tha toi;bo sung;phu tung;/few people had spare cash for inessentials;/
+kitchen/noun/phong bep;nha bep;bep;/null;/
+living/noun/cuoc song;ke sinh nhai;song;/she was struggling to make a living as a dancer;/
+alone/adjective/mot minh;rieng;/she was alone that evening;/
+prize/noun/phan thuong;nhac len;giai thuong;/britain's most prestigious prize for contemporary art;/
+horror/noun/rung ron;kinh di;kinh hoang;/children screamed in horror;/
+negative/adjective/phu dinh;am tinh;xau, tieu cuc;tieu cuc;tu choi;/null;/
+spiritual/adjective/tam linh.;tinh than.;/i'm responsible for his spiritual welfare;/
+tight/adjective/chat;suyt soat;chat che;/she twisted her handkerchief into a tight knot;/
+west/noun/huong tay;cac nuoc phuong tay;phia tay;/the evening sun glowed from the west;/
+top/noun/dung dau;hang dau;top.;/eileen stood at the top of the stairs;/
+novel/noun/cuon tieu thuyet;tieu thuyet;/the novels of jane austen;/
+wonderful/adjective/tuyet voi;qua tuyet;qua tuyet voi;/they all think she's wonderful;/
+nearby/adjective/gan do;gan do.;/he slung his jacket over a nearby chair;/
+responsible/adjective/chiu trach nhiem;co tinh than trach nhiem;chiu trach nhiem ve;/the department responsible for education;/
+future/noun/tuong lai;trong tuong lai;/we plan on getting married in the near future;/
+mother/noun/me;nguoi me;/she returned to bristol to nurse her aging mother;/
+same/adjective/tuong tu;giong nhau;cung mot;nhu nhau;/she was saying the same thing over and over;/
+valuable/adjective/co gia tri lon;quy gia;quy bau;quy gia, quan trong;co gia tri;/a valuable antique;/
+dear/adjective/than men;kinh thua;than yeu;kinh gui;than;/a dear friend;/
+any/article/khong ti nao;bat cu;bat ki;bat ky;/i don't have any choice;/
+junior/adjective/nho;cap thap;tre em;em;nguoi cap duoi;/junior tennis;/
+used/adjective/da su dung;duoc su dung;su dung;/scrawling on the back of a used envelope;/
+day/noun/ngay;ban ngay;/they only met a few days ago;/
+unhappy/adjective/khong vui;kho so;khong vui, buon;khong hanh phuc;bat hanh;/an unhappy marriage;/
+desperate/adjective/tuyet vong;lieu linh;/a desperate sadness enveloped ruth;/
+usual/adjective/binh thuong;thuong le;thuong dung;thuong;/he carried out his usual evening routine;/
+silver/noun/bac;mau bac;ma bac;bac.;/null;/
+traditional/adjective/truyen thong;truyen thong;co truyen;theo truyen thong;/the traditional festivities of the church year;/
+only/adverb/chi mot;chi co;chi con;chi;/there are only a limited number of tickets available;/
+raw/adjective/song;nguyen am;/raw eggs;/
+international/adjective/quoc te;/international trade;/
+extreme/adjective/cuc;vo cung;cuc ky;cuc doan.;/extreme cold;/
+dirty/adjective/do ban;ban thiu;ban;/a tray of dirty cups and saucers;/
+native/noun/tu nhien;ban dia;nguoi ban xu;/a native of montreal;/
+big/adjective/to lon;huenh hoang;quan trong;lon;/big hazel eyes;/
+next/adjective/ke tiep;ben canh;tiep theo;/we'll go next year;/
+busy/adjective/ban;ban ron;/he had been too busy to enjoy himself;/
+informal/adjective/khong trang trong;khong chinh thuc;than mat;thoai mai;/an informal atmosphere;/
+sufficient/adjective/hop ly;vua van;du;/they had sufficient resources to survive;/
+own/adjective/rieng;lam chu;so huu;cua ban than;so huu.;/they can't handle their own children;/
+narrow/adjective/hep;chat hep;hep hoi;/he made his way down the narrow road;/
+original/adjective/nguyen ban;doc dao;nguyen;ban goc;/the original owner of the house;/
+mission/noun/nhiem vu;su menh;phai doan;/a trade mission to mexico;/
+adult/noun/nguoi lon;nguoi lon.;/children should be accompanied by an adult;/
+senior/adjective/cap cao;nguoi co tham nien;cao cap;nguoi lon tuoi;/senior citizens;/
+slow/adjective/cham;/a time when diesel cars were slow and noisy;/
+slight/adjective/manh de;nhe;/a slight increase;/
+joint/noun/chung;khop;/seal the joint between the roof and the house wall;/
+realistic/adjective/thuc te;thuc te.;/jobs are scarce at the moment, so you've got to be realistic;/
+dramatic/adjective/kich;sau sac;gay xuc dong;kich tinh;/the dramatic arts;/
+direct/adjective/truc tiep;thang than;chi dao;truc tiep.;/there was no direct flight that day;/
+serious/adjective/nghiem trong;dung dan;dang gom;nghiem tuc;nghiem chinh;/marriage is a serious matter;/
+emotional/adjective/da cam;xuc dong;cam xuc;/children with emotional difficulties;/
+formal/adjective/chinh thuc;trang trong;/a formal dinner party;/
+southern/adjective/phia nam;mien nam.;/the southern hemisphere;/
+guilty/adjective/toi loi;co toi;pham toi;/he was found guilty of manslaughter;/
+forward/adverb/phia truoc;chuyen tiep;o dang truoc;ve phia truoc;tien dao;/he started up the engine and the car moved forward;/
+front/noun/dang truoc;doi dien;su tro tren;truoc mat;mat truoc;/a page at the front of the book had been torn out;/
+angry/adjective/tuc gian;hung du;buc boi;/an angry customer;/
+existing/adjective/hien tai;ton tai;/opponents of the existing political system;/
+according/adverb/theo;/the outlook for investors is not bright, according to financial experts;/
+wise/adjective/khon ngoan;sang suot;/she seems kind and wise;/
+character/noun/tinh cach;ky tu;nhan vat;/running away was not in keeping with her character;/
+entire/adjective/toan bo;toan bo.;/my plans are to travel the entire world;/
+natural/adjective/tu nhien;thien nhien;/carrots contain a natural antiseptic that fights bacteria;/
+loud/adjective/to tieng;lon;on ao;sac so;loud.;/they were kept awake by loud music;/
+famous/adjective/noi danh;noi tieng;noi tieng;noi tieng.;/the country is famous for its natural beauty;/
+physical/adjective/vat ly;the luc;thuoc vat chat;thuoc than the;the chat;/a whole range of physical and mental challenges;/
+administrative/adjective/hanh chinh;hanh chinh.;/administrative problems;/
+unable/adjective/khong the;/she was unable to conceal her surprise;/
+super/adjective/sieu;sieu am;/julie was a super girl;/
+remote/adjective/xa xoi;xa;tu xa;/a remote oregon valley;/
+mad/adjective/dien ro;tuc gian;dien;/they were mad at each other;/
+official/adjective/chinh thuc;chinh;vien chuc;chinh quyen;/null;/
+firm/adjective/chac chan;vung chai;cong ty;cong ty.;/the bed should be reasonably firm, but not too hard;/
+illegal/adjective/khong hop le;bat hop phap;/illegal drugs;/
+little/adjective/it;nho be;nho;/the plants will grow into little bushes;/
+close/adjective/gan;dong lai;thoat;khep lai;dong;/the hotel is close to the sea;/
+such/article/nhu la;nhu vay;/i have been involved in many such courses;/
+solid/adjective/chat ran;cung;solid;chac;vung chac;/the stream was frozen solid;/
+white/adjective/trang;trong trang;mau trang;/a sheet of white paper;/
+unfair/adjective/khong cong bang;bat cong;/at times like these the legal system appears inhumane and unfair;/
+available/adjective/co san;co gia tri;ranh;/refreshments will be available all afternoon;/
+fat/noun/map;map map;beo;/null;/
+sensitive/adjective/nhay cam;de bi thuong;/the new method of protein detection was more sensitive than earlier ones;/
+upset/verb/kho chiu;buon;buc boi;buon ba;/the accusation upset her;/
+single/adjective/doc than;duy nhat;don;/a single red rose;/
+similar/adjective/tuong tu;giong;/a soft cheese similar to brie;/
+massive/adjective/to lon;lon hon.;/a massive rampart of stone;/
+bitter/adjective/vi dang;cay dang;dang;dau don;/the raw berries have an intensely bitter flavor;/
+hour/noun/gio;/a two-hour operation;/
+action/noun/hoat dong;tac dong;hanh dong;/he vowed to take tougher action against persistent offenders;/
+work/noun/cong viec;/he was tired after a day's work;/
+complete/adjective/hoan thanh;hoan chinh;hoan toan;hoan thien;h thanh;/a complete list of courses offered by the college;/
+leading/adjective/hang dau;lanh dao.;/a number of leading politicians;/
+away/adverb/xa;di;/she landed badly, and crawled away;/
+broad/adjective/rong lon;/a broad staircase;/
+sudden/adjective/dot nhien;/a sudden bright flash;/
+economy/noun/kinh te;nen kinh te;/null;/
+some/article/mot vai;mot so;/i made some money running errands;/
+healthy/adjective/khoe manh;manh khoe;/i feel fit and healthy;/
+special/adjective/dac biet;dac biet.;/they always made a special effort at christmas;/
+terrible/adjective/kinh khung;khung khiep;/a terrible crime;/
+incident/noun/su co;bien co;/several amusing incidents;/
+perfect/adjective/hoan hao;hoan thien;/life certainly isn't perfect at the moment;/
+opening/noun/khai mac;/she peered through one of the smaller openings;/
+leather/noun/da thu;da;/a leather jacket;/
+evening/noun/buoi toi;toi;chieu;chieu toi;/it was seven o'clock in the evening;/
+classic/adjective/co dien;kinh dien;/a classic novel;/
+former/adjective/truoc;cu;nguoi sang tao;truoc day;/her former boyfriend;/
+equivalent/adjective/tuong duong;tuong duong.;/one unit is equivalent to one glass of wine;/
+east/noun/phia dong;dong;huong dong;/a gale was blowing from the east;/
+many/article/nhieu;/many people agreed with her;/
