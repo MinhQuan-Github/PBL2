@@ -20,7 +20,7 @@ void gotoxy(short x, short y) {
     SetConsoleCursorPosition(hConsoleOutput, Cursor_an_Pos);
 }
 void veketqua(string w){
-	cout<<"hoang";
+
 }
 void timketqua(HashTable tudien, string input){
 	int length = tudien.Size();
