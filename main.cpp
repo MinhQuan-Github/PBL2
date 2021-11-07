@@ -511,26 +511,26 @@ void xuLyTuDien(hashtable *&tudien) {
 				int k;
 				do {
 					k = getch();
-					if (k == 8) { // BACKSPACE
+					if (k == 8) { 						// BACKSPACE
 						// xoa tu nay
 						xoaTu(tudien, tuHienTai);
 						input = ""; pos = 0;
 						break; // ve man hinh chinh
 					}
-					if (k == 9) { // TAB
+					if (k == 9) { 						// TAB
 						// sua tu nay
 						suaTu(tuHienTai);
 						input = ""; pos = 0;
 						break; // ve man hinh chinh
 					}
-					if (k == 27) { // ESCAPE
+					if (k == 27) { 						// ESCAPE
 						input = ""; // reset gia tri trong khung tim kiem
 						pos = 0;
 						break; // ve man hinh chinh
 					}
 				} while (true);
 				break;
-			case 27: // ESCAPE
+			case 27: 	// ESCAPE
 				gotoxy(2, 25);
 				if (dulieuThaydoi == true) { // neu du lieu co thay doi
 					cout << "Du lieu thay doi!!! Tien hanh ghi file..." << endl;
