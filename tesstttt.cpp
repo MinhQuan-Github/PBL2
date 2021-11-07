@@ -4,33 +4,75 @@
 #include <conio.h>
 #include "Word.h"
 #include "HashTable.h"
+
 #define CR_KTK 50
 using namespace std;
 
 
+void xoaManHinh();									// xoa man hinh 
+void gotoxy(short x, short y);						// Dat con tro tai toa do (x,y)
+void veketqua(string w);							// Thanh tim kiem 
+void timketqua(HashTable tudien, string input);		// tim tu vung
+void veGiaoDienChinh(string input);					// giao dien tim tu vung
+void veGiaoDienChiTietTu(Word m);					// giao dien chi tiet tu vung
+void setColor(short x);								// Ham thay doi textcolor va backgroundcolor
+Word findWord(HashTable DIC, string word);			// 
+void wordInit(Word &w,string dong);					// Them tu vung vao file
+void suaTu(HashTable &tudien,Word &w);				// Sua tu vung
+void themTuMoi(HashTable &tudien);					// Nhap tu vung
+void readFile(HashTable &b);						// Doc file
+void xuLyTuDien(HashTable &tudien);					// Xu ly tu dien
+
+int main() {
+	HashTable b;
+	//int keyCode;
+	//string input = "";
+	xuLyTuDien(b);
+/*	veGiaoDienChinh();
+	while(true){
+		keyCode = getch();
+		if (keyCode >= 97 && keyCode <= 122) { // a-z
+					input += char(keyCode);
+					cout<<char(keyCode);
+		}
+		if(keyCode == 13 ){
+			Word m = findWord(b,input);
+			veGiaoDienChiTietTu(m);
+		}
+	} */
+	return 0;
+}
 
 
 void xoaManHinh() {
 	system("cls");
 }
+
+
 void gotoxy(short x, short y) {
     HANDLE hConsoleOutput;
     COORD Cursor_an_Pos = {x, y};
     hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleCursorPosition(hConsoleOutput, Cursor_an_Pos);
 }
+
+
 void veketqua(string w){
 
 }
+
+
 void timketqua(HashTable tudien, string input){
 	int length = tudien.Size();
 	for(int i = 0; i<length;i++){
 		
 	}
 }
+
+
 void veGiaoDienChinh(string input) {
 	xoaManHinh();
-		//int dongHienTai = 0;
+	//int dongHienTai = 0;
 	// in ra cac huong dan
 	// o man hinh chinh
 	cout << " " << "TEN_UNG_DUNG" << endl;	
@@ -58,8 +100,10 @@ void veGiaoDienChinh(string input) {
 	cout << char(217);
 	cout<<endl;
 	veketqua(input);
-gotoxy(1 + input.size(), 5);
+	gotoxy(1 + input.size(), 5);
 }
+
+
 void veGiaoDienChiTietTu(Word m) {
 	xoaManHinh();
 	int dongHienTai = 0;
@@ -78,9 +122,6 @@ void veGiaoDienChiTietTu(Word m) {
 }
 
 
-
-
-
 // Ham thay doi textcolor va backgroundcolor
 void setColor(short x) { 
 	HANDLE hConsoleColor;
@@ -88,9 +129,12 @@ void setColor(short x) {
 	SetConsoleTextAttribute(hConsoleColor, x);
 }
 
+
 Word findWord(HashTable DIC, string word){
-return DIC.Find(word);
+	return DIC.Find(word);
 }
+
+
 void wordInit(Word &w,string dong) {  // dong doc tu file
 	int i, pos;
 	i = 0;
@@ -114,7 +158,7 @@ void wordInit(Word &w,string dong) {  // dong doc tu file
 		i++; 
 		// nghia moi
 		if (dong[i] == ';') { 
-		w.setMean(mean);
+			w.setMean(mean);
 		}
 	}
 	i++;
@@ -127,13 +171,12 @@ void wordInit(Word &w,string dong) {  // dong doc tu file
 			w.setExample(example);
 		//	cout<<w.getExample();
 		}
-	}
-		
-};
+	}	
+}
 
 
 void suaTu(HashTable &tudien,Word &w) {
-	system("cls");
+	xoaManHinh();
 	
 	cout << "Sua tu: '" << w.getWord()<< "':" << endl;
 	// Sua loai tu
@@ -156,8 +199,10 @@ void suaTu(HashTable &tudien,Word &w) {
 	w.setExample(temp);
 	tudien.Insert(w);
 }
+
+
 void themTuMoi(HashTable &tudien) {
-	system("cls");
+	xoaManHinh();
 	Word w;
 	string temp = "";
 	// nhap tu
@@ -165,7 +210,7 @@ void themTuMoi(HashTable &tudien) {
 	getline(cin, temp);
 	if (temp == "") return;
 	else {
-	w.setWord(temp);
+		w.setWord(temp);
 	}
 	// nhap loai tu
 	temp = "";
@@ -185,10 +230,12 @@ void themTuMoi(HashTable &tudien) {
 	w.setExample(temp);
     tudien.Insert(w);
 }
+
+
 void readFile(HashTable &b) {
-	ifstream fi("words.txt"); // tim tap tin
+	ifstream fi("words.txt"); 	// tim tap tin
 	string dong;
-	if (fi.is_open()) { // mo tap tin, kiem tra tap tin co ton tai hay khong...
+	if (fi.is_open()) { 		// mo tap tin, kiem tra tap tin co ton tai hay khong...
 		while (getline(fi, dong)) {
 			if (dong == "") {
 				continue;
@@ -197,19 +244,21 @@ void readFile(HashTable &b) {
 			wordInit(w,dong);
 			b.Insert(w);	
 		}
-		fi.close(); // dong tap tin
+		fi.close(); 			// dong tap tin
 	}
 }
+
+
 void xuLyTuDien(HashTable &tudien) {
 	readFile(tudien);
 	Word currentWord;
 	string input = ""; // noi dung hien tai cua khung tim kiem
 	int keyCode = 0;
-	int pos = 0; // vi tri cua tu hien tai, vi tri thah sang (highlight)
+	int pos = 0; // vi tri cua tu hien tai, vi tri thanh sang (highlight)
 
 	while (true) { // vong lap vo tan
-	veketqua(input);
-	veGiaoDienChinh(input);	// ve toan bo giao dien
+		veketqua(input);
+		veGiaoDienChinh(input);	// ve toan bo giao dien
 
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
 		switch (keyCode) {
@@ -217,7 +266,7 @@ void xuLyTuDien(HashTable &tudien) {
 				input = input.substr(0, input.size() - 1); // xoa ky tu cuoi
 				break;
 			case 9: // TAB
-			themTuMoi(tudien);
+				themTuMoi(tudien);
 				break;
 			case 13: // ENTER
 				// vao man hinh chi tiet tu
@@ -228,7 +277,7 @@ void xuLyTuDien(HashTable &tudien) {
 					k = getch();
 					if (k == 8) { // BACKSPACE
 						// xoa tu nay
-					//	xoaTu(tudien, tuHienTai);
+						// xoaTu(tudien, tuHienTai);
 						input = ""; pos = 0;
 						break; // ve man hinh chinh
 					}
@@ -265,32 +314,9 @@ void xuLyTuDien(HashTable &tudien) {
 				if (keyCode >= 97 && keyCode <= 122) { // a-z
 					input += char(keyCode);
 				//	cout<<char(keyCode)<<endl;;
-				gotoxy(5,10);
-				cout<< "haonggg";
+					gotoxy(5,10);
+					cout<< "haonggg";
 				}
 		}
 	};
-}
-
-int main()
-{
-HashTable b;
-
-
-//int keyCode;
-//string input = "";
-xuLyTuDien(b);
-/*	veGiaoDienChinh();
-	while(true){
-		keyCode = getch();
-		if (keyCode >= 97 && keyCode <= 122) { // a-z
-					input += char(keyCode);
-					cout<<char(keyCode);
-		}
-		if(keyCode == 13 ){
-			Word m = findWord(b,input);
-			veGiaoDienChiTietTu(m);
-		}
-	} */
-	return 0;
 }

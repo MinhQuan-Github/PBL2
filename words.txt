@@ -1,4 +1,5 @@
 about/pho tu/khoang chung;sap;gan;/how about this?;we're about to start;he is about to die;/
+hi/exclamation/chao;xin chao;hi.;/“hi there. how was the flight?”;/
 add/dong tu/them vao;/add this thing;/
 apple/danh tu/qua tao;/i have an apple;/
 army/danh tu/quan doi;doi quan;/i need an army;you're in the army now;/

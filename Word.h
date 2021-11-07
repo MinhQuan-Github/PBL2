@@ -5,61 +5,60 @@
 #include <windows.h>
 #include <conio.h>
 using namespace std;
-class Word
-{
+class Word {
 private:
-	string word;
-	string type; // adj or verb or noun
-	string mean;
-	string example;
+	string word;	// tu vung
+	string type; 	// loai tu
+	string mean;	// nghia tu
+	string example;	// vi du
 
 public:
-	string getWord(); // Lay tu ra de set index trong hash table;
-	string getType();
-	string getMean();
-	string getExample();
-	void setWord(string m);
-	void setType(string m);
-	void setMean(string m);
-	void setExample(string m);
-	void display();
-	void displayMeaning();
-	void Input(string dong);
+	string getWord(); 			// Lay tu vung
+	string getType();			// Lay loai tu
+	string getMean();			// Lay nghia tu
+	string getExample();		// Lay vi du
+	void setWord(string m);		// Tao tu vung
+	void setType(string m);		// Tao loai tu
+	void setMean(string m);		// Tao nghia tu
+	void setExample(string m);	// Tao vi du
+	void display();				// Hien thi thong tin chi tiet tu vung
+//	void displayMeaning();		
+//	void Input(string dong);
 };
-string Word::getWord()
-{
+
+string Word::getWord() {
 	return this->word;
 }
-string Word::getType()
-{
+
+string Word::getType() {
 	return this->type;
 }
-string Word::getMean()
-{
+
+string Word::getMean() {
 	return this->mean;
 }
-string Word::getExample()
-{
+
+string Word::getExample() {
 	return this->example;
 }
-void Word::setWord(string m)
-{
+
+void Word::setWord(string m) {
 	this->word = m;
 }
-void Word::setType(string m)
-{
+
+void Word::setType(string m) {
 	this->type = m;
 }
-void Word::setMean(string m)
-{
+
+void Word::setMean(string m) {
 	this->mean = m;
 }
-void Word::setExample(string m)
-{
+
+void Word::setExample(string m) {
 	this->example = m;
 }
-void Word::display()
-{
+
+void Word::display() {
 	cout << this->word << endl;
 	cout << this->type << endl;
 	cout << this->mean << endl;
