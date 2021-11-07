@@ -7,6 +7,29 @@
 #define CR_KTK 50
 using namespace std;
 
+void xoaManHinh();
+void gotoxy(short x, short y);
+void veketqua(string w);
+void timketqua(HashTable tudien, string input);
+void veGiaoDienChinh(string input);
+void veGiaoDienChiTietTu(Word m);
+void setColor(short x);
+void wordInit(Word &w,string dong);
+Word findWord(HashTable DIC, string word);
+void suaTu(HashTable &tudien,Word &w);
+void themTuMoi(HashTable &tudien);
+void readFile(HashTable &b);
+void xuLyTuDien(HashTable &tudien);
+
+
+
+int main()
+{
+HashTable b;
+xuLyTuDien(b);
+	return 0;
+}
+
 
 
 
@@ -270,27 +293,4 @@ void xuLyTuDien(HashTable &tudien) {
 				}
 		}
 	};
-}
-
-int main()
-{
-HashTable b;
-
-
-//int keyCode;
-//string input = "";
-xuLyTuDien(b);
-/*	veGiaoDienChinh();
-	while(true){
-		keyCode = getch();
-		if (keyCode >= 97 && keyCode <= 122) { // a-z
-					input += char(keyCode);
-					cout<<char(keyCode);
-		}
-		if(keyCode == 13 ){
-			Word m = findWord(b,input);
-			veGiaoDienChiTietTu(m);
-		}
-	} */
-	return 0;
 }
