@@ -22,28 +22,6 @@ void themTuMoi(HashTable &tudien);					// Nhap tu vung
 void readFile(HashTable &b);						// Doc file
 void xuLyTuDien(HashTable &tudien);					// Xu ly tu dien
 void findbyinput(HashTable &tudien, string input);
-int main() {
-	HashTable b;
-	//int keyCode;
-	//string input = "";
-	readFile(b);
-
-	xuLyTuDien(b);
-/*	veGiaoDienChinh();
-	while(true){
-		keyCode = getch();
-		if (keyCode >= 97 && keyCode <= 122) { // a-z
-					input += char(keyCode);
-					cout<<char(keyCode);
-		}
-		if(keyCode == 13 ){
-			Word m = findWord(b,input);
-			veGiaoDienChiTietTu(m);
-		}
-	} */
-	return 0;
-}
-
 
 int main()
 {
