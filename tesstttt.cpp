@@ -45,6 +45,13 @@ int main() {
 }
 
 
+int main()
+{
+HashTable b;
+xuLyTuDien(b);
+return 0;
+}
+
 void xoaManHinh() {
 	system("cls");
 }
