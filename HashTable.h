@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cstdlib>
-#include<string>
+#include <string>
 #include<cstdio>
 #include "Word.h"
 #define HT_SIZE 1000 // Hash Table Size
@@ -44,15 +44,26 @@ void AddTail(LinkedList& l, Word w) {  		// Ham them tu vung vao cuoi
 	}
 }
 
-Node* Search(LinkedList l, string word) {	// Ham tim kiem tu vung trong danh sach
+Node* Search(LinkedList l, string word) {	// Ham tim kiem tu vung trong danh sach   // about about.substring(1,1) = b
 	Node* node = l.head;
-	while (node != NULL && node->key != word)
+	while (node != NULL && node->key!= word)
+		node = node->next;
+	if (node != NULL){
+		cout<<node->key;
+		return node;
+	}	
+	return NULL;
+}
+Node* nodefindByInput (LinkedList l, string input ) {	// Ham tim kiem tu vung trong danh sach
+	Node* node = l.head;
+  	if(!node) return NULL;
+	string substr = node->key.substr(0,input.size());
+	while (node != NULL &&  substr!= input)
 		node = node->next;
 	if (node != NULL)
 		return node;
 	return NULL;
 }
-
 class HashTable   							// Lop Hashtable
 {
     private:
@@ -64,6 +75,7 @@ class HashTable   							// Lop Hashtable
 	    void Display();                     // Ham hien thi danh sach tu vung
 	    Word Find(string word);				// Ham tim kiem tu vung trong Hashtable
 	    int Size();							// Ham lay kich thuoc Hashtable
+	    string findByInput(int n, string word);
 };
 
 HashTable::HashTable(){
@@ -100,6 +112,11 @@ Word HashTable::Find(string word){
 int HashTable::Size(){
 	return HT_SIZE;
 }
-	
+string HashTable::findByInput(int n, string word){
+ 	Node* node = nodefindByInput(this->DICTIONARY[n],word);
+ 	if(node == NULL) return "";
+ 	return node->key;
+ }
+
  
            

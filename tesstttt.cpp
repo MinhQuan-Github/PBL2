@@ -8,30 +8,6 @@
 #define CR_KTK 50
 using namespace std;
 
-void xoaManHinh();
-void gotoxy(short x, short y);
-void veketqua(string w);
-void timketqua(HashTable tudien, string input);
-void veGiaoDienChinh(string input);
-void veGiaoDienChiTietTu(Word m);
-void setColor(short x);
-void wordInit(Word &w,string dong);
-Word findWord(HashTable DIC, string word);
-void suaTu(HashTable &tudien,Word &w);
-void themTuMoi(HashTable &tudien);
-void readFile(HashTable &b);
-void xuLyTuDien(HashTable &tudien);
-
-
-
-int main()
-{
-HashTable b;
-xuLyTuDien(b);
-	return 0;
-}
-
-
 void xoaManHinh();									// xoa man hinh 
 void gotoxy(short x, short y);						// Dat con tro tai toa do (x,y)
 void veketqua(string w);							// Thanh tim kiem 
@@ -45,11 +21,13 @@ void suaTu(HashTable &tudien,Word &w);				// Sua tu vung
 void themTuMoi(HashTable &tudien);					// Nhap tu vung
 void readFile(HashTable &b);						// Doc file
 void xuLyTuDien(HashTable &tudien);					// Xu ly tu dien
-
+void findbyinput(HashTable &tudien, string input);
 int main() {
 	HashTable b;
 	//int keyCode;
 	//string input = "";
+	readFile(b);
+
 	xuLyTuDien(b);
 /*	veGiaoDienChinh();
 	while(true){
@@ -85,11 +63,9 @@ void veketqua(string w){
 }
 
 
-void timketqua(HashTable tudien, string input){
-	int length = tudien.Size();
-	for(int i = 0; i<length;i++){
-		
-	}
+void  timketqua(HashTable tudien, string input){
+
+	// input = ab
 }
 
 
@@ -270,7 +246,17 @@ void readFile(HashTable &b) {
 		fi.close(); 			// dong tap tin
 	}
 }
-
+void findbyinput(HashTable &tudien, string input, int pos){
+	int limit =0;
+	int HIEN_THI = 10; // Hien thi toi da 10 goi y
+	for(int i = 0;i<HT_SIZE;i++){
+		string w = tudien.findByInput(i,input);
+		if(limit<10 && w !="") {
+			cout<<w<<endl;
+			limit++;
+		}
+				} 
+}
 
 void xuLyTuDien(HashTable &tudien) {
 	readFile(tudien);
@@ -282,7 +268,11 @@ void xuLyTuDien(HashTable &tudien) {
 	while (true) { // vong lap vo tan
 		veketqua(input);
 		veGiaoDienChinh(input);	// ve toan bo giao dien
-
+		if(input != "") {
+			gotoxy(0,7);
+			findbyinput(tudien,input,pos);
+		}
+		gotoxy(1 + input.size(), 5);
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
 		switch (keyCode) {
 			case 8: // BACKSPACE
@@ -328,7 +318,7 @@ void xuLyTuDien(HashTable &tudien) {
 			case 224: {
 				int key = getch();
 				if (key == 72) { pos--; } // UP
-				if (key == 80) { pos++; } // DOWN
+				if (key == 80) { pos++; gotoxy(1,7+pos);} // DOWN
 				if (pos < 0) pos = 0;
 				//if (pos > soLuongTu - 1) pos = soLuongTu - 1;
 				break;
@@ -336,10 +326,10 @@ void xuLyTuDien(HashTable &tudien) {
 			default:
 				if (keyCode >= 97 && keyCode <= 122) { // a-z
 					input += char(keyCode);
-				//	cout<<char(keyCode)<<endl;;
-					gotoxy(5,10);
-					cout<< "haonggg";
+				
+
 				}
 		}
+		
 	};
 }

@@ -231,6 +231,8 @@ void veGiaoDienChiTietTu(NODEWORD *p) {
 bool soSanh(string input, NODEWORD *p) {
 	string tu = p->info.tu;	
 	// khi tu nhap ngan hon tu can so
+	// about
+	// ab
 	for (int i = 0; i < input.size(); i++) {
 		if (input[i] != tu[i]) {
 			return false;
@@ -280,7 +282,7 @@ NODEWORD* inDanhSachTu(hashtable *tudien, string input, int pos) {
 			} else {
 				setColor(15);	
 			}
-			cout << endl << " " << p->info.tu << " ";
+			cout << endl << "Hoang" << p->info.tu << " ";
 			for (int j = 0; j < CR_KTK - p->info.tu.size(); j++) {
 				cout << " ";
 			}
