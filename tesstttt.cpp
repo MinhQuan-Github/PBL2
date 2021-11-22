@@ -59,7 +59,11 @@ void veGiaoDienChinh(string input) {
 	//int dongHienTai = 0;
 	// in ra cac huong dan
 	// o man hinh chinh
-	cout << " " << "TEN_UNG_DUNG" << endl;	
+	cout<<"Do an co so lap trinh"<<endl;
+	cout<<"Giao vien huong dan: "<<endl;
+	cout<<"Sinh vien thuc hien: Do Minh Quan - Ho Duc Hoang"<<endl;
+	cout<<"                                               "<<endl;
+	cout << " " << "TU DIEN ANH - VIET" << endl;	
 	cout << " " << char(254) << " Esc  : Thoat chuong trinh" << endl;
 	cout << " " << char(254) << " Tab  : Them tu moi" << endl;
 	cout << " " << char(254) << " Enter: Xem nghia cua tu" << endl;
@@ -84,7 +88,7 @@ void veGiaoDienChinh(string input) {
 	cout << char(217);
 	cout<<endl;
 	veketqua(input);
-	gotoxy(1 + input.size(), 5);
+	gotoxy(1 + input.size(), 9);
 }
 
 
@@ -115,7 +119,7 @@ void setColor(short x) {
 
 
 Word findWord(HashTable DIC, string word){
-	return DIC.Find(word);
+	return  DIC.Find(word);
 }
 
 
@@ -254,10 +258,10 @@ void xuLyTuDien(HashTable &tudien) {
 		veketqua(input);
 		veGiaoDienChinh(input);	// ve toan bo giao dien
 		if(input != "") {
-			gotoxy(0,7);
-			findbyinput(tudien,input,pos);
+			gotoxy(0,11);
+			findbyinput(tudien,input,pos+6);
 		}
-		gotoxy(1 + input.size(), 5);
+		gotoxy(1 + input.size(), 9);
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
 		switch (keyCode) {
 			case 8: // BACKSPACE
@@ -269,7 +273,7 @@ void xuLyTuDien(HashTable &tudien) {
 			case 13: // ENTER
 				// vao man hinh chi tiet tu
 				currentWord = findWord(tudien, input);
-				veGiaoDienChiTietTu(currentWord);
+						veGiaoDienChiTietTu(currentWord);
 				int k;
 				do {
 					k = getch();
