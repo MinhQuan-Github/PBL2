@@ -23,11 +23,29 @@ void readFile(HashTable &b);						// Doc file
 void xuLyTuDien(HashTable &tudien);					// Xu ly tu dien
 void findbyinput(HashTable &tudien, string input);
 
+
+
+void SetWindowSize(SHORT width, SHORT height)
+{
+    HANDLE hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    SMALL_RECT WindowSize;
+    WindowSize.Top = 0;
+    WindowSize.Left = 0;
+    WindowSize.Right = width;
+    WindowSize.Bottom = height;
+ 
+    SetConsoleWindowInfo(hStdout, 1, &WindowSize);
+}
+
 int main()
 {
-HashTable b;
-xuLyTuDien(b);
-return 0;
+	SetWindowSize(53,35);
+	//setColor(62);
+	system("color 81");
+	HashTable b;
+	xuLyTuDien(b);
+	return 0;
 }
 
 void xoaManHinh() {
@@ -59,10 +77,10 @@ void veGiaoDienChinh(string input) {
 	//int dongHienTai = 0;
 	// in ra cac huong dan
 	// o man hinh chinh
-	cout<<"Do an co so lap trinh"<<endl;
-	cout<<"Giao vien huong dan: "<<endl;
-	cout<<"Sinh vien thuc hien: Do Minh Quan - Ho Duc Hoang"<<endl;
-	cout<<"                                               "<<endl;
+	cout<<"               DO AN CO SO LAP TRINH"<<endl;
+	cout<<"  Giao vien huong dan: TS.Le Thi My Hanh"<<endl;
+	cout<<"  Sinh vien thuc hien: Do Minh Quan - Ho Duc Hoang"<<endl;
+	cout<<endl;
 	cout << " " << "TU DIEN ANH - VIET" << endl;	
 	cout << " " << char(254) << " Esc  : Thoat chuong trinh" << endl;
 	cout << " " << char(254) << " Tab  : Them tu moi" << endl;
