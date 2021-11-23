@@ -251,7 +251,7 @@ void timTuGoiY(HashTable &tudien, string input, int pos){
 	for(int i = 0;i<HT_SIZE;i++){
 		string w = tudien.findByInput(i,input);
 		if(limit<10 && w !="") {
-			cout<<w<<endl;
+			cout<<" "<<w<<endl;
 			limit++;
 		}
 	} 
