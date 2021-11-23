@@ -6,26 +6,22 @@
 #include <conio.h>
 using namespace std;
 class Word {
-private:
-	string word;	// tu vung
-	string type; 	// loai tu
-	string mean;	// nghia tu
-	string example;	// vi du
-
-public:
-	string getWord(); 			// Lay tu vung
-	string getType();			// Lay loai tu
-	string getMean();			// Lay nghia tu
-	string getExample();		// Lay vi du
-	void setWord(string m);		// Tao tu vung
-	void setType(string m);		// Tao loai tu
-	void setMean(string m);		// Tao nghia tu
-	void setExample(string m);	// Tao vi du
-	void display();				// Hien thi thong tin chi tiet tu vung
-//	void displayMeaning();		
-//	void Input(string dong);
+	private:
+		string word;	// tu vung
+		string type; 	// loai tu
+		string mean;	// nghia tu
+		string example;	// vi du
+	public:
+		string getWord(); 			// Lay tu vung
+		string getType();			// Lay loai tu
+		string getMean();			// Lay nghia tu
+		string getExample();		// Lay vi du
+		void setWord(string m);		// Tao tu vung
+		void setType(string m);		// Tao loai tu
+		void setMean(string m);		// Tao nghia tu
+		void setExample(string m);	// Tao vi du
+		void display();				// Hien thi thong tin chi tiet tu vung
 };
-
 string Word::getWord() {
 	return this->word;
 }

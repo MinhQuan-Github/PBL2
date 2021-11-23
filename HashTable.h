@@ -60,7 +60,7 @@ class HashTable   							// Lop Hashtable
     public:
 	    HashTable();						// Ham dung mac dinh Hashtable
 	    int  HashFunc(string word);   		// Ham bam (Hash)
-		void Insert(Word n);              	// Ham chen tu vung vào Hashtable
+		void Insert(Word n);              	// Ham chen tu vung vï¿½o Hashtable
 	    void Display();                     // Ham hien thi danh sach tu vung
 	    Word Find(string word);				// Ham tim kiem tu vung trong Hashtable
 	    int Size();							// Ham lay kich thuoc Hashtable

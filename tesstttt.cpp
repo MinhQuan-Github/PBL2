@@ -25,11 +25,10 @@ void xuLyTuDien(HashTable &tudien);					// Xu ly tu dien
 
 
 
-int main()
-{
-HashTable b;
-xuLyTuDien(b);
-return 0;
+int main() {
+	HashTable b;
+	xuLyTuDien(b);
+	return 0;
 }
 
 void xoaManHinh() {
