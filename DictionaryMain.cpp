@@ -8,27 +8,29 @@
 #define CR_KTK 50
 using namespace std;
 
-void xoaManHinh();									// Xoa man hinh
-void gotoxy(short x, short y);						// Dat con tro tai toa do (x,y)
-void veGiaoDienChinh(string input);					// giao dien tim tu vung
-void veGiaoDienChiTietTu(Word m);					// giao dien chi tiet tu vung
-void doiMau(short x);								// Ham thay doi textcolor va backgroundcolor
-Word timTu(HashTable DIC, string word);				// Tim tu vung
-void khoiTaoTu(Word &w,string dong);				// Ham khoi tao tu vung
-void suaTu(HashTable &tudien,Word &w);				// Sua tu vung
-void themTuMoi(HashTable &tudien);					// Nhap tu vung
-void docFile(HashTable &b);							// Doc file
-void xuLyTuDien(HashTable &tudien);					// Xu ly tu dien
-void timTuGoiY(HashTable &tudien, string input);  	// Tim tu goi y
-void SetWindowSize(SHORT width, SHORT height);		// Thay doi kich thuoc cua so
-
-
+void xoaManHinh();                                  // Xoa man hinh
+void gotoxy(short x, short y);                      // Dat con tro tai toa do (x,y)
+void veGiaoDienChinh(string input);                 // giao dien tim tu vung
+void veGiaoDienChiTietTu(Word m);                   // giao dien chi tiet tu vung
+void doiMau(short x);                               // Ham thay doi textcolor va backgroundcolor
+Word timTu(HashTable DIC, string word);             // Tim tu vung
+void khoiTaoTu(Word &w,string dong);                // Ham khoi tao tu vung
+void suaTu(HashTable &tudien,Word &w);              // Sua tu vung
+void themTuMoi(HashTable &tudien);                  // Nhap tu vung
+void docFile(HashTable &b);                         // Doc file
+void xuLyTuDien(HashTable &tudien);                 // Xu ly tu dien
+void timTuGoiY(HashTable &tudien, string input);    // Tim tu goi y
+void kichThuocCuaSo(SHORT width, SHORT height);     // Thay doi kich thuoc cua so
+void anThanhCuon(BOOL Show);                        // Ham an thanh scroll bar
+void voHieuHoaKichThuocCuaSo();                     // Ham vo hieu hoa thay doi kich thuoc man hinh
 
 
 int main() {
-	SetWindowSize(53,35);
-	//doiMau(62);
-	system("color 81");
+	SetConsoleTitle("English-Vietnamese Dictionary");  // Ham thay doi tieu de cua so
+	kichThuocCuaSo(51,44);
+	anThanhCuon(0);
+	voHieuHoaKichThuocCuaSo();
+	//system("color E");
 	HashTable b;
 	xuLyTuDien(b);
 	return 0;
@@ -52,19 +54,23 @@ void veGiaoDienChinh(string input) {
 	//int dongHienTai = 0;
 	// in ra cac huong dan
 	// o man hinh chinh
-	cout<<"	       DAI HOC BACH KHOA - DAI HOC DA NANG " << endl;
+	doiMau(12);
+	cout<<endl;
+	cout<<"        DAI HOC BACH KHOA - DAI HOC DA NANG " << endl;
 	cout<<"          ------------------------------" << endl;
 	cout<<"             KHOA CONG NGHE THONG TIN" << endl << endl << endl;
+	doiMau(10);
 	cout<<"           DO AN PBL2 : CO SO LAP TRINH"<<endl;
 	cout<<"  Giao vien huong dan: TS.Le Thi My Hanh"<<endl;
 	cout<<"  Sinh vien thuc hien: +/ Ho Duc Hoang - 20T2 "<<endl;
 	cout<<"                       +/ Do Minh Quan - 20T2 "<<endl;
-	cout<<endl;
+	cout<<endl; 
+	doiMau(14);
 	cout << " " << "TU DIEN ANH - VIET" << endl;	
 	cout << " " << char(254) << " Esc  : Thoat chuong trinh" << endl;
 	cout << " " << char(254) << " Tab  : Them tu moi" << endl;
 	cout << " " << char(254) << " Enter: Xem nghia cua tu" << endl;
-	
+	doiMau(11);
 	// ve khung tim kiem
 	cout << char(218);
 	for (int i = 0; i < CR_KTK; i++) {
@@ -93,9 +99,10 @@ void veGiaoDienChiTietTu(Word m) {
 	int dongHienTai = 0;
 	// in ra cac huong dan
 	// o man hinh chi tiet tu
+	doiMau(10);
 	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
 	cout << " " << char(254) << " Tab      : Sua tu nay" << endl;
-	
+	doiMau(14);
 	// in ra cac chi tiet cua tu
 	cout << endl << " " << m.getWord();
 	cout << endl << " ---";
@@ -240,7 +247,7 @@ void timTuGoiY(HashTable &tudien, string input, int pos){
 			cout<<w<<endl;
 			limit++;
 		}
-				} 
+	} 
 }
 
 void xuLyTuDien(HashTable &tudien) {
@@ -253,10 +260,10 @@ void xuLyTuDien(HashTable &tudien) {
 	while (true) { // vong lap vo tan
 		veGiaoDienChinh(input);	// ve toan bo giao dien
 		if(input != "") {
-			gotoxy(0,11);
+			gotoxy(0,18);
 			timTuGoiY(tudien,input,pos+6);
 		}
-		gotoxy(1 + input.size(), 9);
+		gotoxy(1 + input.size(), 16);
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
 		switch (keyCode) {
 			case 8: // BACKSPACE
@@ -319,7 +326,7 @@ void xuLyTuDien(HashTable &tudien) {
 }
 
 
-void SetWindowSize(SHORT width, SHORT height)
+void kichThuocCuaSo(SHORT width, SHORT height)
 {
     HANDLE hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
 
@@ -330,4 +337,16 @@ void SetWindowSize(SHORT width, SHORT height)
     WindowSize.Bottom = height;
  
     SetConsoleWindowInfo(hStdout, 1, &WindowSize);
+}
+
+void anThanhCuon(BOOL Show)
+{
+    HWND hWnd = GetConsoleWindow();
+    ShowScrollBar(hWnd, SB_BOTH, Show);
+}
+
+void voHieuHoaKichThuocCuaSo()
+{
+    HWND hWnd = GetConsoleWindow();
+    SetWindowLong(hWnd, GWL_STYLE, GetWindowLong(hWnd, GWL_STYLE) & ~WS_SIZEBOX);
 }
