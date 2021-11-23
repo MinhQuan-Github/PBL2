@@ -52,9 +52,13 @@ void veGiaoDienChinh(string input) {
 	//int dongHienTai = 0;
 	// in ra cac huong dan
 	// o man hinh chinh
-	cout<<"               DO AN CO SO LAP TRINH"<<endl;
+	cout<<"	       DAI HOC BACH KHOA - DAI HOC DA NANG " << endl;
+	cout<<"          ------------------------------" << endl;
+	cout<<"             KHOA CONG NGHE THONG TIN" << endl << endl << endl;
+	cout<<"           DO AN PBL2 : CO SO LAP TRINH"<<endl;
 	cout<<"  Giao vien huong dan: TS.Le Thi My Hanh"<<endl;
-	cout<<"  Sinh vien thuc hien: Do Minh Quan - Ho Duc Hoang"<<endl;
+	cout<<"  Sinh vien thuc hien: +/ Ho Duc Hoang - 20T2 "<<endl;
+	cout<<"                       +/ Do Minh Quan - 20T2 "<<endl;
 	cout<<endl;
 	cout << " " << "TU DIEN ANH - VIET" << endl;	
 	cout << " " << char(254) << " Esc  : Thoat chuong trinh" << endl;
