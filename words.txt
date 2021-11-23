@@ -1957,7 +1957,7 @@ wise /adjective/khon ngoan;sang suot;/she seems kind and wise;/
 beer /noun/bia;/a pint of beer;/
 ankle /noun/mat ca;mat ca chan.;/an ankle injury;/
 bomb /noun/bom;bom.;/a bomb attack;/
-between /preposition/giua;o giua;/the border between mexico and the united states;/
+between /preposition/giua;o giua;/the border between mexicao and the united states;/
 soil /noun/dat;dat.;/blueberries need very acid soil;/
 presumably /adverb/co le;co le;/the yakima indians presumably came from asia by way of the bering strait;/
 trick /noun/lua;bi quyet, thuat, meo;/he's a double-dealer capable of any mean trick;/

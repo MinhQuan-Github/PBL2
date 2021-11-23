@@ -2,8 +2,6 @@
 #define DEF_WORD
 #include <iostream>
 #include <fstream>
-#include <windows.h>
-#include <conio.h>
 using namespace std;
 class Word {
 private:
