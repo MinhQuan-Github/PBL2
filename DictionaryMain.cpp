@@ -23,7 +23,7 @@ void timTuGoiY(HashTable &tudien, string input);    // Tim tu goi y
 void kichThuocCuaSo(SHORT width, SHORT height);     // Thay doi kich thuoc cua so
 void anThanhCuon(BOOL Show);                        // Ham an thanh scroll bar
 void voHieuHoaKichThuocCuaSo();                     // Ham vo hieu hoa thay doi kich thuoc man hinh
-
+void veLoiKhongTimThayTu();
 
 int main() {
 	SetConsoleTitle("English-Vietnamese Dictionary");  // Ham thay doi tieu de cua so
@@ -92,8 +92,6 @@ void veGiaoDienChinh(string input) {
 	cout<<endl;
 	gotoxy(1 + input.size(), 9);
 }
-
-
 void veGiaoDienChiTietTu(Word m) {
 	xoaManHinh();
 	int dongHienTai = 0;
@@ -182,21 +180,22 @@ void suaTu(HashTable &tudien,Word &w) {
 	string temp = "";
 	cout << "Sua loai tu (" << w.getType() << "): ";
 	getline(cin, temp);
+
 	if (temp == "") return;
 	w.setType(temp);
-	
+
 	// Sua nghia
 	temp = "";
 	cout << "Sua nghia " <<  " (" << w.getMean() << "): "<<endl;
 	getline(cin, temp);
 	w.setMean(temp);
-	
+
 	// Sua vi du
 	temp = "";
-	cout << "Sua vidu " <<  " (" << w.getMean() << "): "<<endl;
+	cout << "Sua vidu " <<  " (" << w.getExample() << "): "<<endl;
 	getline(cin, temp);
 	w.setExample(temp);
-	tudien.Insert(w);
+	tudien.update(w);
 }
 
 

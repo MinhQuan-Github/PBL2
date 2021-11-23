@@ -56,10 +56,20 @@ Node *Search(LinkedList l, string word)
 		node = node->next;
 	if (node != NULL)
 	{
-		cout << node->key;
+	//	cout << node->key;
 		return node;
 	}
 	return NULL;
+}
+void Nodeupdate(LinkedList l, Word word)
+{ // Ham tim kiem tu vung trong danh sach  
+	Node *node = l.head;
+	while (node != NULL && node->key != word.getWord())
+		node = node->next;
+	if (node != NULL)
+	{
+	node->data = word;
+	}
 }
 Node *nodefindByInput(LinkedList &l, string input)
 { // Ham tim kiem tu vung trong danh sach
@@ -85,6 +95,7 @@ public:
 	Word Find(string word);	   				// Ham tim kiem tu vung trong Hashtable
 	int Size();				   				// Ham lay kich thuoc Hashtable
 	string findByInput(int n, string word); // Ham goi y tu vung trong Hashtable
+	void update(Word w);
 };
 
 HashTable::HashTable()
@@ -126,7 +137,10 @@ Word HashTable::Find(string word){
 	if(result == NULL) return error;
 	return result->data;
 }
-
+void HashTable::update(Word w){
+	int index = HashFunc(w.getWord());
+	Nodeupdate(this->DICTIONARY[index],w);
+}
 int HashTable::Size()
 {
 	return HT_SIZE;
