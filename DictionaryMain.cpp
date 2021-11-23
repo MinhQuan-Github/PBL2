@@ -8,24 +8,27 @@
 #define CR_KTK 50
 using namespace std;
 
-
-void xoaManHinh();									// xoa man hinh 
+void xoaManHinh();									// Xoa man hinh
 void gotoxy(short x, short y);						// Dat con tro tai toa do (x,y)
-void veketqua(string w);							// Thanh tim kiem 
-void timketqua(HashTable tudien, string input);		// tim tu vung
 void veGiaoDienChinh(string input);					// giao dien tim tu vung
 void veGiaoDienChiTietTu(Word m);					// giao dien chi tiet tu vung
-void setColor(short x);								// Ham thay doi textcolor va backgroundcolor
-Word findWord(HashTable DIC, string word);			// 
-void wordInit(Word &w,string dong);					// Them tu vung vao file
+void doiMau(short x);								// Ham thay doi textcolor va backgroundcolor
+Word timTu(HashTable DIC, string word);				// Tim tu vung
+void khoiTaoTu(Word &w,string dong);				// Ham khoi tao tu vung
 void suaTu(HashTable &tudien,Word &w);				// Sua tu vung
 void themTuMoi(HashTable &tudien);					// Nhap tu vung
-void readFile(HashTable &b);						// Doc file
+void docFile(HashTable &b);							// Doc file
 void xuLyTuDien(HashTable &tudien);					// Xu ly tu dien
+void timTuGoiY(HashTable &tudien, string input);  	// Tim tu goi y
+void SetWindowSize(SHORT width, SHORT height);		// Thay doi kich thuoc cua so
+
 
 
 
 int main() {
+	SetWindowSize(53,35);
+	//doiMau(62);
+	system("color 81");
 	HashTable b;
 	xuLyTuDien(b);
 	return 0;
@@ -44,25 +47,16 @@ void gotoxy(short x, short y) {
 }
 
 
-void veketqua(string w){
-
-}
-
-
-void timketqua(HashTable tudien, string input){
-	int length = tudien.Size();
-	for(int i = 0; i<length;i++){
-		
-	}
-}
-
-
 void veGiaoDienChinh(string input) {
 	xoaManHinh();
 	//int dongHienTai = 0;
 	// in ra cac huong dan
 	// o man hinh chinh
-	cout << " " << "TEN_UNG_DUNG" << endl;	
+	cout<<"               DO AN CO SO LAP TRINH"<<endl;
+	cout<<"  Giao vien huong dan: TS.Le Thi My Hanh"<<endl;
+	cout<<"  Sinh vien thuc hien: Do Minh Quan - Ho Duc Hoang"<<endl;
+	cout<<endl;
+	cout << " " << "TU DIEN ANH - VIET" << endl;	
 	cout << " " << char(254) << " Esc  : Thoat chuong trinh" << endl;
 	cout << " " << char(254) << " Tab  : Them tu moi" << endl;
 	cout << " " << char(254) << " Enter: Xem nghia cua tu" << endl;
@@ -86,8 +80,7 @@ void veGiaoDienChinh(string input) {
 	}
 	cout << char(217);
 	cout<<endl;
-	veketqua(input);
-	gotoxy(1 + input.size(), 5);
+	gotoxy(1 + input.size(), 9);
 }
 
 
@@ -110,19 +103,19 @@ void veGiaoDienChiTietTu(Word m) {
 
 
 // Ham thay doi textcolor va backgroundcolor
-void setColor(short x) { 
+void doiMau(short x) { 
 	HANDLE hConsoleColor;
 	hConsoleColor = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hConsoleColor, x);
 }
 
 
-Word findWord(HashTable DIC, string word){
-	return DIC.Find(word);
+Word timTu(HashTable DIC, string word){
+	return  DIC.Find(word);
 }
 
 
-void wordInit(Word &w,string dong) {  // dong doc tu file
+void khoiTaoTu(Word &w,string dong) {  // dong doc tu file
 	int i, pos;
 	i = 0;
 	// about/pho tu/khoang chung;sap;gan;/He is about to die;We're about to start;How about this?;
@@ -219,7 +212,7 @@ void themTuMoi(HashTable &tudien) {
 }
 
 
-void readFile(HashTable &b) {
+void docFile(HashTable &b) {
 	ifstream fi("words.txt"); 	// tim tap tin
 	string dong;
 	if (fi.is_open()) { 		// mo tap tin, kiem tra tap tin co ton tai hay khong...
@@ -228,25 +221,38 @@ void readFile(HashTable &b) {
 				continue;
 			}
 			Word w;
-			wordInit(w,dong);
+			khoiTaoTu(w,dong);
 			b.Insert(w);	
 		}
 		fi.close(); 			// dong tap tin
 	}
 }
-
+void timTuGoiY(HashTable &tudien, string input, int pos){
+	int limit =0;
+	int HIEN_THI = 10; // Hien thi toi da 10 goi y
+	for(int i = 0;i<HT_SIZE;i++){
+		string w = tudien.findByInput(i,input);
+		if(limit<10 && w !="") {
+			cout<<w<<endl;
+			limit++;
+		}
+				} 
+}
 
 void xuLyTuDien(HashTable &tudien) {
-	readFile(tudien);
+	docFile(tudien);
 	Word currentWord;
 	string input = ""; // noi dung hien tai cua khung tim kiem
 	int keyCode = 0;
 	int pos = 0; // vi tri cua tu hien tai, vi tri thanh sang (highlight)
 
 	while (true) { // vong lap vo tan
-		veketqua(input);
 		veGiaoDienChinh(input);	// ve toan bo giao dien
-
+		if(input != "") {
+			gotoxy(0,11);
+			timTuGoiY(tudien,input,pos+6);
+		}
+		gotoxy(1 + input.size(), 9);
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
 		switch (keyCode) {
 			case 8: // BACKSPACE
@@ -257,8 +263,8 @@ void xuLyTuDien(HashTable &tudien) {
 				break;
 			case 13: // ENTER
 				// vao man hinh chi tiet tu
-				currentWord = findWord(tudien, input);
-				veGiaoDienChiTietTu(currentWord);
+				currentWord = timTu(tudien, input);
+						veGiaoDienChiTietTu(currentWord);
 				int k;
 				do {
 					k = getch();
@@ -292,7 +298,7 @@ void xuLyTuDien(HashTable &tudien) {
 			case 224: {
 				int key = getch();
 				if (key == 72) { pos--; } // UP
-				if (key == 80) { pos++; } // DOWN
+				if (key == 80) { pos++; gotoxy(1,7+pos);} // DOWN
 				if (pos < 0) pos = 0;
 				//if (pos > soLuongTu - 1) pos = soLuongTu - 1;
 				break;
@@ -300,10 +306,24 @@ void xuLyTuDien(HashTable &tudien) {
 			default:
 				if (keyCode >= 97 && keyCode <= 122) { // a-z
 					input += char(keyCode);
-				//	cout<<char(keyCode)<<endl;;
-					gotoxy(5,10);
-					cout<< "haonggg";
+				
+
 				}
 		}
+		
 	};
+}
+
+
+void SetWindowSize(SHORT width, SHORT height)
+{
+    HANDLE hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    SMALL_RECT WindowSize;
+    WindowSize.Top = 0;
+    WindowSize.Left = 0;
+    WindowSize.Right = width;
+    WindowSize.Bottom = height;
+ 
+    SetConsoleWindowInfo(hStdout, 1, &WindowSize);
 }

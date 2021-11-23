@@ -2,8 +2,6 @@
 #define DEF_WORD
 #include <iostream>
 #include <fstream>
-#include <windows.h>
-#include <conio.h>
 using namespace std;
 class Word {
 	private:
@@ -22,6 +20,8 @@ class Word {
 		void setExample(string m);	// Tao vi du
 		void display();				// Hien thi thong tin chi tiet tu vung
 };
+
+
 string Word::getWord() {
 	return this->word;
 }
