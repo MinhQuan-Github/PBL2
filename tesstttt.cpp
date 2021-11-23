@@ -8,40 +8,27 @@
 #define CR_KTK 50
 using namespace std;
 
-void xoaManHinh();									// xoa man hinh 
+void xoaManHinh();									// Xoa man hinh 
 void gotoxy(short x, short y);						// Dat con tro tai toa do (x,y)
-void veketqua(string w);							// Thanh tim kiem 
-void timketqua(HashTable tudien, string input);		// tim tu vung
 void veGiaoDienChinh(string input);					// giao dien tim tu vung
 void veGiaoDienChiTietTu(Word m);					// giao dien chi tiet tu vung
-void setColor(short x);								// Ham thay doi textcolor va backgroundcolor
-Word findWord(HashTable DIC, string word);			// 
-void wordInit(Word &w,string dong);					// Them tu vung vao file
+void doiMau(short x);								// Ham thay doi textcolor va backgroundcolor
+Word timTu(HashTable DIC, string word);			// Tim tu
+void khoiTaoTu(Word &w,string dong);					// Them tu vung vao file
 void suaTu(HashTable &tudien,Word &w);				// Sua tu vung
 void themTuMoi(HashTable &tudien);					// Nhap tu vung
-void readFile(HashTable &b);						// Doc file
+void docFile(HashTable &b);						// Doc file
 void xuLyTuDien(HashTable &tudien);					// Xu ly tu dien
-void findbyinput(HashTable &tudien, string input);
+void timTuGoiY(HashTable &tudien, string input);  // Tim tu goi y
+void SetWindowSize(SHORT width, SHORT height);		// Thay doi kich thuoc cua so
 
 
 
-void SetWindowSize(SHORT width, SHORT height)
-{
-    HANDLE hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
-
-    SMALL_RECT WindowSize;
-    WindowSize.Top = 0;
-    WindowSize.Left = 0;
-    WindowSize.Right = width;
-    WindowSize.Bottom = height;
- 
-    SetConsoleWindowInfo(hStdout, 1, &WindowSize);
-}
 
 int main()
 {
 	SetWindowSize(53,35);
-	//setColor(62);
+	//doiMau(62);
 	system("color 81");
 	HashTable b;
 	xuLyTuDien(b);
@@ -58,17 +45,6 @@ void gotoxy(short x, short y) {
     COORD Cursor_an_Pos = {x, y};
     hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleCursorPosition(hConsoleOutput, Cursor_an_Pos);
-}
-
-
-void veketqua(string w){
-
-}
-
-
-void  timketqua(HashTable tudien, string input){
-
-	// input = ab
 }
 
 
@@ -105,7 +81,6 @@ void veGiaoDienChinh(string input) {
 	}
 	cout << char(217);
 	cout<<endl;
-	veketqua(input);
 	gotoxy(1 + input.size(), 9);
 }
 
@@ -129,19 +104,19 @@ void veGiaoDienChiTietTu(Word m) {
 
 
 // Ham thay doi textcolor va backgroundcolor
-void setColor(short x) { 
+void doiMau(short x) { 
 	HANDLE hConsoleColor;
 	hConsoleColor = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hConsoleColor, x);
 }
 
 
-Word findWord(HashTable DIC, string word){
+Word timTu(HashTable DIC, string word){
 	return  DIC.Find(word);
 }
 
 
-void wordInit(Word &w,string dong) {  // dong doc tu file
+void khoiTaoTu(Word &w,string dong) {  // dong doc tu file
 	int i, pos;
 	i = 0;
 	// about/pho tu/khoang chung;sap;gan;/He is about to die;We're about to start;How about this?;
@@ -238,7 +213,7 @@ void themTuMoi(HashTable &tudien) {
 }
 
 
-void readFile(HashTable &b) {
+void docFile(HashTable &b) {
 	ifstream fi("words.txt"); 	// tim tap tin
 	string dong;
 	if (fi.is_open()) { 		// mo tap tin, kiem tra tap tin co ton tai hay khong...
@@ -247,13 +222,13 @@ void readFile(HashTable &b) {
 				continue;
 			}
 			Word w;
-			wordInit(w,dong);
+			khoiTaoTu(w,dong);
 			b.Insert(w);	
 		}
 		fi.close(); 			// dong tap tin
 	}
 }
-void findbyinput(HashTable &tudien, string input, int pos){
+void timTuGoiY(HashTable &tudien, string input, int pos){
 	int limit =0;
 	int HIEN_THI = 10; // Hien thi toi da 10 goi y
 	for(int i = 0;i<HT_SIZE;i++){
@@ -266,18 +241,17 @@ void findbyinput(HashTable &tudien, string input, int pos){
 }
 
 void xuLyTuDien(HashTable &tudien) {
-	readFile(tudien);
+	docFile(tudien);
 	Word currentWord;
 	string input = ""; // noi dung hien tai cua khung tim kiem
 	int keyCode = 0;
 	int pos = 0; // vi tri cua tu hien tai, vi tri thanh sang (highlight)
 
 	while (true) { // vong lap vo tan
-		veketqua(input);
 		veGiaoDienChinh(input);	// ve toan bo giao dien
 		if(input != "") {
 			gotoxy(0,11);
-			findbyinput(tudien,input,pos+6);
+			timTuGoiY(tudien,input,pos+6);
 		}
 		gotoxy(1 + input.size(), 9);
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
@@ -290,7 +264,7 @@ void xuLyTuDien(HashTable &tudien) {
 				break;
 			case 13: // ENTER
 				// vao man hinh chi tiet tu
-				currentWord = findWord(tudien, input);
+				currentWord = timTu(tudien, input);
 						veGiaoDienChiTietTu(currentWord);
 				int k;
 				do {
@@ -339,4 +313,18 @@ void xuLyTuDien(HashTable &tudien) {
 		}
 		
 	};
+}
+
+
+void SetWindowSize(SHORT width, SHORT height)
+{
+    HANDLE hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    SMALL_RECT WindowSize;
+    WindowSize.Top = 0;
+    WindowSize.Left = 0;
+    WindowSize.Right = width;
+    WindowSize.Bottom = height;
+ 
+    SetConsoleWindowInfo(hStdout, 1, &WindowSize);
 }
