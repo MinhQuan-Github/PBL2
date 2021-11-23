@@ -107,7 +107,7 @@ void veGiaoDienChiTietTu(Word m) {
 	cout << endl << " (" << m.getType() << "): ";
 	cout <<m.getMean() << "; ";
 	cout << endl << " ---"; 
-	cout<< endl<< m.getExample();
+	cout<< endl<<" "<<m.getExample();
 }
 void veLoiKhongTimThayTu(){
 	xoaManHinh();
