@@ -104,8 +104,10 @@ void HashTable::Display(){
 }
 
 Word HashTable::Find(string word){
+	Word error ;
 	int index = HashFunc(word);
 	Node *result = Search(this->DICTIONARY[index],word);
+	if(result == NULL) return error;
 	return result->data;
 }
 

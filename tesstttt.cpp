@@ -21,14 +21,12 @@ void docFile(HashTable &b);						// Doc file
 void xuLyTuDien(HashTable &tudien);					// Xu ly tu dien
 void timTuGoiY(HashTable &tudien, string input);  // Tim tu goi y
 void SetWindowSize(SHORT width, SHORT height);		// Thay doi kich thuoc cua so
-
-
+void veLoiKhongTimThayTu();
 
 
 int main()
 {
 	SetWindowSize(53,35);
-	//doiMau(62);
 	system("color 81");
 	HashTable b;
 	xuLyTuDien(b);
@@ -101,7 +99,15 @@ void veGiaoDienChiTietTu(Word m) {
 	cout << endl << " ---"; 
 	cout<< endl<< m.getExample();
 }
-
+void veLoiKhongTimThayTu(){
+	xoaManHinh();
+	int dongHienTai = 0;
+	// in ra cac huong dan
+	// o man hinh chi tiet tu
+	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
+	cout << " " << char(254) << " Tab      : Sua tu nay" << endl;
+	cout << " Loi! Khong co tu nay" << endl;
+}
 
 // Ham thay doi textcolor va backgroundcolor
 void doiMau(short x) { 
@@ -265,7 +271,11 @@ void xuLyTuDien(HashTable &tudien) {
 			case 13: // ENTER
 				// vao man hinh chi tiet tu
 				currentWord = timTu(tudien, input);
-						veGiaoDienChiTietTu(currentWord);
+				if(currentWord.getWord() =="") veLoiKhongTimThayTu();
+				else{
+					veGiaoDienChiTietTu(currentWord);
+				} 
+
 				int k;
 				do {
 					k = getch();

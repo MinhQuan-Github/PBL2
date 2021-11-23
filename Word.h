@@ -13,6 +13,7 @@ private:
 	string example;	// vi du
 
 public:
+	Word();
 	string getWord(); 			// Lay tu vung
 	string getType();			// Lay loai tu
 	string getMean();			// Lay nghia tu
@@ -25,7 +26,12 @@ public:
 //	void displayMeaning();		
 //	void Input(string dong);
 };
-
+Word::Word(){
+	this->word ="";
+	this->example="";
+	this->type="";
+	this->mean="";
+}
 string Word::getWord() {
 	return this->word;
 }
