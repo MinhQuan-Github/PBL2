@@ -24,7 +24,7 @@ void kichThuocCuaSo(SHORT width, SHORT height);     // Thay doi kich thuoc cua s
 void anThanhCuon(BOOL Show);                        // Ham an thanh scroll bar
 void voHieuHoaKichThuocCuaSo();                     // Ham vo hieu hoa thay doi kich thuoc man hinh
 void veLoiKhongTimThayTu();                         // Ham tra ve giao dien khong tim thay tu
-
+void veGoiY(int pos);
 
 int main() {
 	SetConsoleTitle("English-Vietnamese Dictionary");  // Ham thay doi tieu de cua so
@@ -116,7 +116,7 @@ void veLoiKhongTimThayTu(){
 	// in ra cac huong dan
 	// o man hinh chi tiet tu
 	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
-	cout << " " << char(254) << " Tab      : Sua tu nay" << endl;
+	cout << " " << char(254) << " Tab      : Them tu moi" << endl;
 	cout << " Loi! Khong co tu nay" << endl;
 }
 
@@ -210,6 +210,7 @@ void themTuMoi(HashTable &tudien) {
 	if (temp == "") return;
 	else {
 		w.setWord(temp);
+	//	cout<<temp;
 	}
 	// nhap loai tu
 	temp = "";
@@ -246,31 +247,53 @@ void docFile(HashTable &b) {
 		fi.close(); 			// dong tap tin
 	}
 }
-void timTuGoiY(HashTable &tudien, string input, int pos){
-	int limit =0;
-	int HIEN_THI = 10; // Hien thi toi da 10 goi y
-	for(int i = 0;i<HT_SIZE;i++){
-		string w = tudien.findByInput(i,input);
-		if(limit<10 && w !="") {
+void timTuGoiY(HashTable &tudien,Word *a, string input, int pos, int &size){
+
+	 // Hien thi toi da 10 goi y
+	size = 10;
+	tudien.findByInput(a,input);
+	for(int i = 0;i<10;i++){
+		if(a[i].getWord() !=""){
+			cout<<" "<<a[i].getWord()<<endl;
+		}
+		else{
+			size = i;
+			break;
+		}
+	}
+	
+/*		string w = tudien.findByInput(i,input);
+		if(w!="")	cout<<" "<<w<<endl;
+		
+	if(limit<10 && w !="") {
 			cout<<" "<<w<<endl;
 			limit++;
-		}
-	} 
+		} */
+	//} 
 }
-
+void veGoiY(int pos){
+	gotoxy(20,pos+18);
+	cout<<"<--";
+}
 void xuLyTuDien(HashTable &tudien) {
 	docFile(tudien);
 	Word currentWord;
 	string input = ""; // noi dung hien tai cua khung tim kiem
 	int keyCode = 0;
 	int pos = 0; // vi tri cua tu hien tai, vi tri thanh sang (highlight)
-
+	Word *tugoiy = new Word[10];
+	int goiy=1; // so luong goi y tu tim duoc
 	while (true) { // vong lap vo tan
+		
 		veGiaoDienChinh(input);	// ve toan bo giao dien
+		
+	//	gotoxy(1 + input.size(), 9);
 		if(input != "") {
 			gotoxy(0,18);
-			timTuGoiY(tudien,input,pos+6);
+			timTuGoiY(tudien,tugoiy,input,pos+6,goiy);
+			veGoiY(pos);
 		}
+		
 		gotoxy(1 + input.size(), 16);
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
 		switch (keyCode) {
@@ -282,13 +305,11 @@ void xuLyTuDien(HashTable &tudien) {
 				break;
 			case 13: // ENTER
 				// vao man hinh chi tiet tu
-				currentWord = timTu(tudien, input);
-				if(currentWord.getWord() =="") veLoiKhongTimThayTu();
-				else{
-					veGiaoDienChiTietTu(currentWord);
-				} 
-
-				int k;
+				//
+				if(tugoiy[pos].getWord() == "") veLoiKhongTimThayTu();
+					else{
+					veGiaoDienChiTietTu(tugoiy[pos]);
+					int k;
 				do {
 					k = getch();
 					if (k == 8) { // BACKSPACE
@@ -309,6 +330,8 @@ void xuLyTuDien(HashTable &tudien) {
 						break; // ve man hinh chinh
 					}
 				} while (true);
+					
+				}
 				break;
 			case 27: // ESCAPE
 				doiMau(14);
@@ -329,7 +352,10 @@ void xuLyTuDien(HashTable &tudien) {
 			case 224: {
 				int key = getch();
 				if (key == 72) { pos--; } // UP
-				if (key == 80) { pos++; gotoxy(1,7+pos);} // DOWN
+				if (key == 80) { 
+				if(pos<goiy-1) pos++;
+				
+				} // DOWN
 				if (pos < 0) pos = 0;
 				//if (pos > soLuongTu - 1) pos = soLuongTu - 1;
 				break;
@@ -337,8 +363,6 @@ void xuLyTuDien(HashTable &tudien) {
 			default:
 				if (keyCode >= 97 && keyCode <= 122) { // a-z
 					input += char(keyCode);
-				
-
 				}
 		}
 		

@@ -6,7 +6,6 @@ army/danh tu/quan doi;doi quan;/i need an army;you're in the army now;/
 ball/danh tu/qua bong;qua banh;qua cau;buoi khieu vu;/they're refusing to play ball;i love meatballs;i have a foot ball;/
 bear/danh tu/con gau;/it was a big bear;/
 big/tinh tu/to;lon;quan trong;/he likes to talk big;that is a big tree;he looks so big;it's not a big deal;/
-big/tinh tu/to lon;/big apple;/
 cold/tinh tu/lanh;nguoi;lanh lung;lanh nhat;/kill somebody in cold blood;the weather is getting colder;i feel so cold;/
 dad/danh tu/cha;ba;bo;/i love my dad;my dad is a teacher;/
 family/danh tu/gia dinh;/i love my family;/
@@ -654,7 +653,6 @@ international/adjective/quoc te;/international trade;/
 extreme/adjective/cuc;vo cung;cuc ky;cuc doan.;/extreme cold;/
 dirty/adjective/do ban;ban thiu;ban;/a tray of dirty cups and saucers;/
 native/noun/tu nhien;ban dia;nguoi ban xu;/a native of montreal;/
-big/adjective/to lon;huenh hoang;quan trong;lon;/big hazel eyes;/
 next/adjective/ke tiep;ben canh;tiep theo;/we'll go next year;/
 busy/adjective/ban;ban ron;/he had been too busy to enjoy himself;/
 informal/adjective/khong trang trong;khong chinh thuc;than mat;thoai mai;/an informal atmosphere;/
@@ -1040,7 +1038,6 @@ firm/adjective/chac chan;vung chai;cong ty;cong ty.;/the bed should be reasonabl
 exclude/verb/loai tru;/women had been excluded from many scientific societies;/
 wood/noun/go;rung;/a block of wood;/
 arrangement/noun/sap xep;su sap xep;sap xep.;/the arrangement of the furniture in the room;/
-big/adjective/to lon;huenh hoang;quan trong;lon;/big hazel eyes;/
 associate/verb/ket hop;hoi lien hiep;pho;cong su;/i associated wealth with freedom;/
 impossible/adjective/khong the nao;khong the duoc;bat kha thi;khong the;/a seemingly impossible task;/
 aloud/adverb/to.;lon tieng;/he read the letter aloud;/

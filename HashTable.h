@@ -71,18 +71,7 @@ void Nodeupdate(LinkedList l, Word word)
 	node->data = word;
 	}
 }
-Node *nodefindByInput(LinkedList &l, string input)
-{ // Ham tim kiem tu vung trong danh sach
-	Node *node = l.head;
-	if (!node)
-		return NULL;
-	string substr = node->key.substr(0, input.size());  // about about.substring(1,1) = b
-	while (node != NULL && substr != input)
-		node = node->next;
-	if (node != NULL)
-		return node;
-	return NULL;
-}
+
 class HashTable 
 { // Lop Hashtable
 private:
@@ -94,7 +83,7 @@ public:
 	void Display();			   				// Ham hien thi danh sach tu vung
 	Word Find(string word);	   				// Ham tim kiem tu vung trong Hashtable
 	int Size();				   				// Ham lay kich thuoc Hashtable
-	string findByInput(int n, string word); // Ham goi y tu vung trong Hashtable
+	void findByInput(Word *array, string input); // Ham goi y tu vung trong Hashtable
 	void update(Word w);
 };
 
@@ -146,10 +135,32 @@ int HashTable::Size()
 	return HT_SIZE;
 }
 
-string HashTable::findByInput(int n, string word)
-{
-	Node *node = nodefindByInput(this->DICTIONARY[n], word);
-	if (node == NULL)
-		return "";
-	return node->key;
+void HashTable::findByInput(Word *array, string input)
+{   
+Word empty;
+const int GIOI_HAN_TU_GOI_Y = 10;
+	int limit = 0;
+	int index = 0;
+	string substr ="";
+	for(int i = 0;i<HT_SIZE;i++){
+		Node *node = this->DICTIONARY[i].head;
+	if (!node)
+		continue; 
+	while (node != NULL){
+	substr = node->key.substr(0, input.size());
+	if(substr == input && index<GIOI_HAN_TU_GOI_Y) {
+		array[index] = node->data;
+		index++;
+	}
+	node = node->next;
+	}
+	// if mang goi y khong du 10 tu thi them cac phan tu trong mang con lai bang Word emty("");
+	if(index<GIOI_HAN_TU_GOI_Y-1){
+		for(int i = index+1;i<GIOI_HAN_TU_GOI_Y;i++){
+			array[i] = empty;
+		}
+	}
 }
+}
+		
+
