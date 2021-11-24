@@ -23,7 +23,8 @@ void timTuGoiY(HashTable &tudien, string input);    // Tim tu goi y
 void kichThuocCuaSo(SHORT width, SHORT height);     // Thay doi kich thuoc cua so
 void anThanhCuon(BOOL Show);                        // Ham an thanh scroll bar
 void voHieuHoaKichThuocCuaSo();                     // Ham vo hieu hoa thay doi kich thuoc man hinh
-void veLoiKhongTimThayTu();
+void veLoiKhongTimThayTu();                         // Ham tra ve giao dien khong tim thay tu
+
 
 int main() {
 	SetConsoleTitle("English-Vietnamese Dictionary");  // Ham thay doi tieu de cua so
@@ -186,13 +187,13 @@ void suaTu(HashTable &tudien,Word &w) {
 
 	// Sua nghia
 	temp = "";
-	cout << "Sua nghia " <<  " (" << w.getMean() << "): "<<endl;
+	cout << "Sua nghia " <<  " (" << w.getMean() << "): ";
 	getline(cin, temp);
 	w.setMean(temp);
 
 	// Sua vi du
 	temp = "";
-	cout << "Sua vidu " <<  " (" << w.getExample() << "): "<<endl;
+	cout << "Sua vidu " <<  " (" << w.getExample() << "): ";
 	getline(cin, temp);
 	w.setExample(temp);
 	tudien.update(w);
@@ -310,12 +311,20 @@ void xuLyTuDien(HashTable &tudien) {
 				} while (true);
 				break;
 			case 27: // ESCAPE
-				gotoxy(2, 25);
+				doiMau(14);
+				gotoxy(3,21);
+				cout<<"----------------------------------------------";
+				gotoxy(2,22);
+				cout << "           Thanks for using our app!\n  Hope you had a great experience with this product";
+				gotoxy(3,24);
+				cout<<"----------------------------------------------";
+				gotoxy(2, 27);
+				doiMau(9);
 			//	if (dulieuThaydoi == true) { // neu du lieu co thay doi
 			//		cout << "Du lieu thay doi!!! Tien hanh ghi file..." << endl;
 				//	ghiFile(tudien);
 			//	}
-			//	exit(EXIT_SUCCESS); // thoat chuong trinh
+				exit(EXIT_SUCCESS); // thoat chuong trinh
 				break;
 			case 224: {
 				int key = getch();
