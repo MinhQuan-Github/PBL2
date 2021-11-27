@@ -4,233 +4,26 @@
 #include <conio.h>
 #include "Word.h"
 #include "HashTable.h"
+#include "UIsystem.h"
+#include "UI.h"
+#include "function.h"
 
 #define CR_KTK 50
 using namespace std;
 
-void xoaManHinh();                                  // Xoa man hinh
-void gotoxy(short x, short y);                      // Dat con tro tai toa do (x,y)
-void veGiaoDienChinh(string input);                 // giao dien tim tu vung
-void veGiaoDienChiTietTu(Word m);                   // giao dien chi tiet tu vung
-void doiMau(short x);                               // Ham thay doi textcolor va backgroundcolor
-Word timTu(HashTable DIC, string word);             // Tim tu vung
-void khoiTaoTu(Word &w,string dong);                // Ham khoi tao tu vung
-void suaTu(HashTable &tudien,Word &w);              // Sua tu vung
-void themTuMoi(HashTable &tudien);                  // Nhap tu vung
 void docFile(HashTable &b);                         // Doc file
 void xuLyTuDien(HashTable &tudien);                 // Xu ly tu dien
-void timTuGoiY(HashTable &tudien, string input);    // Tim tu goi y
-void kichThuocCuaSo(SHORT width, SHORT height);     // Thay doi kich thuoc cua so
-void anThanhCuon(BOOL Show);                        // Ham an thanh scroll bar
-void voHieuHoaKichThuocCuaSo();                     // Ham vo hieu hoa thay doi kich thuoc man hinh
-void veLoiKhongTimThayTu();                         // Ham tra ve giao dien khong tim thay tu
-void veGoiY(int pos);
 
 int main() {
-	SetConsoleTitle("English-Vietnamese Dictionary");  // Ham thay doi tieu de cua so
-	kichThuocCuaSo(51,44);
-	anThanhCuon(0);
-	voHieuHoaKichThuocCuaSo();
-	//system("color E");
-	HashTable b;
-	xuLyTuDien(b);
+	SetConsoleTitle("English-Vietnamese Dictionary");  // Doi tieu de cua so thanh "English-Vietnamese Dictionary"
+	kichThuocCuaSo(51,44);                             // Co dinh kich thuoc cua so voi so do (51,44)
+	anThanhCuon(0);                                    // An thanh cuon tren cua so ung dung
+	voHieuHoaKichThuocCuaSo();                         // Vo hieu hoa thay doi kich thuoc cua so 
+	HashTable b;                                       // Khai bao cau truc du lieu HASHTABLE de xu ly tu dien
+	giaoDienMoUngDung();
+	xuLyTuDien(b);                                     // Xu li tu dien
 	return 0;
 }
-
-void xoaManHinh() {
-	system("cls");
-}
-
-
-void gotoxy(short x, short y) {
-    HANDLE hConsoleOutput;
-    COORD Cursor_an_Pos = {x, y};
-    hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleCursorPosition(hConsoleOutput, Cursor_an_Pos);
-}
-
-
-void veGiaoDienChinh(string input) {
-	xoaManHinh();
-	//int dongHienTai = 0;
-	// in ra cac huong dan
-	// o man hinh chinh
-	doiMau(12);
-	cout<<endl;
-	cout<<"        DAI HOC BACH KHOA - DAI HOC DA NANG " << endl;
-	cout<<"          ------------------------------" << endl;
-	cout<<"             KHOA CONG NGHE THONG TIN" << endl << endl << endl;
-	doiMau(10);
-	cout<<"           DO AN PBL2 : CO SO LAP TRINH"<<endl;
-	cout<<"  Giao vien huong dan: TS.Le Thi My Hanh"<<endl;
-	cout<<"  Sinh vien thuc hien: +/ Ho Duc Hoang - 20T2 "<<endl;
-	cout<<"                       +/ Do Minh Quan - 20T2 "<<endl;
-	cout<<endl; 
-	doiMau(14);
-	cout << " " << "TU DIEN ANH - VIET" << endl;	
-	cout << " " << char(254) << " Esc  : Thoat chuong trinh" << endl;
-	cout << " " << char(254) << " Tab  : Them tu moi" << endl;
-	cout << " " << char(254) << " Enter: Xem nghia cua tu" << endl;
-	doiMau(11);
-	// ve khung tim kiem
-	cout << char(218);
-	for (int i = 0; i < CR_KTK; i++) {
-		cout << char(196);
-	}
-	cout << char(191) << endl;
-	
-	cout << char(179) << input;
-	for (int i = 0; i < CR_KTK - input.size(); i++) {
-		cout << char(255);
-	}
-	cout << char(179);
-	
-	cout << endl << char(192);
-	for (int i = 0; i < CR_KTK; i++) {
-		cout << char(196);
-	}
-	cout << char(217);
-	cout<<endl;
-	gotoxy(1 + input.size(), 9);
-}
-void veGiaoDienChiTietTu(Word m) {
-	xoaManHinh();
-	int dongHienTai = 0;
-	// in ra cac huong dan
-	// o man hinh chi tiet tu
-	doiMau(10);
-	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
-	cout << " " << char(254) << " Tab      : Sua tu nay" << endl;
-	doiMau(14);
-	// in ra cac chi tiet cua tu
-	cout << endl << " " << m.getWord();
-	cout << endl << " ---";
-	cout << endl << " (" << m.getType() << "): ";
-	cout <<m.getMean() << "; ";
-	cout << endl << " ---"; 
-	cout<< endl<<" "<<m.getExample();
-}
-void veLoiKhongTimThayTu(){
-	xoaManHinh();
-	int dongHienTai = 0;
-	// in ra cac huong dan
-	// o man hinh chi tiet tu
-	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
-	cout << " " << char(254) << " Tab      : Them tu moi" << endl;
-	cout << " Loi! Khong co tu nay" << endl;
-}
-
-// Ham thay doi textcolor va backgroundcolor
-void doiMau(short x) { 
-	HANDLE hConsoleColor;
-	hConsoleColor = GetStdHandle(STD_OUTPUT_HANDLE);
-	SetConsoleTextAttribute(hConsoleColor, x);
-}
-
-
-Word timTu(HashTable DIC, string word){
-	return  DIC.Find(word);
-}
-
-
-void khoiTaoTu(Word &w,string dong) {  // dong doc tu file
-	int i, pos;
-	i = 0;
-	// about/pho tu/khoang chung;sap;gan;/He is about to die;We're about to start;How about this?;
-	// tach tu
-	string word = "";
-	while (dong[i] != '/') {word += dong[i++];}
-	i++;
-	w.setWord(word); // init word in class Word
-	
-	// tach loai tu
-	string type = "";
-	while (dong[i] != '/') {type += dong[i++];}
-	i++;
-	w.setType(type);
-	
-	// tach nghia
-	string mean = ""; pos = 0;
-	while (dong[i] != '/') {
-		mean += dong[i];
-		i++; 
-		// nghia moi
-		if (dong[i] == ';') { 
-			w.setMean(mean);
-		}
-	}
-	i++;
-	
-	// tach vi du
-	string example = "";
-	while (dong[i] != '/') {
-		example += dong[i++];
-		if (dong[i] == ';') {
-			w.setExample(example);
-		//	cout<<w.getExample();
-		}
-	}	
-}
-
-
-void suaTu(HashTable &tudien,Word &w) {
-	xoaManHinh();
-	
-	cout << "Sua tu: '" << w.getWord()<< "':" << endl;
-	// Sua loai tu
-	string temp = "";
-	cout << "Sua loai tu (" << w.getType() << "): ";
-	getline(cin, temp);
-
-	if (temp == "") return;
-	w.setType(temp);
-
-	// Sua nghia
-	temp = "";
-	cout << "Sua nghia " <<  " (" << w.getMean() << "): ";
-	getline(cin, temp);
-	w.setMean(temp);
-
-	// Sua vi du
-	temp = "";
-	cout << "Sua vidu " <<  " (" << w.getExample() << "): ";
-	getline(cin, temp);
-	w.setExample(temp);
-	tudien.update(w);
-}
-
-
-void themTuMoi(HashTable &tudien) {
-	xoaManHinh();
-	Word w;
-	string temp = "";
-	// nhap tu
-	cout << "Nhap tu: ";
-	getline(cin, temp);
-	if (temp == "") return;
-	else {
-		w.setWord(temp);
-	//	cout<<temp;
-	}
-	// nhap loai tu
-	temp = "";
-	cout << "Nhap loai tu: ";
-	getline(cin, temp);
-	w.setType(temp);
-	// nhap nghia
-	temp = "";
-	cout << "Nhap nghia "  << ": ";
-	getline(cin, temp);
-	w.setMean(temp);
-	
-	// nhap vi du
-	temp = "";
-	cout << "Nhap vi du " <<  ": ";
-	getline(cin, temp);
-	w.setExample(temp);
-    tudien.Insert(w);
-}
-
 
 void docFile(HashTable &b) {
 	ifstream fi("words.txt"); 	// tim tap tin
@@ -247,34 +40,7 @@ void docFile(HashTable &b) {
 		fi.close(); 			// dong tap tin
 	}
 }
-void timTuGoiY(HashTable &tudien,Word *a, string input, int pos, int &size){
 
-	 // Hien thi toi da 10 goi y
-	size = 10;
-	tudien.findByInput(a,input);
-	for(int i = 0;i<10;i++){
-		if(a[i].getWord() !=""){
-			cout<<" "<<a[i].getWord()<<endl;
-		}
-		else{
-			size = i;
-			break;
-		}
-	}
-	
-/*		string w = tudien.findByInput(i,input);
-		if(w!="")	cout<<" "<<w<<endl;
-		
-	if(limit<10 && w !="") {
-			cout<<" "<<w<<endl;
-			limit++;
-		} */
-	//} 
-}
-void veGoiY(int pos){
-	gotoxy(20,pos+18);
-	cout<<"<--";
-}
 void xuLyTuDien(HashTable &tudien) {
 	docFile(tudien);
 	Word currentWord;
@@ -367,30 +133,4 @@ void xuLyTuDien(HashTable &tudien) {
 		}
 		
 	};
-}
-
-
-void kichThuocCuaSo(SHORT width, SHORT height)
-{
-    HANDLE hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
-
-    SMALL_RECT WindowSize;
-    WindowSize.Top = 0;
-    WindowSize.Left = 0;
-    WindowSize.Right = width;
-    WindowSize.Bottom = height;
- 
-    SetConsoleWindowInfo(hStdout, 1, &WindowSize);
-}
-
-void anThanhCuon(BOOL Show)
-{
-    HWND hWnd = GetConsoleWindow();
-    ShowScrollBar(hWnd, SB_BOTH, Show);
-}
-
-void voHieuHoaKichThuocCuaSo()
-{
-    HWND hWnd = GetConsoleWindow();
-    SetWindowLong(hWnd, GWL_STYLE, GetWindowLong(hWnd, GWL_STYLE) & ~WS_SIZEBOX);
 }
