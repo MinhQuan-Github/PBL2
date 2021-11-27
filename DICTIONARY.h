@@ -12,31 +12,63 @@ using namespace std;
 class DICTIONARY {
 	private:
 		HashTable TUDIEN;
-public:
-DICTIONARY();
-void xoaManHinh();                                  // Xoa man hinh
-void gotoxy(short x, short y);                      // Dat con tro tai toa do (x,y)
-void veGiaoDienChinh(string input);                 // giao dien tim tu vung
-void veGiaoDienChiTietTu(Word m);                   // giao dien chi tiet tu vung
-void doiMau(short x);                               // Ham thay doi textcolor va backgroundcolor
-Word timTu(string word);             // Tim tu vung
-void khoiTaoTu(Word &w,string dong);                // Ham khoi tao tu vung
-void suaTu(Word &w);              // Sua tu vung
-void themTuMoi();                  // Nhap tu vung
-void docFile();                         // Doc file
-void xuLyTuDien();                 // Xu ly tu dien
-void timTuGoiY(Word *a, string input, int pos, int &size);    // Tim tu goi y
-void kichThuocCuaSo(SHORT width, SHORT height);     // Thay doi kich thuoc cua so
-void anThanhCuon(BOOL Show);                        // Ham an thanh scroll bar
-void voHieuHoaKichThuocCuaSo();                     // Ham vo hieu hoa thay doi kich thuoc man hinh
-void veLoiKhongTimThayTu();                         // Ham tra ve giao dien khong tim thay tu
-void veGoiY(int pos);
+	public:
+		DICTIONARY();
+		void xoaManHinh();                                  // Xoa man hinh
+		void gotoxy(short x, short y);                      // Dat con tro tai toa do (x,y)
+		void veGiaoDienChinh(string input);                 // giao dien tim tu vung
+		void veGiaoDienChiTietTu(Word m);                   // giao dien chi tiet tu vung
+		void doiMau(short x);                               // Ham thay doi textcolor va backgroundcolor
+		Word timTu(string word);             // Tim tu vung
+		void khoiTaoTu(Word &w,string dong);                // Ham khoi tao tu vung
+		void suaTu(Word &w);              // Sua tu vung
+		void themTuMoi();                  // Nhap tu vung
+		void docFile();                         // Doc file
+		void xuLyTuDien();                 // Xu ly tu dien
+		void timTuGoiY(Word *a, string input, int pos, int &size);    // Tim tu goi y
+		void kichThuocCuaSo(SHORT width, SHORT height);     // Thay doi kich thuoc cua so
+		void anThanhCuon(BOOL Show);                        // Ham an thanh scroll bar
+		void voHieuHoaKichThuocCuaSo();                     // Ham vo hieu hoa thay doi kich thuoc man hinh
+		void veLoiKhongTimThayTu();                         // Ham tra ve giao dien khong tim thay tu
+		void veGoiY(int pos);
+		void giaoDienMoUngDung();
 };
+
+void DICTIONARY::giaoDienMoUngDung(){
+	this->gotoxy(0,9);
+	this->doiMau(10);
+	cout << "            <>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" << endl;
+	cout << "            <---------------------------->" << endl;
+	cout << "            <- \\\\          // ----------->" << endl;
+	cout << "            <-- \\\\        // ------------>" << endl;
+	cout << "            <--- \\\\      // ------------->" << endl;
+	cout << "            <---- \\\\    // -- ######### ->" << endl;
+	cout << "            <----- \\\\  // --- #         ->" << endl;
+	cout << "            <------ \\\\// ---- #         ->" << endl;
+	cout << "            <------- \\/ ----- ######### ->" << endl;
+	cout << "            <--------  ------ #         ->" << endl;
+	cout << "            <---------------- #         ->" << endl;
+	cout << "            <---------------- ######### ->" << endl;
+	cout << "            <---------------------------->" << endl;
+	cout << "            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<:"  << endl << endl << endl;
+	this->doiMau(15);
+	cout << "   ------  ENGLISH - VIETNAMESE DICTIONARY  ------";
+	
+	this->doiMau(14);
+	this->gotoxy(0,40);
+	cout << "                         from " << endl;
+	cout << "                      ITF - Inc" << endl;
+	
+	Sleep(4000);
+}
+
+
 DICTIONARY::DICTIONARY(){
 	SetConsoleTitle("English-Vietnamese Dictionary");  // Ham thay doi tieu de cua so
 	this->kichThuocCuaSo(51,44);
 	this->anThanhCuon(0);
 	this->voHieuHoaKichThuocCuaSo();
+	this->giaoDienMoUngDung();
 	this->xuLyTuDien();
 }
 void DICTIONARY::xoaManHinh() {
