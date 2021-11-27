@@ -14,24 +14,24 @@ class DICTIONARY {
 		HashTable TUDIEN;
 	public:
 		DICTIONARY();
-		void xoaManHinh();                                  // Xoa man hinh
-		void gotoxy(short x, short y);                      // Dat con tro tai toa do (x,y)
-		void veGiaoDienChinh(string input);                 // giao dien tim tu vung
-		void veGiaoDienChiTietTu(Word m);                   // giao dien chi tiet tu vung
-		void doiMau(short x);                               // Ham thay doi textcolor va backgroundcolor
-		Word timTu(string word);             // Tim tu vung
-		void khoiTaoTu(Word &w,string dong);                // Ham khoi tao tu vung
-		void suaTu(Word &w);              // Sua tu vung
-		void themTuMoi();                  // Nhap tu vung
-		void docFile();                         // Doc file
-		void xuLyTuDien();                 // Xu ly tu dien
-		void timTuGoiY(Word *a, string input, int pos, int &size);    // Tim tu goi y
-		void kichThuocCuaSo(SHORT width, SHORT height);     // Thay doi kich thuoc cua so
-		void anThanhCuon(BOOL Show);                        // Ham an thanh scroll bar
-		void voHieuHoaKichThuocCuaSo();                     // Ham vo hieu hoa thay doi kich thuoc man hinh
-		void veLoiKhongTimThayTu();                         // Ham tra ve giao dien khong tim thay tu
-		void veGoiY(int pos);
-		void giaoDienMoUngDung();
+		void xoaManHinh();                                           // Xoa man hinh
+		void gotoxy(short x, short y);                               // Dat con tro tai toa do (x,y)
+		void veGiaoDienChinh(string input);                          // giao dien tim tu vung
+		void veGiaoDienChiTietTu(Word m);                            // giao dien chi tiet tu vung
+		void doiMau(short x);                                        // Ham thay doi textcolor va backgroundcolor
+		Word timTu(string word);                                     // Tim tu vung
+		void khoiTaoTu(Word &w,string dong);                         // Ham khoi tao tu vung
+		void suaTu(Word &w);                                         // Sua tu vung
+		void themTuMoi();                                            // Nhap tu vung
+		void docFile();                                              // Doc file
+		void xuLyTuDien();                                           // Xu ly tu dien
+		void timTuGoiY(Word *a, string input, int pos, int &size);   // Tim tu goi y
+		void kichThuocCuaSo(SHORT width, SHORT height);              // Thay doi kich thuoc cua so
+		void anThanhCuon(BOOL Show);                                 // Ham an thanh scroll bar
+		void voHieuHoaKichThuocCuaSo();                              // Ham vo hieu hoa thay doi kich thuoc man hinh
+		void veLoiKhongTimThayTu();                                  // Ham tra ve giao dien khong tim thay tu
+		void veGoiY(int pos);                                        // Giao dien khong tim thay tu
+		void giaoDienMoUngDung();                                    // Giao dien cho ung dung
 };
 
 void DICTIONARY::giaoDienMoUngDung(){
@@ -57,11 +57,10 @@ void DICTIONARY::giaoDienMoUngDung(){
 	this->doiMau(14);
 	this->gotoxy(0,40);
 	cout << "                         from " << endl;
-	cout << "                      ITF - Inc" << endl;
+	cout << "                       ITF - Inc" << endl;
 	
 	Sleep(4000);
 }
-
 
 DICTIONARY::DICTIONARY(){
 	SetConsoleTitle("English-Vietnamese Dictionary");  // Ham thay doi tieu de cua so
@@ -71,6 +70,7 @@ DICTIONARY::DICTIONARY(){
 	this->giaoDienMoUngDung();
 	this->xuLyTuDien();
 }
+
 void DICTIONARY::xoaManHinh() {
 	system("cls");
 }
@@ -82,7 +82,6 @@ void DICTIONARY::gotoxy(short x, short y) {
     hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleCursorPosition(hConsoleOutput, Cursor_an_Pos);
 }
-
 
 void DICTIONARY::veGiaoDienChinh(string input) {
 	this->xoaManHinh();
@@ -127,6 +126,7 @@ void DICTIONARY::veGiaoDienChinh(string input) {
 	cout<<endl;
 	gotoxy(1 + input.size(), 9);
 }
+
 void DICTIONARY::veGiaoDienChiTietTu(Word m) {
 	this->xoaManHinh();
 	int dongHienTai = 0;
@@ -144,6 +144,7 @@ void DICTIONARY::veGiaoDienChiTietTu(Word m) {
 	cout << endl << " ---"; 
 	cout<< endl<<" "<<m.getExample();
 }
+
 void DICTIONARY::veLoiKhongTimThayTu(){
 	this->xoaManHinh();
 	int dongHienTai = 0;
@@ -161,11 +162,9 @@ void DICTIONARY::doiMau(short x) {
 	SetConsoleTextAttribute(hConsoleColor, x);
 }
 
-
 Word DICTIONARY::timTu(string word){
 	return  this->TUDIEN.Find(word);
 }
-
 
 void DICTIONARY::khoiTaoTu(Word &w,string dong) {  // dong doc tu file
 	int i, pos;
@@ -206,7 +205,6 @@ void DICTIONARY::khoiTaoTu(Word &w,string dong) {  // dong doc tu file
 	}	
 }
 
-
 void DICTIONARY::suaTu(Word &w) {
 	this->xoaManHinh();
 	
@@ -232,7 +230,6 @@ void DICTIONARY::suaTu(Word &w) {
 	w.setExample(temp);
 	this->TUDIEN.update(w);
 }
-
 
 void DICTIONARY::themTuMoi() {
 	this->xoaManHinh();
@@ -265,7 +262,6 @@ void DICTIONARY::themTuMoi() {
     this->TUDIEN.Insert(w);
 }
 
-
 void DICTIONARY::docFile() {
 	ifstream fi("words.txt"); 	// tim tap tin
 	string dong;
@@ -281,6 +277,7 @@ void DICTIONARY::docFile() {
 		fi.close(); 			// dong tap tin
 	}
 }
+
 void DICTIONARY::timTuGoiY(Word *a, string input, int pos, int &size){
 
 	 // Hien thi toi da 10 goi y
@@ -305,10 +302,12 @@ void DICTIONARY::timTuGoiY(Word *a, string input, int pos, int &size){
 		} */
 	//} 
 }
+
 void DICTIONARY::veGoiY(int pos){
 	this->gotoxy(20,pos+18);
 	cout<<"<--";
 }
+
 void DICTIONARY::xuLyTuDien() {
 	this->docFile();
 	Word currentWord;
@@ -402,7 +401,6 @@ void DICTIONARY::xuLyTuDien() {
 		
 	};
 }
-
 
 void DICTIONARY::kichThuocCuaSo(SHORT width, SHORT height)
 {
