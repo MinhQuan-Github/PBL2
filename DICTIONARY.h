@@ -2,6 +2,7 @@
 #include <fstream>
 #include <windows.h>
 #include <conio.h>
+#include <string>
 #include "Word.h"
 #include "HashTable.h"
 
@@ -50,7 +51,7 @@ void DICTIONARY::giaoDienMoUngDung(){
 	cout << "            <---------------- #         ->" << endl;
 	cout << "            <---------------- ######### ->" << endl;
 	cout << "            <---------------------------->" << endl;
-	cout << "            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<:"  << endl << endl << endl;
+	cout << "            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<>"  << endl << endl << endl;
 	this->doiMau(15);
 	cout << "   ------  ENGLISH - VIETNAMESE DICTIONARY  ------";
 	
@@ -59,7 +60,7 @@ void DICTIONARY::giaoDienMoUngDung(){
 	cout << "                         from " << endl;
 	cout << "                       ITF - Inc" << endl;
 	
-	Sleep(4000);
+	Sleep(3500);
 }
 
 DICTIONARY::DICTIONARY(){
@@ -85,9 +86,8 @@ void DICTIONARY::gotoxy(short x, short y) {
 
 void DICTIONARY::veGiaoDienChinh(string input) {
 	this->xoaManHinh();
-	//int dongHienTai = 0;
-	// in ra cac huong dan
-	// o man hinh chinh
+	
+//	in ra cac thong tin ve de tai do an
 	this->doiMau(12);
 	cout<<endl;
 	cout<<"        DAI HOC BACH KHOA - DAI HOC DA NANG " << endl;
@@ -99,13 +99,16 @@ void DICTIONARY::veGiaoDienChinh(string input) {
 	cout<<"  Sinh vien thuc hien: +/ Ho Duc Hoang - 20T2 "<<endl;
 	cout<<"                       +/ Do Minh Quan - 20T2 "<<endl;
 	cout<<endl; 
+	
+//	in ra cac option tuy chon khi thao tac voi tu dien
 	this->doiMau(14);
 	cout << " " << "TU DIEN ANH - VIET" << endl;	
 	cout << " " << char(254) << " Esc  : Thoat chuong trinh" << endl;
 	cout << " " << char(254) << " Tab  : Them tu moi" << endl;
 	cout << " " << char(254) << " Enter: Xem nghia cua tu" << endl;
 	this->doiMau(11);
-	// ve khung tim kiem
+	
+//  ve khung tim kiem
 	cout << char(218);
 	for (int i = 0; i < CR_KTK; i++) {
 		cout << char(196);
@@ -124,19 +127,21 @@ void DICTIONARY::veGiaoDienChinh(string input) {
 	}
 	cout << char(217);
 	cout<<endl;
+	
+//	dat con tro tai vi tri thanh tim kiem
 	gotoxy(1 + input.size(), 9);
 }
 
 void DICTIONARY::veGiaoDienChiTietTu(Word m) {
 	this->xoaManHinh();
 	int dongHienTai = 0;
-	// in ra cac huong dan
-	// o man hinh chi tiet tu
+	
+//  in ra cac huong dan
 	this->doiMau(10);
 	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
 	cout << " " << char(254) << " Tab      : Sua tu nay" << endl;
 	doiMau(14);
-	// in ra cac chi tiet cua tu
+//  in ra cac chi tiet cua tu
 	cout << endl << " " << m.getWord();
 	cout << endl << " ---";
 	cout << endl << " (" << m.getType() << "): ";
@@ -148,14 +153,12 @@ void DICTIONARY::veGiaoDienChiTietTu(Word m) {
 void DICTIONARY::veLoiKhongTimThayTu(){
 	this->xoaManHinh();
 	int dongHienTai = 0;
-	// in ra cac huong dan
-	// o man hinh chi tiet tu
+//  in ra cac huong dan
 	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
 	cout << " " << char(254) << " Tab      : Them tu moi" << endl;
 	cout << " Loi! Khong co tu nay" << endl;
 }
 
-// Ham thay doi textcolor va backgroundcolor
 void DICTIONARY::doiMau(short x) { 
 	HANDLE hConsoleColor;
 	hConsoleColor = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -163,22 +166,23 @@ void DICTIONARY::doiMau(short x) {
 }
 
 Word DICTIONARY::timTu(string word){
-	return  this->TUDIEN.Find(word);
+	return this->TUDIEN.Find(word);
 }
 
-void DICTIONARY::khoiTaoTu(Word &w,string dong) {  // dong doc tu file
+void DICTIONARY::khoiTaoTu(Word &w,string dong) {
 	int i, pos;
 	i = 0;
+	
 	// about/pho tu/khoang chung;sap;gan;/He is about to die;We're about to start;How about this?;
 	// tach tu
 	string word = "";
-	while (dong[i] != '/') {word += dong[i++];}
+	while (dong[i] != '/') word += dong[i++];
 	i++;
 	w.setWord(word); // init word in class Word
 	
 	// tach loai tu
 	string type = "";
-	while (dong[i] != '/') {type += dong[i++];}
+	while (dong[i] != '/') type += dong[i++];
 	i++;
 	w.setType(type);
 	
@@ -205,30 +209,133 @@ void DICTIONARY::khoiTaoTu(Word &w,string dong) {  // dong doc tu file
 	}	
 }
 
-void DICTIONARY::suaTu(Word &w) {
-	this->xoaManHinh();
+void DICTIONARY::suaTu(Word &w) {	
 	
-	cout << "Sua tu: '" << w.getWord()<< "':" << endl;
-	// Sua loai tu
-	string temp = "";
-	cout << "Sua loai tu (" << w.getType() << "): ";
-	getline(cin, temp);
 
-	if (temp == "") return;
-	w.setType(temp);
-
-	// Sua nghia
-	temp = "";
-	cout << "Sua nghia " <<  " (" << w.getMean() << "): ";
-	getline(cin, temp);
-	w.setMean(temp);
-
-	// Sua vi du
-	temp = "";
-	cout << "Sua vidu " <<  " (" << w.getExample() << "): ";
-	getline(cin, temp);
-	w.setExample(temp);
-	this->TUDIEN.update(w);
+	while (1) {
+		string temp = ""; 
+		this->xoaManHinh();
+		char nhaplai;
+		
+		this->doiMau(12);
+		cout << endl << " " << w.getWord();
+		cout << endl << " ---";
+		cout << endl << " (" << w.getType() << "): ";
+		cout << w.getMean() << "; ";
+		cout << endl << " ---"; 
+		cout<< endl<<" "<< w.getExample() << endl << endl;
+		
+		this->doiMau(14);
+		cout << "   */ Sua tu : " << w.getWord() << endl;
+		// Sua loai 
+		while (1){
+			cout << " - Sua loai tu : ";
+			//cin.ignore();
+			fflush(stdin);
+			getline(cin, temp);
+			if (temp == "") {
+				cout << " <#> Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				cin >> nhaplai;
+				if (nhaplai == 'c' || nhaplai == 'C') continue;
+				break;
+			}
+			//cout << temp << endl;
+			w.setType(temp);
+			//cout << w.getType();
+			break;
+		}
+	
+		// Sua nghia
+		while (1){
+			cout << " - Sua nghia : ";
+			//cin.ignore();
+			fflush(stdin);
+			getline(cin, temp);
+			if (temp == "") {
+				cout << " <#> Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				cin >> nhaplai;
+				if (nhaplai == 'c' || nhaplai == 'C') continue;
+				break;
+			}
+			w.setMean(temp);
+			break;
+		}
+		
+		// Sua vi du
+		while (1){
+			cout << " - Sua vi du : ";
+			//cin.ignore();
+			fflush(stdin);
+			getline(cin, temp);
+			if (temp == "") {
+				cout << " <#> Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				cin >> nhaplai;
+				if (nhaplai == 'c' || nhaplai == 'C') continue;
+				break;
+			}
+			w.setExample(temp);
+			break;
+		}
+		
+		// Hien thi lai tu vung sau khi sua
+		doiMau(10);
+		cout << endl << " " << w.getWord();
+		cout << endl << " ---";
+		cout << endl << " (" << w.getType() << "): ";
+		cout << w.getMean() << "; ";
+		cout << endl << " ---"; 
+		cout<< endl<<" "<< w.getExample() << endl << endl;
+		
+		// Kiem tra chac chan chua
+		this->doiMau(14);
+		cout << " <!!!> Ban co chac chan thay doi khong (c/k) ? "; cin >> nhaplai;
+		if (nhaplai == 'c' || nhaplai == 'C') {
+			this->TUDIEN.update(w);
+			break;
+		} else continue;
+	}
+	this->xoaManHinh();
+	this->gotoxy(0,20);
+	this->doiMau(12);
+	cout << "               " << char(218);
+	for (int i = 0; i < 23; i++) {
+		cout << char(196);
+	}
+	cout << char(191) << endl;
+	cout << "               " << char(179) << "  DA SUA THANH CONG !  " << char(179);
+	
+	cout << endl << "               " << char(192);
+	for (int i = 0; i < 23; i++) {
+		cout << char(196);
+	}
+	cout << char(217);
+	cout<<endl;
+	Sleep(1500);
+	            
+	
+	
+//	this->xoaManHinh();
+//	
+//	cout << "Sua tu: '" << w.getWord()<< "':" << endl;
+//	// Sua loai tu
+//	string temp = "";
+//	cout << "Sua loai tu (" << w.getType() << "): ";
+//	getline(cin, temp);
+//	if (temp == "") return;
+//	w.setType(temp);
+//
+//	// Sua nghia
+//	temp = "";
+//	cout << "Sua nghia " <<  " (" << w.getMean() << "): ";
+//	getline(cin, temp);
+//	w.setMean(temp);
+//
+//	// Sua vi du
+//	temp = "";
+//	cout << "Sua vidu " <<  " (" << w.getExample() << "): ";
+//	getline(cin, temp);
+//	w.setExample(temp);
+//	this->TUDIEN.update(w);
 }
 
 void DICTIONARY::themTuMoi() {
