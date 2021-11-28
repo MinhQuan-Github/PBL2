@@ -203,6 +203,11 @@ void DICTIONARY::suaTu(Word &w) {
 
 
 void DICTIONARY::themTuMoi() {
+	FILE *f;
+    f = fopen("words.txt", "a+");
+    
+
+    
 	this->xoaManHinh();
 	Word w;
 	string temp = "";
@@ -231,6 +236,11 @@ void DICTIONARY::themTuMoi() {
 	getline(cin, temp);
 	w.setExample(temp);
     this->TUDIEN.Insert(w);
+    string www = w.getWord()+"/"+w.getType()+"/"+w.getMean()+";/"+w.getExample()+";/";
+    const char *cstr = www.c_str();
+    fprintf(f,cstr);
+    fprintf(f, "\n");
+    fclose(f);
 }
 
 
