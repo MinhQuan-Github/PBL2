@@ -11,7 +11,7 @@ class Word {
 		string example;	// vi du
 	
 	public:
-		Word();                     // Ham khoi tao
+		Word();                     // Ham dung mac dinh
 		~Word();                    // Ham huy
 		string getWord(); 			// Lay tu vung
 		string getType();			// Lay loai tu
@@ -25,10 +25,10 @@ class Word {
 };
 
 Word::Word(){
-	this->word ="";
-	this->example="";
-	this->type="";
-	this->mean="";
+	this->word    = "";
+	this->example = "";
+	this->type    = "";
+	this->mean    = "";
 }
 
 Word::~Word(){}

@@ -64,7 +64,7 @@ void DICTIONARY::giaoDienMoUngDung(){
 }
 
 DICTIONARY::DICTIONARY(){
-	SetConsoleTitle("English-Vietnamese Dictionary");  // Ham thay doi tieu de cua so
+	SetConsoleTitle(" English-Vietnamese Dictionary ");  // Ham thay doi tieu de cua so
 	this->kichThuocCuaSo(51,44);
 	this->anThanhCuon(0);
 	this->voHieuHoaKichThuocCuaSo();
@@ -227,6 +227,7 @@ void DICTIONARY::suaTu(Word &w) {
 		
 		this->doiMau(14);
 		cout << "   */ Sua tu : " << w.getWord() << endl;
+
 		// Sua loai 
 		while (1){
 			cout << " - Sua loai tu : ";
@@ -239,9 +240,7 @@ void DICTIONARY::suaTu(Word &w) {
 				if (nhaplai == 'c' || nhaplai == 'C') continue;
 				break;
 			}
-			//cout << temp << endl;
 			w.setType(temp);
-			//cout << w.getType();
 			break;
 		}
 	
@@ -311,38 +310,11 @@ void DICTIONARY::suaTu(Word &w) {
 	cout << char(217);
 	cout<<endl;
 	Sleep(1500);
-	            
-	
-	
-//	this->xoaManHinh();
-//	
-//	cout << "Sua tu: '" << w.getWord()<< "':" << endl;
-//	// Sua loai tu
-//	string temp = "";
-//	cout << "Sua loai tu (" << w.getType() << "): ";
-//	getline(cin, temp);
-//	if (temp == "") return;
-//	w.setType(temp);
-//
-//	// Sua nghia
-//	temp = "";
-//	cout << "Sua nghia " <<  " (" << w.getMean() << "): ";
-//	getline(cin, temp);
-//	w.setMean(temp);
-//
-//	// Sua vi du
-//	temp = "";
-//	cout << "Sua vidu " <<  " (" << w.getExample() << "): ";
-//	getline(cin, temp);
-//	w.setExample(temp);
-//	this->TUDIEN.update(w);
 }
 
 void DICTIONARY::themTuMoi() {
 	FILE *f;
     f = fopen("words.txt", "a+");
-    
-
     
 	this->xoaManHinh();
 	Word w;
