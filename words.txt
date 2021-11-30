@@ -1966,3 +1966,8 @@ custom /noun/tap quan;khach hang;tuy chinh;phong tuc;dat lam;/the old english cu
 deliver /verb/giao;phan phat;giao hang;/the products should be delivered on time;/
 chat /verb/tro chuyen;tan gau;/she chatted to her mother on the phone every day;/
 adventure /noun/cuoc phieu luu;mao hiem;su nguy hiem;phieu luu;/her recent adventures in italy;/
+ds//;/;/
+geologist/danh tu/nha dia chat;/;/
+deried/dong tu/bat chuoc;;/null;/
+abortion/danh tu/pha thai;/null;/
+diagram/danh tu/bieu do; luoc do;/null;/

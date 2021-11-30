@@ -4,14 +4,14 @@
 #include <fstream>
 using namespace std;
 class Word {
-	private:
+	protected:
 		string word;	// tu vung
 		string type; 	// loai tu
 		string mean;	// nghia tu
 		string example;	// vi du
 	
 	public:
-		Word();                     // Ham khoi tao
+		Word();                     // Ham dung mac dinh
 		~Word();                    // Ham huy
 		string getWord(); 			// Lay tu vung
 		string getType();			// Lay loai tu
@@ -21,14 +21,15 @@ class Word {
 		void setType(string m);		// Tao loai tu
 		void setMean(string m);		// Tao nghia tu
 		void setExample(string m);	// Tao vi du
+		const Word &operator = (const Word &m);  // Da nang hoa toan tu =
 		void display();				// Hien thi thong tin chi tiet tu vung
 };
 
 Word::Word(){
-	this->word ="";
-	this->example="";
-	this->type="";
-	this->mean="";
+	this->word    = "";
+	this->example = "";
+	this->type    = "";
+	this->mean    = "";
 }
 
 Word::~Word(){}
@@ -63,6 +64,14 @@ void Word::setMean(string m) {
 
 void Word::setExample(string m) {
 	this->example = m;
+}
+
+const Word &Word::operator = (const Word &m) {
+	this->word = m.word;
+	this->type = m.type;
+	this->mean = m.mean;
+	this->example = m.example;
+	return *this;
 }
 
 void Word::display() {
