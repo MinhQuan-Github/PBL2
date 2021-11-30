@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdlib>
+//#include <cstdlib>
 #include <string>
 #include <cstdio>
 #include "Word.h"

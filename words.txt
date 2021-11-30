@@ -1971,3 +1971,6 @@ geologist/danh tu/nha dia chat;/;/
 deried/dong tu/bat chuoc;;/null;/
 abortion/danh tu/pha thai;/null;/
 diagram/danh tu/bieu do; luoc do;/null;/
+debilitated/dong tu/lam yeu di;/null;/
+legal fee/danh tu/phi phap ly;/null;/
+custody/danh tu/su cham soc; giam ho;;/null;/
