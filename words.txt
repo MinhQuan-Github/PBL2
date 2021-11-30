@@ -1969,3 +1969,5 @@ adventure /noun/cuoc phieu luu;mao hiem;su nguy hiem;phieu luu;/her recent adven
 ds//;/;/
 geologist/danh tu/nha dia chat;/;/
 deried/dong tu/bat chuoc;;/null;/
+abortion/danh tu/pha thai;/null;/
+diagram/danh tu/bieu do; luoc do;/null;/

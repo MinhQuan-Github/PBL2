@@ -4,7 +4,7 @@
 #include <fstream>
 using namespace std;
 class Word {
-	private:
+	protected:
 		string word;	// tu vung
 		string type; 	// loai tu
 		string mean;	// nghia tu
