@@ -21,6 +21,7 @@ class Word {
 		void setType(string m);		// Tao loai tu
 		void setMean(string m);		// Tao nghia tu
 		void setExample(string m);	// Tao vi du
+		const Word &operator = (const Word &m);  // Da nang hoa toan tu =
 		void display();				// Hien thi thong tin chi tiet tu vung
 };
 
@@ -63,6 +64,14 @@ void Word::setMean(string m) {
 
 void Word::setExample(string m) {
 	this->example = m;
+}
+
+const Word &Word::operator = (const Word &m) {
+	this->word = m.word;
+	this->type = m.type;
+	this->mean = m.mean;
+	this->example = m.example;
+	return *this;
 }
 
 void Word::display() {
