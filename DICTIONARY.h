@@ -439,6 +439,7 @@ void DICTIONARY::xuLyTuDien() {
 	int pos = 0;                                  // vi tri cua tu hien tai, vi tri thanh sang (highlight)
 	Word *tugoiy = new Word[10];
 	int goiy = 1;                                 // so luong goi y tu tim duoc
+	string test = "";
 	while (true) {
 		this->veGiaoDienChinh(input);                      // ve toan bo giao dien
 		
@@ -463,7 +464,25 @@ void DICTIONARY::xuLyTuDien() {
 				break;
 			case 13:        // ENTER
 				// vao man hinh chi tiet tu
-				if(tugoiy[pos].getWord() == "") this->veLoiKhongTimThayTu();
+				test = tugoiy[pos].getWord().substr(0, input.size());
+				if(tugoiy[pos].getWord() == ""|| input!=test) {
+						int k;
+							this->veLoiKhongTimThayTu();
+				do {
+					k = getch();
+					if (k == 9) { // TAB
+						// sua tu nay
+					this->themTuMoi();
+						input = ""; pos = 0;
+						break; // ve man hinh chinh
+					}
+					if (k == 27) { // ESCAPE
+						input = ""; // reset gia tri trong khung tim kiem
+						pos = 0;
+						break; // ve man hinh chinh
+					}
+				} while (true);
+				}
 				else{
 					this->veGiaoDienChiTietTu(tugoiy[pos]);
 					int k;
