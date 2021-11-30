@@ -15,6 +15,7 @@ class DICTIONARY {
 		HashTable TUDIEN;
 	public:
 		DICTIONARY();
+		~DICTIONARY();
 		void xoaManHinh();                                           // Xoa man hinh
 		void gotoxy(short x, short y);                               // Dat con tro tai toa do (x,y)
 		void veGiaoDienChinh(string input);                          // giao dien tim tu vung
@@ -81,6 +82,10 @@ DICTIONARY::DICTIONARY(){
 	this->voHieuHoaKichThuocCuaSo();
 	this->giaoDienMoUngDung();
 	this->xuLyTuDien();
+}
+
+DICTIONARY::~DICTIONARY(){
+	this->TUDIEN.~HashTable();
 }
 
 void DICTIONARY::veGiaoDienChinh(string input) {
