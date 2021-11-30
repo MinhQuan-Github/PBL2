@@ -11,6 +11,7 @@ Yêu cầu :
 - Viết chương trình bằng C/C++ để giải quyết bài toán.
 - Viết các hàm để xấy dựng chức năng. Mô tả chung về đề tài :
 - Chương trình cho phép người dùng có thể tạo 1 kho lưu trữ cơ bản về từ vựng , và có thể customize vốn từ vựng theo chương trình học của bản thân. Từ đó có những chức năng như sau: 
+
      +/ Tra cứu từ vựng .
 
      +/ Cập nhật từ vựng .
