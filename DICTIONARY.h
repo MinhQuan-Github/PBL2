@@ -152,7 +152,6 @@ void DICTIONARY::veGiaoDienChiTietTu(Word m) {
 
 void DICTIONARY::veLoiKhongTimThayTu(){
 	this->xoaManHinh();
-	int dongHienTai = 0;
 //  in ra cac huong dan
 	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
 	cout << " " << char(254) << " Tab      : Them tu moi" << endl;
@@ -430,6 +429,7 @@ void DICTIONARY::xuLyTuDien() {
 	Word currentWord;
 	string input = ""; // noi dung hien tai cua khung tim kiem
 	int keyCode = 0;
+	string test ="";
 	int pos = 0; // vi tri cua tu hien tai, vi tri thanh sang (highlight)
 	Word *tugoiy = new Word[10];
 	int goiy=1; // so luong goi y tu tim duoc
@@ -443,7 +443,7 @@ void DICTIONARY::xuLyTuDien() {
 			this->timTuGoiY(tugoiy,input,pos+6,goiy);
 			this->veGoiY(pos);
 		}
-		
+	 
 		gotoxy(1 + input.size(), 16);
 		keyCode = getch(); // tam dung chuong trinh, nhan ky tu nhap vao		
 		switch (keyCode) {
@@ -456,7 +456,25 @@ void DICTIONARY::xuLyTuDien() {
 			case 13: // ENTER
 				// vao man hinh chi tiet tu
 				//
-				if(tugoiy[pos].getWord() == "") this->veLoiKhongTimThayTu();
+				test = tugoiy[pos].getWord().substr(0, input.size());
+				if(tugoiy[pos].getWord() == ""|| input!=test) {
+						int k;
+							this->veLoiKhongTimThayTu();
+				do {
+					k = getch();
+					if (k == 9) { // TAB
+						// sua tu nay
+					this->themTuMoi();
+						input = ""; pos = 0;
+						break; // ve man hinh chinh
+					}
+					if (k == 27) { // ESCAPE
+						input = ""; // reset gia tri trong khung tim kiem
+						pos = 0;
+						break; // ve man hinh chinh
+					}
+				} while (true);
+				}
 					else{
 					this->veGiaoDienChiTietTu(tugoiy[pos]);
 					int k;
