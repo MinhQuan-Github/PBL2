@@ -38,20 +38,38 @@ class DICTIONARY {
 void DICTIONARY::giaoDienMoUngDung(){
 	this->gotoxy(0,9);
 	this->doiMau(10);
-	cout << "            <>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" << endl;
-	cout << "            <---------------------------->" << endl;
-	cout << "            <- \\\\          // ----------->" << endl;
-	cout << "            <-- \\\\        // ------------>" << endl;
-	cout << "            <--- \\\\      // ------------->" << endl;
-	cout << "            <---- \\\\    // -- ######### ->" << endl;
-	cout << "            <----- \\\\  // --- #         ->" << endl;
-	cout << "            <------ \\\\// ---- #         ->" << endl;
-	cout << "            <------- \\/ ----- ######### ->" << endl;
-	cout << "            <--------  ------ #         ->" << endl;
-	cout << "            <---------------- #         ->" << endl;
-	cout << "            <---------------- ######### ->" << endl;
-	cout << "            <---------------------------->" << endl;
-	cout << "            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<>"  << endl << endl << endl;
+//	cout << "            <>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" << endl;
+//	cout << "            <---------------------------->" << endl;
+//	cout << "            <- \\\\          // ----------->" << endl;
+//	cout << "            <-- \\\\        // ------------>" << endl;
+//	cout << "            <--- \\\\      // ------------->" << endl;
+//	cout << "            <---- \\\\    // -- ######### ->" << endl;
+//	cout << "            <----- \\\\  // --- #         ->" << endl;
+//	cout << "            <------ \\\\// ---- #         ->" << endl;
+//	cout << "            <------- \\/ ----- ######### ->" << endl;
+//	cout << "            <--------  ------ #         ->" << endl;
+//	cout << "            <---------------- #         ->" << endl;
+//	cout << "            <---------------- ######### ->" << endl;
+//	cout << "            <---------------------------->" << endl;
+//	cout << "            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<>"  << endl << endl << endl;
+	cout << "            " << char(218);
+	for(int i = 1 ; i <= 27 ; i++ ) cout << char(196);
+	cout << char(191) << endl; 
+	cout << "            " << char(179) << " ------------------------- " << char(179)<< endl;
+	cout << "            " << char(179) << " "; this->doiMau(12); cout << "#########"; this->doiMau(10); cout<< " --------------- " << char(179)<< endl;
+	cout << "            " << char(179) << " "; this->doiMau(12); cout << "#        "; this->doiMau(10); cout<< " --------------- " << char(179)<< endl;
+	cout << "            " << char(179) << " "; this->doiMau(12); cout << "#        "; this->doiMau(10); cout<< " --------------- " << char(179)<< endl;
+	cout << "            " << char(179) << " "; this->doiMau(12); cout << "#########"; this->doiMau(10); cout<< " -"; this->doiMau(12); cout <<" #           # "; this->doiMau(10); cout << char(179)<< endl;
+	cout << "            " << char(179) << " "; this->doiMau(12); cout << "#        "; this->doiMau(10); cout<< " --"; this->doiMau(12); cout <<" #    ";this->doiMau(14); cout << char(3); this->doiMau(12); cout << "    #  "; this->doiMau(10); cout << char(179)<< endl;
+	cout << "            " << char(179) << " "; this->doiMau(12); cout << "#        "; this->doiMau(10); cout<< " ---"; this->doiMau(12); cout <<" #       # "; this->doiMau(10); cout <<"- " << char(179)<< endl;
+	cout << "            " << char(179) << " "; this->doiMau(12); cout << "#########"; this->doiMau(10); cout<< " ----"; this->doiMau(12); cout <<" #     # "; this->doiMau(10); cout <<"-- " << char(179)<< endl;
+	cout << "            " << char(179) << " ---------------"; this->doiMau(12); cout <<" #   # "; this->doiMau(10); cout <<"--- " << char(179)<< endl;
+	cout << "            " << char(179) << " ----------------"; this->doiMau(12); cout <<" # # "; this->doiMau(10); cout <<"---- " << char(179)<< endl;
+	cout << "            " << char(179) << " -----------------"; this->doiMau(12); cout <<" # "; this->doiMau(10); cout <<"----- " << char(179)<< endl;
+	cout << "            " << char(179) << " ------------------------- " << char(179)<< endl;
+	cout << "            " << char(192);
+	for(int i = 1 ; i <= 27 ; i++ ) cout << char(196);
+	cout << char(217)<< endl << endl;
 	this->doiMau(15);
 	cout << "   ------  ENGLISH - VIETNAMESE DICTIONARY  ------";
 	
@@ -64,7 +82,7 @@ void DICTIONARY::giaoDienMoUngDung(){
 }
 
 DICTIONARY::DICTIONARY(){
-	SetConsoleTitle(" English-Vietnamese Dictionary ");  // Ham thay doi tieu de cua so
+	SetConsoleTitle(" English-Vietnamese Dictionary ");
 	this->kichThuocCuaSo(51,44);
 	this->anThanhCuon(0);
 	this->voHieuHoaKichThuocCuaSo();
@@ -101,8 +119,9 @@ void DICTIONARY::veGiaoDienChinh(string input) {
 	cout<<endl; 
 	
 //	in ra cac option tuy chon khi thao tac voi tu dien
-	this->doiMau(14);
+	this->doiMau(12);
 	cout << " " << "TU DIEN ANH - VIET" << endl;	
+	this->doiMau(14);
 	cout << " " << char(254) << " Esc  : Thoat chuong trinh" << endl;
 	cout << " " << char(254) << " Tab  : Them tu moi" << endl;
 	cout << " " << char(254) << " Enter: Xem nghia cua tu" << endl;
@@ -210,8 +229,7 @@ void DICTIONARY::khoiTaoTu(Word &w,string dong) {
 }
 
 void DICTIONARY::suaTu(Word &w) {	
-	
-
+	Word tmp = w;
 	while (1) {
 		string temp = ""; 
 		this->xoaManHinh();
@@ -230,53 +248,54 @@ void DICTIONARY::suaTu(Word &w) {
 
 		// Sua loai 
 		while (1){
-			cout << " - Sua loai tu : ";
-			//cin.ignore();
+			cout << " " << char(16) << " Sua loai tu : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") {
-				cout << " <#> Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				this->doiMau(12);
+				cout << " " << char(19) << "/ Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
 				cin >> nhaplai;
 				if (nhaplai == 'c' || nhaplai == 'C') continue;
-				break;
+				//break;
 			}
-			w.setType(temp);
+			if(temp != "") w.setType(temp);
 			break;
 		}
 	
 		// Sua nghia
 		while (1){
-			cout << " - Sua nghia : ";
-			//cin.ignore();
+			cout << " " << char(16) << " Sua nghia : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") {
-				cout << " <#> Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				this->doiMau(12);
+				cout << " " << char(19) << "/ Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
 				cin >> nhaplai;
 				if (nhaplai == 'c' || nhaplai == 'C') continue;
-				break;
+				//break;
 			}
-			w.setMean(temp);
+			if(temp != "") w.setMean(temp);
 			break;
 		}
 		
 		// Sua vi du
 		while (1){
-			cout << " - Sua vi du : ";
-			//cin.ignore();
+			cout << " " << char(16) << " Sua vi du : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") {
-				cout << " <#> Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				this->doiMau(12);
+				cout << " " << char(19) << "/ Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
 				cin >> nhaplai;
 				if (nhaplai == 'c' || nhaplai == 'C') continue;
-				break;
+				//break;
 			}
-			w.setExample(temp);
+			if(temp != "") w.setExample(temp);
 			break;
 		}
 		
 		// Hien thi lai tu vung sau khi sua
+		this->xoaManHinh();
 		doiMau(10);
 		cout << endl << " " << w.getWord();
 		cout << endl << " ---";
@@ -288,14 +307,17 @@ void DICTIONARY::suaTu(Word &w) {
 		// Kiem tra chac chan chua
 		this->doiMau(14);
 		cout << " <!!!> Ban co chac chan thay doi khong (c/k) ? "; cin >> nhaplai;
-		if (nhaplai == 'c' || nhaplai == 'C') {
-			this->TUDIEN.update(w);
-			break;
-		} else continue;
+		if (nhaplai == 'c' || nhaplai == 'C') break;
+		else {
+			w = tmp;
+			continue;	
+		}
 	}
+	
+	this->TUDIEN.update(w);
 	this->xoaManHinh();
 	this->gotoxy(0,20);
-	this->doiMau(12);
+	this->doiMau(10);
 	cout << "               " << char(218);
 	for (int i = 0; i < 23; i++) {
 		cout << char(196);
@@ -315,40 +337,169 @@ void DICTIONARY::suaTu(Word &w) {
 void DICTIONARY::themTuMoi() {
 	FILE *f;
     f = fopen("words.txt", "a+");
-    
-	this->xoaManHinh();
-	Word w;
-	string temp = "";
-	// nhap tu
-	cout << "Nhap tu: ";
-	getline(cin, temp);
-	if (temp == "") return;
-	else {
-		w.setWord(temp);
-	//	cout<<temp;
-	}
-	// nhap loai tu
-	temp = "";
-	cout << "Nhap loai tu: ";
-	getline(cin, temp);
-	w.setType(temp);
-	// nhap nghia
-	temp = "";
-	cout << "Nhap nghia "  << ": ";
-	getline(cin, temp);
-	w.setMean(temp);
+    Word w;
+	while (1) {
+		string temp = ""; 
+		this->xoaManHinh();
+		char nhaplai;
+		
+		this->doiMau(12);
+		cout << "   " << char(3);
+		this->doiMau(10);
+		cout << " Them tu vung : " << endl << endl;
+		
+		// Nhap tu
+		this->doiMau(14);
+		while (1){	
+			cout << " " << char(16) << " Nhap tu vung : ";
+			fflush(stdin);
+			getline(cin, temp);
+			if (temp == "") { 
+				this->doiMau(12);
+				cout << " " << char(19) << "/ Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				cin >> nhaplai;
+				if (nhaplai == 'c' || nhaplai == 'C') continue;
+				//break;
+			}
+			if (temp == "") w.setWord("null");
+			else w.setWord(temp);
+			break;
+		}
+
+		// Nhap loai Tu 
+		this->doiMau(14);
+		while (1){
+			cout << " "<< char(16) << " Nhap loai tu : ";
+			fflush(stdin);
+			getline(cin, temp);
+			if (temp == "") {
+				this->doiMau(12);
+				cout << " " << char(19) << "/ Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				cin >> nhaplai;
+				if (nhaplai == 'c' || nhaplai == 'C') continue;
+				//break;
+			}
+			if (temp == "") w.setType("null");
+			else w.setType(temp);
+			break;
+		}
 	
-	// nhap vi du
-	temp = "";
-	cout << "Nhap vi du " <<  ": ";
-	getline(cin, temp);
-	w.setExample(temp);
-    this->TUDIEN.Insert(w);
+		// Nhap Nghia Tu
+		this->doiMau(14);
+		while (1){
+			cout << " "<< char(16) << " Nhap nghia tu vung : ";
+			fflush(stdin);
+			getline(cin, temp);
+			if (temp == "") {
+				this->doiMau(12);
+				cout << " " << char(19) << "/ Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				cin >> nhaplai;
+				if (nhaplai == 'c' || nhaplai == 'C') continue;
+				//break;
+			}
+			if (temp == "") w.setMean("null");
+			else w.setMean(temp);
+			break;
+		}
+		
+		// Nhap Vi Du
+		this->doiMau(14);
+		while (1){
+			cout << " "<< char(16) << " Nhap vi du tu vung : ";
+			fflush(stdin);
+			getline(cin, temp);
+			if (temp == "") {
+				this->doiMau(12);
+				cout << " " << char(19) << "/ Ki tu khong hop le !! Ban co muon nhap lai khong (c/k) ? ";
+				cin >> nhaplai;
+				if (nhaplai == 'c' || nhaplai == 'C') continue;
+				//break;
+			}
+			if (temp == "") w.setExample("null");
+			else w.setExample(temp);
+			break;
+		}
+		
+		// Hien thi lai tu vung sau khi sua
+		doiMau(10);
+		this->xoaManHinh();
+		cout << endl << " " << w.getWord();
+		cout << endl << " ---";
+		cout << endl << " (" << w.getType() << "): ";
+		cout << w.getMean() << "; ";
+		cout << endl << " ---"; 
+		cout<< endl<<" "<< w.getExample() << endl << endl;
+		
+		// Kiem tra chac chan chua
+		this->doiMau(14);
+		cout << " <!!!> Ban co chac chan them tu moi khong (c/k) ? "; cin >> nhaplai;
+		if (nhaplai == 'c' || nhaplai == 'C') break;
+		else continue;
+	}
+	this->xoaManHinh();
+	this->gotoxy(0,20);
+	this->doiMau(10);
+	cout << "               " << char(218);
+	for (int i = 0; i < 23; i++) {
+		cout << char(196);
+	}
+	cout << char(191) << endl;
+	cout << "               " << char(179) << "  DA THEM THANH CONG ! " << char(179);
+	
+	cout << endl << "               " << char(192);
+	for (int i = 0; i < 23; i++) {
+		cout << char(196);
+	}
+	cout << char(217);
+	cout<<endl;
+	Sleep(1500);
+	
+	this->TUDIEN.Insert(w);
     string www = w.getWord()+"/"+w.getType()+"/"+w.getMean()+";/"+w.getExample()+";/";
     const char *cstr = www.c_str();
     fprintf(f,cstr);
     fprintf(f, "\n");
     fclose(f);
+	
+	
+//	FILE *f;
+//    f = fopen("words.txt", "a+");
+//    
+//	this->xoaManHinh();
+//	Word w;
+//	string temp = "";
+//	
+//	// nhap tu
+//	cout << "Nhap tu: ";
+//	getline(cin, temp);
+//	if (temp == "") return;
+//	else {
+//		w.setWord(temp);
+//	}
+//	
+//	// nhap loai tu
+//	temp = "";
+//	cout << "Nhap loai tu: ";
+//	getline(cin, temp);
+//	w.setType(temp);
+//	
+//	// nhap nghia
+//	temp = "";
+//	cout << "Nhap nghia "  << ": ";
+//	getline(cin, temp);
+//	w.setMean(temp);
+//	
+//	// nhap vi du
+//	temp = "";
+//	cout << "Nhap vi du " <<  ": ";
+//	getline(cin, temp);
+//	w.setExample(temp);
+//    this->TUDIEN.Insert(w);
+//    string www = w.getWord()+"/"+w.getType()+"/"+w.getMean()+";/"+w.getExample()+";/";
+//    const char *cstr = www.c_str();
+//    fprintf(f,cstr);
+//    fprintf(f, "\n");
+//    fclose(f);
 }
 
 void DICTIONARY::docFile() {
@@ -368,8 +519,7 @@ void DICTIONARY::docFile() {
 }
 
 void DICTIONARY::timTuGoiY(Word *a, string input, int pos, int &size){
-
-	 // Hien thi toi da 10 goi y
+	// Hien thi toi da 10 goi y
 	size = 10;
 	this->TUDIEN.findByInput(a,input);
 	for(int i = 0;i<10;i++){
@@ -394,7 +544,7 @@ void DICTIONARY::timTuGoiY(Word *a, string input, int pos, int &size){
 
 void DICTIONARY::veGoiY(int pos){
 	this->gotoxy(20,pos+18);
-	cout<<"<--";
+	cout<< char(17) << char(196) << char(196);
 }
 
 void DICTIONARY::xuLyTuDien() {
@@ -427,32 +577,30 @@ void DICTIONARY::xuLyTuDien() {
 				break;
 			case 13: // ENTER
 				// vao man hinh chi tiet tu
-				//
 				if(tugoiy[pos].getWord() == "") this->veLoiKhongTimThayTu();
-					else{
+				else{
 					this->veGiaoDienChiTietTu(tugoiy[pos]);
 					int k;
-				do {
-					k = getch();
-					if (k == 8) { // BACKSPACE
-						// xoa tu nay
-						// xoaTu(tudien, tuHienTai);
-						input = ""; pos = 0;
-						break; // ve man hinh chinh
-					}
-					if (k == 9) { // TAB
-						// sua tu nay
-					this->suaTu(tugoiy[pos]);
-						input = ""; pos = 0;
-						break; // ve man hinh chinh
-					}
-					if (k == 27) { // ESCAPE
-						input = ""; // reset gia tri trong khung tim kiem
-						pos = 0;
-						break; // ve man hinh chinh
-					}
-				} while (true);
-					
+					do {
+						k = getch();
+						if (k == 8) { // BACKSPACE
+							// xoa tu nay
+							// xoaTu(tudien, tuHienTai);
+							input = ""; pos = 0;
+							break; // ve man hinh chinh
+						}
+						if (k == 9) { // TAB
+							// sua tu nay
+						this->suaTu(tugoiy[pos]);
+							input = ""; pos = 0;
+							break; // ve man hinh chinh
+						}
+						if (k == 27) { // ESCAPE
+							input = ""; // reset gia tri trong khung tim kiem
+							pos = 0;
+							break; // ve man hinh chinh
+						}
+					} while (true);
 				}
 				break;
 			case 27: // ESCAPE
