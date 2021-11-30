@@ -221,7 +221,7 @@ void DICTIONARY::suaTu(Word &w) {
 		// Sua nghia
 		while (1){
 			this->doiMau(14);
-			cout << " " << char(16) << " Sua nghia : ";
+			cout << " " << char(16) << " Sua nghia   : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") {
@@ -237,7 +237,7 @@ void DICTIONARY::suaTu(Word &w) {
 		// Sua vi du
 		while (1){
 			this->doiMau(14);
-			cout << " " << char(16) << " Sua vi du : ";
+			cout << " " << char(16) << " Sua vi du   : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") {
@@ -298,7 +298,7 @@ void DICTIONARY::themTuMoi() {
 		// Nhap tu
 		while (1){
 			this->doiMau(14);	
-			cout << " " << char(16) << " Nhap tu vung : ";
+			cout << " " << char(16) << " Nhap tu vung       : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") { 
@@ -315,7 +315,7 @@ void DICTIONARY::themTuMoi() {
 		// Nhap loai Tu 
 		while (1){
 			this->doiMau(14);
-			cout << " "<< char(16) << " Nhap loai tu : ";
+			cout << " "<< char(16) << " Nhap loai tu       : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") {
