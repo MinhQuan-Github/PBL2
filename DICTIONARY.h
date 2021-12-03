@@ -15,6 +15,7 @@ class DICTIONARY {
 		HashTable TUDIEN;
 	public:
 		DICTIONARY(char *fileName);
+		~DICTIONARY();
 		void xoaManHinh();                                           // Xoa man hinh
 		void gotoxy(short x, short y);                               // Dat con tro tai toa do (x,y)
 		void veGiaoDienChinh(string input);                          // giao dien tim tu vung
@@ -77,6 +78,10 @@ void DICTIONARY::giaoDienMoUngDung(){
 
 
 
+DICTIONARY::~DICTIONARY(){
+	this->TUDIEN.~HashTable();
+}
+
 void DICTIONARY::veGiaoDienChinh(string input) {
 	this->xoaManHinh();
 	
@@ -130,9 +135,11 @@ void DICTIONARY::veLoiKhongTimThayTu(){
 	int dongHienTai = 0;
 	
 //  in ra cac huong dan
+	this->doiMau(10);
 	cout << " " << char(254) << " Esc      : Ve lai man hinh chinh" << endl;
 	cout << " " << char(254) << " Tab      : Them tu moi" << endl;
-	cout << " Loi! Khong co tu nay" << endl;
+	this->doiMau(12);
+	cout << "\n " << char(19) << " Loi! Khong co tu nay" << endl;
 }
 
 Word DICTIONARY::timTu(string word){
@@ -173,7 +180,7 @@ void DICTIONARY::suaTu(Word &w) {
 		// Sua nghia
 		while (1){
 			this->doiMau(14);
-			cout << " " << char(16) << " Sua nghia : ";
+			cout << " " << char(16) << " Sua nghia   : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") {
@@ -189,7 +196,7 @@ void DICTIONARY::suaTu(Word &w) {
 		// Sua vi du
 		while (1){
 			this->doiMau(14);
-			cout << " " << char(16) << " Sua vi du : ";
+			cout << " " << char(16) << " Sua vi du   : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") {
@@ -250,7 +257,7 @@ void DICTIONARY::themTuMoi() {
 		// Nhap tu
 		while (1){
 			this->doiMau(14);	
-			cout << " " << char(16) << " Nhap tu vung : ";
+			cout << " " << char(16) << " Nhap tu vung       : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") { 
@@ -267,7 +274,7 @@ void DICTIONARY::themTuMoi() {
 		// Nhap loai Tu 
 		while (1){
 			this->doiMau(14);
-			cout << " "<< char(16) << " Nhap loai tu : ";
+			cout << " "<< char(16) << " Nhap loai tu       : ";
 			fflush(stdin);
 			getline(cin, temp);
 			if (temp == "") {
@@ -416,41 +423,39 @@ void DICTIONARY::xuLyTuDien() {
 				// vao man hinh chi tiet tu
 				test = tugoiy[pos].getWord().substr(0, input.size());
 				if(tugoiy[pos].getWord() == ""|| input!=test) {
-						int k;
-							this->veLoiKhongTimThayTu();
-				do {
-					k = getch();
-					if (k == 9) { // TAB
-						// sua tu nay
-					this->themTuMoi();
-						input = ""; pos = 0;
-						break; // ve man hinh chinh
-					}
-					if (k == 27) { // ESCAPE
-						input = ""; // reset gia tri trong khung tim kiem
-						pos = 0;
-						break; // ve man hinh chinh
-					}
-				} while (true);
-				}
-				else{
+					int k;
+					this->veLoiKhongTimThayTu();
+					do {
+						k = getch();
+						if (k == 9) {             // TAB
+							// sua tu nay
+							this->themTuMoi();
+							input = ""; pos = 0;
+							break; 
+						}
+						if (k == 27) {            // ESCAPE
+							input = "";           // reset gia tri trong khung tim kiem
+							pos = 0;
+							break; 
+						}
+					} while (true);
+				} else {
 					this->veGiaoDienChiTietTu(tugoiy[pos]);
 					int k;
 					do {
 						k = getch();
-						if (k == 8) {  // BACKSPACE
+						if (k == 8) {             // BACKSPACE
 							// xoa tu nay
-							// xoaTu(tudien, tuHienTai);
 							input = ""; pos = 0;
 							break; 
 						}
-						if (k == 9) {  // TAB
+						if (k == 9) {             // TAB
 							// sua tu nay
 							this->suaTu(tugoiy[pos]);
 							input = ""; pos = 0;
 							break;
 						}
-						if (k == 27) { // ESCAPE
+						if (k == 27) {            // ESCAPE
 							input = ""; pos = 0;
 							break; 
 						}
@@ -467,12 +472,12 @@ void DICTIONARY::xuLyTuDien() {
 				cout<<"----------------------------------------------";
 				this->gotoxy(2, 27);
 				this->doiMau(9);
-				exit(EXIT_SUCCESS);     // thoat chuong trinh
+				exit(EXIT_SUCCESS);               // thoat chuong trinh
 				break;
 			case 224: {     // UP & DOWN
 				int key = getch();
-				if (key == 72)  pos--;  // UP
-				if (key == 80) {        // DOWN
+				if (key == 72)  pos--;            // UP
+				if (key == 80) {                  // DOWN
 					if(pos<goiy-1) pos++;
 				}
 				if (pos < 0) pos = 0;
@@ -525,7 +530,5 @@ void DICTIONARY::gotoxy(short x, short y) {
     hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleCursorPosition(hConsoleOutput, Cursor_an_Pos);
 }
-
-
 
 #endif

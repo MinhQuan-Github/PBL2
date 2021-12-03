@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 #include <string>
 #include <cstdio>
 #include "Word.h"
@@ -106,20 +105,19 @@ void DestroyList(LinkedList& l)
 
 /* -------------------------------------------- KHAI BAO BANG BAM -------------------------------------------- */
 
-class HashTable                                  // Lop Hashtable
-{ 
-private:
-	LinkedList DICTIONARY[HT_SIZE]; 	         // Mang cac bucket
-public:
-	HashTable();                                 // Ham dung mac dinh Hashtable
-	~HashTable();                                // Ham huy HashTable
-	int HashFunc(string word);                   // Ham bam (Hash)
-	void Insert(Word n);                         // Ham chen tu vung vao Hashtable
-	void Display();                              // Ham hien thi danh sach tu vung
-	Word Find(string word);                      // Ham tim kiem tu vung trong Hashtable 
-	int Size();                                  // Ham lay kich thuoc Hashtable
-	void findByInput(Word *array, string input); // Ham goi y tu vung trong Hashtable
-	void update(Word w);
+class HashTable {                                    // Lop Hashtable 
+	private:
+		LinkedList DICTIONARY[HT_SIZE]; 	         // Mang cac bucket
+	public:
+		HashTable();                                 // Ham dung mac dinh Hashtable
+		~HashTable();                                // Ham huy HashTable
+		int HashFunc(string word);                   // Ham bam (Hash)
+		void Insert(Word n);                         // Ham chen tu vung vao Hashtable
+		void Display();                              // Ham hien thi danh sach tu vung
+		Word Find(string word);                      // Ham tim kiem tu vung trong Hashtable 
+		int Size();                                  // Ham lay kich thuoc Hashtable
+		void findByInput(Word *array, string input); // Ham goi y tu vung trong Hashtable
+		void update(Word w);
 };
 
 HashTable::HashTable(){
