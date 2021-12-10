@@ -14,7 +14,7 @@ class DICTIONARY {
 	private:
 		HashTable TUDIEN;
 	public:
-		DICTIONARY();
+		DICTIONARY(char *fileName);
 		~DICTIONARY();
 		void xoaManHinh();                                           // Xoa man hinh
 		void gotoxy(short x, short y);                               // Dat con tro tai toa do (x,y)
@@ -22,10 +22,9 @@ class DICTIONARY {
 		void veGiaoDienChiTietTu(Word m);                            // giao dien chi tiet tu vung
 		void doiMau(short x);                                        // Ham thay doi textcolor va backgroundcolor
 		Word timTu(string word);                                     // Tim tu vung
-		void khoiTaoTu(Word &w,string dong);                         // Ham khoi tao tu vung
 		void suaTu(Word &w);                                         // Sua tu vung
 		void themTuMoi();                                            // Nhap tu vung
-		void docFile();                                              // Doc file
+		void docFile(char *fileName );                                              // Doc file
 		void xuLyTuDien();                                           // Xu ly tu dien
 		void timTuGoiY(Word *a, string input, int pos, int &size);   // Tim tu goi y
 		void kichThuocCuaSo(SHORT width, SHORT height);              // Thay doi kich thuoc cua so
@@ -34,16 +33,18 @@ class DICTIONARY {
 		void veLoiKhongTimThayTu();                                  // Ham tra ve giao dien khong tim thay tu
 		void veGoiY(int pos);                                        // Giao dien khong tim thay tu
 		void giaoDienMoUngDung();                                    // Giao dien cho ung dung
-		friend void inTuVung(Word &m);                               // Hien thi tu vung 
 };
 
-void inTuVung(Word &m){
-	cout << "\n  " << char(176) << " " << m.getWord();
-	cout << endl << "    ------" ;
-	cout << "\n  " << char(176) << " (" << m.getType() << "): " << m.getMean() << "; ";
-	cout << endl << "    ------" ; 
-	cout << "\n  " << char(176) << " " << m.getExample() << endl << endl;
+DICTIONARY::DICTIONARY(char *fileName){
+	SetConsoleTitle(" English-Vietnamese Dictionary ");
+	this->docFile(fileName);
+	this->kichThuocCuaSo(51,44);
+	this->anThanhCuon(0);
+	this->voHieuHoaKichThuocCuaSo();
+	this->giaoDienMoUngDung();
+	this->xuLyTuDien();
 }
+
 
 void DICTIONARY::giaoDienMoUngDung(){
 	this->gotoxy(0,9);
@@ -75,14 +76,7 @@ void DICTIONARY::giaoDienMoUngDung(){
 	Sleep(3500);
 }
 
-DICTIONARY::DICTIONARY(){
-	SetConsoleTitle(" English-Vietnamese Dictionary ");
-	this->kichThuocCuaSo(51,44);
-	this->anThanhCuon(0);
-	this->voHieuHoaKichThuocCuaSo();
-	this->giaoDienMoUngDung();
-	this->xuLyTuDien();
-}
+
 
 DICTIONARY::~DICTIONARY(){
 	this->TUDIEN.~HashTable();
@@ -133,7 +127,7 @@ void DICTIONARY::veGiaoDienChiTietTu(Word m) {
 	doiMau(14);
 	
 //  in ra cac chi tiet cua tu
-	inTuVung(m);
+	m.display();
 }
 
 void DICTIONARY::veLoiKhongTimThayTu(){
@@ -151,48 +145,6 @@ void DICTIONARY::veLoiKhongTimThayTu(){
 Word DICTIONARY::timTu(string word){
 	return this->TUDIEN.Find(word);
 }
-
-void DICTIONARY::khoiTaoTu(Word &w,string dong) {
-	int i, pos;
-	i = 0;
-	
-	// word/type/mean/example;
-	// tach tu
-	string word = "";
-	while (dong[i] != '/') word += dong[i++];
-	i++;
-	
-	// init word in class Word
-	w.setWord(word); 
-	
-	// tach loai tu
-	string type = "";
-	while (dong[i] != '/') type += dong[i++];
-	i++;
-	w.setType(type);
-	
-	// tach nghia
-	string mean = ""; pos = 0;
-	while (dong[i] != '/') {
-		mean += dong[i];
-		i++; 
-		// nghia moi
-		if (dong[i] == ';') { 
-			w.setMean(mean);
-		}
-	}
-	i++;
-	
-	// tach vi du
-	string example = "";
-	while (dong[i] != '/') {
-		example += dong[i++];
-		if (dong[i] == ';') {
-			w.setExample(example);
-		}
-	}	
-}
-
 void DICTIONARY::suaTu(Word &w) {	
 	Word tmp = w;
 	
@@ -204,7 +156,7 @@ void DICTIONARY::suaTu(Word &w) {
 		
 		// Chi tiet tu vung hien tai
 		this->doiMau(12);
-		inTuVung(w);
+		w.display();
 		
 		this->doiMau(14);
 		cout << "   */ Sua tu : " << w.getWord() << endl;
@@ -260,7 +212,7 @@ void DICTIONARY::suaTu(Word &w) {
 		// Hien thi lai tu vung sau khi sua
 		this->xoaManHinh();
 		doiMau(10);
-		inTuVung(w);
+	    w.display();
 		
 		// Kiem tra chac chan chua
 		this->doiMau(14);
@@ -373,7 +325,7 @@ void DICTIONARY::themTuMoi() {
 		// Hien thi lai tu vung sau khi sua
 		doiMau(10);
 		this->xoaManHinh();
-		inTuVung(w);
+		w.display();
 		
 		// Kiem tra chac chan chua
 		this->doiMau(14);
@@ -402,16 +354,15 @@ void DICTIONARY::themTuMoi() {
     fclose(f);
 }
 
-void DICTIONARY::docFile() {
-	ifstream fi("words.txt"); 	             // tim tap tin
+void DICTIONARY::docFile(char* fileName) {
+	ifstream fi(fileName); 	             // tim tap tin
 	string dong;
 	if (fi.is_open()) {                      // mo tap tin, kiem tra tap tin co ton tai hay khong
 		while (getline(fi, dong)) {
 			if (dong == "") {
 				continue;
 			}
-			Word w;
-			this->khoiTaoTu(w,dong);
+			Word w(dong);
 			this->TUDIEN.Insert(w);	
 		}
 		fi.close();                          // dong tap tin
@@ -439,7 +390,6 @@ void DICTIONARY::veGoiY(int pos){
 }
 
 void DICTIONARY::xuLyTuDien() {
-	this->docFile();
 	Word currentWord;
 	string input = "";                            // Khoi tao noi dung cua khung tim kiem
 	int keyCode = 0;

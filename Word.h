@@ -11,16 +11,17 @@ class Word {
 		string example;	// vi du
 	
 	public:
-		Word();                                  // Ham dung mac dinh
-		~Word();                                 // Ham huy
-		string getWord(); 			             // Lay tu vung
-		string getType();			             // Lay loai tu
-		string getMean();			             // Lay nghia tu
-		string getExample();		             // Lay vi du
-		void setWord(string m);		             // Tao tu vung
-		void setType(string m);		             // Tao loai tu
-		void setMean(string m);		             // Tao nghia tu
-		void setExample(string m);	             // Tao vi du
+		Word();                     // Ham dung mac dinh
+		Word(string dong);
+		~Word();                    // Ham huy
+		string getWord(); 			// Lay tu vung
+		string getType();			// Lay loai tu
+		string getMean();			// Lay nghia tu
+		string getExample();		// Lay vi du
+		void setWord(string m);		// Tao tu vung
+		void setType(string m);		// Tao loai tu
+		void setMean(string m);		// Tao nghia tu
+		void setExample(string m);	// Tao vi du
 		const Word &operator = (const Word &m);  // Da nang hoa toan tu =
 		void display();				             // Hien thi thong tin chi tiet tu vung
 };
@@ -31,7 +32,46 @@ Word::Word(){
 	this->type    = "";
 	this->mean    = "";
 }
-
+Word::Word(string dong){
+int i, pos;
+	i = 0;
+	
+	// word/type/mean/example;
+	// tach tu
+	string word = "";
+	while (dong[i] != '/') word += dong[i++];
+	i++;
+	
+	// init word in class Word
+	this->word = word;
+	
+	// tach loai tu
+	string type = "";
+	while (dong[i] != '/') type += dong[i++];
+	i++;
+	this->type = type;
+	
+	// tach nghia
+	string mean = ""; pos = 0;
+	while (dong[i] != '/') {
+		mean += dong[i];
+		i++; 
+		// nghia moi
+		if (dong[i] == ';') { 
+		this->mean = mean;
+		}
+	}
+	i++;
+	
+	// tach vi du
+	string example = "";
+	while (dong[i] != '/') {
+		example += dong[i++];
+		if (dong[i] == ';') {
+			this->example = example;
+		}
+	}
+}
 Word::~Word(){}
 
 string Word::getWord() {
@@ -75,9 +115,10 @@ const Word &Word::operator = (const Word &m) {
 }
 
 void Word::display() {
-	cout << this->word << endl;
-	cout << this->type << endl;
-	cout << this->mean << endl;
-	cout << this->example << endl;
+	cout << "\n  " << char(176) << " " <<this->word;
+	cout << endl << "    ------" ;
+	cout << "\n  " << char(176) << " (" << this->type << "): " << this->mean << "; ";
+	cout << endl << "    ------" ; 
+	cout << "\n  " << char(176) << " " << this->example << endl << endl;
 };
 #endif
