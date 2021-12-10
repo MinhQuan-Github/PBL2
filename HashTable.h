@@ -110,10 +110,10 @@ class HashTable {                                    // Lop Hashtable
 		LinkedList DICTIONARY[HT_SIZE]; 	         // Mang cac bucket
 	public:
 		HashTable();                                 // Ham dung mac dinh Hashtable
-		~HashTable();                                // Ham huy HashTable
+		virtual ~HashTable();                        // Ham huy HashTable
 		int HashFunc(string word);                   // Ham bam (Hash)
 		void Insert(Word n);                         // Ham chen tu vung vao Hashtable
-		void Display();                              // Ham hien thi danh sach tu vung
+		void Display();                              // Ham xuat key
 		Word Find(string word);                      // Ham tim kiem tu vung trong Hashtable 
 		int Size();                                  // Ham lay kich thuoc Hashtable
 		void findByInput(Word *array, string input); // Ham goi y tu vung trong Hashtable
@@ -170,7 +170,7 @@ void HashTable::findByInput(Word *array, string input){
 	int limit = 0;
 	int index = 0;
 	string substr ="";
-	for(int i = 0;i<HT_SIZE;i++){
+	for (int i = 0;i<HT_SIZE;i++){
 		Node *node = this->DICTIONARY[i].head;
 		if (!node) continue; 
 		while (node != NULL){
@@ -182,7 +182,7 @@ void HashTable::findByInput(Word *array, string input){
 			node = node->next;
 		}
 	// if mang goi y khong du 10 tu thi them cac phan tu trong mang con lai bang Word emty("");
-		if(index<GIOI_HAN_TU_GOI_Y-1){
+		if (index<GIOI_HAN_TU_GOI_Y-1){
 			for(int i = index+1;i<GIOI_HAN_TU_GOI_Y;i++)
 				array[i] = empty;
 		}

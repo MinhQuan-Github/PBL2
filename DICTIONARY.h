@@ -14,8 +14,8 @@ class DICTIONARY {
 	private:
 		HashTable TUDIEN;
 	public:
-		DICTIONARY(char *fileName);
-		~DICTIONARY();
+		DICTIONARY(const char *fileName);
+		virtual ~DICTIONARY();
 		void xoaManHinh();                                           // Xoa man hinh
 		void gotoxy(short x, short y);                               // Dat con tro tai toa do (x,y)
 		void veGiaoDienChinh(string input);                          // giao dien tim tu vung
@@ -24,7 +24,7 @@ class DICTIONARY {
 		Word timTu(string word);                                     // Tim tu vung
 		void suaTu(Word &w);                                         // Sua tu vung
 		void themTuMoi();                                            // Nhap tu vung
-		void docFile(char *fileName );                                              // Doc file
+		void docFile(const char *fileName );                                              // Doc file
 		void xuLyTuDien();                                           // Xu ly tu dien
 		void timTuGoiY(Word *a, string input, int pos, int &size);   // Tim tu goi y
 		void kichThuocCuaSo(SHORT width, SHORT height);              // Thay doi kich thuoc cua so
@@ -35,7 +35,7 @@ class DICTIONARY {
 		void giaoDienMoUngDung();                                    // Giao dien cho ung dung
 };
 
-DICTIONARY::DICTIONARY(char *fileName){
+DICTIONARY::DICTIONARY(const char *fileName){
 	SetConsoleTitle(" English-Vietnamese Dictionary ");
 	this->docFile(fileName);
 	this->kichThuocCuaSo(51,44);
@@ -354,7 +354,7 @@ void DICTIONARY::themTuMoi() {
     fclose(f);
 }
 
-void DICTIONARY::docFile(char* fileName) {
+void DICTIONARY::docFile(const char* fileName) {
 	ifstream fi(fileName); 	             // tim tap tin
 	string dong;
 	if (fi.is_open()) {                      // mo tap tin, kiem tra tap tin co ton tai hay khong

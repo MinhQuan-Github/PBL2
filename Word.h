@@ -11,17 +11,17 @@ class Word {
 		string example;	// vi du
 	
 	public:
-		Word();                     // Ham dung mac dinh
+		Word();                                  // Ham dung mac dinh
 		Word(string dong);
-		~Word();                    // Ham huy
-		string getWord(); 			// Lay tu vung
-		string getType();			// Lay loai tu
-		string getMean();			// Lay nghia tu
-		string getExample();		// Lay vi du
-		void setWord(string m);		// Tao tu vung
-		void setType(string m);		// Tao loai tu
-		void setMean(string m);		// Tao nghia tu
-		void setExample(string m);	// Tao vi du
+		virtual ~Word();                         // Ham huy
+		string getWord();                        // Lay tu vung
+		string getType();                        // Lay loai tu
+		string getMean();                        // Lay nghia tu
+		string getExample();	                 // Lay vi du
+		void setWord(string m);		             // Tao tu vung
+		void setType(string m);		             // Tao loai tu
+		void setMean(string m);		             // Tao nghia tu
+		void setExample(string m);	             // Tao vi du
 		const Word &operator = (const Word &m);  // Da nang hoa toan tu =
 		void display();				             // Hien thi thong tin chi tiet tu vung
 };
