@@ -8,7 +8,8 @@
 using namespace std;
 
 int main(){
-	char *fileName = "words.txt";
+	const char *fileName = "words.txt";
 	DICTIONARY a(fileName);
+	
 	return 0;
 }
