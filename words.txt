@@ -7,15 +7,13 @@ ball/danh tu/qua bong;qua banh;qua cau;buoi khieu vu;/they're refusing to play b
 bear/danh tu/con gau;/it was a big bear;/
 big/tinh tu/to;lon;quan trong;/he likes to talk big;that is a big tree;he looks so big;it's not a big deal;/
 cold/tinh tu/lanh;nguoi;lanh lung;lanh nhat;/kill somebody in cold blood;the weather is getting colder;i feel so cold;/
-dad/danh tu/cha;ba;bo;/i love my dad;my dad is a teacher;/
 family/danh tu/gia dinh;/i love my family;/
 father/danh tu/cha;ba;bo;/i love my father;my father is a teacher;/
 girl/danh tu/co gai;con gai;/this girl is pretty;i love this girl;/
 go/dong tu/di;/let's go;i have to go to work right now;/
 hat/danh tu/cai non;cai mu;/please wear a hat;i have a black hat;/
-king /danh tu\/vua;chua;vua 1;vua 2;vua 3;/i want to be a king;good king ;/
+king /danh tu\/vua;chua;vua 1;vua 2;vua 3;/i want to be a king;good king;/
 mine/danh tu/min;qua min;thuy loi;ham mo;cua toi;/the money is all mine;i don't want to work in a mine;don't step on any mines;/
-mine/dong tu/dat min;khai mo;/mine the earth for gold;mine for gold;/
 zoo/danh tu/vuon thu;so thu;/my father's taking me to the zoo this weekend;/
 zone/danh tu/khu;mien;/the zone of influence;a nuclear-free zone;industrial zone;/
 criticism/danh tu/su chi trich;phe binh;/he received a lot of criticism;/
@@ -1879,7 +1877,6 @@ borrow /verb/vay;muon;vay muon;vay.;/he had borrowed a car from one of his colle
 strange /adjective/la lung;la;/children have some strange ideas;/
 reason /noun/ly do;/the minister resigned for personal reasons;/
 sugar /noun/duong;/a spoonful of sugar;/
-poem /noun/bai tho;bai tho;/the sun is an important symbol in this poem;/
 tiny /adjective/nho be;nho xiu;ti hon;/a tiny hummingbird;/
 able /adjective/co the;/he was able to read greek at the age of eight;/
 engine /noun/dong co;dung cu;/the roar of a car engine;/
@@ -1966,7 +1963,6 @@ custom /noun/tap quan;khach hang;tuy chinh;phong tuc;dat lam;/the old english cu
 deliver /verb/giao;phan phat;giao hang;/the products should be delivered on time;/
 chat /verb/tro chuyen;tan gau;/she chatted to her mother on the phone every day;/
 adventure /noun/cuoc phieu luu;mao hiem;su nguy hiem;phieu luu;/her recent adventures in italy;/
-ds//;/;/
 geologist/danh tu/nha dia chat;/;/
 deried/dong tu/bat chuoc;;/null;/
 abortion/danh tu/pha thai;/null;/
