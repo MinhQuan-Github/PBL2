@@ -8,16 +8,6 @@ using namespace std;
 
 class LinkedList{
 	public: 
-<<<<<<< HEAD
-		Node *head;
-		Node *tail;
-		LinkedList();
-		virtual ~LinkedList();
-		void AddTail(Word w);           // Ham them tu vung vao cuoi
-		Node *Search(string word);     // Ham tim kiem tu vung trong danh sach 
-		void Nodeupdate(Word word);    // Ham cap nhat/ sua tu vung
-
-=======
 		// thuoc tinh
 		Node *head;
 		Node *tail;
@@ -27,7 +17,6 @@ class LinkedList{
 		LinkedList &operator += (Word &w); // Ham them tu vung vao cuoi
 		Node *Search(string word);         // Ham tim kiem tu vung trong danh sach 
 		void Nodeupdate(Word word);        // Ham cap nhat/ sua tu vung
->>>>>>> 69b74bf02de888bc9a98c6b525f809c270b11541
 };
 LinkedList::LinkedList(){
 	this->head = NULL;

@@ -15,10 +15,10 @@ class Word {
 		Word();                                  // Ham dung mac dinh
 		Word(string dong);
 		virtual ~Word();                         // Ham huy
-		string getWord() const;                  // Lay tu vung
-		string getType() const;                  // Lay loai tu
-		string getMean() const;                  // Lay nghia tu
-		string getExample() const;               // Lay vi du
+		string getWord();                  // Lay tu vung
+		string getType();                  // Lay loai tu
+		string getMean();                  // Lay nghia tu
+		string getExample();               // Lay vi du
 		void setWord(string m);		             // Tao tu vung
 		void setType(string m);		             // Tao loai tu
 		void setMean(string m);		             // Tao nghia tu
@@ -75,7 +75,7 @@ int i, pos;
 }
 Word::~Word(){}
 
-string Word::getWord() const {
+string Word::getWord(){
 	return this->word;
 }
 
