@@ -14,8 +14,7 @@ class HashTable {                                    // Lop Hashtable
 		HashTable();                                 // Ham dung mac dinh Hashtable
 		virtual ~HashTable();                        // Ham huy HashTable
 		int HashFunc(string word);                   // Ham bam (Hash)
-		void Insert(Word n);                         // Ham chen tu vung vao Hashtable
-		void Display();                              // Ham xuat key
+		HashTable &operator += (Word &n);            // Ham chen tu vung vao Hashtable
 		Word Find(string word);                      // Ham tim kiem tu vung trong Hashtable 
 		int Size();                                  // Ham lay kich thuoc Hashtable
 		void findByInput(Word *array, string input); // Ham goi y tu vung trong Hashtable
@@ -39,15 +38,10 @@ int HashTable::HashFunc(string word){
 	return sum % HT_SIZE;
 }
 
-void HashTable::Insert(Word n){
+HashTable &HashTable::operator += (Word &n){
 	int index = HashFunc(n.getWord());
-	this->DICTIONARY[index].AddTail(n);
-
-}
-
-void HashTable::Display(){
-	for (int i = 0; i < HT_SIZE; i++)
-		cout << this->DICTIONARY[i].head->key;
+	this->DICTIONARY[index] += n;
+	return *this;
 }
 
 Word HashTable::Find(string word){
