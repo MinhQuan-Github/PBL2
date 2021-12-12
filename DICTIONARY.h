@@ -28,6 +28,7 @@ class DICTIONARY {
 		void timTuGoiY(Word *a, string input, int pos, int &size);   // Tim tu goi y
 		void veLoiKhongTimThayTu();                                  // Ham tra ve giao dien khong tim thay tu
 		void veGoiY(int pos);                                        // Giao dien khong tim thay tu
+		// interface graphics
 		void xoaManHinh();                                           // Xoa man hinh
 		void gotoxy(short x, short y);                               // Dat con tro tai toa do (x,y)
 		void kichThuocCuaSo(SHORT width, SHORT height);              // Thay doi kich thuoc cua so
@@ -46,7 +47,6 @@ DICTIONARY::DICTIONARY(const char *fileName){
 	this->giaoDienMoUngDung();
 	this->xuLyTuDien();
 }
-
 
 void DICTIONARY::giaoDienMoUngDung(){
 	this->gotoxy(0,9);
@@ -127,7 +127,7 @@ void DICTIONARY::veGiaoDienChiTietTu(Word m) {
 	doiMau(14);
 	
 //  in ra cac chi tiet cua tu
-	m.display();
+	cout << m;
 }
 
 void DICTIONARY::veLoiKhongTimThayTu(){
@@ -157,7 +157,7 @@ void DICTIONARY::suaTu(Word &w) {
 		
 		// Chi tiet tu vung hien tai
 		this->doiMau(12);
-		w.display();
+		cout << w;
 		
 		this->doiMau(14);
 		cout << "   */ Sua tu : " << w.getWord() << endl;
@@ -213,7 +213,7 @@ void DICTIONARY::suaTu(Word &w) {
 		// Hien thi lai tu vung sau khi sua
 		this->xoaManHinh();
 		doiMau(10);
-	    w.display();
+		cout << w;
 		
 		// Kiem tra chac chan chua
 		this->doiMau(14);
@@ -326,7 +326,7 @@ void DICTIONARY::themTuMoi() {
 		// Hien thi lai tu vung sau khi sua
 		doiMau(10);
 		this->xoaManHinh();
-		w.display();
+		cout << w;
 		
 		// Kiem tra chac chan chua
 		this->doiMau(14);
@@ -336,7 +336,7 @@ void DICTIONARY::themTuMoi() {
 	}
 	
 	// Chen tu moi vao bang bam
-	this->TUDIEN.Insert(w);
+	this->TUDIEN += w;
 	
 	// In ra thanh thong bao Da Them Thanh Cong
 	this->xoaManHinh();
@@ -356,7 +356,7 @@ void DICTIONARY::themTuMoi() {
 }
 
 void DICTIONARY::docFile(const char* fileName) {
-	ifstream fi(fileName); 	             // tim tap tin
+	ifstream fi(fileName); 	                 // tim tap tin
 	string dong;
 	if (fi.is_open()) {                      // mo tap tin, kiem tra tap tin co ton tai hay khong
 		while (getline(fi, dong)) {
@@ -364,7 +364,8 @@ void DICTIONARY::docFile(const char* fileName) {
 				continue;
 			}
 			Word w(dong);
-			this->TUDIEN.Insert(w);	
+//			this->TUDIEN.Insert(w);	
+			this->TUDIEN += w;
 		}
 		fi.close();                          // dong tap tin
 	}
