@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+
 class Word {
 	protected:
 		string word;	// tu vung

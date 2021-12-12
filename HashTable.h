@@ -7,9 +7,6 @@
 #define HT_SIZE 1000 // Hash Table Size
 using namespace std;
 
-
-/* -------------------------------------------- KHAI BAO BANG BAM -------------------------------------------- */
-
 class HashTable {                                    // Lop Hashtable 
 	private:
 		LinkedList DICTIONARY[HT_SIZE]; 	         // Mang cac bucket
@@ -26,8 +23,8 @@ class HashTable {                                    // Lop Hashtable
 };
 
 HashTable::HashTable(){
-//	for (int i = 0; i < HT_SIZE; i++)
-//		this->DICTIONARY[i]->LinkedList();
+	for (int i = 0; i < HT_SIZE; i++)
+		this->DICTIONARY[i].head = this->DICTIONARY[i].tail = NULL;
 }
 
 HashTable::~HashTable(){
