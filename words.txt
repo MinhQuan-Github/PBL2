@@ -1971,3 +1971,6 @@ debilitated/dong tu/lam yeu di;/null;/
 legal fee/danh tu/phi phap ly;/null;/
 custody/danh tu/su cham soc; giam ho;;/null;/
 mutual/tinh tu/lan nhau;/null;/
+disinterested/tinh tu/vo tu; khong thien vi; cong bang;;/a banker is under an obligation to give disinterested advice;/
+outtraged/tinh tu/soc va tuc gian;/null;/
+sadistic/tinh tu/tan bao;/null;/
