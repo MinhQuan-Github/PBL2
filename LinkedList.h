@@ -7,13 +7,13 @@
 using namespace std;
 class LinkedList{
 	public: 
-	Node *head;
-	Node *tail;
-	LinkedList();
-	~LinkedList();
-	void AddTail(Word w);           // Ham them tu vung vao cuoi
-	Node *Search(string word);     // Ham tim kiem tu vung trong danh sach 
-	void Nodeupdate(Word word);    // Ham cap nhat/ sua tu vung
+		Node *head;
+		Node *tail;
+		LinkedList();
+		virtual ~LinkedList();
+		void AddTail(Word w);           // Ham them tu vung vao cuoi
+		Node *Search(string word);     // Ham tim kiem tu vung trong danh sach 
+		void Nodeupdate(Word word);    // Ham cap nhat/ sua tu vung
 
 };
 LinkedList::LinkedList(){
