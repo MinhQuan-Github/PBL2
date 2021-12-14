@@ -15,7 +15,6 @@ class LinkedList{
 		LinkedList();                      // Ham khoi tao danh sach lien ket
 		virtual ~LinkedList();             // Ham huy danh sach
 		LinkedList &operator += (Word &w); // Ham them tu vung vao cuoi
-		Node *Search(string word);         // Ham tim kiem tu vung trong danh sach 
 		void Nodeupdate(Word word);        // Ham cap nhat/ sua tu vung
 };
 LinkedList::LinkedList(){
@@ -46,15 +45,6 @@ LinkedList &LinkedList::operator += (Word &w){
 	}
 	return *this;
 }
-Node* LinkedList::Search(string word){
-	Node *node = this->head;
-	while (node != NULL && node->key != word)
-		node = node->next;
-	if (node != NULL){
-		return node;
-	}
-	return NULL;
-};
 void LinkedList::Nodeupdate(Word word){
 	Node *node = this->head;
 	while (node != NULL && node->key != word.getWord())
