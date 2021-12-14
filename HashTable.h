@@ -15,7 +15,6 @@ class HashTable {                                    // Lop Hashtable
 		virtual ~HashTable();                        // Ham huy HashTable
 		int HashFunc(string word);                   // Ham bam (Hash)
 		HashTable &operator += (Word &n);            // Ham chen tu vung vao Hashtable
-		Word Find(string word);                      // Ham tim kiem tu vung trong Hashtable 
 		int Size();                                  // Ham lay kich thuoc Hashtable
 		void findByInput(Word *array, string input); // Ham goi y tu vung trong Hashtable
 		void update(Word w);
@@ -42,14 +41,6 @@ HashTable &HashTable::operator += (Word &n){
 	int index = HashFunc(n.getWord());
 	this->DICTIONARY[index] += n;
 	return *this;
-}
-
-Word HashTable::Find(string word){
-	Word error ;
-	int index = HashFunc(word);
-	Node *result = this->DICTIONARY[index].Search(word);
-	if(result == NULL) return error;
-	return result->data;
 }
 
 void HashTable::update(Word w){
