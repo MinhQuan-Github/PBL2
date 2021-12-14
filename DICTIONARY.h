@@ -21,7 +21,6 @@ class DICTIONARY {
 		void veGiaoDienChinh(string input);                          // giao dien tim tu vung
 		void veGiaoDienChiTietTu(Word m);                            // giao dien chi tiet tu vung
 		void giaoDienMoUngDung();                                    // Giao dien cho ung dung
-		Word timTu(string word);                                     // Tim tu vung
 		void suaTu(Word &w);                                         // Sua tu vung
 		void themTuMoi();                                            // Nhap tu vung
 		void xuLyTuDien();                                           // Xu ly tu dien
@@ -140,10 +139,6 @@ void DICTIONARY::veLoiKhongTimThayTu(){
 	cout << " " << char(254) << " Tab      : Them tu moi" << endl;
 	this->doiMau(12);
 	cout << "\n " << char(19) << " Loi! Khong co tu nay" << endl;
-}
-
-Word DICTIONARY::timTu(string word){
-	return this->TUDIEN.Find(word);
 }
 
 void DICTIONARY::suaTu(Word &w) {	
