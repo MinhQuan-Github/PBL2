@@ -5,16 +5,17 @@
 #ifndef DEF_LINKEDLIST
 #define DEF_LINKEDLIST
 using namespace std;
+
 class LinkedList{
 	public: 
-	Node *head;
-	Node *tail;
-	LinkedList();
-	~LinkedList();
-	void AddTail(Word w);           // Ham them tu vung vao cuoi
-	Node *Search(string word);     // Ham tim kiem tu vung trong danh sach 
-	void Nodeupdate(Word word);    // Ham cap nhat/ sua tu vung
-
+		// thuoc tinh
+		Node *head;
+		Node *tail;
+		// phuong thuc
+		LinkedList();                      // Ham khoi tao danh sach lien ket
+		virtual ~LinkedList();             // Ham huy danh sach
+		LinkedList &operator += (Word &w); // Ham them tu vung vao cuoi
+		void Nodeupdate(Word word);        // Ham cap nhat/ sua tu vung
 };
 LinkedList::LinkedList(){
 	this->head = NULL;
@@ -22,15 +23,15 @@ LinkedList::LinkedList(){
 }
 LinkedList::~LinkedList(){
 	Node* head = this->head;
-        while (head)
-        {
-            Node* temp = head;
-            head = head->next;
-            delete temp;
-            temp = NULL;
-        }
+    while (head)
+    {
+        Node* temp = head;
+        head = head->next;
+        delete temp;
+        temp = NULL;
+    }
 };
-void LinkedList::AddTail(Word w){
+LinkedList &LinkedList::operator += (Word &w){
 	Node *node= new Node(w);
 	if (this->head == NULL)
 	{
@@ -42,16 +43,8 @@ void LinkedList::AddTail(Word w){
 		this->tail->next = node;
 		this->tail = node;
 	}
-};
-Node* LinkedList::Search(string word){
-	Node *node = this->head;
-	while (node != NULL && node->key != word)
-		node = node->next;
-	if (node != NULL){
-		return node;
-	}
-	return NULL;
-};
+	return *this;
+}
 void LinkedList::Nodeupdate(Word word){
 	Node *node = this->head;
 	while (node != NULL && node->key != word.getWord())

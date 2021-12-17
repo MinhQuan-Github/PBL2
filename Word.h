@@ -3,8 +3,9 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+
 class Word {
-	protected:
+	private:
 		string word;	// tu vung
 		string type; 	// loai tu
 		string mean;	// nghia tu
@@ -14,16 +15,16 @@ class Word {
 		Word();                                  // Ham dung mac dinh
 		Word(string dong);
 		virtual ~Word();                         // Ham huy
-		string getWord();                        // Lay tu vung
-		string getType();                        // Lay loai tu
-		string getMean();                        // Lay nghia tu
-		string getExample();	                 // Lay vi du
+		string getWord();                  // Lay tu vung
+		string getType();                  // Lay loai tu
+		string getMean();                  // Lay nghia tu
+		string getExample();               // Lay vi du
 		void setWord(string m);		             // Tao tu vung
 		void setType(string m);		             // Tao loai tu
 		void setMean(string m);		             // Tao nghia tu
 		void setExample(string m);	             // Tao vi du
 		const Word &operator = (const Word &m);  // Da nang hoa toan tu =
-		void display();				             // Hien thi thong tin chi tiet tu vung
+		friend ostream &operator << (ostream &out , const Word &w);   // Hien thi thong tin chi tiet tu vung
 };
 
 Word::Word(){
@@ -74,7 +75,7 @@ int i, pos;
 }
 Word::~Word(){}
 
-string Word::getWord() {
+string Word::getWord(){
 	return this->word;
 }
 
@@ -113,12 +114,13 @@ const Word &Word::operator = (const Word &m) {
 	this->example = m.example;
 	return *this;
 }
+ostream &operator << (ostream &out ,const Word &w){
+	out << "\n  " << char(176) << " " << w.word;
+	out << endl << "    ------" ;
+	out << "\n  " << char(176) << " (" << w.type << "): " << w.mean << "; ";
+	out << endl << "    ------" ; 
+	out << "\n  " << char(176) << " " << w.example << endl << endl;
+	return out;
+}
 
-void Word::display() {
-	cout << "\n  " << char(176) << " " <<this->word;
-	cout << endl << "    ------" ;
-	cout << "\n  " << char(176) << " (" << this->type << "): " << this->mean << "; ";
-	cout << endl << "    ------" ; 
-	cout << "\n  " << char(176) << " " << this->example << endl << endl;
-};
 #endif
