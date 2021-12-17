@@ -16,17 +16,17 @@ class DICTIONARY {
 	private:
 		HashTable TUDIEN;
 	public:
-		DICTIONARY(const char *fileName);                            // Ham dung mac dinh
+		DICTIONARY(const char *fileName);                            // Ham khoi tao voi file dau vao
 		virtual ~DICTIONARY();                                       // Ham huy tu dien
-		void veGiaoDienChinh(string input);                          // giao dien tim tu vung
-		void veGiaoDienChiTietTu(Word m);                            // giao dien chi tiet tu vung
-		void giaoDienMoUngDung();                                    // Giao dien cho ung dung
-		void suaTu(Word &w);                                         // Sua tu vung
-		void themTuMoi();                                            // Nhap tu vung
+		void veGiaoDienChinh(string input);                          // Ham ve giao dien tim tu vung
+		void veGiaoDienChiTietTu(Word m);                            // Ham ve giao dien chi tiet tu vung
+		void giaoDienMoUngDung();                                    // Ham ve giao dien cho ung dung
+		void suaTu(Word &w);                                         // Ham sua tu vung
+		void themTuMoi();                                            // Ham nhap tu vung
 		void xuLyTuDien();                                           // Xu ly tu dien
-		void timTuGoiY(Word *a, string input, int pos, int &size);   // Tim tu goi y
+		void timTuGoiY(Word *a, string input, int pos, int &size);   // Ham tim tu goi y
 		void veLoiKhongTimThayTu();                                  // Ham tra ve giao dien khong tim thay tu
-		void veGoiY(int pos);                                        // Giao dien khong tim thay tu
+		void veGoiY(int pos);                                        // Ham ve giao dien khong tim thay tu
 		// interface graphics
 		void xoaManHinh();                                           // Xoa man hinh
 		void gotoxy(short x, short y);                               // Dat con tro tai toa do (x,y)
@@ -50,6 +50,8 @@ DICTIONARY::DICTIONARY(const char *fileName){
 void DICTIONARY::giaoDienMoUngDung(){
 	this->gotoxy(0,9);
 	this->doiMau(10);
+
+	// Ve logo ung dung
 	cout << "            " << char(218);
 	for(int i = 1 ; i <= 27 ; i++ ) cout << char(196);
 	cout << char(191) << endl; 
@@ -68,6 +70,8 @@ void DICTIONARY::giaoDienMoUngDung(){
 	cout << "            " << char(192);
 	for(int i = 1 ; i <= 27 ; i++ ) cout << char(196);
 	cout << char(217)<< endl << endl;
+
+	// Ve thong tin ung dung
 	this->doiMau(15);
 	cout << "   ------  ENGLISH - VIETNAMESE DICTIONARY  ------";
 	this->doiMau(14);
@@ -157,7 +161,7 @@ void DICTIONARY::suaTu(Word &w) {
 		this->doiMau(14);
 		cout << "   */ Sua tu : " << w.getWord() << endl;
 
-		// Sua loai 
+		// Sua loai tu
 		while (1){
 			this->doiMau(14);
 			cout << " " << char(16) << " Sua loai tu : ";
@@ -173,7 +177,7 @@ void DICTIONARY::suaTu(Word &w) {
 			break;
 		}
 	
-		// Sua nghia
+		// Sua nghia tu
 		while (1){
 			this->doiMau(14);
 			cout << " " << char(16) << " Sua nghia   : ";
@@ -342,7 +346,7 @@ void DICTIONARY::themTuMoi() {
 	cout << "               " << char(192); for (int i = 0; i < 23; i++) cout << char(196); cout << char(217) << endl;
 	Sleep(1500);
 	
-	// Cap nhat vao tu dien
+	// Cap nhat vao file tu dien
     string www = w.getWord()+"/"+w.getType()+"/"+w.getMean()+";/"+w.getExample()+";/";
     const char *cstr = www.c_str();
     fprintf(f,cstr);
@@ -359,8 +363,7 @@ void DICTIONARY::docFile(const char* fileName) {
 				continue;
 			}
 			Word w(dong);
-//			this->TUDIEN.Insert(w);	
-			this->TUDIEN += w;
+			this->TUDIEN += w;               // Nap vao tu vung vao tu dien
 		}
 		fi.close();                          // dong tap tin
 	}
@@ -453,6 +456,7 @@ void DICTIONARY::xuLyTuDien() {
 							break;
 						}
 						if (k == 27) {            // ESCAPE
+							// tro lai giao dien chinh
 							input = ""; pos = 0;
 							break; 
 						}
@@ -460,6 +464,7 @@ void DICTIONARY::xuLyTuDien() {
 				}
 				break;
 			case 27:        // ESCAPE
+				// Thoat chuong trinh , in loi cam on
 				this->doiMau(14);
 				this->gotoxy(3,21);
 				cout<<"----------------------------------------------";

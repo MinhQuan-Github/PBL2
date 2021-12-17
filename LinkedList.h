@@ -15,7 +15,7 @@ class LinkedList{
 		LinkedList();                      // Ham khoi tao danh sach lien ket
 		virtual ~LinkedList();             // Ham huy danh sach
 		LinkedList &operator += (Word &w); // Ham them tu vung vao cuoi
-		void Nodeupdate(Word word);        // Ham cap nhat/ sua tu vung
+		void Nodeupdate(Word word);        // Ham cap nhat sua tu vung
 };
 LinkedList::LinkedList(){
 	this->head = NULL;

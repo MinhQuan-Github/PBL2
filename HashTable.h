@@ -17,7 +17,7 @@ class HashTable {                                    // Lop Hashtable
 		HashTable &operator += (Word &n);            // Ham chen tu vung vao Hashtable
 		int Size();                                  // Ham lay kich thuoc Hashtable
 		void findByInput(Word *array, string input); // Ham goi y tu vung trong Hashtable
-		void update(Word w);
+		void update(Word w);                         // Ham cap nhat tu vụng sau khi sua
 };
 
 HashTable::HashTable(){
