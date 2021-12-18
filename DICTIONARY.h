@@ -158,8 +158,10 @@ void DICTIONARY::suaTu(Word &w) {
 		this->doiMau(12);
 		cout << w;
 		
+		this->doiMau(10);
+		cout << "   " << char(3);
 		this->doiMau(14);
-		cout << "   */ Sua tu : " << w.getWord() << endl;
+		cout << " Sua tu : " << w.getWord() << endl;
 
 		// Sua loai tu
 		while (1){
@@ -250,7 +252,7 @@ void DICTIONARY::themTuMoi() {
 		char nhaplai;
 		
 		this->doiMau(12);
-		cout << "   " << char(3);
+		cout << "\n   " << char(3);
 		this->doiMau(10);
 		cout << " Them tu vung : " << endl << endl;
 		

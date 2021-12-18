@@ -12,3 +12,4 @@ int main(){
 	DICTIONARY a(fileName);
 	return 0;
 }
+
